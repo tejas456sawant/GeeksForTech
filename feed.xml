@@ -17,7 +17,7 @@
         <link href="https://geeksfortech.onrender.com/how-to-install-latest-nodejs-version-on-ubuntulinux-using-cli/"/>
         <id>https://geeksfortech.onrender.com/how-to-install-latest-nodejs-version-on-ubuntulinux-using-cli/</id>
 
-        <updated>2020-09-24T02:27:00+05:30</updated>
+        <updated>2020-09-24T02:50:02+05:30</updated>
             <summary>
                 <![CDATA[
                         <img src="https://geeksfortech.onrender.com/media/posts/12/cover.png" alt="Command to install" />
@@ -91,7 +91,7 @@ apt-get install -y nodejs</code></pre>
         <link href="https://geeksfortech.onrender.com/how-to-add-bootstrap-to-nextjs/"/>
         <id>https://geeksfortech.onrender.com/how-to-add-bootstrap-to-nextjs/</id>
 
-        <updated>2020-09-24T02:27:00+05:30</updated>
+        <updated>2020-09-24T02:50:02+05:30</updated>
             <summary>
                 <![CDATA[
                         <img src="https://geeksfortech.onrender.com/media/posts/10/cover.webp" alt="Cover" />
@@ -206,7 +206,7 @@ export default MyApp;</code></pre>
         <link href="https://geeksfortech.onrender.com/how-to-build-debug-apk-in-react-native/"/>
         <id>https://geeksfortech.onrender.com/how-to-build-debug-apk-in-react-native/</id>
 
-        <updated>2020-09-24T02:27:00+05:30</updated>
+        <updated>2020-09-24T02:50:02+05:30</updated>
             <summary>
                 <![CDATA[
                         <img src="https://geeksfortech.onrender.com/media/posts/9/cover.webp" alt="Cover" />
@@ -293,7 +293,7 @@ gradlew assembleDebug
         <link href="https://geeksfortech.onrender.com/how-to-create-nextjs-project-2/"/>
         <id>https://geeksfortech.onrender.com/how-to-create-nextjs-project-2/</id>
 
-        <updated>2020-09-24T02:27:00+05:30</updated>
+        <updated>2020-09-24T02:50:02+05:30</updated>
             <summary>
                 <![CDATA[
                         <img src="https://geeksfortech.onrender.com/media/posts/8/cover-2.webp" alt="Cover" />
@@ -376,7 +376,7 @@ yarn dev</code></pre>
         <link href="https://geeksfortech.onrender.com/how-to-create-a-youtube-thumbnail-downloader/"/>
         <id>https://geeksfortech.onrender.com/how-to-create-a-youtube-thumbnail-downloader/</id>
 
-        <updated>2020-09-24T02:27:00+05:30</updated>
+        <updated>2020-09-24T02:50:02+05:30</updated>
             <summary>
                 <![CDATA[
                         <img src="https://geeksfortech.onrender.com/media/posts/7/cover.webp" alt="Cover" />
@@ -753,7 +753,7 @@ export default Index</code></pre>
         <link href="https://geeksfortech.onrender.com/how-to-add-mailchimp-to-gatsbyjs/"/>
         <id>https://geeksfortech.onrender.com/how-to-add-mailchimp-to-gatsbyjs/</id>
 
-        <updated>2020-09-24T02:27:00+05:30</updated>
+        <updated>2020-09-24T02:50:02+05:30</updated>
             <summary>
                 <![CDATA[
                         <img src="https://geeksfortech.onrender.com/media/posts/6/cover.webp" alt="Email Field" />
@@ -869,7 +869,7 @@ export default class MyGatsbyComponent extends React.Component {
         <link href="https://geeksfortech.onrender.com/c-program-for-2d-reflection/"/>
         <id>https://geeksfortech.onrender.com/c-program-for-2d-reflection/</id>
 
-        <updated>2020-09-24T02:27:00+05:30</updated>
+        <updated>2020-09-24T02:50:02+05:30</updated>
             <summary>
                 <![CDATA[
                         <img src="https://geeksfortech.onrender.com/media/posts/5/cover-2.png" alt="2D Reflection " />
