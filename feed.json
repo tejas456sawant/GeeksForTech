@@ -21,8 +21,8 @@
             },
             "tags": [
             ],
-            "date_published": "2020-09-24T00:35:42+05:30",
-            "date_modified": "2020-09-24T00:35:42+05:30"
+            "date_published": "2020-09-24T00:47:13+05:30",
+            "date_modified": "2020-09-24T00:47:13+05:30"
         },
         {
             "id": "https://geeksfortech.onrender.com/how-to-add-bootstrap-to-nextjs/",
@@ -36,8 +36,8 @@
             },
             "tags": [
             ],
-            "date_published": "2020-09-24T00:35:42+05:30",
-            "date_modified": "2020-09-24T00:35:42+05:30"
+            "date_published": "2020-09-24T00:47:13+05:30",
+            "date_modified": "2020-09-24T00:47:13+05:30"
         },
         {
             "id": "https://geeksfortech.onrender.com/how-to-build-debug-apk-in-react-native/",
@@ -51,8 +51,8 @@
             },
             "tags": [
             ],
-            "date_published": "2020-09-24T00:35:42+05:30",
-            "date_modified": "2020-09-24T00:35:42+05:30"
+            "date_published": "2020-09-24T00:47:13+05:30",
+            "date_modified": "2020-09-24T00:47:13+05:30"
         },
         {
             "id": "https://geeksfortech.onrender.com/how-to-create-nextjs-project-2/",
@@ -66,8 +66,8 @@
             },
             "tags": [
             ],
-            "date_published": "2020-09-24T00:35:42+05:30",
-            "date_modified": "2020-09-24T00:35:42+05:30"
+            "date_published": "2020-09-24T00:47:13+05:30",
+            "date_modified": "2020-09-24T00:47:13+05:30"
         },
         {
             "id": "https://geeksfortech.onrender.com/how-to-create-a-youtube-thumbnail-downloader/",
@@ -81,8 +81,8 @@
             },
             "tags": [
             ],
-            "date_published": "2020-09-24T00:35:42+05:30",
-            "date_modified": "2020-09-24T00:35:42+05:30"
+            "date_published": "2020-09-24T00:47:13+05:30",
+            "date_modified": "2020-09-24T00:47:13+05:30"
         },
         {
             "id": "https://geeksfortech.onrender.com/how-to-add-mailchimp-to-gatsbyjs/",
@@ -96,8 +96,8 @@
             },
             "tags": [
             ],
-            "date_published": "2020-09-24T00:35:42+05:30",
-            "date_modified": "2020-09-24T00:35:42+05:30"
+            "date_published": "2020-09-24T00:47:13+05:30",
+            "date_modified": "2020-09-24T00:47:13+05:30"
         },
         {
             "id": "https://geeksfortech.onrender.com/c-program-for-2d-reflection/",
@@ -111,22 +111,8 @@
             },
             "tags": [
             ],
-            "date_published": "2020-09-24T00:35:42+05:30",
-            "date_modified": "2020-09-24T00:35:42+05:30"
-        },
-        {
-            "id": "https://geeksfortech.onrender.com/adding-firebase-to-nodejs/",
-            "url": "https://geeksfortech.onrender.com/adding-firebase-to-nodejs/",
-            "title": "Adding firebase to nodejs",
-            "summary": " Following are steps to add firebase to nodejs Step 1 :-&nbsp; Installing firebase package using npm npm install firebase&hellip;",
-            "content_html": "\n  <p>\n    Following are steps to add firebase to nodejs\n  </p>\n\n  <p>\n    <b>Step 1</b> :-&nbsp; Installing firebase package using npm\n  </p>\n<pre class=\"line-numbers  language-bash\"><code>npm install firebase</code></pre>\n\n  <p>\n    Steap 2 :-&nbsp;\n  </p>\n\n  <p>\n    \n  </p>",
-            "author": {
-                "name": "Tejas Sawant"
-            },
-            "tags": [
-            ],
-            "date_published": "2020-09-24T00:35:42+05:30",
-            "date_modified": "2020-09-24T00:35:42+05:30"
+            "date_published": "2020-09-24T00:47:13+05:30",
+            "date_modified": "2020-09-24T00:47:13+05:30"
         }
     ]
 }
