@@ -158,6 +158,19 @@
                               September 23, 2020
                         </time>
 
+                        <div class="post__comments">
+                           <svg aria-hidden="true">
+                              <title>Comments</title>
+                              <use xlink:href="https://geeksfortech.onrender.com/assets/svg/svg-map.svg#comments"/>
+                           </svg>
+                           <a
+                              href="https://geeksfortech.onrender.com/how-to-add-bootstrap-to-nextjs/#comments"
+                              data-disqus-identifier="10"
+                              class="invert"
+                              rel="nofollow">
+                              0
+                           </a>
+                        </div>
                   </div>
             </header>
 
@@ -361,10 +374,6 @@ export default MyApp;</code></pre>
                                        <a href="https://geeksfortech.onrender.com/author/tejas-sawant/" class="invert" title="Tejas Sawant">Tejas Sawant</a>
                                     </h3>
                                     <p class="author__desc">Hello! I&#x27;m Tejas Sawant, I&#x27;m a fullstack software developer and digital marketer who loves building things that live on the web.
-
-I&#x27;ve always loved tech and ecommerce . My greatest passions are technology , programming , trading , designing an advertising campaign and ecommerce.
-
-My focus is on the development of modern and efficient websites, web apps , android apps , marketing services to provide users or companies with fully responsive, pixel-perfect interfaces and exceptional efficient interaction.
                                     </p>
                               </div>
                            </div>
@@ -388,6 +397,47 @@ My focus is on the development of modern and efficient websites, web apps , andr
             </div>
          </article>
 
+         <div class="comments post__inner" id="comments">
+            <h3 class="h5">
+               Comments
+            </h3>
+            <div id="disqus_thread"></div>
+            <script>
+                var disqus_config = function () {
+                    this.page.url = '';
+            		this.page.identifier = '';
+                    this.page.title = ' How to add bootstrap to nextjs ? - GeeksForTech ';
+                };
+            
+                var disqus_loaded = false;
+            
+                function publiiLoadDisqus() {
+                    if(disqus_loaded) {
+                        return false;
+                    }
+            
+                    var top = document.getElementById('disqus_thread').offsetTop;
+            
+                    if (!disqus_loaded && (window.scrollY || window.pageYOffset) + window.innerHeight > top) {
+                        disqus_loaded = true;
+            
+                        (function () {
+                            var d = document, s = d.createElement('script');
+                            s.src = 'https://geeksfortech.disqus.com/embed.js';
+                            s.setAttribute('data-timestamp', +new Date());
+                            (d.head || d.body).appendChild(s);
+                        })();
+                    }
+                }
+            
+                publiiLoadDisqus();
+            
+                window.onscroll = function() {
+                    publiiLoadDisqus();
+                };
+            </script>
+            <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
+         </div>
 
 
    </div>
@@ -481,6 +531,7 @@ My focus is on the development of modern and efficient websites, web apps , andr
          }
       }
    </script>
+   <script id="dsq-count-scr" src="https://geeksfortech.disqus.com/count.js" async></script>  
 
 
 </body>
