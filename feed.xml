@@ -10,6 +10,81 @@
     <id>https://geeksfortech.onrender.com</id>
 
     <entry>
+        <title>How to install python3 on windows ?</title>
+        <author>
+            <name>Tejas Sawant</name>
+        </author>
+        <link href="https://geeksfortech.onrender.com/how-to-install-python3-on-windows/"/>
+        <id>https://geeksfortech.onrender.com/how-to-install-python3-on-windows/</id>
+
+        <updated>2020-09-24T03:10:39+05:30</updated>
+            <summary>
+                <![CDATA[
+                     This article shows how you can install python3 on your windows system. first download python3 from official site. select&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                
+  <p>
+    This article shows how you can install python3 on your windows system. first download <a href="https://www.python.org/downloads/" target="_blank" rel="nofollow noopener">python3</a> from official site. select windows installer it will start downloading.<br>
+  </p>
+
+    <figure class="post__image post__image--center">
+      <img loading="lazy" src="https://geeksfortech.onrender.com/media/posts/13/select-version.png" sizes="(max-width: 48em) 100vw, 100vw" srcset="https://geeksfortech.onrender.com/media/posts/13/responsive/select-version-xs.png 300w ,https://geeksfortech.onrender.com/media/posts/13/responsive/select-version-sm.png 480w ,https://geeksfortech.onrender.com/media/posts/13/responsive/select-version-md.png 768w"  height="202" width="590" alt="Select Version" />
+      <figcaption>Select Version</figcaption>
+    </figure>
+
+  <p>
+    After that click on installer. then click o install now and also mark option of Add <b>Python 3.* to PATH</b> by selecting this option you don’t need to add manually path to environment variable.
+  </p>
+
+    <figure class="post__image post__image--center">
+      <img loading="lazy" src="https://geeksfortech.onrender.com/media/posts/13/install-now.png" sizes="(max-width: 48em) 100vw, 100vw" srcset="https://geeksfortech.onrender.com/media/posts/13/responsive/install-now-xs.png 300w ,https://geeksfortech.onrender.com/media/posts/13/responsive/install-now-sm.png 480w ,https://geeksfortech.onrender.com/media/posts/13/responsive/install-now-md.png 768w"  height="361" width="590" alt="Insttall Now" />
+      <figcaption>Insttall Now</figcaption>
+    </figure>
+
+  <p>
+    It will start installation process. wait for finishing it.
+  </p>
+
+    <figure class="post__image post__image--center">
+      <img loading="lazy" src="https://geeksfortech.onrender.com/media/posts/13/setup-progressing.png" sizes="(max-width: 48em) 100vw, 100vw" srcset="https://geeksfortech.onrender.com/media/posts/13/responsive/setup-progressing-xs.png 300w ,https://geeksfortech.onrender.com/media/posts/13/responsive/setup-progressing-sm.png 480w ,https://geeksfortech.onrender.com/media/posts/13/responsive/setup-progressing-md.png 768w"  height="361" width="590" alt="Setup Processing" />
+      <figcaption>Setup Processing</figcaption>
+    </figure>
+
+  <p>
+    After that you can see installation is complete. Then click on <b>Close</b>.
+  </p>
+
+    <figure class="post__image post__image--center">
+      <img loading="lazy" src="https://geeksfortech.onrender.com/media/posts/13/installayion-complete.png" sizes="(max-width: 48em) 100vw, 100vw" srcset="https://geeksfortech.onrender.com/media/posts/13/responsive/installayion-complete-xs.png 300w ,https://geeksfortech.onrender.com/media/posts/13/responsive/installayion-complete-sm.png 480w ,https://geeksfortech.onrender.com/media/posts/13/responsive/installayion-complete-md.png 768w"  height="359" width="590" alt="Installation Complete" />
+      <figcaption>Installation Complete</figcaption>
+    </figure>
+
+  <p>
+    After that you need to restart the window . Then you can verify python installation by typing&nbsp;
+  </p>
+<pre class="line-numbers  language-bash"><code>python —version </code></pre>
+
+  <p>
+    or&nbsp;
+  </p>
+<pre class="line-numbers  language-bash"><code>python3 —version
+</code></pre>
+
+    <figure class="post__image post__image--center">
+      <img loading="lazy" src="https://geeksfortech.onrender.com/media/posts/13/verify-installation.png" sizes="(max-width: 48em) 100vw, 100vw" srcset="https://geeksfortech.onrender.com/media/posts/13/responsive/verify-installation-xs.png 300w ,https://geeksfortech.onrender.com/media/posts/13/responsive/verify-installation-sm.png 480w ,https://geeksfortech.onrender.com/media/posts/13/responsive/verify-installation-md.png 768w"  height="76" width="429" alt="verify installation" />
+      <figcaption>Verify Installation</figcaption>
+    </figure>
+
+  <p>
+    
+  </p>
+            ]]>
+        </content>
+    </entry>
+    <entry>
         <title>How to install latest nodejs version on Ubuntu/Linux using CLI</title>
         <author>
             <name>Tejas Sawant</name>
@@ -17,7 +92,7 @@
         <link href="https://geeksfortech.onrender.com/how-to-install-latest-nodejs-version-on-ubuntulinux-using-cli/"/>
         <id>https://geeksfortech.onrender.com/how-to-install-latest-nodejs-version-on-ubuntulinux-using-cli/</id>
 
-        <updated>2020-09-24T02:55:16+05:30</updated>
+        <updated>2020-09-24T03:10:39+05:30</updated>
             <summary>
                 <![CDATA[
                         <img src="https://geeksfortech.onrender.com/media/posts/12/cover.png" alt="Command to install" />
@@ -91,7 +166,7 @@ apt-get install -y nodejs</code></pre>
         <link href="https://geeksfortech.onrender.com/how-to-add-bootstrap-to-nextjs/"/>
         <id>https://geeksfortech.onrender.com/how-to-add-bootstrap-to-nextjs/</id>
 
-        <updated>2020-09-24T02:55:16+05:30</updated>
+        <updated>2020-09-24T03:10:39+05:30</updated>
             <summary>
                 <![CDATA[
                         <img src="https://geeksfortech.onrender.com/media/posts/10/cover.webp" alt="Cover" />
@@ -206,7 +281,7 @@ export default MyApp;</code></pre>
         <link href="https://geeksfortech.onrender.com/how-to-build-debug-apk-in-react-native/"/>
         <id>https://geeksfortech.onrender.com/how-to-build-debug-apk-in-react-native/</id>
 
-        <updated>2020-09-24T02:55:16+05:30</updated>
+        <updated>2020-09-24T03:10:39+05:30</updated>
             <summary>
                 <![CDATA[
                         <img src="https://geeksfortech.onrender.com/media/posts/9/cover.webp" alt="Cover" />
@@ -293,7 +368,7 @@ gradlew assembleDebug
         <link href="https://geeksfortech.onrender.com/how-to-create-nextjs-project-2/"/>
         <id>https://geeksfortech.onrender.com/how-to-create-nextjs-project-2/</id>
 
-        <updated>2020-09-24T02:55:16+05:30</updated>
+        <updated>2020-09-24T03:10:39+05:30</updated>
             <summary>
                 <![CDATA[
                         <img src="https://geeksfortech.onrender.com/media/posts/8/cover-2.webp" alt="Cover" />
@@ -376,7 +451,7 @@ yarn dev</code></pre>
         <link href="https://geeksfortech.onrender.com/how-to-create-a-youtube-thumbnail-downloader/"/>
         <id>https://geeksfortech.onrender.com/how-to-create-a-youtube-thumbnail-downloader/</id>
 
-        <updated>2020-09-24T02:55:16+05:30</updated>
+        <updated>2020-09-24T03:10:39+05:30</updated>
             <summary>
                 <![CDATA[
                         <img src="https://geeksfortech.onrender.com/media/posts/7/cover.webp" alt="Cover" />
@@ -753,7 +828,7 @@ export default Index</code></pre>
         <link href="https://geeksfortech.onrender.com/how-to-add-mailchimp-to-gatsbyjs/"/>
         <id>https://geeksfortech.onrender.com/how-to-add-mailchimp-to-gatsbyjs/</id>
 
-        <updated>2020-09-24T02:55:16+05:30</updated>
+        <updated>2020-09-24T03:10:39+05:30</updated>
             <summary>
                 <![CDATA[
                         <img src="https://geeksfortech.onrender.com/media/posts/6/cover.webp" alt="Email Field" />
@@ -869,7 +944,7 @@ export default class MyGatsbyComponent extends React.Component {
         <link href="https://geeksfortech.onrender.com/c-program-for-2d-reflection/"/>
         <id>https://geeksfortech.onrender.com/c-program-for-2d-reflection/</id>
 
-        <updated>2020-09-24T02:55:16+05:30</updated>
+        <updated>2020-09-24T03:10:39+05:30</updated>
             <summary>
                 <![CDATA[
                         <img src="https://geeksfortech.onrender.com/media/posts/5/cover-2.png" alt="2D Reflection " />

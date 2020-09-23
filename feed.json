@@ -10,6 +10,20 @@
     },
     "items": [
         {
+            "id": "https://geeksfortech.onrender.com/how-to-install-python3-on-windows/",
+            "url": "https://geeksfortech.onrender.com/how-to-install-python3-on-windows/",
+            "title": "How to install python3 on windows ?",
+            "summary": " This article shows how you can install python3 on your windows system. first download python3 from official site. select&hellip;",
+            "content_html": "\n  <p>\n    This article shows how you can install python3 on your windows system. first download <a href=\"https://www.python.org/downloads/\" target=\"_blank\" rel=\"nofollow noopener\">python3</a> from official site. select windows installer it will start downloading.<br>\n  </p>\n\n    <figure class=\"post__image post__image--center\">\n      <img loading=\"lazy\" src=\"https://geeksfortech.onrender.com/media/posts/13/select-version.png\" sizes=\"(max-width: 48em) 100vw, 100vw\" srcset=\"https://geeksfortech.onrender.com/media/posts/13/responsive/select-version-xs.png 300w ,https://geeksfortech.onrender.com/media/posts/13/responsive/select-version-sm.png 480w ,https://geeksfortech.onrender.com/media/posts/13/responsive/select-version-md.png 768w\"  height=\"202\" width=\"590\" alt=\"Select Version\" />\n      <figcaption>Select Version</figcaption>\n    </figure>\n\n  <p>\n    After that click on installer. then click o install now and also mark option of Add <b>Python 3.* to PATH</b> by selecting this option you don’t need to add manually path to environment variable.\n  </p>\n\n    <figure class=\"post__image post__image--center\">\n      <img loading=\"lazy\" src=\"https://geeksfortech.onrender.com/media/posts/13/install-now.png\" sizes=\"(max-width: 48em) 100vw, 100vw\" srcset=\"https://geeksfortech.onrender.com/media/posts/13/responsive/install-now-xs.png 300w ,https://geeksfortech.onrender.com/media/posts/13/responsive/install-now-sm.png 480w ,https://geeksfortech.onrender.com/media/posts/13/responsive/install-now-md.png 768w\"  height=\"361\" width=\"590\" alt=\"Insttall Now\" />\n      <figcaption>Insttall Now</figcaption>\n    </figure>\n\n  <p>\n    It will start installation process. wait for finishing it.\n  </p>\n\n    <figure class=\"post__image post__image--center\">\n      <img loading=\"lazy\" src=\"https://geeksfortech.onrender.com/media/posts/13/setup-progressing.png\" sizes=\"(max-width: 48em) 100vw, 100vw\" srcset=\"https://geeksfortech.onrender.com/media/posts/13/responsive/setup-progressing-xs.png 300w ,https://geeksfortech.onrender.com/media/posts/13/responsive/setup-progressing-sm.png 480w ,https://geeksfortech.onrender.com/media/posts/13/responsive/setup-progressing-md.png 768w\"  height=\"361\" width=\"590\" alt=\"Setup Processing\" />\n      <figcaption>Setup Processing</figcaption>\n    </figure>\n\n  <p>\n    After that you can see installation is complete. Then click on <b>Close</b>.\n  </p>\n\n    <figure class=\"post__image post__image--center\">\n      <img loading=\"lazy\" src=\"https://geeksfortech.onrender.com/media/posts/13/installayion-complete.png\" sizes=\"(max-width: 48em) 100vw, 100vw\" srcset=\"https://geeksfortech.onrender.com/media/posts/13/responsive/installayion-complete-xs.png 300w ,https://geeksfortech.onrender.com/media/posts/13/responsive/installayion-complete-sm.png 480w ,https://geeksfortech.onrender.com/media/posts/13/responsive/installayion-complete-md.png 768w\"  height=\"359\" width=\"590\" alt=\"Installation Complete\" />\n      <figcaption>Installation Complete</figcaption>\n    </figure>\n\n  <p>\n    After that you need to restart the window . Then you can verify python installation by typing&nbsp;\n  </p>\n<pre class=\"line-numbers  language-bash\"><code>python —version </code></pre>\n\n  <p>\n    or&nbsp;\n  </p>\n<pre class=\"line-numbers  language-bash\"><code>python3 —version\n</code></pre>\n\n    <figure class=\"post__image post__image--center\">\n      <img loading=\"lazy\" src=\"https://geeksfortech.onrender.com/media/posts/13/verify-installation.png\" sizes=\"(max-width: 48em) 100vw, 100vw\" srcset=\"https://geeksfortech.onrender.com/media/posts/13/responsive/verify-installation-xs.png 300w ,https://geeksfortech.onrender.com/media/posts/13/responsive/verify-installation-sm.png 480w ,https://geeksfortech.onrender.com/media/posts/13/responsive/verify-installation-md.png 768w\"  height=\"76\" width=\"429\" alt=\"verify installation\" />\n      <figcaption>Verify Installation</figcaption>\n    </figure>\n\n  <p>\n    \n  </p>",
+            "author": {
+                "name": "Tejas Sawant"
+            },
+            "tags": [
+            ],
+            "date_published": "2020-09-24T03:10:39+05:30",
+            "date_modified": "2020-09-24T03:10:39+05:30"
+        },
+        {
             "id": "https://geeksfortech.onrender.com/how-to-install-latest-nodejs-version-on-ubuntulinux-using-cli/",
             "url": "https://geeksfortech.onrender.com/how-to-install-latest-nodejs-version-on-ubuntulinux-using-cli/",
             "title": "How to install latest nodejs version on Ubuntu/Linux using CLI",
@@ -21,8 +35,8 @@
             },
             "tags": [
             ],
-            "date_published": "2020-09-24T02:55:16+05:30",
-            "date_modified": "2020-09-24T02:55:16+05:30"
+            "date_published": "2020-09-24T03:10:39+05:30",
+            "date_modified": "2020-09-24T03:10:39+05:30"
         },
         {
             "id": "https://geeksfortech.onrender.com/how-to-add-bootstrap-to-nextjs/",
@@ -36,8 +50,8 @@
             },
             "tags": [
             ],
-            "date_published": "2020-09-24T02:55:16+05:30",
-            "date_modified": "2020-09-24T02:55:16+05:30"
+            "date_published": "2020-09-24T03:10:39+05:30",
+            "date_modified": "2020-09-24T03:10:39+05:30"
         },
         {
             "id": "https://geeksfortech.onrender.com/how-to-build-debug-apk-in-react-native/",
@@ -51,8 +65,8 @@
             },
             "tags": [
             ],
-            "date_published": "2020-09-24T02:55:16+05:30",
-            "date_modified": "2020-09-24T02:55:16+05:30"
+            "date_published": "2020-09-24T03:10:39+05:30",
+            "date_modified": "2020-09-24T03:10:39+05:30"
         },
         {
             "id": "https://geeksfortech.onrender.com/how-to-create-nextjs-project-2/",
@@ -66,8 +80,8 @@
             },
             "tags": [
             ],
-            "date_published": "2020-09-24T02:55:16+05:30",
-            "date_modified": "2020-09-24T02:55:16+05:30"
+            "date_published": "2020-09-24T03:10:39+05:30",
+            "date_modified": "2020-09-24T03:10:39+05:30"
         },
         {
             "id": "https://geeksfortech.onrender.com/how-to-create-a-youtube-thumbnail-downloader/",
@@ -81,8 +95,8 @@
             },
             "tags": [
             ],
-            "date_published": "2020-09-24T02:55:16+05:30",
-            "date_modified": "2020-09-24T02:55:16+05:30"
+            "date_published": "2020-09-24T03:10:39+05:30",
+            "date_modified": "2020-09-24T03:10:39+05:30"
         },
         {
             "id": "https://geeksfortech.onrender.com/how-to-add-mailchimp-to-gatsbyjs/",
@@ -96,8 +110,8 @@
             },
             "tags": [
             ],
-            "date_published": "2020-09-24T02:55:16+05:30",
-            "date_modified": "2020-09-24T02:55:16+05:30"
+            "date_published": "2020-09-24T03:10:39+05:30",
+            "date_modified": "2020-09-24T03:10:39+05:30"
         },
         {
             "id": "https://geeksfortech.onrender.com/c-program-for-2d-reflection/",
@@ -111,8 +125,8 @@
             },
             "tags": [
             ],
-            "date_published": "2020-09-24T02:55:16+05:30",
-            "date_modified": "2020-09-24T02:55:16+05:30"
+            "date_published": "2020-09-24T03:10:39+05:30",
+            "date_modified": "2020-09-24T03:10:39+05:30"
         }
     ]
 }
