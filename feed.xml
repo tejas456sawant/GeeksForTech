@@ -1,0 +1,1008 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <title>GeeksForTech</title>
+    <link href="https://geeksfortech.netlify.app/feed.xml" rel="self" />
+    <link href="https://geeksfortech.netlify.app" />
+    <updated>1970-01-01T05:30:00+05:30</updated>
+    <author>
+        <name>Tejas Sawant</name>
+    </author>
+    <id>https://geeksfortech.netlify.app</id>
+
+    <entry>
+        <title>How to install latest nodejs version on Ubuntu/Linux using CLI</title>
+        <author>
+            <name>Tejas Sawant</name>
+        </author>
+        <link href="https://geeksfortech.netlify.app/how-to-install-latest-nodejs-version-on-ubuntulinux-using-cli/"/>
+        <id>https://geeksfortech.netlify.app/how-to-install-latest-nodejs-version-on-ubuntulinux-using-cli/</id>
+
+        <updated>2020-09-24T00:21:30+05:30</updated>
+            <summary>
+                <![CDATA[
+                        <img src="https://geeksfortech.netlify.app/media/posts/12/cover.png" alt="Command to install" />
+                     Following are steps to install latest version of nodejs in Ubuntu or Linux curl -sL https://deb.nodesource.com/setup_14.x | sudo -E&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                    <img src="https://geeksfortech.netlify.app/media/posts/12/cover.png" alt="Command to install" />
+                
+  <p>
+    Following are steps to install latest version of nodejs in Ubuntu or Linux
+  </p>
+
+    <h2 id="ubuntu">
+      Ubuntu
+    </h2>
+<pre class="line-numbers  language-bash"><code>curl -sL https://deb.nodesource.com/setup_14.x | sudo -E bash -
+sudo apt-get install -y nodejs
+</code></pre>
+
+  <p>
+    If curl is not installed on your system then type following command
+  </p>
+<pre class="line-numbers  language-bash"><code>sudo apt install curl
+</code></pre>
+
+    <h2 id="debian">
+      Debian
+    </h2>
+<pre class="line-numbers  language-bash"><code>curl -sL https://deb.nodesource.com/setup_14.x | bash -
+apt-get install -y nodejs</code></pre>
+
+    <h2 id="ubuntu-install-node-lts">
+      Ubuntu install node LTS
+    </h2>
+<pre class="line-numbers  language-bash"><code>curl -sL https://deb.nodesource.com/setup_lts.x | sudo -E bash -
+sudo apt-get install -y nodejs
+</code></pre>
+
+    <h2 id="debian-install-node-lts">
+      Debian install node LTS
+    </h2>
+<pre class="line-numbers  language-bash"><code>curl -sL https://deb.nodesource.com/setup_lts.x | bash -
+apt-get install -y nodejs</code></pre>
+
+    <h2 id="ubuntu-install-node-current">
+      Ubuntu install node Current
+    </h2>
+<pre class="line-numbers  language-bash"><code>curl -sL https://deb.nodesource.com/setup_current.x | sudo -E bash -
+sudo apt-get install -y nodejs
+</code></pre>
+
+    <h2 id="debian-install-node-current">
+      Debian install node Current
+    </h2>
+<pre class="line-numbers  language-bash"><code>curl -sL https://deb.nodesource.com/setup_current.x | bash -
+apt-get install -y nodejs</code></pre>
+
+  <p>
+    Resource :-&nbsp;<a href="https://github.com/nodesource/distributions" target="_blank" rel="nofollow noopener">https://github.com/nodesource/distributions</a>
+  </p>
+            ]]>
+        </content>
+    </entry>
+    <entry>
+        <title>How to add bootstrap to nextjs ?</title>
+        <author>
+            <name>Tejas Sawant</name>
+        </author>
+        <link href="https://geeksfortech.netlify.app/how-to-add-bootstrap-to-nextjs/"/>
+        <id>https://geeksfortech.netlify.app/how-to-add-bootstrap-to-nextjs/</id>
+
+        <updated>2020-09-24T00:21:30+05:30</updated>
+            <summary>
+                <![CDATA[
+                        <img src="https://geeksfortech.netlify.app/media/posts/10/cover.webp" alt="Cover" />
+                     This article show how to add bootstrap in Next.js project. Following are the steps :- &lt;link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                    <img src="https://geeksfortech.netlify.app/media/posts/10/cover.webp" alt="Cover" />
+                
+  <p>
+    This article show how to add bootstrap in Next.js project. Following are the steps :-
+  </p>
+
+  <ul>
+    <li>First you need to <a href="https://geeksfortech.netlify.app/how-to-create-nextjs-project-2/" target="_blank">create project</a>.</li><li>After that goto <a href="https://getbootstrap.com/" target="_blank">Bootstrap</a> website.<br></li><li>Click on <a href="https://getbootstrap.com/docs/4.5/getting-started/introduction/" target="_blank">Get Started</a>.<br></li><li>After that grab CSS and JS links from Bootstrap.<br></li>
+  </ul>
+
+    <h2 id="css">
+      CSS
+    </h2>
+<pre class="line-numbers  language-html"><code>&lt;link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous"&gt;</code></pre>
+
+    <h2 id="js">
+      JS
+    </h2>
+<pre class="line-numbers  language-html"><code>&lt;script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"&gt;&lt;/script&gt;
+&lt;script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"&gt;&lt;/script&gt;
+&lt;script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"&gt;&lt;/script&gt;</code></pre>
+
+  <ul>
+    <li>Open your Next.js project.<br></li><li>Create <b>_app.js</b> file in your pages folder. Paste following code in it.<br></li>
+  </ul>
+<pre class="line-numbers  language-jsx"><code>function MyApp({Component,pageProps}) {
+    return &lt;Component {...pageProps}/&gt;;
+}
+export default MyApp;</code></pre>
+
+  <ul>
+    <li>After that add <b>head tag in _app.js</b> file and Paste all copied links from Bootstrap website.</li>
+  </ul>
+<pre class="line-numbers  language-jsx"><code>import Head from 'next/head'
+
+function MyApp({Component,pageProps}) {
+    return (
+        &lt;&gt;
+            &lt;Head&gt;
+                &lt;link 
+                    rel="stylesheet" 
+                    href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" 
+                    crossorigin="anonymous"
+                    /&gt;
+                &lt;script 
+                    src="https://code.jquery.com/jquery-3.5.1.slim.min.js" 
+                    crossorigin="anonymous"
+                    /&gt;
+                &lt;script 
+                    src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" 
+                    crossorigin="anonymous"
+                    /&gt;
+                &lt;script 
+                    src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" 
+                    crossorigin="anonymous"
+                    /&gt;
+            &lt;/Head&gt;
+            &lt;Component {...pageProps}/&gt;
+        &lt;/&gt;
+    );
+}
+
+export default MyApp;</code></pre>
+
+  <ul>
+    <li>You Can verify whether bootstrap is working or not by adding some bootstrap classes to buttons.</li>
+  </ul>
+<pre class="line-numbers  language-jsx"><code>export default Home () {
+    return(
+        &lt;div className="container"&gt;
+            &lt;button type="button" className="btn btn-primary"&gt;Primary&lt;/button&gt;
+            &lt;button type="button" className="btn btn-secondary"&gt;Secondary&lt;/button&gt;
+            &lt;button type="button" className="btn btn-light"&gt;Light&lt;/button&gt;
+            &lt;button type="button" className="btn btn-dark"&gt;Dark&lt;/button&gt;
+            &lt;button type="button" className="btn btn-link"&gt;Link&lt;/button&gt;
+        &lt;/div&gt;  
+    );
+}</code></pre>
+
+  <ul>
+    <li>After that run application and open <a href="http://localhost:3000/" target="_blank" rel="nofollow noopener">http://localhost:3000/</a></li>
+  </ul>
+
+    <figure class="post__image post__image--center">
+      <img loading="lazy" src="https://geeksfortech.netlify.app/media/posts/10/bootstrap-buttons.png" sizes="(max-width: 48em) 100vw, 100vw" srcset="https://geeksfortech.netlify.app/media/posts/10/responsive/bootstrap-buttons-xs.png 300w ,https://geeksfortech.netlify.app/media/posts/10/responsive/bootstrap-buttons-sm.png 480w ,https://geeksfortech.netlify.app/media/posts/10/responsive/bootstrap-buttons-md.png 768w"  height="340" width="811" alt="Bootstrap Buttons" />
+      <figcaption>Bootstrap Buttons</figcaption>
+    </figure>
+
+  <p>
+    Now you can see bootstrap is successfully added to your nextjs project.
+  </p>
+
+  <p>
+    Reference :- <a href="https://nextjs.org/docs/advanced-features/custom-app" target="_blank">https://nextjs.org/docs/advanced-features/custom-app</a><br>
+  </p>
+            ]]>
+        </content>
+    </entry>
+    <entry>
+        <title>How to build debug apk in react native ?</title>
+        <author>
+            <name>Tejas Sawant</name>
+        </author>
+        <link href="https://geeksfortech.netlify.app/how-to-build-debug-apk-in-react-native/"/>
+        <id>https://geeksfortech.netlify.app/how-to-build-debug-apk-in-react-native/</id>
+
+        <updated>2020-09-24T00:21:30+05:30</updated>
+            <summary>
+                <![CDATA[
+                        <img src="https://geeksfortech.netlify.app/media/posts/9/cover.webp" alt="Cover" />
+                     In this article i am going to tell how you can generate debug apk using bare react native application.
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                    <img src="https://geeksfortech.netlify.app/media/posts/9/cover.webp" alt="Cover" />
+                
+  <p>
+    In this article i am going to tell how you can generate debug apk using bare react native application.
+  </p>
+
+  <p>
+    First you need to create app using following command
+  </p>
+<pre class="line-numbers  language-bash"><code>npx react-native init DebugApk</code></pre>
+
+  <p>
+    After that navigate to folder.
+  </p>
+<pre class="line-numbers  language-bash"><code>cd DebugApk</code></pre>
+
+  <p>
+    Check if you have <b>android/app/src/main/assets/</b> if you dont have then create folder
+  </p>
+
+    <figure class="post__image post__image--center">
+      <img loading="lazy" src="https://geeksfortech.netlify.app/media/posts/9/creating-dir.png" sizes="(max-width: 48em) 100vw, 100vw" srcset="https://geeksfortech.netlify.app/media/posts/9/responsive/creating-dir-xs.png 300w ,https://geeksfortech.netlify.app/media/posts/9/responsive/creating-dir-sm.png 480w ,https://geeksfortech.netlify.app/media/posts/9/responsive/creating-dir-md.png 768w"  height="250" width="502" alt="Creating assets folder" />
+      <figcaption>Creating assets folder</figcaption>
+    </figure>
+
+  <p>
+    after that create new file and save as <b>index.android.bundle</b>
+  </p>
+
+  <p>
+    if you are on windows
+  </p>
+<pre class="line-numbers  language-bash"><code>notepad index.android.bundle</code></pre>
+
+  <p>
+    or if you are on linux
+  </p>
+<pre class="line-numbers  language-bash"><code>touch index.android.bundle</code></pre>
+
+  <p>
+    After that run following command in command prompt.
+  </p>
+<pre class="line-numbers  language-bash"><code>npx react-native bundle —platform android —dev false —entry-file index.js —bundle-output android/app/src/main/assets/index.android.bundle —assets-dest android/app/src/main/res/</code></pre>
+
+  <p>
+    Then navigate to <b>android</b> folder and type <b>gradlew assembleDebug</b> to generate apk.<br>
+  </p>
+<pre class="line-numbers  language-bash"><code>cd android
+gradlew assembleDebug
+</code></pre>
+
+  <p>
+    You will find your app in <b>app/build/outputs/apk/debug/</b> folder.<br>
+  </p>
+
+    <figure class="post__image post__image--center">
+      <img loading="lazy" src="https://geeksfortech.netlify.app/media/posts/9/debug-apk.png" sizes="(max-width: 48em) 100vw, 100vw" srcset="https://geeksfortech.netlify.app/media/posts/9/responsive/debug-apk-xs.png 300w ,https://geeksfortech.netlify.app/media/posts/9/responsive/debug-apk-sm.png 480w ,https://geeksfortech.netlify.app/media/posts/9/responsive/debug-apk-md.png 768w"  height="158" width="590" alt="Debug APK" />
+      <figcaption>Debug APK</figcaption>
+    </figure>
+
+  <p>
+    You can transfer this app on any device and you can run this app without <b>metro server(javascript server)</b>.
+  </p>
+
+  <p>
+    
+  </p>
+            ]]>
+        </content>
+    </entry>
+    <entry>
+        <title>How to create nextjs project ?</title>
+        <author>
+            <name>Tejas Sawant</name>
+        </author>
+        <link href="https://geeksfortech.netlify.app/how-to-create-nextjs-project-2/"/>
+        <id>https://geeksfortech.netlify.app/how-to-create-nextjs-project-2/</id>
+
+        <updated>2020-09-24T00:21:30+05:30</updated>
+            <summary>
+                <![CDATA[
+                        <img src="https://geeksfortech.netlify.app/media/posts/8/cover-2.webp" alt="Cover" />
+                     In this section i am going to show you best way to create nextjs project. For creating nextjs project&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                    <img src="https://geeksfortech.netlify.app/media/posts/8/cover-2.webp" alt="Cover" />
+                
+  <p>
+    In this section i am going to show you best way to create nextjs project. For creating nextjs project you must have installed to nodejs. After that you can proceed with this tutorial.
+  </p>
+
+  <p>
+    First open <b>CMD/Terminal</b>. Navigate to directory where you have to create your nextjs project.
+  </p>
+<pre class="line-numbers  language-bash"><code>cd Blog
+</code></pre>
+
+  <p>
+    Then type following command this command used to create nextjs project
+  </p>
+<pre class="line-numbers  language-bash"><code> npm init next-app
+</code></pre>
+
+  <p>
+    After that it will ask you for project name if you don’t give project name then it will set default name as my-app.
+  </p>
+
+    <figure class="post__image post__image--center">
+      <img loading="lazy" src="https://geeksfortech.netlify.app/media/posts/8/give-name.png" sizes="(max-width: 48em) 100vw, 100vw" srcset="https://geeksfortech.netlify.app/media/posts/8/responsive/give-name-xs.png 300w ,https://geeksfortech.netlify.app/media/posts/8/responsive/give-name-sm.png 480w ,https://geeksfortech.netlify.app/media/posts/8/responsive/give-name-md.png 768w"  height="48" width="461" alt="Project Name" />
+      <figcaption>Giving Project Name</figcaption>
+    </figure>
+
+  <p>
+    After that you have to choose template for your nextjs project. I am going with Default starter app.
+  </p>
+
+    <figure class="post__image post__image--center">
+      <img loading="lazy" src="https://geeksfortech.netlify.app/media/posts/8/choosing-template.png" sizes="(max-width: 48em) 100vw, 100vw" srcset="https://geeksfortech.netlify.app/media/posts/8/responsive/choosing-template-xs.png 300w ,https://geeksfortech.netlify.app/media/posts/8/responsive/choosing-template-sm.png 480w ,https://geeksfortech.netlify.app/media/posts/8/responsive/choosing-template-md.png 768w"  height="43" width="398" alt="Template for project" />
+      <figcaption>Choosing Template</figcaption>
+    </figure>
+
+  <p>
+    After that all needed modules/packages will start downloading.
+  </p>
+
+    <figure class="post__image post__image--center">
+      <img loading="lazy" src="https://geeksfortech.netlify.app/media/posts/8/downloading-npm-packages.png" sizes="(max-width: 48em) 100vw, 100vw" srcset="https://geeksfortech.netlify.app/media/posts/8/responsive/downloading-npm-packages-xs.png 300w ,https://geeksfortech.netlify.app/media/posts/8/responsive/downloading-npm-packages-sm.png 480w ,https://geeksfortech.netlify.app/media/posts/8/responsive/downloading-npm-packages-md.png 768w"  height="224" width="590" alt="Downloading of packages" />
+      <figcaption>Auto downloading of packages.</figcaption>
+    </figure>
+
+  <p>
+    After that navigate to project directory. and type command <b>npm run dev</b> if you are using <b>npm</b> or type <b>yarn dev</b> if you are using <b>yarn</b>.
+  </p>
+<pre class="line-numbers  language-bash"><code>cd test-app
+yarn dev</code></pre>
+
+  <p>
+    You have successfully created nextjs project you can now visit to <a href="http://localhost:3000" target="_blank" rel="nofollow noopener">http://localhost:3000</a> You will see following screen.
+  </p>
+
+    <figure class="post__image post__image--center">
+      <img loading="lazy" src="https://geeksfortech.netlify.app/media/posts/8/cover.webp" height="592" width="1170" alt="Nextjs App " />
+      <figcaption>Nextjs App Default Preview</figcaption>
+    </figure>
+
+  <p>
+    Reference : <a href="https://nextjs.org/docs/getting-started" target="_blank">https://nextjs.org/docs/getting-started</a>
+  </p>
+            ]]>
+        </content>
+    </entry>
+    <entry>
+        <title>How to create a youtube thumbnail downloader?</title>
+        <author>
+            <name>Tejas Sawant</name>
+        </author>
+        <link href="https://geeksfortech.netlify.app/how-to-create-a-youtube-thumbnail-downloader/"/>
+        <id>https://geeksfortech.netlify.app/how-to-create-a-youtube-thumbnail-downloader/</id>
+
+        <updated>2020-09-24T00:21:30+05:30</updated>
+            <summary>
+                <![CDATA[
+                        <img src="https://geeksfortech.netlify.app/media/posts/7/cover.webp" alt="Cover" />
+                     Demo :- https://youtubethumbnaildownloader.geeksfortech.com Following article shows how you can create youtube thumbnail downloader. For this project we are going&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                    <img src="https://geeksfortech.netlify.app/media/posts/7/cover.webp" alt="Cover" />
+                
+  <p>
+    Demo :- <a href="https://youtubethumbnaildownloader.geeksfortech.com">https://youtubethumbnaildownloader.geeksfortech.com</a>
+  </p>
+
+  <p>
+    Following article shows how you can create youtube thumbnail downloader. For this project we are going to use Nextjs and tailwind css. First we are going to create nextjs with tailwind css. You can use following command.
+  </p>
+<pre class="line-numbers  language-bash"><code>npx create-next-app --example with-tailwindcss youtube-thumbnail-downloader
+</code></pre>
+
+    <figure class="post__image post__image--center">
+      <img loading="lazy" src="https://geeksfortech.netlify.app/media/posts/7/create-project.png" sizes="(max-width: 48em) 100vw, 100vw" srcset="https://geeksfortech.netlify.app/media/posts/7/responsive/create-project-xs.png 300w ,https://geeksfortech.netlify.app/media/posts/7/responsive/create-project-sm.png 480w ,https://geeksfortech.netlify.app/media/posts/7/responsive/create-project-md.png 768w"  height="170" width="682" alt="" />
+      
+    </figure>
+
+  <p>
+    This command will create next app with tailwind css.
+  </p>
+
+  <ul>
+    <li>Creating <b>Input </b>for accepting youtube url.<br></li>
+  </ul>
+<pre class="line-numbers  language-jsx"><code>&lt;form className="w-full max-w-md"&gt;
+  &lt;div className="flex items-center border-b border-teal-500 py-2"&gt;
+    &lt;input
+      className="appearance-none bg-transparent border-none w-full text-gray-700 mr-3 py-1 px-2 leading-tight focus:outline-none"
+      type="text"
+      placeholder="Enter Youtube URL"
+    /&gt;
+    &lt;button
+      className="flex-shrink-0 bg-teal-500 hover:bg-teal-700 border-teal-500 hover:border-teal-700 text-sm border-4 text-white py-1 px-2 rounded"
+      type="button"
+    &gt;
+      Download
+    &lt;/button&gt;
+  &lt;/div&gt;
+&lt;/form&gt;</code></pre>
+
+    <figure class="post__image post__image--center">
+      <img loading="lazy" src="https://geeksfortech.netlify.app/media/posts/7/input-box.png" sizes="(max-width: 48em) 100vw, 100vw" srcset="https://geeksfortech.netlify.app/media/posts/7/responsive/input-box-xs.png 300w ,https://geeksfortech.netlify.app/media/posts/7/responsive/input-box-sm.png 480w ,https://geeksfortech.netlify.app/media/posts/7/responsive/input-box-md.png 768w"  height="87" width="498" alt="" />
+      
+    </figure>
+
+  <ul>
+    <li>Then creating function for checking whether entered url is correct youtube url or not.</li>
+  </ul>
+<pre class="line-numbers  language-jsx"><code>const getYouTubeThumbnail = url =&gt; {
+  //regex for matching youtube url
+  let regExp = /.*(?:youtu.be\/|v\/|u\/\w\/|embed\/|watch\?v=)([^#\&\?]*).*/
+  let match = url.match(regExp)
+  if (match && match[1].length == 11) {
+    let videoURL = match[1]
+    //videoURL is holding video url like aabbssccddffj it is 11 letters url.
+  } else {
+    console.log(
+      "The URL you have entered maybe incorrect. Please Enter a correct URL."
+    )
+  }
+}</code></pre>
+
+  <ul>
+    <li>Now we are going to create state for our thumbnail urls, actual video url entered by user and for error.</li>
+  </ul>
+<pre class="line-numbers  language-jsx"><code>//imporing useState from react
+import { useState } from "react"
+
+// functional component
+const Index = () =&gt; {
+  const [error, seterror] = useState("")
+  const [videoURL, setVideoURL] = useState("")
+  const [HDImage_1280_720, setHDImage_1280_720] = useState("")
+  const [SDImage_640_480, setSDImage_640_480] = useState("")
+  const [NormalImage_480_360, setNormalImage_480_360] = useState("")
+  const [NormalImage_320_180, setNormalImage_320_180] = useState("")
+  const [NormalImage_120_90, setNormalImage_120_90] = useState("")
+}</code></pre>
+
+  <ul>
+    <li>Next storing enterd url in state also creating text field using span for conditional rendering of errors.</li>
+  </ul>
+<pre class="line-numbers  language-jsx"><code>&lt;form className="w-full max-w-md"&gt;
+  &lt;div className="flex items-center border-b border-teal-500 py-2"&gt;
+    &lt;input
+      className="appearance-none bg-transparent border-none w-full text-gray-700 mr-3 py-1 px-2 leading-tight focus:outline-none"
+      type="text"
+      value={videoURL}
+      placeholder="Enter Youtube URL"
+      onChange={event =&gt; {
+        setVideoURL(event.target.value)
+        console.log(event.target.value)
+      }}
+    /&gt;
+    &lt;button
+      className="flex-shrink-0 bg-teal-500 hover:bg-teal-700 border-teal-500 hover:border-teal-700 text-sm border-4 text-white py-1 px-2 rounded"
+      type="button"
+    &gt;
+      Download
+    &lt;/button&gt;
+  &lt;/div&gt;
+&lt;/form&gt;
+{
+  error && &lt;span className="font-black"&gt;{error}&lt;/span&gt;
+}</code></pre>
+
+  <ul>
+    <li>Completing <b>getYouTubeThumbnail()</b> function and updating with videos urls states.<br></li>
+  </ul>
+<pre class="line-numbers  language-jsx"><code>const getYouTubeThumbnail = url =&gt; {
+  let regExp = /.*(?:youtu.be\/|v\/|u\/\w\/|embed\/|watch\?v=)([^#\&\?]*).*/
+  let match = url.match(regExp)
+  if (match && match[1].length == 11) {
+    let videoURL = match[1]
+    setHDImage_1280_720(
+      "http://img.youtube.com/vi/" + videoURL + "/maxresdefault.jpg"
+    )
+    setSDImage_640_480(
+      "http://img.youtube.com/vi/" + videoURL + "/sddefault.jpg"
+    )
+    setNormalImage_480_360(
+      "http://img.youtube.com/vi/" + videoURL + "/hqdefault.jpg"
+    )
+    setNormalImage_320_180(
+      "http://img.youtube.com/vi/" + videoURL + "/mqdefault.jpg"
+    )
+    setNormalImage_120_90(
+      "http://img.youtube.com/vi/" + videoURL + "/default.jpg"
+    )
+    seterror("")
+  } else {
+    seterror(
+      "The URL you have entered maybe incorrect. Please Enter a correct URL."
+    )
+  }
+}</code></pre>
+
+  <ul>
+    <li>Passing values to <b>getYouTubeThumbnail()</b> function and adding image tags with there src as states.</li>
+  </ul>
+<pre class="line-numbers  language-jsx"><code>const index = () =&gt; {
+  return (
+    &lt;div&gt;
+      //Text Input Field Code
+      &lt;button
+        className="flex-shrink-0 bg-teal-500 hover:bg-teal-700 border-teal-500 hover:border-teal-700 text-sm border-4 text-white py-1 px-2 rounded"
+        type="button"
+        onClick={() =&gt; {
+          getYouTubeThumbnail(videoURL)
+        }}
+      &gt;
+        Download
+      &lt;/button&gt;
+      // Repeat code for SDImage_640_480, NormalImage_480_360
+      //NormalImage_320_180, NormalImage_120_90
+      &lt;img
+        src={HDImage_1280_720}
+        alt="HDImage_1280_720"
+        className="mb-3 object-center"
+      /&gt;
+    &lt;/div&gt;
+  )
+}
+export default Index</code></pre>
+
+    <figure class="post__image post__image--center">
+      <img loading="lazy" src="https://geeksfortech.netlify.app/media/posts/7/button.png" sizes="(max-width: 48em) 100vw, 100vw" srcset="https://geeksfortech.netlify.app/media/posts/7/responsive/button-xs.png 300w ,https://geeksfortech.netlify.app/media/posts/7/responsive/button-sm.png 480w ,https://geeksfortech.netlify.app/media/posts/7/responsive/button-md.png 768w"  height="62" width="250" alt="" />
+      
+    </figure>
+
+  <ul>
+    <li>At last going to add button for downloading thumbnail and then redirecting to thumbnail url.</li>
+  </ul>
+<pre class="line-numbers  language-jsx"><code>// Repeat code for SDImage_640_480, NormalImage_480_360
+// NormalImage_320_180, NormalImage_120_90
+&lt;button className="bg-transparent hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded mb-5 inline-flex"&gt;
+  &lt;svg
+    className="fill-current w-4 h-4 mr-2 mt-1"
+    xmlns="http://www.w3.org/2000/svg"
+    viewBox="0 0 20 20"
+  &gt;
+    &lt;path d="M13 8V2H7v6H2l8 8 8-8h-5zM0 18h20v2H0v-2z" /&gt;
+  &lt;/svg&gt;
+  &lt;a href={HDImage_1280_720} target="_blank"&gt;
+    HD Image (1280x720)
+  &lt;/a&gt;
+&lt;/button&gt;</code></pre>
+
+  <p>
+    <b><i>Final Code looks like following.</i></b>
+  </p>
+<pre class="line-numbers  language-jsx"><code>import { useState } from "react"
+
+const Index = () =&gt; {
+  const [error, seterror] = useState("")
+  const [videoURL, setVideoURL] = useState("")
+  const [HDImage_1280_720, setHDImage_1280_720] = useState("")
+  const [SDImage_640_480, setSDImage_640_480] = useState("")
+  const [NormalImage_480_360, setNormalImage_480_360] = useState("")
+  const [NormalImage_320_180, setNormalImage_320_180] = useState("")
+  const [NormalImage_120_90, setNormalImage_120_90] = useState("")
+
+  const getYouTubeThumbnail = url =&gt; {
+    let regExp = /.*(?:youtu.be\/|v\/|u\/\w\/|embed\/|watch\?v=)([^#\&\?]*).*/
+    let match = url.match(regExp)
+    if (match && match[1].length == 11) {
+      let videoURL = match[1]
+      setHDImage_1280_720(
+        "http://img.youtube.com/vi/" + videoURL + "/maxresdefault.jpg"
+      )
+      setSDImage_640_480(
+        "http://img.youtube.com/vi/" + videoURL + "/sddefault.jpg"
+      )
+      setNormalImage_480_360(
+        "http://img.youtube.com/vi/" + videoURL + "/hqdefault.jpg"
+      )
+      setNormalImage_320_180(
+        "http://img.youtube.com/vi/" + videoURL + "/mqdefault.jpg"
+      )
+      setNormalImage_120_90(
+        "http://img.youtube.com/vi/" + videoURL + "/default.jpg"
+      )
+      seterror("")
+    } else {
+      seterror(
+        "The URL you have entered maybe incorrect. Please Enter a correct URL."
+      )
+    }
+  }
+
+  return (
+    &lt;div className="mt-15 md:mt-10 lg:mt-10 mx-auto"&gt;
+      &lt;center&gt;
+        &lt;form className="w-full max-w-md"&gt;
+          &lt;div className="flex items-center border-b border-teal-500 py-2"&gt;
+            &lt;input
+              className="appearance-none bg-transparent border-none w-full text-gray-700 mr-3 py-1 px-2 leading-tight focus:outline-none"
+              type="text"
+              value={videoURL}
+              placeholder="Enter Youtube URL"
+              onChange={event =&gt; {
+                setVideoURL(event.target.value)
+                console.log(event.target.value)
+              }}
+            /&gt;
+            &lt;button
+              className="flex-shrink-0 bg-teal-500 hover:bg-teal-700 border-teal-500 hover:border-teal-700 text-sm border-4 text-white py-1 px-2 rounded"
+              type="button"
+              onClick={() =&gt; {
+                getYouTubeThumbnail(videoURL)
+              }}
+            &gt;
+              Download
+            &lt;/button&gt;
+          &lt;/div&gt;
+        &lt;/form&gt;
+        {error && &lt;span className="font-black"&gt;{error}&lt;/span&gt;}
+        {!error && HDImage_1280_720 !== "" ? (
+          &lt;div className="mt-10"&gt;
+            &lt;button className="bg-transparent hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded mb-5 inline-flex"&gt;
+              &lt;svg
+                className="fill-current w-4 h-4 mr-2 mt-1"
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 20 20"
+              &gt;
+                &lt;path d="M13 8V2H7v6H2l8 8 8-8h-5zM0 18h20v2H0v-2z" /&gt;
+              &lt;/svg&gt;
+              &lt;a href={HDImage_1280_720} target="_blank"&gt;
+                HD Image (1280x720)
+              &lt;/a&gt;
+            &lt;/button&gt;
+            &lt;img
+              src={HDImage_1280_720}
+              alt="HDImage_1280_720"
+              className="mb-3 object-center"
+            /&gt;
+            &lt;button className="bg-transparent hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded mb-5 inline-flex"&gt;
+              &lt;svg
+                className="fill-current w-4 h-4 mr-2 mt-1"
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 20 20"
+              &gt;
+                &lt;path d="M13 8V2H7v6H2l8 8 8-8h-5zM0 18h20v2H0v-2z" /&gt;
+              &lt;/svg&gt;
+              &lt;a href={SDImage_640_480} target="_blank"&gt;
+                SD Image (640x480)
+              &lt;/a&gt;
+            &lt;/button&gt;
+            &lt;img
+              src={SDImage_640_480}
+              alt="HDImage_1280_720"
+              className="mb-3 object-center"
+            /&gt;
+            &lt;button className="bg-transparent hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded mb-5 inline-flex"&gt;
+              &lt;svg
+                className="fill-current w-4 h-4 mr-2 mt-1"
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 20 20"
+              &gt;
+                &lt;path d="M13 8V2H7v6H2l8 8 8-8h-5zM0 18h20v2H0v-2z" /&gt;
+              &lt;/svg&gt;
+              &lt;a href={NormalImage_480_360} target="_blank"&gt;
+                Normal Image (480x360)
+              &lt;/a&gt;
+            &lt;/button&gt;
+            &lt;img
+              src={NormalImage_480_360}
+              alt="HDImage_1280_720"
+              className="mb-3 object-center"
+            /&gt;
+            &lt;button className="bg-transparent hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded mb-5 inline-flex"&gt;
+              &lt;svg
+                className="fill-current w-4 h-4 mr-2 mt-1"
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 20 20"
+              &gt;
+                &lt;path d="M13 8V2H7v6H2l8 8 8-8h-5zM0 18h20v2H0v-2z" /&gt;
+              &lt;/svg&gt;
+              &lt;a href={NormalImage_320_180} target="_blank"&gt;
+                Normal Image (320x180)
+              &lt;/a&gt;
+            &lt;/button&gt;
+            &lt;img
+              src={NormalImage_320_180}
+              alt="HDImage_1280_720"
+              className="mb-3 object-center"
+            /&gt;
+            &lt;button className="bg-transparent hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded mb-5 inline-flex"&gt;
+              &lt;svg
+                className="fill-current w-4 h-4 mr-2 mt-1"
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 20 20"
+              &gt;
+                &lt;path d="M13 8V2H7v6H2l8 8 8-8h-5zM0 18h20v2H0v-2z" /&gt;
+              &lt;/svg&gt;
+              &lt;a href={NormalImage_120_90} target="_blank"&gt;
+                Normal Image (120x90)
+              &lt;/a&gt;
+            &lt;/button&gt;
+            &lt;img
+              src={NormalImage_120_90}
+              alt="HDImage_1280_720"
+              className="mb-3 object-center"
+            /&gt;
+          &lt;/div&gt;
+        ) : (
+          ""
+        )}
+      &lt;/center&gt;
+    &lt;/div&gt;
+  )
+}
+export default Index</code></pre>
+
+  <p>
+    
+  </p>
+            ]]>
+        </content>
+    </entry>
+    <entry>
+        <title>How to add mailchimp to gatsbyjs ? </title>
+        <author>
+            <name>Tejas Sawant</name>
+        </author>
+        <link href="https://geeksfortech.netlify.app/how-to-add-mailchimp-to-gatsbyjs/"/>
+        <id>https://geeksfortech.netlify.app/how-to-add-mailchimp-to-gatsbyjs/</id>
+
+        <updated>2020-09-24T00:21:30+05:30</updated>
+            <summary>
+                <![CDATA[
+                        <img src="https://geeksfortech.netlify.app/media/posts/6/cover.webp" alt="Email Field" />
+                     This article show how you can add mailchimp to your gatsbyjs project.&nbsp; First install mailchimp package using npm to&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                    <img src="https://geeksfortech.netlify.app/media/posts/6/cover.webp" alt="Email Field" />
+                
+  <p>
+    This article show how you can add mailchimp to your gatsbyjs project.&nbsp;
+  </p>
+
+  <p>
+    First install mailchimp package using npm to gatsby project.&nbsp;
+  </p>
+<pre class="line-numbers  language-bash"><code>npm install gatsby-plugin-mailchimp
+</code></pre>
+
+  <p>
+    Add following config object to your gatsby-config.js
+<br>
+
+  </p>
+<pre class="line-numbers  language-json"><code>{
+  "resolve": "gatsby-plugin-mailchimp",
+  "options": {
+    "endpoint": "",
+    "timeout": 3500
+  }
+}</code></pre>
+
+  <ul>
+    <li>Login to mailchimp account.
+<br><br></li><li>Then look for Audience &gt; Embedded Forms.
+<br><br></li><li>Click on Select
+<br><br></li><li>Grab url in form action https://******.list-manage.com/subscribe/post?u=****************
+<br><br></li><li>Paste that url into endpoint in gatsby-config.js</li>
+  </ul>
+
+    <figure class="post__image post__image--center">
+      <img loading="lazy" src="https://geeksfortech.netlify.app/media/posts/6/url-img.png" sizes="(max-width: 48em) 100vw, 100vw" srcset="https://geeksfortech.netlify.app/media/posts/6/responsive/url-img-xs.png 300w ,https://geeksfortech.netlify.app/media/posts/6/responsive/url-img-sm.png 480w ,https://geeksfortech.netlify.app/media/posts/6/responsive/url-img-md.png 768w"  height="44" width="787" alt="URL" />
+      <figcaption>URL</figcaption>
+    </figure>
+<pre class="line-numbers  language-json"><code>{
+  "resolve": "gatsby-plugin-mailchimp",
+  "options": {
+    "endpoint": "https://******.list-manage.com/subscribe/post?u=****************",
+    "timeout": 3500
+  }
+}</code></pre>
+
+  <p>
+    Last create text field for adding email id.
+<br>
+
+  </p>
+<pre class="line-numbers  language-jsx"><code>import addToMailchimp from "gatsby-plugin-mailchimp"
+
+export default class MyGatsbyComponent extends React.Component {
+  // Since `addToMailchimp` returns a promise, you
+  // can handle the response in two different ways:
+
+  // Note that you need to send an email & optionally, listFields
+  // these values can be pulled from React state, form fields,
+  // or wherever.  (Personally, I recommend storing in state).
+
+  // 1. via `.then`
+  _handleSubmit = e =&gt; {
+    e.preventDefault()
+    addToMailchimp(email, listFields) // listFields are optional if you are only capturing the email address.
+      .then(data =&gt; {
+        // I recommend setting data to React state
+        // but you can do whatever you want (including ignoring this `then()` altogether)
+        console.log(data)
+      })
+      .catch(() =&gt; {
+        // unnecessary because Mailchimp only ever
+        // returns a 200 status code
+        // see below for how to handle errors
+      })
+  }
+
+  // 2. via `async/await`
+  _handleSubmit = async e =&gt; {
+    e.preventDefault()
+    const result = await addToMailchimp(email, listFields)
+    // I recommend setting `result` to React state
+    // but you can do whatever you want
+  }
+
+  render() {
+    return &lt;form onSubmit={this._handleSubmit(email, { listFields })}&gt;...&lt;/form&gt;
+  }
+}</code></pre>
+
+  <p>
+    Reference :- <a href="https://www.gatsbyjs.com/plugins/gatsby-plugin-mailchimp" target="_blank" rel="nofollow noopener">https://www.gatsbyjs.com/plugins/gatsby-plugin-mailchimp</a>
+  </p>
+
+  <p>
+    
+  </p>
+            ]]>
+        </content>
+    </entry>
+    <entry>
+        <title>C Program for 2D Reflection </title>
+        <author>
+            <name>Tejas Sawant</name>
+        </author>
+        <link href="https://geeksfortech.netlify.app/c-program-for-2d-reflection/"/>
+        <id>https://geeksfortech.netlify.app/c-program-for-2d-reflection/</id>
+
+        <updated>2020-09-24T00:21:30+05:30</updated>
+            <summary>
+                <![CDATA[
+                        <img src="https://geeksfortech.netlify.app/media/posts/5/cover-2.png" alt="2D Reflection " />
+                    #include&lt;stdio.h&gt;#include&lt;conio.h&gt;#include&lt;graphics.h&gt;#include&lt;math.h&gt;#include&lt;process.h&gt;void disp(float v[][3]){ float xmax, ymax ; xmax=getmaxx()/2 ; ymax = getmaxy()/2 ; int i=0; while(i&lt;2) { line(xmax+v[i][0], ymax-v[i][1], xmax+v[i+1][0],&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                    <img src="https://geeksfortech.netlify.app/media/posts/5/cover-2.png" alt="2D Reflection " />
+                <pre class="line-numbers  language-c"><code>#include&lt;stdio.h&gt;
+#include&lt;conio.h&gt;
+#include&lt;graphics.h&gt;
+#include&lt;math.h&gt;
+#include&lt;process.h&gt;
+void disp(float v[][3])
+{
+ float xmax, ymax ;
+ xmax=getmaxx()/2 ;
+ ymax = getmaxy()/2 ;
+ int i=0;
+ while(i&lt;2)
+ {
+ line(xmax+v[i][0], ymax-v[i][1], xmax+v[i+1][0], ymax-v[i+1][1]);
+ i++ ;
+ }
+ i=2;
+ line(xmax+v[i][0],ymax-v[i][1],xmax+v[0][0],ymax-v[0][1]);
+ setcolor(BLUE);
+ line(0,ymax,xmax*2,ymax);
+ line(xmax,0,xmax,ymax*2);
+ setcolor(WHITE);
+}
+void multiply (float b[][3],float v[][3],float a[][3])
+{
+ int i,j,k;
+ for(i=0;i&lt;3;i++)
+ for(j=0;j&lt;3;j++)
+ a[i][j]=0;
+ for(i=0;i&lt;3;i++)
+ for(j=0;j&lt;3;j++)
+ for(k=0;k&lt;3;k++)
+ {
+ a[i][j] = a[i][j] + (v[i][k] * b[k][j]);
+ }
+}
+void reflect(float v[][3])
+{
+ float b[10][3],a[10][3];
+ int i=0,j;
+ cleardevice();
+ disp(v);
+ for(i=0;i&lt;3;i++)
+ for(j=0;j&lt;3;j++)
+ {
+ b[i][j]=0;
+ if(i==j)
+ b[i][j]=1;
+ }
+ b[1][1]=-1;
+ multiply(b,v,a);
+ setcolor(YELLOW);
+ disp(a);
+}
+int main()
+{
+ int gd=DETECT, gm ;
+ float v[10][3] ;
+ initgraph(&gd,&gm,NULL);
+ for(int i=0; i &lt; 3; i++)
+ {
+ printf("Enter the coordinate v%d :", i+1);
+ scanf("%f%f", &v[i][0], &v[i][1]);
+ v[i][2] = 1;
+ }
+ cleardevice();
+ setcolor(BLACK);
+ disp(v);
+ reflect(v);
+ getch();
+ closegraph();
+ return 0;
+}</code></pre>
+
+  <p>
+    Output :-&nbsp;
+  </p>
+
+    <figure class="post__image post__image--center">
+      <img loading="lazy" src="https://geeksfortech.netlify.app/media/posts/5/output-1.png" sizes="(max-width: 48em) 100vw, 100vw" srcset="https://geeksfortech.netlify.app/media/posts/5/responsive/output-1-xs.png 300w ,https://geeksfortech.netlify.app/media/posts/5/responsive/output-1-sm.png 480w ,https://geeksfortech.netlify.app/media/posts/5/responsive/output-1-md.png 768w"  height="136" width="381" alt="" />
+      
+    </figure>
+
+    <figure class="post__image post__image--center">
+      <img loading="lazy" src="https://geeksfortech.netlify.app/media/posts/5/cover.png" sizes="(max-width: 48em) 100vw, 100vw" srcset="https://geeksfortech.netlify.app/media/posts/5/responsive/cover-xs.png 300w ,https://geeksfortech.netlify.app/media/posts/5/responsive/cover-sm.png 480w ,https://geeksfortech.netlify.app/media/posts/5/responsive/cover-md.png 768w"  height="468" width="625" alt="" />
+      
+    </figure>
+            ]]>
+        </content>
+    </entry>
+    <entry>
+        <title>Adding firebase to nodejs</title>
+        <author>
+            <name>Tejas Sawant</name>
+        </author>
+        <link href="https://geeksfortech.netlify.app/adding-firebase-to-nodejs/"/>
+        <id>https://geeksfortech.netlify.app/adding-firebase-to-nodejs/</id>
+
+        <updated>2020-09-24T00:21:30+05:30</updated>
+            <summary>
+                <![CDATA[
+                     Following are steps to add firebase to nodejs Step 1 :-&nbsp; Installing firebase package using npm npm install firebase&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                
+  <p>
+    Following are steps to add firebase to nodejs
+  </p>
+
+  <p>
+    <b>Step 1</b> :-&nbsp; Installing firebase package using npm
+  </p>
+<pre class="line-numbers  language-bash"><code>npm install firebase</code></pre>
+
+  <p>
+    Steap 2 :-&nbsp;
+  </p>
+
+  <p>
+    
+  </p>
+            ]]>
+        </content>
+    </entry>
+</feed>
