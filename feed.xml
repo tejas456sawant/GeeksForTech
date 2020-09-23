@@ -1,32 +1,32 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <title>GeeksForTech</title>
-    <link href="https://geeksfortech.netlify.app/feed.xml" rel="self" />
-    <link href="https://geeksfortech.netlify.app" />
+    <link href="https://geeksfortech.onrender.com/feed.xml" rel="self" />
+    <link href="https://geeksfortech.onrender.com" />
     <updated>1970-01-01T05:30:00+05:30</updated>
     <author>
         <name>Tejas Sawant</name>
     </author>
-    <id>https://geeksfortech.netlify.app</id>
+    <id>https://geeksfortech.onrender.com</id>
 
     <entry>
         <title>How to install latest nodejs version on Ubuntu/Linux using CLI</title>
         <author>
             <name>Tejas Sawant</name>
         </author>
-        <link href="https://geeksfortech.netlify.app/how-to-install-latest-nodejs-version-on-ubuntulinux-using-cli/"/>
-        <id>https://geeksfortech.netlify.app/how-to-install-latest-nodejs-version-on-ubuntulinux-using-cli/</id>
+        <link href="https://geeksfortech.onrender.com/how-to-install-latest-nodejs-version-on-ubuntulinux-using-cli/"/>
+        <id>https://geeksfortech.onrender.com/how-to-install-latest-nodejs-version-on-ubuntulinux-using-cli/</id>
 
-        <updated>2020-09-24T00:21:30+05:30</updated>
+        <updated>2020-09-24T00:28:26+05:30</updated>
             <summary>
                 <![CDATA[
-                        <img src="https://geeksfortech.netlify.app/media/posts/12/cover.png" alt="Command to install" />
+                        <img src="https://geeksfortech.onrender.com/media/posts/12/cover.png" alt="Command to install" />
                      Following are steps to install latest version of nodejs in Ubuntu or Linux curl -sL https://deb.nodesource.com/setup_14.x | sudo -E&hellip;
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
-                    <img src="https://geeksfortech.netlify.app/media/posts/12/cover.png" alt="Command to install" />
+                    <img src="https://geeksfortech.onrender.com/media/posts/12/cover.png" alt="Command to install" />
                 
   <p>
     Following are steps to install latest version of nodejs in Ubuntu or Linux
@@ -88,26 +88,26 @@ apt-get install -y nodejs</code></pre>
         <author>
             <name>Tejas Sawant</name>
         </author>
-        <link href="https://geeksfortech.netlify.app/how-to-add-bootstrap-to-nextjs/"/>
-        <id>https://geeksfortech.netlify.app/how-to-add-bootstrap-to-nextjs/</id>
+        <link href="https://geeksfortech.onrender.com/how-to-add-bootstrap-to-nextjs/"/>
+        <id>https://geeksfortech.onrender.com/how-to-add-bootstrap-to-nextjs/</id>
 
-        <updated>2020-09-24T00:21:30+05:30</updated>
+        <updated>2020-09-24T00:28:26+05:30</updated>
             <summary>
                 <![CDATA[
-                        <img src="https://geeksfortech.netlify.app/media/posts/10/cover.webp" alt="Cover" />
+                        <img src="https://geeksfortech.onrender.com/media/posts/10/cover.webp" alt="Cover" />
                      This article show how to add bootstrap in Next.js project. Following are the steps :- &lt;link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"&hellip;
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
-                    <img src="https://geeksfortech.netlify.app/media/posts/10/cover.webp" alt="Cover" />
+                    <img src="https://geeksfortech.onrender.com/media/posts/10/cover.webp" alt="Cover" />
                 
   <p>
     This article show how to add bootstrap in Next.js project. Following are the steps :-
   </p>
 
   <ul>
-    <li>First you need to <a href="https://geeksfortech.netlify.app/how-to-create-nextjs-project-2/" target="_blank">create project</a>.</li><li>After that goto <a href="https://getbootstrap.com/" target="_blank">Bootstrap</a> website.<br></li><li>Click on <a href="https://getbootstrap.com/docs/4.5/getting-started/introduction/" target="_blank">Get Started</a>.<br></li><li>After that grab CSS and JS links from Bootstrap.<br></li>
+    <li>First you need to <a href="https://geeksfortech.onrender.com/how-to-create-nextjs-project-2/" target="_blank">create project</a>.</li><li>After that goto <a href="https://getbootstrap.com/" target="_blank">Bootstrap</a> website.<br></li><li>Click on <a href="https://getbootstrap.com/docs/4.5/getting-started/introduction/" target="_blank">Get Started</a>.<br></li><li>After that grab CSS and JS links from Bootstrap.<br></li>
   </ul>
 
     <h2 id="css">
@@ -184,7 +184,7 @@ export default MyApp;</code></pre>
   </ul>
 
     <figure class="post__image post__image--center">
-      <img loading="lazy" src="https://geeksfortech.netlify.app/media/posts/10/bootstrap-buttons.png" sizes="(max-width: 48em) 100vw, 100vw" srcset="https://geeksfortech.netlify.app/media/posts/10/responsive/bootstrap-buttons-xs.png 300w ,https://geeksfortech.netlify.app/media/posts/10/responsive/bootstrap-buttons-sm.png 480w ,https://geeksfortech.netlify.app/media/posts/10/responsive/bootstrap-buttons-md.png 768w"  height="340" width="811" alt="Bootstrap Buttons" />
+      <img loading="lazy" src="https://geeksfortech.onrender.com/media/posts/10/bootstrap-buttons.png" sizes="(max-width: 48em) 100vw, 100vw" srcset="https://geeksfortech.onrender.com/media/posts/10/responsive/bootstrap-buttons-xs.png 300w ,https://geeksfortech.onrender.com/media/posts/10/responsive/bootstrap-buttons-sm.png 480w ,https://geeksfortech.onrender.com/media/posts/10/responsive/bootstrap-buttons-md.png 768w"  height="340" width="811" alt="Bootstrap Buttons" />
       <figcaption>Bootstrap Buttons</figcaption>
     </figure>
 
@@ -203,19 +203,19 @@ export default MyApp;</code></pre>
         <author>
             <name>Tejas Sawant</name>
         </author>
-        <link href="https://geeksfortech.netlify.app/how-to-build-debug-apk-in-react-native/"/>
-        <id>https://geeksfortech.netlify.app/how-to-build-debug-apk-in-react-native/</id>
+        <link href="https://geeksfortech.onrender.com/how-to-build-debug-apk-in-react-native/"/>
+        <id>https://geeksfortech.onrender.com/how-to-build-debug-apk-in-react-native/</id>
 
-        <updated>2020-09-24T00:21:30+05:30</updated>
+        <updated>2020-09-24T00:28:26+05:30</updated>
             <summary>
                 <![CDATA[
-                        <img src="https://geeksfortech.netlify.app/media/posts/9/cover.webp" alt="Cover" />
+                        <img src="https://geeksfortech.onrender.com/media/posts/9/cover.webp" alt="Cover" />
                      In this article i am going to tell how you can generate debug apk using bare react native application.
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
-                    <img src="https://geeksfortech.netlify.app/media/posts/9/cover.webp" alt="Cover" />
+                    <img src="https://geeksfortech.onrender.com/media/posts/9/cover.webp" alt="Cover" />
                 
   <p>
     In this article i am going to tell how you can generate debug apk using bare react native application.
@@ -236,7 +236,7 @@ export default MyApp;</code></pre>
   </p>
 
     <figure class="post__image post__image--center">
-      <img loading="lazy" src="https://geeksfortech.netlify.app/media/posts/9/creating-dir.png" sizes="(max-width: 48em) 100vw, 100vw" srcset="https://geeksfortech.netlify.app/media/posts/9/responsive/creating-dir-xs.png 300w ,https://geeksfortech.netlify.app/media/posts/9/responsive/creating-dir-sm.png 480w ,https://geeksfortech.netlify.app/media/posts/9/responsive/creating-dir-md.png 768w"  height="250" width="502" alt="Creating assets folder" />
+      <img loading="lazy" src="https://geeksfortech.onrender.com/media/posts/9/creating-dir.png" sizes="(max-width: 48em) 100vw, 100vw" srcset="https://geeksfortech.onrender.com/media/posts/9/responsive/creating-dir-xs.png 300w ,https://geeksfortech.onrender.com/media/posts/9/responsive/creating-dir-sm.png 480w ,https://geeksfortech.onrender.com/media/posts/9/responsive/creating-dir-md.png 768w"  height="250" width="502" alt="Creating assets folder" />
       <figcaption>Creating assets folder</figcaption>
     </figure>
 
@@ -271,7 +271,7 @@ gradlew assembleDebug
   </p>
 
     <figure class="post__image post__image--center">
-      <img loading="lazy" src="https://geeksfortech.netlify.app/media/posts/9/debug-apk.png" sizes="(max-width: 48em) 100vw, 100vw" srcset="https://geeksfortech.netlify.app/media/posts/9/responsive/debug-apk-xs.png 300w ,https://geeksfortech.netlify.app/media/posts/9/responsive/debug-apk-sm.png 480w ,https://geeksfortech.netlify.app/media/posts/9/responsive/debug-apk-md.png 768w"  height="158" width="590" alt="Debug APK" />
+      <img loading="lazy" src="https://geeksfortech.onrender.com/media/posts/9/debug-apk.png" sizes="(max-width: 48em) 100vw, 100vw" srcset="https://geeksfortech.onrender.com/media/posts/9/responsive/debug-apk-xs.png 300w ,https://geeksfortech.onrender.com/media/posts/9/responsive/debug-apk-sm.png 480w ,https://geeksfortech.onrender.com/media/posts/9/responsive/debug-apk-md.png 768w"  height="158" width="590" alt="Debug APK" />
       <figcaption>Debug APK</figcaption>
     </figure>
 
@@ -290,19 +290,19 @@ gradlew assembleDebug
         <author>
             <name>Tejas Sawant</name>
         </author>
-        <link href="https://geeksfortech.netlify.app/how-to-create-nextjs-project-2/"/>
-        <id>https://geeksfortech.netlify.app/how-to-create-nextjs-project-2/</id>
+        <link href="https://geeksfortech.onrender.com/how-to-create-nextjs-project-2/"/>
+        <id>https://geeksfortech.onrender.com/how-to-create-nextjs-project-2/</id>
 
-        <updated>2020-09-24T00:21:30+05:30</updated>
+        <updated>2020-09-24T00:28:26+05:30</updated>
             <summary>
                 <![CDATA[
-                        <img src="https://geeksfortech.netlify.app/media/posts/8/cover-2.webp" alt="Cover" />
+                        <img src="https://geeksfortech.onrender.com/media/posts/8/cover-2.webp" alt="Cover" />
                      In this section i am going to show you best way to create nextjs project. For creating nextjs project&hellip;
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
-                    <img src="https://geeksfortech.netlify.app/media/posts/8/cover-2.webp" alt="Cover" />
+                    <img src="https://geeksfortech.onrender.com/media/posts/8/cover-2.webp" alt="Cover" />
                 
   <p>
     In this section i am going to show you best way to create nextjs project. For creating nextjs project you must have installed to nodejs. After that you can proceed with this tutorial.
@@ -325,7 +325,7 @@ gradlew assembleDebug
   </p>
 
     <figure class="post__image post__image--center">
-      <img loading="lazy" src="https://geeksfortech.netlify.app/media/posts/8/give-name.png" sizes="(max-width: 48em) 100vw, 100vw" srcset="https://geeksfortech.netlify.app/media/posts/8/responsive/give-name-xs.png 300w ,https://geeksfortech.netlify.app/media/posts/8/responsive/give-name-sm.png 480w ,https://geeksfortech.netlify.app/media/posts/8/responsive/give-name-md.png 768w"  height="48" width="461" alt="Project Name" />
+      <img loading="lazy" src="https://geeksfortech.onrender.com/media/posts/8/give-name.png" sizes="(max-width: 48em) 100vw, 100vw" srcset="https://geeksfortech.onrender.com/media/posts/8/responsive/give-name-xs.png 300w ,https://geeksfortech.onrender.com/media/posts/8/responsive/give-name-sm.png 480w ,https://geeksfortech.onrender.com/media/posts/8/responsive/give-name-md.png 768w"  height="48" width="461" alt="Project Name" />
       <figcaption>Giving Project Name</figcaption>
     </figure>
 
@@ -334,7 +334,7 @@ gradlew assembleDebug
   </p>
 
     <figure class="post__image post__image--center">
-      <img loading="lazy" src="https://geeksfortech.netlify.app/media/posts/8/choosing-template.png" sizes="(max-width: 48em) 100vw, 100vw" srcset="https://geeksfortech.netlify.app/media/posts/8/responsive/choosing-template-xs.png 300w ,https://geeksfortech.netlify.app/media/posts/8/responsive/choosing-template-sm.png 480w ,https://geeksfortech.netlify.app/media/posts/8/responsive/choosing-template-md.png 768w"  height="43" width="398" alt="Template for project" />
+      <img loading="lazy" src="https://geeksfortech.onrender.com/media/posts/8/choosing-template.png" sizes="(max-width: 48em) 100vw, 100vw" srcset="https://geeksfortech.onrender.com/media/posts/8/responsive/choosing-template-xs.png 300w ,https://geeksfortech.onrender.com/media/posts/8/responsive/choosing-template-sm.png 480w ,https://geeksfortech.onrender.com/media/posts/8/responsive/choosing-template-md.png 768w"  height="43" width="398" alt="Template for project" />
       <figcaption>Choosing Template</figcaption>
     </figure>
 
@@ -343,7 +343,7 @@ gradlew assembleDebug
   </p>
 
     <figure class="post__image post__image--center">
-      <img loading="lazy" src="https://geeksfortech.netlify.app/media/posts/8/downloading-npm-packages.png" sizes="(max-width: 48em) 100vw, 100vw" srcset="https://geeksfortech.netlify.app/media/posts/8/responsive/downloading-npm-packages-xs.png 300w ,https://geeksfortech.netlify.app/media/posts/8/responsive/downloading-npm-packages-sm.png 480w ,https://geeksfortech.netlify.app/media/posts/8/responsive/downloading-npm-packages-md.png 768w"  height="224" width="590" alt="Downloading of packages" />
+      <img loading="lazy" src="https://geeksfortech.onrender.com/media/posts/8/downloading-npm-packages.png" sizes="(max-width: 48em) 100vw, 100vw" srcset="https://geeksfortech.onrender.com/media/posts/8/responsive/downloading-npm-packages-xs.png 300w ,https://geeksfortech.onrender.com/media/posts/8/responsive/downloading-npm-packages-sm.png 480w ,https://geeksfortech.onrender.com/media/posts/8/responsive/downloading-npm-packages-md.png 768w"  height="224" width="590" alt="Downloading of packages" />
       <figcaption>Auto downloading of packages.</figcaption>
     </figure>
 
@@ -358,7 +358,7 @@ yarn dev</code></pre>
   </p>
 
     <figure class="post__image post__image--center">
-      <img loading="lazy" src="https://geeksfortech.netlify.app/media/posts/8/cover.webp" height="592" width="1170" alt="Nextjs App " />
+      <img loading="lazy" src="https://geeksfortech.onrender.com/media/posts/8/cover.webp" height="592" width="1170" alt="Nextjs App " />
       <figcaption>Nextjs App Default Preview</figcaption>
     </figure>
 
@@ -373,19 +373,19 @@ yarn dev</code></pre>
         <author>
             <name>Tejas Sawant</name>
         </author>
-        <link href="https://geeksfortech.netlify.app/how-to-create-a-youtube-thumbnail-downloader/"/>
-        <id>https://geeksfortech.netlify.app/how-to-create-a-youtube-thumbnail-downloader/</id>
+        <link href="https://geeksfortech.onrender.com/how-to-create-a-youtube-thumbnail-downloader/"/>
+        <id>https://geeksfortech.onrender.com/how-to-create-a-youtube-thumbnail-downloader/</id>
 
-        <updated>2020-09-24T00:21:30+05:30</updated>
+        <updated>2020-09-24T00:28:26+05:30</updated>
             <summary>
                 <![CDATA[
-                        <img src="https://geeksfortech.netlify.app/media/posts/7/cover.webp" alt="Cover" />
+                        <img src="https://geeksfortech.onrender.com/media/posts/7/cover.webp" alt="Cover" />
                      Demo :- https://youtubethumbnaildownloader.geeksfortech.com Following article shows how you can create youtube thumbnail downloader. For this project we are going&hellip;
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
-                    <img src="https://geeksfortech.netlify.app/media/posts/7/cover.webp" alt="Cover" />
+                    <img src="https://geeksfortech.onrender.com/media/posts/7/cover.webp" alt="Cover" />
                 
   <p>
     Demo :- <a href="https://youtubethumbnaildownloader.geeksfortech.com">https://youtubethumbnaildownloader.geeksfortech.com</a>
@@ -398,7 +398,7 @@ yarn dev</code></pre>
 </code></pre>
 
     <figure class="post__image post__image--center">
-      <img loading="lazy" src="https://geeksfortech.netlify.app/media/posts/7/create-project.png" sizes="(max-width: 48em) 100vw, 100vw" srcset="https://geeksfortech.netlify.app/media/posts/7/responsive/create-project-xs.png 300w ,https://geeksfortech.netlify.app/media/posts/7/responsive/create-project-sm.png 480w ,https://geeksfortech.netlify.app/media/posts/7/responsive/create-project-md.png 768w"  height="170" width="682" alt="" />
+      <img loading="lazy" src="https://geeksfortech.onrender.com/media/posts/7/create-project.png" sizes="(max-width: 48em) 100vw, 100vw" srcset="https://geeksfortech.onrender.com/media/posts/7/responsive/create-project-xs.png 300w ,https://geeksfortech.onrender.com/media/posts/7/responsive/create-project-sm.png 480w ,https://geeksfortech.onrender.com/media/posts/7/responsive/create-project-md.png 768w"  height="170" width="682" alt="" />
       
     </figure>
 
@@ -426,7 +426,7 @@ yarn dev</code></pre>
 &lt;/form&gt;</code></pre>
 
     <figure class="post__image post__image--center">
-      <img loading="lazy" src="https://geeksfortech.netlify.app/media/posts/7/input-box.png" sizes="(max-width: 48em) 100vw, 100vw" srcset="https://geeksfortech.netlify.app/media/posts/7/responsive/input-box-xs.png 300w ,https://geeksfortech.netlify.app/media/posts/7/responsive/input-box-sm.png 480w ,https://geeksfortech.netlify.app/media/posts/7/responsive/input-box-md.png 768w"  height="87" width="498" alt="" />
+      <img loading="lazy" src="https://geeksfortech.onrender.com/media/posts/7/input-box.png" sizes="(max-width: 48em) 100vw, 100vw" srcset="https://geeksfortech.onrender.com/media/posts/7/responsive/input-box-xs.png 300w ,https://geeksfortech.onrender.com/media/posts/7/responsive/input-box-sm.png 480w ,https://geeksfortech.onrender.com/media/posts/7/responsive/input-box-md.png 768w"  height="87" width="498" alt="" />
       
     </figure>
 
@@ -551,7 +551,7 @@ const Index = () =&gt; {
 export default Index</code></pre>
 
     <figure class="post__image post__image--center">
-      <img loading="lazy" src="https://geeksfortech.netlify.app/media/posts/7/button.png" sizes="(max-width: 48em) 100vw, 100vw" srcset="https://geeksfortech.netlify.app/media/posts/7/responsive/button-xs.png 300w ,https://geeksfortech.netlify.app/media/posts/7/responsive/button-sm.png 480w ,https://geeksfortech.netlify.app/media/posts/7/responsive/button-md.png 768w"  height="62" width="250" alt="" />
+      <img loading="lazy" src="https://geeksfortech.onrender.com/media/posts/7/button.png" sizes="(max-width: 48em) 100vw, 100vw" srcset="https://geeksfortech.onrender.com/media/posts/7/responsive/button-xs.png 300w ,https://geeksfortech.onrender.com/media/posts/7/responsive/button-sm.png 480w ,https://geeksfortech.onrender.com/media/posts/7/responsive/button-md.png 768w"  height="62" width="250" alt="" />
       
     </figure>
 
@@ -750,19 +750,19 @@ export default Index</code></pre>
         <author>
             <name>Tejas Sawant</name>
         </author>
-        <link href="https://geeksfortech.netlify.app/how-to-add-mailchimp-to-gatsbyjs/"/>
-        <id>https://geeksfortech.netlify.app/how-to-add-mailchimp-to-gatsbyjs/</id>
+        <link href="https://geeksfortech.onrender.com/how-to-add-mailchimp-to-gatsbyjs/"/>
+        <id>https://geeksfortech.onrender.com/how-to-add-mailchimp-to-gatsbyjs/</id>
 
-        <updated>2020-09-24T00:21:30+05:30</updated>
+        <updated>2020-09-24T00:28:26+05:30</updated>
             <summary>
                 <![CDATA[
-                        <img src="https://geeksfortech.netlify.app/media/posts/6/cover.webp" alt="Email Field" />
+                        <img src="https://geeksfortech.onrender.com/media/posts/6/cover.webp" alt="Email Field" />
                      This article show how you can add mailchimp to your gatsbyjs project.&nbsp; First install mailchimp package using npm to&hellip;
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
-                    <img src="https://geeksfortech.netlify.app/media/posts/6/cover.webp" alt="Email Field" />
+                    <img src="https://geeksfortech.onrender.com/media/posts/6/cover.webp" alt="Email Field" />
                 
   <p>
     This article show how you can add mailchimp to your gatsbyjs project.&nbsp;
@@ -796,7 +796,7 @@ export default Index</code></pre>
   </ul>
 
     <figure class="post__image post__image--center">
-      <img loading="lazy" src="https://geeksfortech.netlify.app/media/posts/6/url-img.png" sizes="(max-width: 48em) 100vw, 100vw" srcset="https://geeksfortech.netlify.app/media/posts/6/responsive/url-img-xs.png 300w ,https://geeksfortech.netlify.app/media/posts/6/responsive/url-img-sm.png 480w ,https://geeksfortech.netlify.app/media/posts/6/responsive/url-img-md.png 768w"  height="44" width="787" alt="URL" />
+      <img loading="lazy" src="https://geeksfortech.onrender.com/media/posts/6/url-img.png" sizes="(max-width: 48em) 100vw, 100vw" srcset="https://geeksfortech.onrender.com/media/posts/6/responsive/url-img-xs.png 300w ,https://geeksfortech.onrender.com/media/posts/6/responsive/url-img-sm.png 480w ,https://geeksfortech.onrender.com/media/posts/6/responsive/url-img-md.png 768w"  height="44" width="787" alt="URL" />
       <figcaption>URL</figcaption>
     </figure>
 <pre class="line-numbers  language-json"><code>{
@@ -866,19 +866,19 @@ export default class MyGatsbyComponent extends React.Component {
         <author>
             <name>Tejas Sawant</name>
         </author>
-        <link href="https://geeksfortech.netlify.app/c-program-for-2d-reflection/"/>
-        <id>https://geeksfortech.netlify.app/c-program-for-2d-reflection/</id>
+        <link href="https://geeksfortech.onrender.com/c-program-for-2d-reflection/"/>
+        <id>https://geeksfortech.onrender.com/c-program-for-2d-reflection/</id>
 
-        <updated>2020-09-24T00:21:30+05:30</updated>
+        <updated>2020-09-24T00:28:26+05:30</updated>
             <summary>
                 <![CDATA[
-                        <img src="https://geeksfortech.netlify.app/media/posts/5/cover-2.png" alt="2D Reflection " />
+                        <img src="https://geeksfortech.onrender.com/media/posts/5/cover-2.png" alt="2D Reflection " />
                     #include&lt;stdio.h&gt;#include&lt;conio.h&gt;#include&lt;graphics.h&gt;#include&lt;math.h&gt;#include&lt;process.h&gt;void disp(float v[][3]){ float xmax, ymax ; xmax=getmaxx()/2 ; ymax = getmaxy()/2 ; int i=0; while(i&lt;2) { line(xmax+v[i][0], ymax-v[i][1], xmax+v[i+1][0],&hellip;
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
-                    <img src="https://geeksfortech.netlify.app/media/posts/5/cover-2.png" alt="2D Reflection " />
+                    <img src="https://geeksfortech.onrender.com/media/posts/5/cover-2.png" alt="2D Reflection " />
                 <pre class="line-numbers  language-c"><code>#include&lt;stdio.h&gt;
 #include&lt;conio.h&gt;
 #include&lt;graphics.h&gt;
@@ -958,12 +958,12 @@ int main()
   </p>
 
     <figure class="post__image post__image--center">
-      <img loading="lazy" src="https://geeksfortech.netlify.app/media/posts/5/output-1.png" sizes="(max-width: 48em) 100vw, 100vw" srcset="https://geeksfortech.netlify.app/media/posts/5/responsive/output-1-xs.png 300w ,https://geeksfortech.netlify.app/media/posts/5/responsive/output-1-sm.png 480w ,https://geeksfortech.netlify.app/media/posts/5/responsive/output-1-md.png 768w"  height="136" width="381" alt="" />
+      <img loading="lazy" src="https://geeksfortech.onrender.com/media/posts/5/output-1.png" sizes="(max-width: 48em) 100vw, 100vw" srcset="https://geeksfortech.onrender.com/media/posts/5/responsive/output-1-xs.png 300w ,https://geeksfortech.onrender.com/media/posts/5/responsive/output-1-sm.png 480w ,https://geeksfortech.onrender.com/media/posts/5/responsive/output-1-md.png 768w"  height="136" width="381" alt="" />
       
     </figure>
 
     <figure class="post__image post__image--center">
-      <img loading="lazy" src="https://geeksfortech.netlify.app/media/posts/5/cover.png" sizes="(max-width: 48em) 100vw, 100vw" srcset="https://geeksfortech.netlify.app/media/posts/5/responsive/cover-xs.png 300w ,https://geeksfortech.netlify.app/media/posts/5/responsive/cover-sm.png 480w ,https://geeksfortech.netlify.app/media/posts/5/responsive/cover-md.png 768w"  height="468" width="625" alt="" />
+      <img loading="lazy" src="https://geeksfortech.onrender.com/media/posts/5/cover.png" sizes="(max-width: 48em) 100vw, 100vw" srcset="https://geeksfortech.onrender.com/media/posts/5/responsive/cover-xs.png 300w ,https://geeksfortech.onrender.com/media/posts/5/responsive/cover-sm.png 480w ,https://geeksfortech.onrender.com/media/posts/5/responsive/cover-md.png 768w"  height="468" width="625" alt="" />
       
     </figure>
             ]]>
@@ -974,10 +974,10 @@ int main()
         <author>
             <name>Tejas Sawant</name>
         </author>
-        <link href="https://geeksfortech.netlify.app/adding-firebase-to-nodejs/"/>
-        <id>https://geeksfortech.netlify.app/adding-firebase-to-nodejs/</id>
+        <link href="https://geeksfortech.onrender.com/adding-firebase-to-nodejs/"/>
+        <id>https://geeksfortech.onrender.com/adding-firebase-to-nodejs/</id>
 
-        <updated>2020-09-24T00:21:30+05:30</updated>
+        <updated>2020-09-24T00:28:26+05:30</updated>
             <summary>
                 <![CDATA[
                      Following are steps to add firebase to nodejs Step 1 :-&nbsp; Installing firebase package using npm npm install firebase&hellip;
