@@ -10,6 +10,155 @@
     <id>https://geeksfortech.onrender.com</id>
 
     <entry>
+        <title>Hosting wordpress site free on google cloud with bitnami wordpress and free SSL certificate</title>
+        <author>
+            <name>Tejas Sawant</name>
+        </author>
+        <link href="https://geeksfortech.onrender.com/hosting-wordpress-site-free-on-google-cloud-with-bitnami-wordpress-and-free-ssl-certificate/"/>
+        <id>https://geeksfortech.onrender.com/hosting-wordpress-site-free-on-google-cloud-with-bitnami-wordpress-and-free-ssl-certificate/</id>
+
+        <updated>2020-09-24T19:23:33+05:30</updated>
+            <summary>
+                <![CDATA[
+                     This article shows how you can free host your wordpress website on GCP for next one year. In this&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                
+  <p>
+    This article shows how you can free host your wordpress website on GCP for next one year. In this article we have used google cloud bitnami wordpress ssl for securing site. You can use your first 300$ credits for free hosting. So let’s start.
+  </p>
+
+  <p>
+    <b>Step 1 :-</b> First open <a href="https://console.cloud.google.com" target="_blank" rel="nofollow noopener">https://console.cloud.google.com/ </a>create new project if you have existing project that is also ok.
+  </p>
+
+    <figure class="post__image post__image--center">
+      <img loading="lazy" src="https://geeksfortech.onrender.com/media/posts/11/creating-or-selecting-project-2.png" sizes="(max-width: 48em) 100vw, 100vw" srcset="https://geeksfortech.onrender.com/media/posts/11/responsive/creating-or-selecting-project-2-xs.png 300w ,https://geeksfortech.onrender.com/media/posts/11/responsive/creating-or-selecting-project-2-sm.png 480w ,https://geeksfortech.onrender.com/media/posts/11/responsive/creating-or-selecting-project-2-md.png 768w"  height="491" width="1024" alt="project window" />
+      <figcaption>Creating Or Selecting Project</figcaption>
+    </figure>
+
+  <p>
+    <b>Step 2 :-</b> Click on marketplace.
+  </p>
+
+    <figure class="post__image post__image--center">
+      <img loading="lazy" src="https://geeksfortech.onrender.com/media/posts/11/marketplace-2.png" sizes="(max-width: 48em) 100vw, 100vw" srcset="https://geeksfortech.onrender.com/media/posts/11/responsive/marketplace-2-xs.png 300w ,https://geeksfortech.onrender.com/media/posts/11/responsive/marketplace-2-sm.png 480w ,https://geeksfortech.onrender.com/media/posts/11/responsive/marketplace-2-md.png 768w"  height="285" width="590" alt="Marketplace" />
+      <figcaption>GCP Marketplace</figcaption>
+    </figure>
+
+  <p>
+    <b>Step 3 :-</b> Search for <b><i>Wordpress</i></b>.
+  </p>
+
+    <figure class="post__image post__image--center">
+      <img loading="lazy" src="https://geeksfortech.onrender.com/media/posts/11/search-wordpress-2.png" sizes="(max-width: 48em) 100vw, 100vw" srcset="https://geeksfortech.onrender.com/media/posts/11/responsive/search-wordpress-2-xs.png 300w ,https://geeksfortech.onrender.com/media/posts/11/responsive/search-wordpress-2-sm.png 480w ,https://geeksfortech.onrender.com/media/posts/11/responsive/search-wordpress-2-md.png 768w"  height="280" width="590" alt="Search Wordpress" />
+      <figcaption>Search Wordpress</figcaption>
+    </figure>
+
+  <p>
+    <b>Step 4 :-</b> Click on <b>openlitespeed-wordpress</b>. After it will redirect to openlitespeed-wordpress page in GCP.
+  </p>
+
+    <figure class="post__image post__image--center">
+      <img loading="lazy" src="https://geeksfortech.onrender.com/media/posts/11/select-openlitespeed-wordpress-2.png" sizes="(max-width: 48em) 100vw, 100vw" srcset="https://geeksfortech.onrender.com/media/posts/11/responsive/select-openlitespeed-wordpress-2-xs.png 300w ,https://geeksfortech.onrender.com/media/posts/11/responsive/select-openlitespeed-wordpress-2-sm.png 480w ,https://geeksfortech.onrender.com/media/posts/11/responsive/select-openlitespeed-wordpress-2-md.png 768w"  height="282" width="590" alt="Openlitespeed Wordpress" />
+      <figcaption>Openlitespeed Wordpress</figcaption>
+    </figure>
+
+  <p>
+    <b>Step 5:-</b> Click on <b>LAUNCH</b>. You can enter information as needed. You can change Deployment name, Boot Disk Type, etc. After that allow traffic from all over worldwide network for that enter <b>0.0.0.0/0</b> in all fields. After that press Deploy.
+  </p>
+
+    <figure class="post__image post__image--center">
+      <img loading="lazy" src="https://geeksfortech.onrender.com/media/posts/11/allow-traffic.png" sizes="(max-width: 48em) 100vw, 100vw" srcset="https://geeksfortech.onrender.com/media/posts/11/responsive/allow-traffic-xs.png 300w ,https://geeksfortech.onrender.com/media/posts/11/responsive/allow-traffic-sm.png 480w ,https://geeksfortech.onrender.com/media/posts/11/responsive/allow-traffic-md.png 768w"  height="282" width="590" alt="Allow traffic from all network." />
+      <figcaption>Allow traffic from all network.</figcaption>
+    </figure>
+
+  <p>
+    <b>Step 6 :-</b> After reserve that IP means allocate static IP so sever address will never change. after that goto <b>Cloud DNS</b>. Press on <b>Create Zone</b>. Give zone name. In <b>DNS Field</b> enter your domain name. For tutorial purpose i am using free domain name. After that press <b>Create</b>.
+  </p>
+
+    <figure class="post__image post__image--center">
+      <img loading="lazy" src="https://geeksfortech.onrender.com/media/posts/11/dns-name.png" sizes="(max-width: 48em) 100vw, 100vw" srcset="https://geeksfortech.onrender.com/media/posts/11/responsive/dns-name-xs.png 300w ,https://geeksfortech.onrender.com/media/posts/11/responsive/dns-name-sm.png 480w ,https://geeksfortech.onrender.com/media/posts/11/responsive/dns-name-md.png 768w"  height="413" width="477" alt="DNS Name" />
+      <figcaption>DNS Name</figcaption>
+    </figure>
+
+  <p>
+    <b>Step 7:-</b> Copy <b>NS </b>and Paste in <b>NS </b>of your domain. Press <b>Change Server</b>.
+  </p>
+
+    <figure class="post__image post__image--center">
+      <img loading="lazy" src="https://geeksfortech.onrender.com/media/posts/11/updating-nameserver.png" sizes="(max-width: 48em) 100vw, 100vw" srcset="https://geeksfortech.onrender.com/media/posts/11/responsive/updating-nameserver-xs.png 300w ,https://geeksfortech.onrender.com/media/posts/11/responsive/updating-nameserver-sm.png 480w ,https://geeksfortech.onrender.com/media/posts/11/responsive/updating-nameserver-md.png 768w"  height="389" width="590" alt="NS Change" />
+      <figcaption>NS Change</figcaption>
+    </figure>
+
+  <p>
+    <b>Step 8:-</b> Changes in <b>NS </b>will take some time. After that <b>copy IP address and create two records</b> first one in <b>A record </b>in which only you have to enter <b>server IP address</b>. Another one is CNAME record in which you have to prefix DNS name with www and you have to select record type <b>CNAME and enter Canonical</b> name with you original domain name in this case <b>stacktech.tk</b> After that your <b>DNS Zone</b> will look like following -
+  </p>
+
+    <figure class="post__image post__image--center">
+      <img loading="lazy" src="https://geeksfortech.onrender.com/media/posts/11/dns-zone.png" sizes="(max-width: 48em) 100vw, 100vw" srcset="https://geeksfortech.onrender.com/media/posts/11/responsive/dns-zone-xs.png 300w ,https://geeksfortech.onrender.com/media/posts/11/responsive/dns-zone-sm.png 480w ,https://geeksfortech.onrender.com/media/posts/11/responsive/dns-zone-md.png 768w"  height="339" width="590" alt="DNS Zone" />
+      <figcaption>DNS Zone</figcaption>
+    </figure>
+
+  <p>
+    <b>Step 9 :-</b> After that you can check whether everything is properly done or not by using <strong>ping </strong>command. If you get proper reply with your entered IP address then everything is fine.
+  </p>
+
+    <figure class="post__image post__image--center">
+      <img loading="lazy" src="https://geeksfortech.onrender.com/media/posts/11/ping-domain.png" sizes="(max-width: 48em) 100vw, 100vw" srcset="https://geeksfortech.onrender.com/media/posts/11/responsive/ping-domain-xs.png 300w ,https://geeksfortech.onrender.com/media/posts/11/responsive/ping-domain-sm.png 480w ,https://geeksfortech.onrender.com/media/posts/11/responsive/ping-domain-md.png 768w"  height="176" width="537" alt="Ping" />
+      <figcaption>Ping</figcaption>
+    </figure>
+
+  <p>
+    <b>Step 10 :-</b> After that login to <b>SSH </b>from <b>Deployment manager</b>. Now we are going to generate SSL certificate for our domain. When you First time login using ssh it will ask you about domain name enter domain name and press enter. You have to just enter information.
+  </p>
+
+    <figure class="post__image post__image--center">
+      <img loading="lazy" src="https://geeksfortech.onrender.com/media/posts/11/ssl-certificate.png" sizes="(max-width: 48em) 100vw, 100vw" srcset="https://geeksfortech.onrender.com/media/posts/11/responsive/ssl-certificate-xs.png 300w ,https://geeksfortech.onrender.com/media/posts/11/responsive/ssl-certificate-sm.png 480w ,https://geeksfortech.onrender.com/media/posts/11/responsive/ssl-certificate-md.png 768w"  height="504" width="590" alt="SSL" />
+      <figcaption>SSL</figcaption>
+    </figure>
+
+  <p>
+    <b>Step 11:-</b> Now you can visit to your site. you can see site is secure with SSL certificate.
+  </p>
+
+    <figure class="post__image post__image--center">
+      <img loading="lazy" src="https://geeksfortech.onrender.com/media/posts/11/secure-site.png" sizes="(max-width: 48em) 100vw, 100vw" srcset="https://geeksfortech.onrender.com/media/posts/11/responsive/secure-site-xs.png 300w ,https://geeksfortech.onrender.com/media/posts/11/responsive/secure-site-sm.png 480w ,https://geeksfortech.onrender.com/media/posts/11/responsive/secure-site-md.png 768w"  height="295" width="590" alt="Secure Site" />
+      <figcaption>Secure Site</figcaption>
+    </figure>
+
+  <p>
+    After that give information and press <b>Install Wordpress</b>.
+  </p>
+
+    <figure class="post__image post__image--center">
+      <img loading="lazy" src="https://geeksfortech.onrender.com/media/posts/11/install-wordpress.png" sizes="(max-width: 48em) 100vw, 100vw" srcset="https://geeksfortech.onrender.com/media/posts/11/responsive/install-wordpress-xs.png 300w ,https://geeksfortech.onrender.com/media/posts/11/responsive/install-wordpress-sm.png 480w ,https://geeksfortech.onrender.com/media/posts/11/responsive/install-wordpress-md.png 768w"  height="412" width="590" alt="Install Wordpress" />
+      <figcaption>Install Wordpress</figcaption>
+    </figure>
+
+  <p>
+    It will install wordpress. Now you can login to admin you can post different posts as you want.
+  </p>
+
+    <figure class="post__image post__image--center">
+      <img loading="lazy" src="https://geeksfortech.onrender.com/media/posts/11/admin-access.png" sizes="(max-width: 48em) 100vw, 100vw" srcset="https://geeksfortech.onrender.com/media/posts/11/responsive/admin-access-xs.png 300w ,https://geeksfortech.onrender.com/media/posts/11/responsive/admin-access-sm.png 480w ,https://geeksfortech.onrender.com/media/posts/11/responsive/admin-access-md.png 768w"  height="258" width="590" alt="Admin Area" />
+      <figcaption>Admin Area</figcaption>
+    </figure>
+
+    <figure class="post__image post__image--center">
+      <img loading="lazy" src="https://geeksfortech.onrender.com/media/posts/11/stacktech.png" sizes="(max-width: 48em) 100vw, 100vw" srcset="https://geeksfortech.onrender.com/media/posts/11/responsive/stacktech-xs.png 300w ,https://geeksfortech.onrender.com/media/posts/11/responsive/stacktech-sm.png 480w ,https://geeksfortech.onrender.com/media/posts/11/responsive/stacktech-md.png 768w"  height="256" width="590" alt="Done" />
+      <figcaption>Secure wordpress site. Installation done. </figcaption>
+    </figure>
+
+  <p>
+    If you have any questions you can ask in comments.
+  </p>
+            ]]>
+        </content>
+    </entry>
+    <entry>
         <title>How to install python3 on windows ?</title>
         <author>
             <name>Tejas Sawant</name>
@@ -17,7 +166,7 @@
         <link href="https://geeksfortech.onrender.com/how-to-install-python3-on-windows/"/>
         <id>https://geeksfortech.onrender.com/how-to-install-python3-on-windows/</id>
 
-        <updated>2020-09-24T03:15:23+05:30</updated>
+        <updated>2020-09-24T19:23:33+05:30</updated>
             <summary>
                 <![CDATA[
                      This article shows how you can install python3 on your windows system. first download python3 from official site. select&hellip;
@@ -92,7 +241,7 @@
         <link href="https://geeksfortech.onrender.com/how-to-install-latest-nodejs-version-on-ubuntulinux-using-cli/"/>
         <id>https://geeksfortech.onrender.com/how-to-install-latest-nodejs-version-on-ubuntulinux-using-cli/</id>
 
-        <updated>2020-09-24T03:15:23+05:30</updated>
+        <updated>2020-09-24T19:23:33+05:30</updated>
             <summary>
                 <![CDATA[
                         <img src="https://geeksfortech.onrender.com/media/posts/12/cover.png" alt="Command to install" />
@@ -166,7 +315,7 @@ apt-get install -y nodejs</code></pre>
         <link href="https://geeksfortech.onrender.com/how-to-add-bootstrap-to-nextjs/"/>
         <id>https://geeksfortech.onrender.com/how-to-add-bootstrap-to-nextjs/</id>
 
-        <updated>2020-09-24T03:15:23+05:30</updated>
+        <updated>2020-09-24T19:23:33+05:30</updated>
             <summary>
                 <![CDATA[
                         <img src="https://geeksfortech.onrender.com/media/posts/10/cover.webp" alt="Cover" />
@@ -281,7 +430,7 @@ export default MyApp;</code></pre>
         <link href="https://geeksfortech.onrender.com/how-to-build-debug-apk-in-react-native/"/>
         <id>https://geeksfortech.onrender.com/how-to-build-debug-apk-in-react-native/</id>
 
-        <updated>2020-09-24T03:15:23+05:30</updated>
+        <updated>2020-09-24T19:23:33+05:30</updated>
             <summary>
                 <![CDATA[
                         <img src="https://geeksfortech.onrender.com/media/posts/9/cover.webp" alt="Cover" />
@@ -368,7 +517,7 @@ gradlew assembleDebug
         <link href="https://geeksfortech.onrender.com/how-to-create-nextjs-project-2/"/>
         <id>https://geeksfortech.onrender.com/how-to-create-nextjs-project-2/</id>
 
-        <updated>2020-09-24T03:15:23+05:30</updated>
+        <updated>2020-09-24T19:23:33+05:30</updated>
             <summary>
                 <![CDATA[
                         <img src="https://geeksfortech.onrender.com/media/posts/8/cover-2.webp" alt="Cover" />
@@ -451,7 +600,7 @@ yarn dev</code></pre>
         <link href="https://geeksfortech.onrender.com/how-to-create-a-youtube-thumbnail-downloader/"/>
         <id>https://geeksfortech.onrender.com/how-to-create-a-youtube-thumbnail-downloader/</id>
 
-        <updated>2020-09-24T03:15:23+05:30</updated>
+        <updated>2020-09-24T19:23:33+05:30</updated>
             <summary>
                 <![CDATA[
                         <img src="https://geeksfortech.onrender.com/media/posts/7/cover.webp" alt="Cover" />
@@ -828,7 +977,7 @@ export default Index</code></pre>
         <link href="https://geeksfortech.onrender.com/how-to-add-mailchimp-to-gatsbyjs/"/>
         <id>https://geeksfortech.onrender.com/how-to-add-mailchimp-to-gatsbyjs/</id>
 
-        <updated>2020-09-24T03:15:23+05:30</updated>
+        <updated>2020-09-24T19:23:33+05:30</updated>
             <summary>
                 <![CDATA[
                         <img src="https://geeksfortech.onrender.com/media/posts/6/cover.webp" alt="Email Field" />
@@ -944,7 +1093,7 @@ export default class MyGatsbyComponent extends React.Component {
         <link href="https://geeksfortech.onrender.com/c-program-for-2d-reflection/"/>
         <id>https://geeksfortech.onrender.com/c-program-for-2d-reflection/</id>
 
-        <updated>2020-09-24T03:15:23+05:30</updated>
+        <updated>2020-09-24T19:23:33+05:30</updated>
             <summary>
                 <![CDATA[
                         <img src="https://geeksfortech.onrender.com/media/posts/5/cover-2.png" alt="2D Reflection " />
