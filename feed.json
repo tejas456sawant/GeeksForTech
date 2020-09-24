@@ -20,9 +20,14 @@
                 "name": "Tejas Sawant"
             },
             "tags": [
+                   "Wordpress",
+                   "Google Cloud Platform",
+                   "GCP",
+                   "Free SSL",
+                   "Bitnami Bitnami Wordpress"
             ],
-            "date_published": "2020-09-24T19:52:30+05:30",
-            "date_modified": "2020-09-24T19:52:30+05:30"
+            "date_published": "2020-09-25T01:58:38+05:30",
+            "date_modified": "2020-09-25T01:58:38+05:30"
         },
         {
             "id": "https://geeksfortech.onrender.com/how-to-install-python3-on-windows/",
@@ -37,8 +42,8 @@
             "tags": [
                    "Python"
             ],
-            "date_published": "2020-09-24T19:52:30+05:30",
-            "date_modified": "2020-09-24T19:52:30+05:30"
+            "date_published": "2020-09-25T01:58:38+05:30",
+            "date_modified": "2020-09-25T01:58:38+05:30"
         },
         {
             "id": "https://geeksfortech.onrender.com/how-to-install-latest-nodejs-version-on-ubuntulinux-using-cli/",
@@ -52,8 +57,8 @@
             },
             "tags": [
             ],
-            "date_published": "2020-09-24T19:52:30+05:30",
-            "date_modified": "2020-09-24T19:52:30+05:30"
+            "date_published": "2020-09-25T01:58:38+05:30",
+            "date_modified": "2020-09-25T01:58:38+05:30"
         },
         {
             "id": "https://geeksfortech.onrender.com/how-to-add-bootstrap-to-nextjs/",
@@ -66,9 +71,13 @@
                 "name": "Tejas Sawant"
             },
             "tags": [
+                   "reactjs",
+                   "nextjs",
+                   "Next.js",
+                   "Bootstrap"
             ],
-            "date_published": "2020-09-24T19:52:30+05:30",
-            "date_modified": "2020-09-24T19:52:30+05:30"
+            "date_published": "2020-09-25T01:58:38+05:30",
+            "date_modified": "2020-09-25T01:58:38+05:30"
         },
         {
             "id": "https://geeksfortech.onrender.com/how-to-build-debug-apk-in-react-native/",
@@ -81,9 +90,13 @@
                 "name": "Tejas Sawant"
             },
             "tags": [
+                   "reactnative",
+                   "ios",
+                   "how to",
+                   "android"
             ],
-            "date_published": "2020-09-24T19:52:30+05:30",
-            "date_modified": "2020-09-24T19:52:30+05:30"
+            "date_published": "2020-09-25T01:58:38+05:30",
+            "date_modified": "2020-09-25T01:58:38+05:30"
         },
         {
             "id": "https://geeksfortech.onrender.com/how-to-create-nextjs-project-2/",
@@ -96,9 +109,13 @@
                 "name": "Tejas Sawant"
             },
             "tags": [
+                   "reactjs",
+                   "nodejs",
+                   "nextjs",
+                   "how to"
             ],
-            "date_published": "2020-09-24T19:52:30+05:30",
-            "date_modified": "2020-09-24T19:52:30+05:30"
+            "date_published": "2020-09-25T01:58:38+05:30",
+            "date_modified": "2020-09-25T01:58:38+05:30"
         },
         {
             "id": "https://geeksfortech.onrender.com/how-to-create-a-youtube-thumbnail-downloader/",
@@ -112,8 +129,8 @@
             },
             "tags": [
             ],
-            "date_published": "2020-09-24T19:52:30+05:30",
-            "date_modified": "2020-09-24T19:52:30+05:30"
+            "date_published": "2020-09-25T01:58:38+05:30",
+            "date_modified": "2020-09-25T01:58:38+05:30"
         },
         {
             "id": "https://geeksfortech.onrender.com/how-to-add-mailchimp-to-gatsbyjs/",
@@ -127,8 +144,8 @@
             },
             "tags": [
             ],
-            "date_published": "2020-09-24T19:52:30+05:30",
-            "date_modified": "2020-09-24T19:52:30+05:30"
+            "date_published": "2020-09-25T01:58:38+05:30",
+            "date_modified": "2020-09-25T01:58:38+05:30"
         },
         {
             "id": "https://geeksfortech.onrender.com/c-program-for-2d-reflection/",
@@ -142,8 +159,8 @@
             },
             "tags": [
             ],
-            "date_published": "2020-09-24T19:52:30+05:30",
-            "date_modified": "2020-09-24T19:52:30+05:30"
+            "date_published": "2020-09-25T01:58:38+05:30",
+            "date_modified": "2020-09-25T01:58:38+05:30"
         },
         {
             "id": "https://geeksfortech.onrender.com/creating-a-new-django-app-and-installing-dependencies/",
@@ -161,8 +178,8 @@
                    "django",
                    "Python"
             ],
-            "date_published": "2020-09-24T19:52:30+05:30",
-            "date_modified": "2020-09-24T19:52:30+05:30"
+            "date_published": "2020-09-25T01:58:38+05:30",
+            "date_modified": "2020-09-25T01:58:38+05:30"
         }
     ]
 }
