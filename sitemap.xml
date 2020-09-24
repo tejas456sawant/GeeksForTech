@@ -17,7 +17,11 @@
 </url>
 <url>
 <loc>https://geeksfortech.onrender.com/hosting-wordpress-site-free-on-google-cloud-with-bitnami-wordpress-and-free-ssl-certificate/</loc>
-<lastmod>2020-09-24T19:20:50+05:30</lastmod>
+<lastmod>2020-09-24T19:34:37+05:30</lastmod>
+<image:image>
+<image:loc>https://geeksfortech.onrender.com/media\posts\11/cover.webp</image:loc>
+<image:title><![CDATA[Open LiteSpeed Wordpress]]></image:title>
+</image:image>
 </url>
 <url>
 <loc>https://geeksfortech.onrender.com/how-to-add-bootstrap-to-nextjs/</loc>
@@ -69,6 +73,13 @@
 </url>
 <url>
 <loc>https://geeksfortech.onrender.com/how-to-install-python3-on-windows/</loc>
-<lastmod>2020-09-24T03:10:17+05:30</lastmod>
+<lastmod>2020-09-24T19:32:04+05:30</lastmod>
+<image:image>
+<image:loc>https://geeksfortech.onrender.com/media\posts\13/cover.webp</image:loc>
+<image:title><![CDATA[Installation]]></image:title>
+</image:image>
+</url>
+<url>
+<loc>https://geeksfortech.onrender.com/tag/python/</loc>
 </url>
 </urlset>

@@ -15,13 +15,14 @@
             "title": "Hosting wordpress site free on google cloud with bitnami wordpress and free SSL certificate",
             "summary": " This article shows how you can free host your wordpress website on GCP for next one year. In this&hellip;",
             "content_html": "\n  <p>\n    This article shows how you can free host your wordpress website on GCP for next one year. In this article we have used google cloud bitnami wordpress ssl for securing site. You can use your first 300$ credits for free hosting. So let’s start.\n  </p>\n\n  <p>\n    <b>Step 1 :-</b> First open <a href=\"https://console.cloud.google.com\" target=\"_blank\" rel=\"nofollow noopener\">https://console.cloud.google.com/ </a>create new project if you have existing project that is also ok.\n  </p>\n\n    <figure class=\"post__image post__image--center\">\n      <img loading=\"lazy\" src=\"https://geeksfortech.onrender.com/media/posts/11/creating-or-selecting-project-2.png\" sizes=\"(max-width: 48em) 100vw, 100vw\" srcset=\"https://geeksfortech.onrender.com/media/posts/11/responsive/creating-or-selecting-project-2-xs.png 300w ,https://geeksfortech.onrender.com/media/posts/11/responsive/creating-or-selecting-project-2-sm.png 480w ,https://geeksfortech.onrender.com/media/posts/11/responsive/creating-or-selecting-project-2-md.png 768w\"  height=\"491\" width=\"1024\" alt=\"project window\" />\n      <figcaption>Creating Or Selecting Project</figcaption>\n    </figure>\n\n  <p>\n    <b>Step 2 :-</b> Click on marketplace.\n  </p>\n\n    <figure class=\"post__image post__image--center\">\n      <img loading=\"lazy\" src=\"https://geeksfortech.onrender.com/media/posts/11/marketplace-2.png\" sizes=\"(max-width: 48em) 100vw, 100vw\" srcset=\"https://geeksfortech.onrender.com/media/posts/11/responsive/marketplace-2-xs.png 300w ,https://geeksfortech.onrender.com/media/posts/11/responsive/marketplace-2-sm.png 480w ,https://geeksfortech.onrender.com/media/posts/11/responsive/marketplace-2-md.png 768w\"  height=\"285\" width=\"590\" alt=\"Marketplace\" />\n      <figcaption>GCP Marketplace</figcaption>\n    </figure>\n\n  <p>\n    <b>Step 3 :-</b> Search for <b><i>Wordpress</i></b>.\n  </p>\n\n    <figure class=\"post__image post__image--center\">\n      <img loading=\"lazy\" src=\"https://geeksfortech.onrender.com/media/posts/11/search-wordpress-2.png\" sizes=\"(max-width: 48em) 100vw, 100vw\" srcset=\"https://geeksfortech.onrender.com/media/posts/11/responsive/search-wordpress-2-xs.png 300w ,https://geeksfortech.onrender.com/media/posts/11/responsive/search-wordpress-2-sm.png 480w ,https://geeksfortech.onrender.com/media/posts/11/responsive/search-wordpress-2-md.png 768w\"  height=\"280\" width=\"590\" alt=\"Search Wordpress\" />\n      <figcaption>Search Wordpress</figcaption>\n    </figure>\n\n  <p>\n    <b>Step 4 :-</b> Click on <b>openlitespeed-wordpress</b>. After it will redirect to openlitespeed-wordpress page in GCP.\n  </p>\n\n    <figure class=\"post__image post__image--center\">\n      <img loading=\"lazy\" src=\"https://geeksfortech.onrender.com/media/posts/11/select-openlitespeed-wordpress-2.png\" sizes=\"(max-width: 48em) 100vw, 100vw\" srcset=\"https://geeksfortech.onrender.com/media/posts/11/responsive/select-openlitespeed-wordpress-2-xs.png 300w ,https://geeksfortech.onrender.com/media/posts/11/responsive/select-openlitespeed-wordpress-2-sm.png 480w ,https://geeksfortech.onrender.com/media/posts/11/responsive/select-openlitespeed-wordpress-2-md.png 768w\"  height=\"282\" width=\"590\" alt=\"Openlitespeed Wordpress\" />\n      <figcaption>Openlitespeed Wordpress</figcaption>\n    </figure>\n\n  <p>\n    <b>Step 5:-</b> Click on <b>LAUNCH</b>. You can enter information as needed. You can change Deployment name, Boot Disk Type, etc. After that allow traffic from all over worldwide network for that enter <b>0.0.0.0/0</b> in all fields. After that press Deploy.\n  </p>\n\n    <figure class=\"post__image post__image--center\">\n      <img loading=\"lazy\" src=\"https://geeksfortech.onrender.com/media/posts/11/allow-traffic.png\" sizes=\"(max-width: 48em) 100vw, 100vw\" srcset=\"https://geeksfortech.onrender.com/media/posts/11/responsive/allow-traffic-xs.png 300w ,https://geeksfortech.onrender.com/media/posts/11/responsive/allow-traffic-sm.png 480w ,https://geeksfortech.onrender.com/media/posts/11/responsive/allow-traffic-md.png 768w\"  height=\"282\" width=\"590\" alt=\"Allow traffic from all network.\" />\n      <figcaption>Allow traffic from all network.</figcaption>\n    </figure>\n\n  <p>\n    <b>Step 6 :-</b> After reserve that IP means allocate static IP so sever address will never change. after that goto <b>Cloud DNS</b>. Press on <b>Create Zone</b>. Give zone name. In <b>DNS Field</b> enter your domain name. For tutorial purpose i am using free domain name. After that press <b>Create</b>.\n  </p>\n\n    <figure class=\"post__image post__image--center\">\n      <img loading=\"lazy\" src=\"https://geeksfortech.onrender.com/media/posts/11/dns-name.png\" sizes=\"(max-width: 48em) 100vw, 100vw\" srcset=\"https://geeksfortech.onrender.com/media/posts/11/responsive/dns-name-xs.png 300w ,https://geeksfortech.onrender.com/media/posts/11/responsive/dns-name-sm.png 480w ,https://geeksfortech.onrender.com/media/posts/11/responsive/dns-name-md.png 768w\"  height=\"413\" width=\"477\" alt=\"DNS Name\" />\n      <figcaption>DNS Name</figcaption>\n    </figure>\n\n  <p>\n    <b>Step 7:-</b> Copy <b>NS </b>and Paste in <b>NS </b>of your domain. Press <b>Change Server</b>.\n  </p>\n\n    <figure class=\"post__image post__image--center\">\n      <img loading=\"lazy\" src=\"https://geeksfortech.onrender.com/media/posts/11/updating-nameserver.png\" sizes=\"(max-width: 48em) 100vw, 100vw\" srcset=\"https://geeksfortech.onrender.com/media/posts/11/responsive/updating-nameserver-xs.png 300w ,https://geeksfortech.onrender.com/media/posts/11/responsive/updating-nameserver-sm.png 480w ,https://geeksfortech.onrender.com/media/posts/11/responsive/updating-nameserver-md.png 768w\"  height=\"389\" width=\"590\" alt=\"NS Change\" />\n      <figcaption>NS Change</figcaption>\n    </figure>\n\n  <p>\n    <b>Step 8:-</b> Changes in <b>NS </b>will take some time. After that <b>copy IP address and create two records</b> first one in <b>A record </b>in which only you have to enter <b>server IP address</b>. Another one is CNAME record in which you have to prefix DNS name with www and you have to select record type <b>CNAME and enter Canonical</b> name with you original domain name in this case <b>stacktech.tk</b> After that your <b>DNS Zone</b> will look like following -\n  </p>\n\n    <figure class=\"post__image post__image--center\">\n      <img loading=\"lazy\" src=\"https://geeksfortech.onrender.com/media/posts/11/dns-zone.png\" sizes=\"(max-width: 48em) 100vw, 100vw\" srcset=\"https://geeksfortech.onrender.com/media/posts/11/responsive/dns-zone-xs.png 300w ,https://geeksfortech.onrender.com/media/posts/11/responsive/dns-zone-sm.png 480w ,https://geeksfortech.onrender.com/media/posts/11/responsive/dns-zone-md.png 768w\"  height=\"339\" width=\"590\" alt=\"DNS Zone\" />\n      <figcaption>DNS Zone</figcaption>\n    </figure>\n\n  <p>\n    <b>Step 9 :-</b> After that you can check whether everything is properly done or not by using <strong>ping </strong>command. If you get proper reply with your entered IP address then everything is fine.\n  </p>\n\n    <figure class=\"post__image post__image--center\">\n      <img loading=\"lazy\" src=\"https://geeksfortech.onrender.com/media/posts/11/ping-domain.png\" sizes=\"(max-width: 48em) 100vw, 100vw\" srcset=\"https://geeksfortech.onrender.com/media/posts/11/responsive/ping-domain-xs.png 300w ,https://geeksfortech.onrender.com/media/posts/11/responsive/ping-domain-sm.png 480w ,https://geeksfortech.onrender.com/media/posts/11/responsive/ping-domain-md.png 768w\"  height=\"176\" width=\"537\" alt=\"Ping\" />\n      <figcaption>Ping</figcaption>\n    </figure>\n\n  <p>\n    <b>Step 10 :-</b> After that login to <b>SSH </b>from <b>Deployment manager</b>. Now we are going to generate SSL certificate for our domain. When you First time login using ssh it will ask you about domain name enter domain name and press enter. You have to just enter information.\n  </p>\n\n    <figure class=\"post__image post__image--center\">\n      <img loading=\"lazy\" src=\"https://geeksfortech.onrender.com/media/posts/11/ssl-certificate.png\" sizes=\"(max-width: 48em) 100vw, 100vw\" srcset=\"https://geeksfortech.onrender.com/media/posts/11/responsive/ssl-certificate-xs.png 300w ,https://geeksfortech.onrender.com/media/posts/11/responsive/ssl-certificate-sm.png 480w ,https://geeksfortech.onrender.com/media/posts/11/responsive/ssl-certificate-md.png 768w\"  height=\"504\" width=\"590\" alt=\"SSL\" />\n      <figcaption>SSL</figcaption>\n    </figure>\n\n  <p>\n    <b>Step 11:-</b> Now you can visit to your site. you can see site is secure with SSL certificate.\n  </p>\n\n    <figure class=\"post__image post__image--center\">\n      <img loading=\"lazy\" src=\"https://geeksfortech.onrender.com/media/posts/11/secure-site.png\" sizes=\"(max-width: 48em) 100vw, 100vw\" srcset=\"https://geeksfortech.onrender.com/media/posts/11/responsive/secure-site-xs.png 300w ,https://geeksfortech.onrender.com/media/posts/11/responsive/secure-site-sm.png 480w ,https://geeksfortech.onrender.com/media/posts/11/responsive/secure-site-md.png 768w\"  height=\"295\" width=\"590\" alt=\"Secure Site\" />\n      <figcaption>Secure Site</figcaption>\n    </figure>\n\n  <p>\n    After that give information and press <b>Install Wordpress</b>.\n  </p>\n\n    <figure class=\"post__image post__image--center\">\n      <img loading=\"lazy\" src=\"https://geeksfortech.onrender.com/media/posts/11/install-wordpress.png\" sizes=\"(max-width: 48em) 100vw, 100vw\" srcset=\"https://geeksfortech.onrender.com/media/posts/11/responsive/install-wordpress-xs.png 300w ,https://geeksfortech.onrender.com/media/posts/11/responsive/install-wordpress-sm.png 480w ,https://geeksfortech.onrender.com/media/posts/11/responsive/install-wordpress-md.png 768w\"  height=\"412\" width=\"590\" alt=\"Install Wordpress\" />\n      <figcaption>Install Wordpress</figcaption>\n    </figure>\n\n  <p>\n    It will install wordpress. Now you can login to admin you can post different posts as you want.\n  </p>\n\n    <figure class=\"post__image post__image--center\">\n      <img loading=\"lazy\" src=\"https://geeksfortech.onrender.com/media/posts/11/admin-access.png\" sizes=\"(max-width: 48em) 100vw, 100vw\" srcset=\"https://geeksfortech.onrender.com/media/posts/11/responsive/admin-access-xs.png 300w ,https://geeksfortech.onrender.com/media/posts/11/responsive/admin-access-sm.png 480w ,https://geeksfortech.onrender.com/media/posts/11/responsive/admin-access-md.png 768w\"  height=\"258\" width=\"590\" alt=\"Admin Area\" />\n      <figcaption>Admin Area</figcaption>\n    </figure>\n\n    <figure class=\"post__image post__image--center\">\n      <img loading=\"lazy\" src=\"https://geeksfortech.onrender.com/media/posts/11/stacktech.png\" sizes=\"(max-width: 48em) 100vw, 100vw\" srcset=\"https://geeksfortech.onrender.com/media/posts/11/responsive/stacktech-xs.png 300w ,https://geeksfortech.onrender.com/media/posts/11/responsive/stacktech-sm.png 480w ,https://geeksfortech.onrender.com/media/posts/11/responsive/stacktech-md.png 768w\"  height=\"256\" width=\"590\" alt=\"Done\" />\n      <figcaption>Secure wordpress site. Installation done. </figcaption>\n    </figure>\n\n  <p>\n    If you have any questions you can ask in comments.\n  </p>",
+            "image": "https://geeksfortech.onrender.com/media/posts/11/cover.webp",
             "author": {
                 "name": "Tejas Sawant"
             },
             "tags": [
             ],
-            "date_published": "2020-09-24T19:23:33+05:30",
-            "date_modified": "2020-09-24T19:23:33+05:30"
+            "date_published": "2020-09-24T19:37:53+05:30",
+            "date_modified": "2020-09-24T19:37:53+05:30"
         },
         {
             "id": "https://geeksfortech.onrender.com/how-to-install-python3-on-windows/",
@@ -29,13 +30,15 @@
             "title": "How to install python3 on windows ?",
             "summary": " This article shows how you can install python3 on your windows system. first download python3 from official site. select&hellip;",
             "content_html": "\n  <p>\n    This article shows how you can install python3 on your windows system. first download <a href=\"https://www.python.org/downloads/\" target=\"_blank\" rel=\"nofollow noopener\">python3</a> from official site. select windows installer it will start downloading.<br>\n  </p>\n\n    <figure class=\"post__image post__image--center\">\n      <img loading=\"lazy\" src=\"https://geeksfortech.onrender.com/media/posts/13/select-version.png\" sizes=\"(max-width: 48em) 100vw, 100vw\" srcset=\"https://geeksfortech.onrender.com/media/posts/13/responsive/select-version-xs.png 300w ,https://geeksfortech.onrender.com/media/posts/13/responsive/select-version-sm.png 480w ,https://geeksfortech.onrender.com/media/posts/13/responsive/select-version-md.png 768w\"  height=\"202\" width=\"590\" alt=\"Select Version\" />\n      <figcaption>Select Version</figcaption>\n    </figure>\n\n  <p>\n    After that click on installer. then click o install now and also mark option of Add <b>Python 3.* to PATH</b> by selecting this option you don’t need to add manually path to environment variable.\n  </p>\n\n    <figure class=\"post__image post__image--center\">\n      <img loading=\"lazy\" src=\"https://geeksfortech.onrender.com/media/posts/13/install-now.png\" sizes=\"(max-width: 48em) 100vw, 100vw\" srcset=\"https://geeksfortech.onrender.com/media/posts/13/responsive/install-now-xs.png 300w ,https://geeksfortech.onrender.com/media/posts/13/responsive/install-now-sm.png 480w ,https://geeksfortech.onrender.com/media/posts/13/responsive/install-now-md.png 768w\"  height=\"361\" width=\"590\" alt=\"Insttall Now\" />\n      <figcaption>Insttall Now</figcaption>\n    </figure>\n\n  <p>\n    It will start installation process. wait for finishing it.\n  </p>\n\n    <figure class=\"post__image post__image--center\">\n      <img loading=\"lazy\" src=\"https://geeksfortech.onrender.com/media/posts/13/setup-progressing.png\" sizes=\"(max-width: 48em) 100vw, 100vw\" srcset=\"https://geeksfortech.onrender.com/media/posts/13/responsive/setup-progressing-xs.png 300w ,https://geeksfortech.onrender.com/media/posts/13/responsive/setup-progressing-sm.png 480w ,https://geeksfortech.onrender.com/media/posts/13/responsive/setup-progressing-md.png 768w\"  height=\"361\" width=\"590\" alt=\"Setup Processing\" />\n      <figcaption>Setup Processing</figcaption>\n    </figure>\n\n  <p>\n    After that you can see installation is complete. Then click on <b>Close</b>.\n  </p>\n\n    <figure class=\"post__image post__image--center\">\n      <img loading=\"lazy\" src=\"https://geeksfortech.onrender.com/media/posts/13/installayion-complete.png\" sizes=\"(max-width: 48em) 100vw, 100vw\" srcset=\"https://geeksfortech.onrender.com/media/posts/13/responsive/installayion-complete-xs.png 300w ,https://geeksfortech.onrender.com/media/posts/13/responsive/installayion-complete-sm.png 480w ,https://geeksfortech.onrender.com/media/posts/13/responsive/installayion-complete-md.png 768w\"  height=\"359\" width=\"590\" alt=\"Installation Complete\" />\n      <figcaption>Installation Complete</figcaption>\n    </figure>\n\n  <p>\n    After that you need to restart the window . Then you can verify python installation by typing&nbsp;\n  </p>\n<pre class=\"line-numbers  language-bash\"><code>python —version </code></pre>\n\n  <p>\n    or&nbsp;\n  </p>\n<pre class=\"line-numbers  language-bash\"><code>python3 —version\n</code></pre>\n\n    <figure class=\"post__image post__image--center\">\n      <img loading=\"lazy\" src=\"https://geeksfortech.onrender.com/media/posts/13/verify-installation.png\" sizes=\"(max-width: 48em) 100vw, 100vw\" srcset=\"https://geeksfortech.onrender.com/media/posts/13/responsive/verify-installation-xs.png 300w ,https://geeksfortech.onrender.com/media/posts/13/responsive/verify-installation-sm.png 480w ,https://geeksfortech.onrender.com/media/posts/13/responsive/verify-installation-md.png 768w\"  height=\"76\" width=\"429\" alt=\"verify installation\" />\n      <figcaption>Verify Installation</figcaption>\n    </figure>\n\n  <p>\n    \n  </p>",
+            "image": "https://geeksfortech.onrender.com/media/posts/13/cover.webp",
             "author": {
                 "name": "Tejas Sawant"
             },
             "tags": [
+                   "Python"
             ],
-            "date_published": "2020-09-24T19:23:33+05:30",
-            "date_modified": "2020-09-24T19:23:33+05:30"
+            "date_published": "2020-09-24T19:37:53+05:30",
+            "date_modified": "2020-09-24T19:37:53+05:30"
         },
         {
             "id": "https://geeksfortech.onrender.com/how-to-install-latest-nodejs-version-on-ubuntulinux-using-cli/",
@@ -49,8 +52,8 @@
             },
             "tags": [
             ],
-            "date_published": "2020-09-24T19:23:33+05:30",
-            "date_modified": "2020-09-24T19:23:33+05:30"
+            "date_published": "2020-09-24T19:37:53+05:30",
+            "date_modified": "2020-09-24T19:37:53+05:30"
         },
         {
             "id": "https://geeksfortech.onrender.com/how-to-add-bootstrap-to-nextjs/",
@@ -64,8 +67,8 @@
             },
             "tags": [
             ],
-            "date_published": "2020-09-24T19:23:33+05:30",
-            "date_modified": "2020-09-24T19:23:33+05:30"
+            "date_published": "2020-09-24T19:37:53+05:30",
+            "date_modified": "2020-09-24T19:37:53+05:30"
         },
         {
             "id": "https://geeksfortech.onrender.com/how-to-build-debug-apk-in-react-native/",
@@ -79,8 +82,8 @@
             },
             "tags": [
             ],
-            "date_published": "2020-09-24T19:23:33+05:30",
-            "date_modified": "2020-09-24T19:23:33+05:30"
+            "date_published": "2020-09-24T19:37:53+05:30",
+            "date_modified": "2020-09-24T19:37:53+05:30"
         },
         {
             "id": "https://geeksfortech.onrender.com/how-to-create-nextjs-project-2/",
@@ -94,8 +97,8 @@
             },
             "tags": [
             ],
-            "date_published": "2020-09-24T19:23:33+05:30",
-            "date_modified": "2020-09-24T19:23:33+05:30"
+            "date_published": "2020-09-24T19:37:53+05:30",
+            "date_modified": "2020-09-24T19:37:53+05:30"
         },
         {
             "id": "https://geeksfortech.onrender.com/how-to-create-a-youtube-thumbnail-downloader/",
@@ -109,8 +112,8 @@
             },
             "tags": [
             ],
-            "date_published": "2020-09-24T19:23:33+05:30",
-            "date_modified": "2020-09-24T19:23:33+05:30"
+            "date_published": "2020-09-24T19:37:53+05:30",
+            "date_modified": "2020-09-24T19:37:53+05:30"
         },
         {
             "id": "https://geeksfortech.onrender.com/how-to-add-mailchimp-to-gatsbyjs/",
@@ -124,8 +127,8 @@
             },
             "tags": [
             ],
-            "date_published": "2020-09-24T19:23:33+05:30",
-            "date_modified": "2020-09-24T19:23:33+05:30"
+            "date_published": "2020-09-24T19:37:53+05:30",
+            "date_modified": "2020-09-24T19:37:53+05:30"
         },
         {
             "id": "https://geeksfortech.onrender.com/c-program-for-2d-reflection/",
@@ -139,8 +142,8 @@
             },
             "tags": [
             ],
-            "date_published": "2020-09-24T19:23:33+05:30",
-            "date_modified": "2020-09-24T19:23:33+05:30"
+            "date_published": "2020-09-24T19:37:53+05:30",
+            "date_modified": "2020-09-24T19:37:53+05:30"
         }
     ]
 }
