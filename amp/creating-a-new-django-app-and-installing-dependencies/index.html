@@ -38,7 +38,7 @@ body {
   line-height: 1.6; }
 
 a {
-  color:  #F3F3F3;
+  color:  #039BE5;
   text-decoration: none;
   -webkit-transition: all 0.12s linear 0s;
   -o-transition: all 0.12s linear 0s;
@@ -54,7 +54,7 @@ a:active {
   color: #262626; }
 
 a:focus {
-  outline: 2px dotted #F3F3F3; }
+  outline: 2px dotted #039BE5; }
 
 figure,
 blockquote,
@@ -197,7 +197,7 @@ hr {
 .btn, [type=button],
 [type=submit],
 button {
-  background: #F3F3F3;
+  background: #039BE5;
   border: none;
   border-radius: 2px;
   color: #ffffff;
@@ -236,7 +236,7 @@ button {
   -moz-appearance: none; }
 
 .navbar {
-  background: #F3F3F3;
+  background: #039BE5;
   -webkit-box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.2);
   box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.2);
   line-height: 3;
@@ -430,7 +430,7 @@ amp-sidebar {
         margin: 0 0.26667rem 0.26667rem 0;
         padding: 0.26667rem 0.53333rem; }
         .post-tag > li a:hover {
-          background: #F3F3F3;
+          background: #039BE5;
           color: #ffffff;
           text-decoration: none; }
   .post-share {
@@ -453,7 +453,7 @@ amp-sidebar {
       background-size: 24px; }
   .post-scroll {
     color: #ffffff;
-    background: #F3F3F3;
+    background: #039BE5;
     bottom: 10px;
     border-radius: 50%;
     border: none;
@@ -521,7 +521,7 @@ aside {
     border-color: #e2ac4f; }
   .msg--info {
     background: rgba(45, 97, 201, 0.03);
-    border-color: #F3F3F3; }
+    border-color: #039BE5; }
   .msg--success {
     background: #f7fbf6;
     border-color: #5ab44b; }
@@ -554,7 +554,7 @@ aside {
     margin-left: auto; }
 
 .bottom {
-  background: #F3F3F3;
+  background: #039BE5;
   color: #ffffff;
   padding: 1.06667rem 4%;
   text-align: center; }</style><style amp-boilerplate>body{-webkit-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-moz-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-ms-animation:-amp-start 8s steps(1,end) 0s 1 normal both;animation:-amp-start 8s steps(1,end) 0s 1 normal both}@-webkit-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-moz-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-ms-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-o-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}</style><noscript><style amp-boilerplate>body{-webkit-animation:none;-moz-animation:none;-ms-animation:none;animation:none}</style></noscript><script async src="https://cdn.ampproject.org/v0.js"></script><script custom-element="amp-animation" src="https://cdn.ampproject.org/v0/amp-animation-0.1.js" async></script><script custom-element="amp-position-observer" src="https://cdn.ampproject.org/v0/amp-position-observer-0.1.js" async></script></head><body class="bg-white"><nav class="navbar wrap-inner" id="top"><div><a on="tap:navbar-sidebar.toggle" class="navbar-sidebar-toggle" title="Menu">Menu</a> <a class="logo" href="https://geeksfortech.onrender.com/amp/">GeeksForTech</a></div></nav><main class="wrap-page"><article class="post"><div class="wrap-inner"><header class="post-header"><h1>Creating a new django app and installing dependencies</h1><p class="post-meta">By <a href="https://geeksfortech.onrender.com/amp/author/tejas-sawant/" rel="nofollow" title="Tejas Sawant">Tejas Sawant</a> <time datetime="2020-06-16T21:14">June 16, 2020</time></p></header><p></p><p>This section is part of series <a rel="noreferrer noopener" href="https://geeksfortech.com/building-rest-api-with-python-django-tutorial/" target="_blank">Building REST API with Python &amp; Django</a>. Now we're going to create a new Django project and app for our student information API.</p><p></p><p></p><p>First We're gonna do this using the Django admin command line tool. Now we can use the Django admin command by <strong>django-admin startproject student_info .</strong><br>What this does it passes arguments to start projects to say that we want to start a new project and it specifies the name of the project. So our project is going to be called the <strong>student_info</strong> and then the location that we want to create the project. So this last dot here this is optional. We are using . because we want to create it in the root of our project.</p><p></p><p></p><div class="wp-block-image"><figure class="aligncenter size-large"><figure class="wp-image-275"><amp-img src="https://geeksfortech.onrender.com/media/posts/34/image-83.png" sizes="(max-width: 48em) 100vw, 100vw" srcset="https://geeksfortech.onrender.com/media/posts/34/responsive/image-83-xs.png 300w ,https://geeksfortech.onrender.com/media/posts/34/responsive/image-83-sm.png 480w ,https://geeksfortech.onrender.com/media/posts/34/responsive/image-83-md.png 768w" alt="" layout="responsive"></amp-img></figure><br><figcaption>student_info</figcaption></figure></div><p></p><p></p><p>Now we have the Django project. We need to create an app within our project for our student information API. So a Django project can consist of one or more sub applications within the projects that you can use to separate different functionality within your projects.<br>So we're just going to create one API.</p><p></p><p></p><p>The student information API so we'll just create one app and we'll call the app as <strong>student_info_api</strong>. Now that we've tried our project we need to use the <strong>manage.py</strong> script instead of Django admin and then we'll type <strong>startapp</strong> <strong>student_info_api</strong> then hit enter. (<strong>python manage.py startapp student_info_api</strong>)</p><p></p><p></p><div class="wp-block-image"><figure class="aligncenter size-large"><figure class="wp-image-279"><amp-img src="https://geeksfortech.onrender.com/media/posts/34/image-84.png" sizes="(max-width: 48em) 100vw, 100vw" srcset="https://geeksfortech.onrender.com/media/posts/34/responsive/image-84-xs.png 300w ,https://geeksfortech.onrender.com/media/posts/34/responsive/image-84-sm.png 480w ,https://geeksfortech.onrender.com/media/posts/34/responsive/image-84-md.png 768w" alt="" layout="responsive"></amp-img></figure><br><figcaption>student_info_api</figcaption></figure></div><p></p><p></p><p><br>So this will create a new sub folder called student_info-api which has the <strong>admin.py</strong>, <strong>models.py</strong>, <strong>tests.py</strong>, <strong>views.py</strong> and the <strong>migrations</strong> folder. Basically this creates a new Django app within our project.</p><p></p><p></p><p>Now we need to enable our newly created <strong>student_info_api app</strong> in our Django project. The way that you enable an app in a project is you open up the <strong>student_info</strong> which is the root project<br>of our Django project and open up <strong>settings.py</strong>. If you look at the settings.py this is the configuration file for our Django project. There's a block here called <strong>INSTALLED_APPS</strong>.</p><p></p><p></p><div class="wp-block-image"><figure class="aligncenter size-large"><figure class="wp-image-284"><amp-img src="https://geeksfortech.onrender.com/media/posts/34/image-85.png" sizes="(max-width: 48em) 100vw, 100vw" srcset="https://geeksfortech.onrender.com/media/posts/34/responsive/image-85-xs.png 300w ,https://geeksfortech.onrender.com/media/posts/34/responsive/image-85-sm.png 480w ,https://geeksfortech.onrender.com/media/posts/34/responsive/image-85-md.png 768w" alt="" layout="responsive"></amp-img></figure><br><figcaption>INSTALLED_APPS</figcaption></figure></div><p></p><p></p><p>This is where you need to list all of the apps that you need to use for your project. So in our projects we can install apps by adding it to the installed apps list. So there's a few apps that we need to enable here in our installed apps.</p><p></p><p></p><p>So below the <strong>"django.contrib.staticfiles"</strong> line create a new line and type <strong>rest_framework</strong>. <strong>rest_framework</strong> is the <strong>djangorestframework</strong> that we installed earlier and this is the name of the app within the dependency <strong>djangorestframework</strong> package that we need to add to our project.</p><p></p><p></p><p>Below this we're going to add a another app from the<strong> djangorestframework</strong> and this is called the <strong>rest_framework.authtoken</strong>. This will allow us to use the authentication token functionality that with the <strong>djangorestframework</strong>.</p><p></p><p></p><p>Finally we're going to add our <strong>student_info_api</strong> app which we manually added to our project. So we're going to add a new line and write <strong>student_info_api</strong>. Make sure that you save your settings.py file and this is how we added apps to the <strong>INSTALLED_APPS</strong> of your Django project.</p><p></p><p></p><div class="wp-block-image"><figure class="aligncenter size-large"><figure class="wp-image-288"><amp-img src="https://geeksfortech.onrender.com/media/posts/34/image-86.png" sizes="(max-width: 48em) 100vw, 100vw" srcset="https://geeksfortech.onrender.com/media/posts/34/responsive/image-86-xs.png 300w ,https://geeksfortech.onrender.com/media/posts/34/responsive/image-86-sm.png 480w ,https://geeksfortech.onrender.com/media/posts/34/responsive/image-86-md.png 768w" alt="" layout="responsive"></amp-img></figure><br><figcaption>Installed apps</figcaption></figure></div><p></p><p></p><p>Finally we are going to test our project by using the django development server. So Django comes with a development server that we can use to test our changes in the browser as we make them to the project. The way you start the Django development web server is you type command <strong>python manage.py runserver</strong>. <strong><a href="http://127.0.0.1:8000/" target="_blank" rel="noreferrer noopener">http://127.0.0.1:8000/</a></strong> this is the default address for django project.</p><p></p><p></p><figure class="wp-block-image size-large"><figure class="wp-image-293"><amp-img src="https://geeksfortech.onrender.com/media/posts/34/image-87-1024x150.png" sizes="(max-width: 48em) 100vw, 100vw" srcset="https://geeksfortech.onrender.com/media/posts/34/responsive/image-87-1024x150-xs.png 300w ,https://geeksfortech.onrender.com/media/posts/34/responsive/image-87-1024x150-sm.png 480w ,https://geeksfortech.onrender.com/media/posts/34/responsive/image-87-1024x150-md.png 768w" alt="" layout="responsive"></amp-img></figure><br><figcaption>Running Server</figcaption></figure><p></p><p></p><p>Now that the servers running we can open up our browser and we can go to <strong><a rel="noreferrer noopener" href="http://127.0.0.1:8000/" target="_blank">http://127.0.0.1:8000/</a></strong>.<br>That one that's the localhost address. You can see that the Django project place holder page has been displayed and it says <strong>The install worked successfully! Congratulations!</strong>.</p><p></p><p></p><figure class="wp-block-image size-large"><figure class="wp-image-299"><amp-img src="https://geeksfortech.onrender.com/media/posts/34/image-88-1024x520.png" sizes="(max-width: 48em) 100vw, 100vw" srcset="https://geeksfortech.onrender.com/media/posts/34/responsive/image-88-1024x520-xs.png 300w ,https://geeksfortech.onrender.com/media/posts/34/responsive/image-88-1024x520-sm.png 480w ,https://geeksfortech.onrender.com/media/posts/34/responsive/image-88-1024x520-md.png 768w" alt="" layout="responsive"></amp-img></figure><br><figcaption>Running Django App</figcaption></figure><p></p><aside><ul class="post-tag"><li><a href="https://geeksfortech.onrender.com/amp/tag/django/">django</a></li><li><a href="https://geeksfortech.onrender.com/amp/tag/djangorestframework/">djangorestframework</a></li><li><a href="https://geeksfortech.onrender.com/amp/tag/python/">Python</a></li><li><a href="https://geeksfortech.onrender.com/amp/tag/restapi/">restapi</a></li></ul><div class="post-share"><amp-social-share type="system" width="40" height="40" data-param-text="Creating a new django app and installing  dependencies"></amp-social-share><amp-social-share type="facebook" width="40" height="40" data-param-app_id="258312298697969" data-param-text="Creating a new django app and installing  dependencies" data-param-href="https://geeksfortech.onrender.com/amp/creating-a-new-django-app-and-installing-dependencies/"></amp-social-share><amp-social-share type="twitter" width="40" height="40" data-param-text="Creating a new django app and installing  dependencies" data-param-url="https://geeksfortech.onrender.com/amp/creating-a-new-django-app-and-installing-dependencies/"></amp-social-share><amp-social-share type="pinterest" width="40" height="40" data-param-url="https://geeksfortech.onrender.com/amp/creating-a-new-django-app-and-installing-dependencies/"></amp-social-share><amp-social-share type="tumblr" width="40" height="40" data-param-text="Creating a new django app and installing  dependencies" data-param-url="https://geeksfortech.onrender.com/amp/creating-a-new-django-app-and-installing-dependencies/"></amp-social-share><amp-social-share type="whatsapp" width="40" height="40" data-param-text="Creating a new django app and installing  dependencies"></amp-social-share></div></aside></div></article><nav class="post-pagination wrap-inner"><div class="post-pagination-prev"><span>Previous Post</span> <a href="https://geeksfortech.onrender.com/amp/how-to-create-django-app-and-upload-to-github/">How to create django app and upload to github</a></div><div class="post-pagination-next"><span>Next Post</span> <a href="https://geeksfortech.onrender.com/amp/c-program-for-2d-reflection/">C Program for 2D Reflection </a></div></nav></main><amp-animation id="showAnim" layout="nodisplay"><script type="application/json">{

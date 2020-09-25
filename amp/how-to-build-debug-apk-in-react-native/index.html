@@ -38,7 +38,7 @@ body {
   line-height: 1.6; }
 
 a {
-  color:  #F3F3F3;
+  color:  #039BE5;
   text-decoration: none;
   -webkit-transition: all 0.12s linear 0s;
   -o-transition: all 0.12s linear 0s;
@@ -54,7 +54,7 @@ a:active {
   color: #262626; }
 
 a:focus {
-  outline: 2px dotted #F3F3F3; }
+  outline: 2px dotted #039BE5; }
 
 figure,
 blockquote,
@@ -197,7 +197,7 @@ hr {
 .btn, [type=button],
 [type=submit],
 button {
-  background: #F3F3F3;
+  background: #039BE5;
   border: none;
   border-radius: 2px;
   color: #ffffff;
@@ -236,7 +236,7 @@ button {
   -moz-appearance: none; }
 
 .navbar {
-  background: #F3F3F3;
+  background: #039BE5;
   -webkit-box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.2);
   box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.2);
   line-height: 3;
@@ -430,7 +430,7 @@ amp-sidebar {
         margin: 0 0.26667rem 0.26667rem 0;
         padding: 0.26667rem 0.53333rem; }
         .post-tag > li a:hover {
-          background: #F3F3F3;
+          background: #039BE5;
           color: #ffffff;
           text-decoration: none; }
   .post-share {
@@ -453,7 +453,7 @@ amp-sidebar {
       background-size: 24px; }
   .post-scroll {
     color: #ffffff;
-    background: #F3F3F3;
+    background: #039BE5;
     bottom: 10px;
     border-radius: 50%;
     border: none;
@@ -521,7 +521,7 @@ aside {
     border-color: #e2ac4f; }
   .msg--info {
     background: rgba(45, 97, 201, 0.03);
-    border-color: #F3F3F3; }
+    border-color: #039BE5; }
   .msg--success {
     background: #f7fbf6;
     border-color: #5ab44b; }
@@ -554,7 +554,7 @@ aside {
     margin-left: auto; }
 
 .bottom {
-  background: #F3F3F3;
+  background: #039BE5;
   color: #ffffff;
   padding: 1.06667rem 4%;
   text-align: center; }</style><style amp-boilerplate>body{-webkit-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-moz-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-ms-animation:-amp-start 8s steps(1,end) 0s 1 normal both;animation:-amp-start 8s steps(1,end) 0s 1 normal both}@-webkit-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-moz-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-ms-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-o-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}</style><noscript><style amp-boilerplate>body{-webkit-animation:none;-moz-animation:none;-ms-animation:none;animation:none}</style></noscript><script async src="https://cdn.ampproject.org/v0.js"></script><script custom-element="amp-animation" src="https://cdn.ampproject.org/v0/amp-animation-0.1.js" async></script><script custom-element="amp-position-observer" src="https://cdn.ampproject.org/v0/amp-position-observer-0.1.js" async></script></head><body class="bg-white"><nav class="navbar wrap-inner" id="top"><div><a on="tap:navbar-sidebar.toggle" class="navbar-sidebar-toggle" title="Menu">Menu</a> <a class="logo" href="https://geeksfortech.onrender.com/amp/">GeeksForTech</a></div></nav><main class="wrap-page"><article class="post"><figure class="post-featured-image"><amp-img src="https://geeksfortech.onrender.com/media/posts/9/cover.webp" alt="Cover" height="85" layout="responsive" width="653"></amp-img><figcaption>Creating Debug Apk Tejas Sawant</figcaption></figure><div class="wrap-inner"><header class="post-header"><h1>How to build debug apk in react native ?</h1><p class="post-meta">By <a href="https://geeksfortech.onrender.com/amp/author/tejas-sawant/" rel="nofollow" title="Tejas Sawant">Tejas Sawant</a> <time datetime="2020-09-23T19:55">September 23, 2020</time></p></header><p>In this article i am going to tell how you can generate debug apk using bare react native application.</p><p>First you need to create app using following command</p><pre class="line-numbers language-bash"><code>npx react-native init DebugApk</code></pre><p>After that navigate to folder.</p><pre class="line-numbers language-bash"><code>cd DebugApk</code></pre><p>Check if you have <b>android/app/src/main/assets/</b> if you dont have then create folder</p><figure class="post__image post__image--center"><amp-img src="https://geeksfortech.onrender.com/media/posts/9/creating-dir.png" sizes="(max-width: 48em) 100vw, 100vw" srcset="https://geeksfortech.onrender.com/media/posts/9/responsive/creating-dir-xs.png 300w ,https://geeksfortech.onrender.com/media/posts/9/responsive/creating-dir-sm.png 480w ,https://geeksfortech.onrender.com/media/posts/9/responsive/creating-dir-md.png 768w" height="250" width="502" alt="Creating assets folder" layout="responsive"></amp-img><figcaption>Creating assets folder</figcaption></figure><p>after that create new file and save as <b>index.android.bundle</b></p><p>if you are on windows</p><pre class="line-numbers language-bash"><code>notepad index.android.bundle</code></pre><p>or if you are on linux</p><pre class="line-numbers language-bash"><code>touch index.android.bundle</code></pre><p>After that run following command in command prompt.</p><pre class="line-numbers language-bash"><code>npx react-native bundle —platform android —dev false —entry-file index.js —bundle-output android/app/src/main/assets/index.android.bundle —assets-dest android/app/src/main/res/</code></pre><p>Then navigate to <b>android</b> folder and type <b>gradlew assembleDebug</b> to generate apk.<br></p><pre class="line-numbers language-bash"><code>cd android
