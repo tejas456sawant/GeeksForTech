@@ -3,7 +3,7 @@
     <title>GeeksForTech</title>
     <link href="https://geeksfortech.onrender.com/feed.xml" rel="self" />
     <link href="https://geeksfortech.onrender.com" />
-    <updated>2020-09-25T01:51:04+05:30</updated>
+    <updated>2020-09-25T13:36:45+05:30</updated>
     <author>
         <name>Tejas Sawant</name>
     </author>
@@ -539,7 +539,7 @@ gradlew assembleDebug
             <category term="nextjs"/>
             <category term="how to"/>
 
-        <updated>2020-09-25T01:39:22+05:30</updated>
+        <updated>2020-09-25T12:59:37+05:30</updated>
             <summary>
                 <![CDATA[
                         <img src="https://geeksfortech.onrender.com/media/posts/8/cover-2.webp" alt="Cover" />
@@ -1114,8 +1114,11 @@ export default class MyGatsbyComponent extends React.Component {
         </author>
         <link href="https://geeksfortech.onrender.com/c-program-for-2d-reflection/"/>
         <id>https://geeksfortech.onrender.com/c-program-for-2d-reflection/</id>
+            <category term="Computer Graphics"/>
+            <category term="C Programming"/>
+            <category term="C"/>
 
-        <updated>2020-09-22T21:56:53+05:30</updated>
+        <updated>2020-09-25T13:36:45+05:30</updated>
             <summary>
                 <![CDATA[
                         <img src="https://geeksfortech.onrender.com/media/posts/5/cover-2.png" alt="2D Reflection " />

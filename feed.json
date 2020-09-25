@@ -115,7 +115,7 @@
                    "how to"
             ],
             "date_published": "2020-09-23T19:31:29+05:30",
-            "date_modified": "2020-09-25T01:39:22+05:30"
+            "date_modified": "2020-09-25T12:59:37+05:30"
         },
         {
             "id": "https://geeksfortech.onrender.com/how-to-create-a-youtube-thumbnail-downloader/",
@@ -158,9 +158,12 @@
                 "name": "Tejas Sawant"
             },
             "tags": [
+                   "Computer Graphics",
+                   "C Programming",
+                   "C"
             ],
             "date_published": "2020-09-22T21:56:53+05:30",
-            "date_modified": "2020-09-22T21:56:53+05:30"
+            "date_modified": "2020-09-25T13:36:45+05:30"
         },
         {
             "id": "https://geeksfortech.onrender.com/creating-a-new-django-app-and-installing-dependencies/",
