@@ -3,7 +3,7 @@
     <title>GeeksForTech</title>
     <link href="https://geeksfortech.com/feed.xml" rel="self" />
     <link href="https://geeksfortech.com" />
-    <updated>2020-09-26T01:25:27+05:30</updated>
+    <updated>2020-09-26T02:23:30+05:30</updated>
     <author>
         <name>Tejas Sawant</name>
     </author>
@@ -352,7 +352,7 @@ apt-get install -y nodejs</code></pre>
   </p>
 
   <ul>
-    <li>First you need to <a href="https://geeksfortech.com/how-to-create-nextjs-project-2/" target="_blank">create project</a>.</li><li>After that goto <a href="https://getbootstrap.com/" target="_blank">Bootstrap</a> website.<br></li><li>Click on <a href="https://getbootstrap.com/docs/4.5/getting-started/introduction/" target="_blank">Get Started</a>.<br></li><li>After that grab CSS and JS links from Bootstrap.<br></li>
+    <li>First you need to <a href="https://geeksfortech.com/how-to-create-nextjs-project/" target="_blank">create project</a>.</li><li>After that goto <a href="https://getbootstrap.com/" target="_blank">Bootstrap</a> website.<br></li><li>Click on <a href="https://getbootstrap.com/docs/4.5/getting-started/introduction/" target="_blank">Get Started</a>.<br></li><li>After that grab CSS and JS links from Bootstrap.<br></li>
   </ul>
 
     <h2 id="css">
@@ -539,14 +539,14 @@ gradlew assembleDebug
         <author>
             <name>Tejas Sawant</name>
         </author>
-        <link href="https://geeksfortech.com/how-to-create-nextjs-project-2/"/>
-        <id>https://geeksfortech.com/how-to-create-nextjs-project-2/</id>
+        <link href="https://geeksfortech.com/how-to-create-nextjs-project/"/>
+        <id>https://geeksfortech.com/how-to-create-nextjs-project/</id>
             <category term="reactjs"/>
             <category term="nodejs"/>
             <category term="nextjs"/>
             <category term="how to"/>
 
-        <updated>2020-09-25T12:59:37+05:30</updated>
+        <updated>2020-09-26T02:23:30+05:30</updated>
             <summary>
                 <![CDATA[
                         <img src="https://geeksfortech.com/media/posts/8/cover-2.webp" alt="Cover" />
