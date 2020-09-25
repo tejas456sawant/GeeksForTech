@@ -3,7 +3,7 @@
     <title>GeeksForTech</title>
     <link href="https://geeksfortech.onrender.com/feed.xml" rel="self" />
     <link href="https://geeksfortech.onrender.com" />
-    <updated>2020-09-25T13:36:45+05:30</updated>
+    <updated>2020-09-26T00:23:39+05:30</updated>
     <author>
         <name>Tejas Sawant</name>
     </author>
@@ -621,8 +621,12 @@ yarn dev</code></pre>
         </author>
         <link href="https://geeksfortech.onrender.com/how-to-create-a-youtube-thumbnail-downloader/"/>
         <id>https://geeksfortech.onrender.com/how-to-create-a-youtube-thumbnail-downloader/</id>
+            <category term="tailwindcss"/>
+            <category term="nextjs"/>
+            <category term="YouTube"/>
+            <category term="Thumbnail"/>
 
-        <updated>2020-09-24T02:53:05+05:30</updated>
+        <updated>2020-09-26T00:12:57+05:30</updated>
             <summary>
                 <![CDATA[
                         <img src="https://geeksfortech.onrender.com/media/posts/7/cover.webp" alt="Cover" />
@@ -1230,57 +1234,34 @@ int main()
             <category term="django"/>
             <category term="Python"/>
 
-        <updated>2020-09-24T19:49:16+05:30</updated>
+        <updated>2020-09-26T00:23:39+05:30</updated>
             <summary>
                 <![CDATA[
-                        <img src="https://geeksfortech.onrender.com/media/posts/34/image-86.png" alt="" />
+                        <img src="https://geeksfortech.onrender.com/media/posts/34/cover.webp" alt="Installed Apps" />
                      This section is part of series Building REST API with Python &amp; Django. Now we're going to create a&hellip;
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
-                    <img src="https://geeksfortech.onrender.com/media/posts/34/image-86.png" alt="" />
+                    <img src="https://geeksfortech.onrender.com/media/posts/34/cover.webp" alt="Installed Apps" />
                 <p><!-- wp:paragraph --></p>
-<p>This section is part of series <a rel="noreferrer noopener" href="https://geeksfortech.com/building-rest-api-with-python-django-tutorial/" target="_blank">Building REST API with Python &amp; Django</a>. Now we're going to create a new Django project and app for our student information API.</p>
+<p>This section is part of series <a href="https://geeksfortech.onrender.com/building-rest-api-with-python-and-django-tutorial/" target="_blank" rel="noopener noreferrer">Building REST API with Python &amp; Django</a>. Now we're going to create a new Django project and app for our student information API.</p>
 <p><!-- /wp:paragraph --></p>
 <p><!-- wp:paragraph --></p>
 <p>First We're gonna do this using the Django admin command line tool. Now we can use the Django admin command by <strong>django-admin startproject student_info .</strong><br>What this does it passes arguments to start projects to say that we want to start a new project and it specifies the name of the project. So our project is going to be called the <strong>student_info</strong> and then the location that we want to create the project. So this last dot here this is optional. We are using . because we want to create it in the root of our project.</p>
-<p><!-- /wp:paragraph --></p>
-<p><!-- wp:image {"align":"center","id":275,"sizeSlug":"large"} --></p>
-<div class="wp-block-image">
-<figure class="aligncenter size-large"><figure class="wp-image-275"><img loading="lazy"  src="https://geeksfortech.onrender.com/media/posts/34/image-83.png" sizes="(max-width: 48em) 100vw, 100vw" srcset="https://geeksfortech.onrender.com/media/posts/34/responsive/image-83-xs.png 300w ,https://geeksfortech.onrender.com/media/posts/34/responsive/image-83-sm.png 480w ,https://geeksfortech.onrender.com/media/posts/34/responsive/image-83-md.png 768w"  alt=""></figure><br>
-<figcaption>student_info</figcaption>
-</figure>
-</div>
-<p><!-- /wp:image --></p>
-<p><!-- wp:paragraph --></p>
-<p>Now we have the Django project. We need to create an app within our project for our student information API. So a Django project can consist of one or more sub applications within the projects that you can use to separate different functionality within your projects.<br>So we're just going to create one API.</p>
+<figure class="post__image post__image--center"><img loading="lazy"  src="https://geeksfortech.onrender.com/media/posts/34/studen_info.png" sizes="(max-width: 48em) 100vw, 100vw" srcset="https://geeksfortech.onrender.com/media/posts/34/responsive/studen_info-xs.png 300w ,https://geeksfortech.onrender.com/media/posts/34/responsive/studen_info-sm.png 480w ,https://geeksfortech.onrender.com/media/posts/34/responsive/studen_info-md.png 768w"  alt="student_info" width="590" height="439"></figure>
+<p><span style="color: var(--text-editor-body-color); font-family: var(--font-base); font-size: inherit; font-style: italic; font-weight: var(--font-weight-normal); text-align: center;">Now we have the Django project. We need to create an app within our project for our student information API. So a Django project can consist of one or more sub applications within the projects that you can use to separate different functionality within your projects.</span></p>
+<p>So we're just going to create one API.</p>
 <p><!-- /wp:paragraph --></p>
 <p><!-- wp:paragraph --></p>
 <p>The student information API so we'll just create one app and we'll call the app as <strong>student_info_api</strong>. Now that we've tried our project we need to use the <strong>manage.py</strong> script instead of Django admin and then we'll type <strong>startapp</strong> <strong>student_info_api</strong> then hit enter. (<strong>python manage.py startapp student_info_api</strong>)</p>
-<p><!-- /wp:paragraph --></p>
-<p><!-- wp:image {"align":"center","id":279,"sizeSlug":"large"} --></p>
-<div class="wp-block-image">
-<figure class="aligncenter size-large"><figure class="wp-image-279"><img loading="lazy"  src="https://geeksfortech.onrender.com/media/posts/34/image-84.png" sizes="(max-width: 48em) 100vw, 100vw" srcset="https://geeksfortech.onrender.com/media/posts/34/responsive/image-84-xs.png 300w ,https://geeksfortech.onrender.com/media/posts/34/responsive/image-84-sm.png 480w ,https://geeksfortech.onrender.com/media/posts/34/responsive/image-84-md.png 768w"  alt=""></figure><br>
-<figcaption>student_info_api</figcaption>
-</figure>
-</div>
-<p><!-- /wp:image --></p>
-<p><!-- wp:paragraph --></p>
-<p><br>So this will create a new sub folder called student_info-api which has the <strong>admin.py</strong>, <strong>models.py</strong>, <strong>tests.py</strong>, <strong>views.py</strong> and the <strong>migrations</strong> folder. Basically this creates a new Django app within our project.</p>
+<figure class="post__image post__image--center"><img loading="lazy"  src="https://geeksfortech.onrender.com/media/posts/34/student_info_api.png" sizes="(max-width: 48em) 100vw, 100vw" srcset="https://geeksfortech.onrender.com/media/posts/34/responsive/student_info_api-xs.png 300w ,https://geeksfortech.onrender.com/media/posts/34/responsive/student_info_api-sm.png 480w ,https://geeksfortech.onrender.com/media/posts/34/responsive/student_info_api-md.png 768w"  alt="student_info_api" width="590" height="361"></figure>
+<p><span style="color: var(--text-editor-body-color); font-family: var(--font-base); font-size: inherit; font-weight: var(--font-weight-normal); font-style: italic; text-align: center;">So this will create a new sub folder called student_info-api which has the </span><strong style="color: var(--text-editor-body-color); font-family: var(--font-base); font-size: inherit; font-style: italic; text-align: center;">admin.py</strong><span style="color: var(--text-editor-body-color); font-family: var(--font-base); font-size: inherit; font-weight: var(--font-weight-normal); font-style: italic; text-align: center;">, </span><strong style="color: var(--text-editor-body-color); font-family: var(--font-base); font-size: inherit; font-style: italic; text-align: center;">models.py</strong><span style="color: var(--text-editor-body-color); font-family: var(--font-base); font-size: inherit; font-weight: var(--font-weight-normal); font-style: italic; text-align: center;">, </span><strong style="color: var(--text-editor-body-color); font-family: var(--font-base); font-size: inherit; font-style: italic; text-align: center;">tests.py</strong><span style="color: var(--text-editor-body-color); font-family: var(--font-base); font-size: inherit; font-weight: var(--font-weight-normal); font-style: italic; text-align: center;">, </span><strong style="color: var(--text-editor-body-color); font-family: var(--font-base); font-size: inherit; font-style: italic; text-align: center;">views.py</strong><span style="color: var(--text-editor-body-color); font-family: var(--font-base); font-size: inherit; font-weight: var(--font-weight-normal); font-style: italic; text-align: center;"> and the </span><strong style="color: var(--text-editor-body-color); font-family: var(--font-base); font-size: inherit; font-style: italic; text-align: center;">migrations</strong><span style="color: var(--text-editor-body-color); font-family: var(--font-base); font-size: inherit; font-weight: var(--font-weight-normal); font-style: italic; text-align: center;"> folder. Basically this creates a new Django app within our project.</span></p>
 <p><!-- /wp:paragraph --></p>
 <p><!-- wp:paragraph --></p>
 <p>Now we need to enable our newly created <strong>student_info_api app</strong> in our Django project. The way that you enable an app in a project is you open up the <strong>student_info</strong> which is the root project<br>of our Django project and open up <strong>settings.py</strong>. If you look at the settings.py this is the configuration file for our Django project. There's a block here called <strong>INSTALLED_APPS</strong>.</p>
-<p><!-- /wp:paragraph --></p>
-<p><!-- wp:image {"align":"center","id":284,"sizeSlug":"large"} --></p>
-<div class="wp-block-image">
-<figure class="aligncenter size-large"><figure class="wp-image-284"><img loading="lazy"  src="https://geeksfortech.onrender.com/media/posts/34/image-85.png" sizes="(max-width: 48em) 100vw, 100vw" srcset="https://geeksfortech.onrender.com/media/posts/34/responsive/image-85-xs.png 300w ,https://geeksfortech.onrender.com/media/posts/34/responsive/image-85-sm.png 480w ,https://geeksfortech.onrender.com/media/posts/34/responsive/image-85-md.png 768w"  alt=""></figure><br>
-<figcaption>INSTALLED_APPS</figcaption>
-</figure>
-</div>
-<p><!-- /wp:image --></p>
-<p><!-- wp:paragraph --></p>
-<p>This is where you need to list all of the apps that you need to use for your project. So in our projects we can install apps by adding it to the installed apps list. So there's a few apps that we need to enable here in our installed apps.</p>
+<figure class="post__image post__image--center"><img loading="lazy"  src="https://geeksfortech.onrender.com/media/posts/34/INSTALLED_APPS.png" sizes="(max-width: 48em) 100vw, 100vw" srcset="https://geeksfortech.onrender.com/media/posts/34/responsive/INSTALLED_APPS-xs.png 300w ,https://geeksfortech.onrender.com/media/posts/34/responsive/INSTALLED_APPS-sm.png 480w ,https://geeksfortech.onrender.com/media/posts/34/responsive/INSTALLED_APPS-md.png 768w"  alt="INSTALLED_APPS" width="416" height="304"></figure>
+<p><span style="color: var(--text-editor-body-color); font-family: var(--font-base); font-size: inherit; font-style: italic; font-weight: var(--font-weight-normal); text-align: center;">This is where you need to list all of the apps that you need to use for your project. So in our projects we can install apps by adding it to the installed apps list. So there's a few apps that we need to enable here in our installed apps.</span></p>
 <p><!-- /wp:paragraph --></p>
 <p><!-- wp:paragraph --></p>
 <p>So below the <strong>"django.contrib.staticfiles"</strong> line create a new line and type <strong>rest_framework</strong>. <strong>rest_framework</strong> is the <strong>djangorestframework</strong> that we installed earlier and this is the name of the app within the dependency <strong>djangorestframework</strong> package that we need to add to our project.</p>
@@ -1290,29 +1271,19 @@ int main()
 <p><!-- /wp:paragraph --></p>
 <p><!-- wp:paragraph --></p>
 <p>Finally we're going to add our <strong>student_info_api</strong> app which we manually added to our project. So we're going to add a new line and write <strong>student_info_api</strong>. Make sure that you save your settings.py file and this is how we added apps to the <strong>INSTALLED_APPS</strong> of your Django project.</p>
-<p><!-- /wp:paragraph --></p>
-<p><!-- wp:image {"align":"center","id":288,"sizeSlug":"large"} --></p>
-<div class="wp-block-image">
-<figure class="aligncenter size-large"><figure class="wp-image-288"><img loading="lazy"  src="https://geeksfortech.onrender.com/media/posts/34/image-86.png" sizes="(max-width: 48em) 100vw, 100vw" srcset="https://geeksfortech.onrender.com/media/posts/34/responsive/image-86-xs.png 300w ,https://geeksfortech.onrender.com/media/posts/34/responsive/image-86-sm.png 480w ,https://geeksfortech.onrender.com/media/posts/34/responsive/image-86-md.png 768w"  alt=""></figure><br>
-<figcaption>Installed apps</figcaption>
-</figure>
-</div>
+<figure class="post__image post__image--center"><img loading="lazy"  src="https://geeksfortech.onrender.com/media/posts/34/Installed-apps.png" sizes="(max-width: 48em) 100vw, 100vw" srcset="https://geeksfortech.onrender.com/media/posts/34/responsive/Installed-apps-xs.png 300w ,https://geeksfortech.onrender.com/media/posts/34/responsive/Installed-apps-sm.png 480w ,https://geeksfortech.onrender.com/media/posts/34/responsive/Installed-apps-md.png 768w"  alt="Installed apps" width="329" height="270"></figure>
+<p>Finally we are going to test our project by using the django development server. So Django comes with a development server that we can use to test our changes in the browser as we make them to the project. The way you start the Django development web server is you type command <strong>python manage.py runserver</strong>. <strong><a href="http://127.0.0.1:8000/" target="_blank" rel="noreferrer noopener">http://127.0.0.1:8000/</a></strong> this is the default address for django project.</p>
+<figure class="post__image post__image--center"><img loading="lazy"  src="https://geeksfortech.onrender.com/media/posts/34/Running-Server.png" sizes="(max-width: 48em) 100vw, 100vw" srcset="https://geeksfortech.onrender.com/media/posts/34/responsive/Running-Server-xs.png 300w ,https://geeksfortech.onrender.com/media/posts/34/responsive/Running-Server-sm.png 480w ,https://geeksfortech.onrender.com/media/posts/34/responsive/Running-Server-md.png 768w"  alt="Running Server" width="590" height="86"></figure>
+<p>Now that the servers running we can open up our browser and we can go to <strong><a rel="noreferrer noopener" href="http://127.0.0.1:8000/" target="_blank">http://127.0.0.1:8000/</a></strong>.<br>That one that's the localhost address. You can see that the Django project place holder page has been displayed and it says <strong>The install worked successfully! Congratulations!</strong>.</p>
+<figure class="post__image post__image--center"><img loading="lazy"  src="https://geeksfortech.onrender.com/media/posts/34/Running-Django-App.png" sizes="(max-width: 48em) 100vw, 100vw" srcset="https://geeksfortech.onrender.com/media/posts/34/responsive/Running-Django-App-xs.png 300w ,https://geeksfortech.onrender.com/media/posts/34/responsive/Running-Django-App-sm.png 480w ,https://geeksfortech.onrender.com/media/posts/34/responsive/Running-Django-App-md.png 768w"  alt="Running Django App" width="590" height="300"></figure>
 <p><!-- /wp:image --></p>
 <p><!-- wp:paragraph --></p>
-<p>Finally we are going to test our project by using the django development server. So Django comes with a development server that we can use to test our changes in the browser as we make them to the project. The way you start the Django development web server is you type command <strong>python manage.py runserver</strong>. <strong><a href="http://127.0.0.1:8000/" target="_blank" rel="noreferrer noopener">http://127.0.0.1:8000/</a></strong> this is the default address for django project.</p>
 <p><!-- /wp:paragraph --></p>
 <p><!-- wp:image {"id":293,"sizeSlug":"large"} --></p>
-<figure class="wp-block-image size-large"><figure class="wp-image-293"><img loading="lazy"  src="https://geeksfortech.onrender.com/media/posts/34/image-87-1024x150.png" sizes="(max-width: 48em) 100vw, 100vw" srcset="https://geeksfortech.onrender.com/media/posts/34/responsive/image-87-1024x150-xs.png 300w ,https://geeksfortech.onrender.com/media/posts/34/responsive/image-87-1024x150-sm.png 480w ,https://geeksfortech.onrender.com/media/posts/34/responsive/image-87-1024x150-md.png 768w"  alt=""></figure><br>
-<figcaption>Running Server</figcaption>
-</figure>
 <p><!-- /wp:image --></p>
 <p><!-- wp:paragraph --></p>
-<p>Now that the servers running we can open up our browser and we can go to <strong><a rel="noreferrer noopener" href="http://127.0.0.1:8000/" target="_blank">http://127.0.0.1:8000/</a></strong>.<br>That one that's the localhost address. You can see that the Django project place holder page has been displayed and it says <strong>The install worked successfully! Congratulations!</strong>.</p>
 <p><!-- /wp:paragraph --></p>
 <p><!-- wp:image {"id":299,"sizeSlug":"large"} --></p>
-<figure class="wp-block-image size-large"><figure class="wp-image-299"><img loading="lazy"  src="https://geeksfortech.onrender.com/media/posts/34/image-88-1024x520.png" sizes="(max-width: 48em) 100vw, 100vw" srcset="https://geeksfortech.onrender.com/media/posts/34/responsive/image-88-1024x520-xs.png 300w ,https://geeksfortech.onrender.com/media/posts/34/responsive/image-88-1024x520-sm.png 480w ,https://geeksfortech.onrender.com/media/posts/34/responsive/image-88-1024x520-md.png 768w"  alt=""></figure><br>
-<figcaption>Running Django App</figcaption>
-</figure>
 <p><!-- /wp:image --></p>
             ]]>
         </content>
