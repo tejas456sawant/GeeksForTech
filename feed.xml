@@ -1,37 +1,37 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <title>GeeksForTech</title>
-    <link href="https://geeksfortech.onrender.com/feed.xml" rel="self" />
-    <link href="https://geeksfortech.onrender.com" />
-    <updated>1970-01-01T05:30:00+05:30</updated>
+    <link href="https://geeksfortech.onrender.com/blog/feed.xml" rel="self" />
+    <link href="https://geeksfortech.onrender.com/blog" />
+    <updated>2020-09-25T01:51:04+05:30</updated>
     <author>
         <name>Tejas Sawant</name>
     </author>
-    <id>https://geeksfortech.onrender.com</id>
+    <id>https://geeksfortech.onrender.com/blog</id>
 
     <entry>
         <title>Hosting wordpress site free on google cloud with bitnami wordpress and free SSL certificate</title>
         <author>
             <name>Tejas Sawant</name>
         </author>
-        <link href="https://geeksfortech.onrender.com/hosting-wordpress-site-free-on-google-cloud-with-bitnami-wordpress-and-free-ssl-certificate/"/>
-        <id>https://geeksfortech.onrender.com/hosting-wordpress-site-free-on-google-cloud-with-bitnami-wordpress-and-free-ssl-certificate/</id>
+        <link href="https://geeksfortech.onrender.com/blog/hosting-wordpress-site-free-on-google-cloud-with-bitnami-wordpress-and-free-ssl-certificate/"/>
+        <id>https://geeksfortech.onrender.com/blog/hosting-wordpress-site-free-on-google-cloud-with-bitnami-wordpress-and-free-ssl-certificate/</id>
             <category term="Wordpress"/>
             <category term="Google Cloud Platform"/>
             <category term="GCP"/>
             <category term="Free SSL"/>
             <category term="Bitnami Bitnami Wordpress"/>
 
-        <updated>2020-09-25T01:58:38+05:30</updated>
+        <updated>2020-09-25T01:51:04+05:30</updated>
             <summary>
                 <![CDATA[
-                        <img src="https://geeksfortech.onrender.com/media/posts/11/cover.webp" alt="Open LiteSpeed Wordpress" />
+                        <img src="https://geeksfortech.onrender.com/blog/media/posts/11/cover.webp" alt="Open LiteSpeed Wordpress" />
                      This article shows how you can free host your wordpress website on GCP for next one year. In this&hellip;
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
-                    <img src="https://geeksfortech.onrender.com/media/posts/11/cover.webp" alt="Open LiteSpeed Wordpress" />
+                    <img src="https://geeksfortech.onrender.com/blog/media/posts/11/cover.webp" alt="Open LiteSpeed Wordpress" />
                 
   <p>
     This article shows how you can free host your wordpress website on GCP for next one year. In this article we have used google cloud bitnami wordpress ssl for securing site. You can use your first 300$ credits for free hosting. So let’s start.
@@ -42,7 +42,7 @@
   </p>
 
     <figure class="post__image post__image--center">
-      <img loading="lazy" src="https://geeksfortech.onrender.com/media/posts/11/creating-or-selecting-project-2.png" sizes="(max-width: 48em) 100vw, 100vw" srcset="https://geeksfortech.onrender.com/media/posts/11/responsive/creating-or-selecting-project-2-xs.png 300w ,https://geeksfortech.onrender.com/media/posts/11/responsive/creating-or-selecting-project-2-sm.png 480w ,https://geeksfortech.onrender.com/media/posts/11/responsive/creating-or-selecting-project-2-md.png 768w"  height="491" width="1024" alt="project window" />
+      <img loading="lazy" src="https://geeksfortech.onrender.com/blog/media/posts/11/creating-or-selecting-project-2.png" sizes="(max-width: 48em) 100vw, 100vw" srcset="https://geeksfortech.onrender.com/blog/media/posts/11/responsive/creating-or-selecting-project-2-xs.png 300w ,https://geeksfortech.onrender.com/blog/media/posts/11/responsive/creating-or-selecting-project-2-sm.png 480w ,https://geeksfortech.onrender.com/blog/media/posts/11/responsive/creating-or-selecting-project-2-md.png 768w"  height="491" width="1024" alt="project window" />
       <figcaption>Creating Or Selecting Project</figcaption>
     </figure>
 
@@ -51,7 +51,7 @@
   </p>
 
     <figure class="post__image post__image--center">
-      <img loading="lazy" src="https://geeksfortech.onrender.com/media/posts/11/marketplace-2.png" sizes="(max-width: 48em) 100vw, 100vw" srcset="https://geeksfortech.onrender.com/media/posts/11/responsive/marketplace-2-xs.png 300w ,https://geeksfortech.onrender.com/media/posts/11/responsive/marketplace-2-sm.png 480w ,https://geeksfortech.onrender.com/media/posts/11/responsive/marketplace-2-md.png 768w"  height="285" width="590" alt="Marketplace" />
+      <img loading="lazy" src="https://geeksfortech.onrender.com/blog/media/posts/11/marketplace-2.png" sizes="(max-width: 48em) 100vw, 100vw" srcset="https://geeksfortech.onrender.com/blog/media/posts/11/responsive/marketplace-2-xs.png 300w ,https://geeksfortech.onrender.com/blog/media/posts/11/responsive/marketplace-2-sm.png 480w ,https://geeksfortech.onrender.com/blog/media/posts/11/responsive/marketplace-2-md.png 768w"  height="285" width="590" alt="Marketplace" />
       <figcaption>GCP Marketplace</figcaption>
     </figure>
 
@@ -60,7 +60,7 @@
   </p>
 
     <figure class="post__image post__image--center">
-      <img loading="lazy" src="https://geeksfortech.onrender.com/media/posts/11/search-wordpress-2.png" sizes="(max-width: 48em) 100vw, 100vw" srcset="https://geeksfortech.onrender.com/media/posts/11/responsive/search-wordpress-2-xs.png 300w ,https://geeksfortech.onrender.com/media/posts/11/responsive/search-wordpress-2-sm.png 480w ,https://geeksfortech.onrender.com/media/posts/11/responsive/search-wordpress-2-md.png 768w"  height="280" width="590" alt="Search Wordpress" />
+      <img loading="lazy" src="https://geeksfortech.onrender.com/blog/media/posts/11/search-wordpress-2.png" sizes="(max-width: 48em) 100vw, 100vw" srcset="https://geeksfortech.onrender.com/blog/media/posts/11/responsive/search-wordpress-2-xs.png 300w ,https://geeksfortech.onrender.com/blog/media/posts/11/responsive/search-wordpress-2-sm.png 480w ,https://geeksfortech.onrender.com/blog/media/posts/11/responsive/search-wordpress-2-md.png 768w"  height="280" width="590" alt="Search Wordpress" />
       <figcaption>Search Wordpress</figcaption>
     </figure>
 
@@ -69,7 +69,7 @@
   </p>
 
     <figure class="post__image post__image--center">
-      <img loading="lazy" src="https://geeksfortech.onrender.com/media/posts/11/select-openlitespeed-wordpress-2.png" sizes="(max-width: 48em) 100vw, 100vw" srcset="https://geeksfortech.onrender.com/media/posts/11/responsive/select-openlitespeed-wordpress-2-xs.png 300w ,https://geeksfortech.onrender.com/media/posts/11/responsive/select-openlitespeed-wordpress-2-sm.png 480w ,https://geeksfortech.onrender.com/media/posts/11/responsive/select-openlitespeed-wordpress-2-md.png 768w"  height="282" width="590" alt="Openlitespeed Wordpress" />
+      <img loading="lazy" src="https://geeksfortech.onrender.com/blog/media/posts/11/select-openlitespeed-wordpress-2.png" sizes="(max-width: 48em) 100vw, 100vw" srcset="https://geeksfortech.onrender.com/blog/media/posts/11/responsive/select-openlitespeed-wordpress-2-xs.png 300w ,https://geeksfortech.onrender.com/blog/media/posts/11/responsive/select-openlitespeed-wordpress-2-sm.png 480w ,https://geeksfortech.onrender.com/blog/media/posts/11/responsive/select-openlitespeed-wordpress-2-md.png 768w"  height="282" width="590" alt="Openlitespeed Wordpress" />
       <figcaption>Openlitespeed Wordpress</figcaption>
     </figure>
 
@@ -78,7 +78,7 @@
   </p>
 
     <figure class="post__image post__image--center">
-      <img loading="lazy" src="https://geeksfortech.onrender.com/media/posts/11/allow-traffic.png" sizes="(max-width: 48em) 100vw, 100vw" srcset="https://geeksfortech.onrender.com/media/posts/11/responsive/allow-traffic-xs.png 300w ,https://geeksfortech.onrender.com/media/posts/11/responsive/allow-traffic-sm.png 480w ,https://geeksfortech.onrender.com/media/posts/11/responsive/allow-traffic-md.png 768w"  height="282" width="590" alt="Allow traffic from all network." />
+      <img loading="lazy" src="https://geeksfortech.onrender.com/blog/media/posts/11/allow-traffic.png" sizes="(max-width: 48em) 100vw, 100vw" srcset="https://geeksfortech.onrender.com/blog/media/posts/11/responsive/allow-traffic-xs.png 300w ,https://geeksfortech.onrender.com/blog/media/posts/11/responsive/allow-traffic-sm.png 480w ,https://geeksfortech.onrender.com/blog/media/posts/11/responsive/allow-traffic-md.png 768w"  height="282" width="590" alt="Allow traffic from all network." />
       <figcaption>Allow traffic from all network.</figcaption>
     </figure>
 
@@ -87,7 +87,7 @@
   </p>
 
     <figure class="post__image post__image--center">
-      <img loading="lazy" src="https://geeksfortech.onrender.com/media/posts/11/dns-name.png" sizes="(max-width: 48em) 100vw, 100vw" srcset="https://geeksfortech.onrender.com/media/posts/11/responsive/dns-name-xs.png 300w ,https://geeksfortech.onrender.com/media/posts/11/responsive/dns-name-sm.png 480w ,https://geeksfortech.onrender.com/media/posts/11/responsive/dns-name-md.png 768w"  height="413" width="477" alt="DNS Name" />
+      <img loading="lazy" src="https://geeksfortech.onrender.com/blog/media/posts/11/dns-name.png" sizes="(max-width: 48em) 100vw, 100vw" srcset="https://geeksfortech.onrender.com/blog/media/posts/11/responsive/dns-name-xs.png 300w ,https://geeksfortech.onrender.com/blog/media/posts/11/responsive/dns-name-sm.png 480w ,https://geeksfortech.onrender.com/blog/media/posts/11/responsive/dns-name-md.png 768w"  height="413" width="477" alt="DNS Name" />
       <figcaption>DNS Name</figcaption>
     </figure>
 
@@ -96,7 +96,7 @@
   </p>
 
     <figure class="post__image post__image--center">
-      <img loading="lazy" src="https://geeksfortech.onrender.com/media/posts/11/updating-nameserver.png" sizes="(max-width: 48em) 100vw, 100vw" srcset="https://geeksfortech.onrender.com/media/posts/11/responsive/updating-nameserver-xs.png 300w ,https://geeksfortech.onrender.com/media/posts/11/responsive/updating-nameserver-sm.png 480w ,https://geeksfortech.onrender.com/media/posts/11/responsive/updating-nameserver-md.png 768w"  height="389" width="590" alt="NS Change" />
+      <img loading="lazy" src="https://geeksfortech.onrender.com/blog/media/posts/11/updating-nameserver.png" sizes="(max-width: 48em) 100vw, 100vw" srcset="https://geeksfortech.onrender.com/blog/media/posts/11/responsive/updating-nameserver-xs.png 300w ,https://geeksfortech.onrender.com/blog/media/posts/11/responsive/updating-nameserver-sm.png 480w ,https://geeksfortech.onrender.com/blog/media/posts/11/responsive/updating-nameserver-md.png 768w"  height="389" width="590" alt="NS Change" />
       <figcaption>NS Change</figcaption>
     </figure>
 
@@ -105,7 +105,7 @@
   </p>
 
     <figure class="post__image post__image--center">
-      <img loading="lazy" src="https://geeksfortech.onrender.com/media/posts/11/dns-zone.png" sizes="(max-width: 48em) 100vw, 100vw" srcset="https://geeksfortech.onrender.com/media/posts/11/responsive/dns-zone-xs.png 300w ,https://geeksfortech.onrender.com/media/posts/11/responsive/dns-zone-sm.png 480w ,https://geeksfortech.onrender.com/media/posts/11/responsive/dns-zone-md.png 768w"  height="339" width="590" alt="DNS Zone" />
+      <img loading="lazy" src="https://geeksfortech.onrender.com/blog/media/posts/11/dns-zone.png" sizes="(max-width: 48em) 100vw, 100vw" srcset="https://geeksfortech.onrender.com/blog/media/posts/11/responsive/dns-zone-xs.png 300w ,https://geeksfortech.onrender.com/blog/media/posts/11/responsive/dns-zone-sm.png 480w ,https://geeksfortech.onrender.com/blog/media/posts/11/responsive/dns-zone-md.png 768w"  height="339" width="590" alt="DNS Zone" />
       <figcaption>DNS Zone</figcaption>
     </figure>
 
@@ -114,7 +114,7 @@
   </p>
 
     <figure class="post__image post__image--center">
-      <img loading="lazy" src="https://geeksfortech.onrender.com/media/posts/11/ping-domain.png" sizes="(max-width: 48em) 100vw, 100vw" srcset="https://geeksfortech.onrender.com/media/posts/11/responsive/ping-domain-xs.png 300w ,https://geeksfortech.onrender.com/media/posts/11/responsive/ping-domain-sm.png 480w ,https://geeksfortech.onrender.com/media/posts/11/responsive/ping-domain-md.png 768w"  height="176" width="537" alt="Ping" />
+      <img loading="lazy" src="https://geeksfortech.onrender.com/blog/media/posts/11/ping-domain.png" sizes="(max-width: 48em) 100vw, 100vw" srcset="https://geeksfortech.onrender.com/blog/media/posts/11/responsive/ping-domain-xs.png 300w ,https://geeksfortech.onrender.com/blog/media/posts/11/responsive/ping-domain-sm.png 480w ,https://geeksfortech.onrender.com/blog/media/posts/11/responsive/ping-domain-md.png 768w"  height="176" width="537" alt="Ping" />
       <figcaption>Ping</figcaption>
     </figure>
 
@@ -123,7 +123,7 @@
   </p>
 
     <figure class="post__image post__image--center">
-      <img loading="lazy" src="https://geeksfortech.onrender.com/media/posts/11/ssl-certificate.png" sizes="(max-width: 48em) 100vw, 100vw" srcset="https://geeksfortech.onrender.com/media/posts/11/responsive/ssl-certificate-xs.png 300w ,https://geeksfortech.onrender.com/media/posts/11/responsive/ssl-certificate-sm.png 480w ,https://geeksfortech.onrender.com/media/posts/11/responsive/ssl-certificate-md.png 768w"  height="504" width="590" alt="SSL" />
+      <img loading="lazy" src="https://geeksfortech.onrender.com/blog/media/posts/11/ssl-certificate.png" sizes="(max-width: 48em) 100vw, 100vw" srcset="https://geeksfortech.onrender.com/blog/media/posts/11/responsive/ssl-certificate-xs.png 300w ,https://geeksfortech.onrender.com/blog/media/posts/11/responsive/ssl-certificate-sm.png 480w ,https://geeksfortech.onrender.com/blog/media/posts/11/responsive/ssl-certificate-md.png 768w"  height="504" width="590" alt="SSL" />
       <figcaption>SSL</figcaption>
     </figure>
 
@@ -132,7 +132,7 @@
   </p>
 
     <figure class="post__image post__image--center">
-      <img loading="lazy" src="https://geeksfortech.onrender.com/media/posts/11/secure-site.png" sizes="(max-width: 48em) 100vw, 100vw" srcset="https://geeksfortech.onrender.com/media/posts/11/responsive/secure-site-xs.png 300w ,https://geeksfortech.onrender.com/media/posts/11/responsive/secure-site-sm.png 480w ,https://geeksfortech.onrender.com/media/posts/11/responsive/secure-site-md.png 768w"  height="295" width="590" alt="Secure Site" />
+      <img loading="lazy" src="https://geeksfortech.onrender.com/blog/media/posts/11/secure-site.png" sizes="(max-width: 48em) 100vw, 100vw" srcset="https://geeksfortech.onrender.com/blog/media/posts/11/responsive/secure-site-xs.png 300w ,https://geeksfortech.onrender.com/blog/media/posts/11/responsive/secure-site-sm.png 480w ,https://geeksfortech.onrender.com/blog/media/posts/11/responsive/secure-site-md.png 768w"  height="295" width="590" alt="Secure Site" />
       <figcaption>Secure Site</figcaption>
     </figure>
 
@@ -141,7 +141,7 @@
   </p>
 
     <figure class="post__image post__image--center">
-      <img loading="lazy" src="https://geeksfortech.onrender.com/media/posts/11/install-wordpress.png" sizes="(max-width: 48em) 100vw, 100vw" srcset="https://geeksfortech.onrender.com/media/posts/11/responsive/install-wordpress-xs.png 300w ,https://geeksfortech.onrender.com/media/posts/11/responsive/install-wordpress-sm.png 480w ,https://geeksfortech.onrender.com/media/posts/11/responsive/install-wordpress-md.png 768w"  height="412" width="590" alt="Install Wordpress" />
+      <img loading="lazy" src="https://geeksfortech.onrender.com/blog/media/posts/11/install-wordpress.png" sizes="(max-width: 48em) 100vw, 100vw" srcset="https://geeksfortech.onrender.com/blog/media/posts/11/responsive/install-wordpress-xs.png 300w ,https://geeksfortech.onrender.com/blog/media/posts/11/responsive/install-wordpress-sm.png 480w ,https://geeksfortech.onrender.com/blog/media/posts/11/responsive/install-wordpress-md.png 768w"  height="412" width="590" alt="Install Wordpress" />
       <figcaption>Install Wordpress</figcaption>
     </figure>
 
@@ -150,12 +150,12 @@
   </p>
 
     <figure class="post__image post__image--center">
-      <img loading="lazy" src="https://geeksfortech.onrender.com/media/posts/11/admin-access.png" sizes="(max-width: 48em) 100vw, 100vw" srcset="https://geeksfortech.onrender.com/media/posts/11/responsive/admin-access-xs.png 300w ,https://geeksfortech.onrender.com/media/posts/11/responsive/admin-access-sm.png 480w ,https://geeksfortech.onrender.com/media/posts/11/responsive/admin-access-md.png 768w"  height="258" width="590" alt="Admin Area" />
+      <img loading="lazy" src="https://geeksfortech.onrender.com/blog/media/posts/11/admin-access.png" sizes="(max-width: 48em) 100vw, 100vw" srcset="https://geeksfortech.onrender.com/blog/media/posts/11/responsive/admin-access-xs.png 300w ,https://geeksfortech.onrender.com/blog/media/posts/11/responsive/admin-access-sm.png 480w ,https://geeksfortech.onrender.com/blog/media/posts/11/responsive/admin-access-md.png 768w"  height="258" width="590" alt="Admin Area" />
       <figcaption>Admin Area</figcaption>
     </figure>
 
     <figure class="post__image post__image--center">
-      <img loading="lazy" src="https://geeksfortech.onrender.com/media/posts/11/stacktech.png" sizes="(max-width: 48em) 100vw, 100vw" srcset="https://geeksfortech.onrender.com/media/posts/11/responsive/stacktech-xs.png 300w ,https://geeksfortech.onrender.com/media/posts/11/responsive/stacktech-sm.png 480w ,https://geeksfortech.onrender.com/media/posts/11/responsive/stacktech-md.png 768w"  height="256" width="590" alt="Done" />
+      <img loading="lazy" src="https://geeksfortech.onrender.com/blog/media/posts/11/stacktech.png" sizes="(max-width: 48em) 100vw, 100vw" srcset="https://geeksfortech.onrender.com/blog/media/posts/11/responsive/stacktech-xs.png 300w ,https://geeksfortech.onrender.com/blog/media/posts/11/responsive/stacktech-sm.png 480w ,https://geeksfortech.onrender.com/blog/media/posts/11/responsive/stacktech-md.png 768w"  height="256" width="590" alt="Done" />
       <figcaption>Secure wordpress site. Installation done. </figcaption>
     </figure>
 
@@ -170,27 +170,27 @@
         <author>
             <name>Tejas Sawant</name>
         </author>
-        <link href="https://geeksfortech.onrender.com/how-to-install-python3-on-windows/"/>
-        <id>https://geeksfortech.onrender.com/how-to-install-python3-on-windows/</id>
+        <link href="https://geeksfortech.onrender.com/blog/how-to-install-python3-on-windows/"/>
+        <id>https://geeksfortech.onrender.com/blog/how-to-install-python3-on-windows/</id>
             <category term="Python"/>
 
-        <updated>2020-09-25T01:58:38+05:30</updated>
+        <updated>2020-09-24T19:32:04+05:30</updated>
             <summary>
                 <![CDATA[
-                        <img src="https://geeksfortech.onrender.com/media/posts/13/cover.webp" alt="Installation" />
+                        <img src="https://geeksfortech.onrender.com/blog/media/posts/13/cover.webp" alt="Installation" />
                      This article shows how you can install python3 on your windows system. first download python3 from official site. select&hellip;
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
-                    <img src="https://geeksfortech.onrender.com/media/posts/13/cover.webp" alt="Installation" />
+                    <img src="https://geeksfortech.onrender.com/blog/media/posts/13/cover.webp" alt="Installation" />
                 
   <p>
     This article shows how you can install python3 on your windows system. first download <a href="https://www.python.org/downloads/" target="_blank" rel="nofollow noopener">python3</a> from official site. select windows installer it will start downloading.<br>
   </p>
 
     <figure class="post__image post__image--center">
-      <img loading="lazy" src="https://geeksfortech.onrender.com/media/posts/13/select-version.png" sizes="(max-width: 48em) 100vw, 100vw" srcset="https://geeksfortech.onrender.com/media/posts/13/responsive/select-version-xs.png 300w ,https://geeksfortech.onrender.com/media/posts/13/responsive/select-version-sm.png 480w ,https://geeksfortech.onrender.com/media/posts/13/responsive/select-version-md.png 768w"  height="202" width="590" alt="Select Version" />
+      <img loading="lazy" src="https://geeksfortech.onrender.com/blog/media/posts/13/select-version.png" sizes="(max-width: 48em) 100vw, 100vw" srcset="https://geeksfortech.onrender.com/blog/media/posts/13/responsive/select-version-xs.png 300w ,https://geeksfortech.onrender.com/blog/media/posts/13/responsive/select-version-sm.png 480w ,https://geeksfortech.onrender.com/blog/media/posts/13/responsive/select-version-md.png 768w"  height="202" width="590" alt="Select Version" />
       <figcaption>Select Version</figcaption>
     </figure>
 
@@ -199,7 +199,7 @@
   </p>
 
     <figure class="post__image post__image--center">
-      <img loading="lazy" src="https://geeksfortech.onrender.com/media/posts/13/install-now.png" sizes="(max-width: 48em) 100vw, 100vw" srcset="https://geeksfortech.onrender.com/media/posts/13/responsive/install-now-xs.png 300w ,https://geeksfortech.onrender.com/media/posts/13/responsive/install-now-sm.png 480w ,https://geeksfortech.onrender.com/media/posts/13/responsive/install-now-md.png 768w"  height="361" width="590" alt="Insttall Now" />
+      <img loading="lazy" src="https://geeksfortech.onrender.com/blog/media/posts/13/install-now.png" sizes="(max-width: 48em) 100vw, 100vw" srcset="https://geeksfortech.onrender.com/blog/media/posts/13/responsive/install-now-xs.png 300w ,https://geeksfortech.onrender.com/blog/media/posts/13/responsive/install-now-sm.png 480w ,https://geeksfortech.onrender.com/blog/media/posts/13/responsive/install-now-md.png 768w"  height="361" width="590" alt="Insttall Now" />
       <figcaption>Insttall Now</figcaption>
     </figure>
 
@@ -208,7 +208,7 @@
   </p>
 
     <figure class="post__image post__image--center">
-      <img loading="lazy" src="https://geeksfortech.onrender.com/media/posts/13/setup-progressing.png" sizes="(max-width: 48em) 100vw, 100vw" srcset="https://geeksfortech.onrender.com/media/posts/13/responsive/setup-progressing-xs.png 300w ,https://geeksfortech.onrender.com/media/posts/13/responsive/setup-progressing-sm.png 480w ,https://geeksfortech.onrender.com/media/posts/13/responsive/setup-progressing-md.png 768w"  height="361" width="590" alt="Setup Processing" />
+      <img loading="lazy" src="https://geeksfortech.onrender.com/blog/media/posts/13/setup-progressing.png" sizes="(max-width: 48em) 100vw, 100vw" srcset="https://geeksfortech.onrender.com/blog/media/posts/13/responsive/setup-progressing-xs.png 300w ,https://geeksfortech.onrender.com/blog/media/posts/13/responsive/setup-progressing-sm.png 480w ,https://geeksfortech.onrender.com/blog/media/posts/13/responsive/setup-progressing-md.png 768w"  height="361" width="590" alt="Setup Processing" />
       <figcaption>Setup Processing</figcaption>
     </figure>
 
@@ -217,7 +217,7 @@
   </p>
 
     <figure class="post__image post__image--center">
-      <img loading="lazy" src="https://geeksfortech.onrender.com/media/posts/13/installayion-complete.png" sizes="(max-width: 48em) 100vw, 100vw" srcset="https://geeksfortech.onrender.com/media/posts/13/responsive/installayion-complete-xs.png 300w ,https://geeksfortech.onrender.com/media/posts/13/responsive/installayion-complete-sm.png 480w ,https://geeksfortech.onrender.com/media/posts/13/responsive/installayion-complete-md.png 768w"  height="359" width="590" alt="Installation Complete" />
+      <img loading="lazy" src="https://geeksfortech.onrender.com/blog/media/posts/13/installayion-complete.png" sizes="(max-width: 48em) 100vw, 100vw" srcset="https://geeksfortech.onrender.com/blog/media/posts/13/responsive/installayion-complete-xs.png 300w ,https://geeksfortech.onrender.com/blog/media/posts/13/responsive/installayion-complete-sm.png 480w ,https://geeksfortech.onrender.com/blog/media/posts/13/responsive/installayion-complete-md.png 768w"  height="359" width="590" alt="Installation Complete" />
       <figcaption>Installation Complete</figcaption>
     </figure>
 
@@ -233,7 +233,7 @@
 </code></pre>
 
     <figure class="post__image post__image--center">
-      <img loading="lazy" src="https://geeksfortech.onrender.com/media/posts/13/verify-installation.png" sizes="(max-width: 48em) 100vw, 100vw" srcset="https://geeksfortech.onrender.com/media/posts/13/responsive/verify-installation-xs.png 300w ,https://geeksfortech.onrender.com/media/posts/13/responsive/verify-installation-sm.png 480w ,https://geeksfortech.onrender.com/media/posts/13/responsive/verify-installation-md.png 768w"  height="76" width="429" alt="verify installation" />
+      <img loading="lazy" src="https://geeksfortech.onrender.com/blog/media/posts/13/verify-installation.png" sizes="(max-width: 48em) 100vw, 100vw" srcset="https://geeksfortech.onrender.com/blog/media/posts/13/responsive/verify-installation-xs.png 300w ,https://geeksfortech.onrender.com/blog/media/posts/13/responsive/verify-installation-sm.png 480w ,https://geeksfortech.onrender.com/blog/media/posts/13/responsive/verify-installation-md.png 768w"  height="76" width="429" alt="verify installation" />
       <figcaption>Verify Installation</figcaption>
     </figure>
 
@@ -248,19 +248,19 @@
         <author>
             <name>Tejas Sawant</name>
         </author>
-        <link href="https://geeksfortech.onrender.com/how-to-install-latest-nodejs-version-on-ubuntulinux-using-cli/"/>
-        <id>https://geeksfortech.onrender.com/how-to-install-latest-nodejs-version-on-ubuntulinux-using-cli/</id>
+        <link href="https://geeksfortech.onrender.com/blog/how-to-install-latest-nodejs-version-on-ubuntulinux-using-cli/"/>
+        <id>https://geeksfortech.onrender.com/blog/how-to-install-latest-nodejs-version-on-ubuntulinux-using-cli/</id>
 
-        <updated>2020-09-25T01:58:38+05:30</updated>
+        <updated>2020-09-24T00:12:05+05:30</updated>
             <summary>
                 <![CDATA[
-                        <img src="https://geeksfortech.onrender.com/media/posts/12/cover.png" alt="Command to install" />
+                        <img src="https://geeksfortech.onrender.com/blog/media/posts/12/cover.png" alt="Command to install" />
                      Following are steps to install latest version of nodejs in Ubuntu or Linux curl -sL https://deb.nodesource.com/setup_14.x | sudo -E&hellip;
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
-                    <img src="https://geeksfortech.onrender.com/media/posts/12/cover.png" alt="Command to install" />
+                    <img src="https://geeksfortech.onrender.com/blog/media/posts/12/cover.png" alt="Command to install" />
                 
   <p>
     Following are steps to install latest version of nodejs in Ubuntu or Linux
@@ -322,30 +322,30 @@ apt-get install -y nodejs</code></pre>
         <author>
             <name>Tejas Sawant</name>
         </author>
-        <link href="https://geeksfortech.onrender.com/how-to-add-bootstrap-to-nextjs/"/>
-        <id>https://geeksfortech.onrender.com/how-to-add-bootstrap-to-nextjs/</id>
+        <link href="https://geeksfortech.onrender.com/blog/how-to-add-bootstrap-to-nextjs/"/>
+        <id>https://geeksfortech.onrender.com/blog/how-to-add-bootstrap-to-nextjs/</id>
             <category term="reactjs"/>
             <category term="nextjs"/>
             <category term="Next.js"/>
             <category term="Bootstrap"/>
 
-        <updated>2020-09-25T01:58:38+05:30</updated>
+        <updated>2020-09-25T01:48:26+05:30</updated>
             <summary>
                 <![CDATA[
-                        <img src="https://geeksfortech.onrender.com/media/posts/10/cover.webp" alt="Cover" />
+                        <img src="https://geeksfortech.onrender.com/blog/media/posts/10/cover.webp" alt="Cover" />
                      This article show how to add bootstrap in Next.js project. Following are the steps :- &lt;link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"&hellip;
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
-                    <img src="https://geeksfortech.onrender.com/media/posts/10/cover.webp" alt="Cover" />
+                    <img src="https://geeksfortech.onrender.com/blog/media/posts/10/cover.webp" alt="Cover" />
                 
   <p>
     This article show how to add bootstrap in Next.js project. Following are the steps :-
   </p>
 
   <ul>
-    <li>First you need to <a href="https://geeksfortech.onrender.com/how-to-create-nextjs-project-2/" target="_blank">create project</a>.</li><li>After that goto <a href="https://getbootstrap.com/" target="_blank">Bootstrap</a> website.<br></li><li>Click on <a href="https://getbootstrap.com/docs/4.5/getting-started/introduction/" target="_blank">Get Started</a>.<br></li><li>After that grab CSS and JS links from Bootstrap.<br></li>
+    <li>First you need to <a href="https://geeksfortech.onrender.com/blog/how-to-create-nextjs-project-2/" target="_blank">create project</a>.</li><li>After that goto <a href="https://getbootstrap.com/" target="_blank">Bootstrap</a> website.<br></li><li>Click on <a href="https://getbootstrap.com/docs/4.5/getting-started/introduction/" target="_blank">Get Started</a>.<br></li><li>After that grab CSS and JS links from Bootstrap.<br></li>
   </ul>
 
     <h2 id="css">
@@ -422,7 +422,7 @@ export default MyApp;</code></pre>
   </ul>
 
     <figure class="post__image post__image--center">
-      <img loading="lazy" src="https://geeksfortech.onrender.com/media/posts/10/bootstrap-buttons.png" sizes="(max-width: 48em) 100vw, 100vw" srcset="https://geeksfortech.onrender.com/media/posts/10/responsive/bootstrap-buttons-xs.png 300w ,https://geeksfortech.onrender.com/media/posts/10/responsive/bootstrap-buttons-sm.png 480w ,https://geeksfortech.onrender.com/media/posts/10/responsive/bootstrap-buttons-md.png 768w"  height="340" width="811" alt="Bootstrap Buttons" />
+      <img loading="lazy" src="https://geeksfortech.onrender.com/blog/media/posts/10/bootstrap-buttons.png" sizes="(max-width: 48em) 100vw, 100vw" srcset="https://geeksfortech.onrender.com/blog/media/posts/10/responsive/bootstrap-buttons-xs.png 300w ,https://geeksfortech.onrender.com/blog/media/posts/10/responsive/bootstrap-buttons-sm.png 480w ,https://geeksfortech.onrender.com/blog/media/posts/10/responsive/bootstrap-buttons-md.png 768w"  height="340" width="811" alt="Bootstrap Buttons" />
       <figcaption>Bootstrap Buttons</figcaption>
     </figure>
 
@@ -441,23 +441,23 @@ export default MyApp;</code></pre>
         <author>
             <name>Tejas Sawant</name>
         </author>
-        <link href="https://geeksfortech.onrender.com/how-to-build-debug-apk-in-react-native/"/>
-        <id>https://geeksfortech.onrender.com/how-to-build-debug-apk-in-react-native/</id>
+        <link href="https://geeksfortech.onrender.com/blog/how-to-build-debug-apk-in-react-native/"/>
+        <id>https://geeksfortech.onrender.com/blog/how-to-build-debug-apk-in-react-native/</id>
             <category term="reactnative"/>
             <category term="ios"/>
             <category term="how to"/>
             <category term="android"/>
 
-        <updated>2020-09-25T01:58:38+05:30</updated>
+        <updated>2020-09-25T01:47:05+05:30</updated>
             <summary>
                 <![CDATA[
-                        <img src="https://geeksfortech.onrender.com/media/posts/9/cover.webp" alt="Cover" />
+                        <img src="https://geeksfortech.onrender.com/blog/media/posts/9/cover.webp" alt="Cover" />
                      In this article i am going to tell how you can generate debug apk using bare react native application.
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
-                    <img src="https://geeksfortech.onrender.com/media/posts/9/cover.webp" alt="Cover" />
+                    <img src="https://geeksfortech.onrender.com/blog/media/posts/9/cover.webp" alt="Cover" />
                 
   <p>
     In this article i am going to tell how you can generate debug apk using bare react native application.
@@ -478,7 +478,7 @@ export default MyApp;</code></pre>
   </p>
 
     <figure class="post__image post__image--center">
-      <img loading="lazy" src="https://geeksfortech.onrender.com/media/posts/9/creating-dir.png" sizes="(max-width: 48em) 100vw, 100vw" srcset="https://geeksfortech.onrender.com/media/posts/9/responsive/creating-dir-xs.png 300w ,https://geeksfortech.onrender.com/media/posts/9/responsive/creating-dir-sm.png 480w ,https://geeksfortech.onrender.com/media/posts/9/responsive/creating-dir-md.png 768w"  height="250" width="502" alt="Creating assets folder" />
+      <img loading="lazy" src="https://geeksfortech.onrender.com/blog/media/posts/9/creating-dir.png" sizes="(max-width: 48em) 100vw, 100vw" srcset="https://geeksfortech.onrender.com/blog/media/posts/9/responsive/creating-dir-xs.png 300w ,https://geeksfortech.onrender.com/blog/media/posts/9/responsive/creating-dir-sm.png 480w ,https://geeksfortech.onrender.com/blog/media/posts/9/responsive/creating-dir-md.png 768w"  height="250" width="502" alt="Creating assets folder" />
       <figcaption>Creating assets folder</figcaption>
     </figure>
 
@@ -513,7 +513,7 @@ gradlew assembleDebug
   </p>
 
     <figure class="post__image post__image--center">
-      <img loading="lazy" src="https://geeksfortech.onrender.com/media/posts/9/debug-apk.png" sizes="(max-width: 48em) 100vw, 100vw" srcset="https://geeksfortech.onrender.com/media/posts/9/responsive/debug-apk-xs.png 300w ,https://geeksfortech.onrender.com/media/posts/9/responsive/debug-apk-sm.png 480w ,https://geeksfortech.onrender.com/media/posts/9/responsive/debug-apk-md.png 768w"  height="158" width="590" alt="Debug APK" />
+      <img loading="lazy" src="https://geeksfortech.onrender.com/blog/media/posts/9/debug-apk.png" sizes="(max-width: 48em) 100vw, 100vw" srcset="https://geeksfortech.onrender.com/blog/media/posts/9/responsive/debug-apk-xs.png 300w ,https://geeksfortech.onrender.com/blog/media/posts/9/responsive/debug-apk-sm.png 480w ,https://geeksfortech.onrender.com/blog/media/posts/9/responsive/debug-apk-md.png 768w"  height="158" width="590" alt="Debug APK" />
       <figcaption>Debug APK</figcaption>
     </figure>
 
@@ -532,23 +532,23 @@ gradlew assembleDebug
         <author>
             <name>Tejas Sawant</name>
         </author>
-        <link href="https://geeksfortech.onrender.com/how-to-create-nextjs-project-2/"/>
-        <id>https://geeksfortech.onrender.com/how-to-create-nextjs-project-2/</id>
+        <link href="https://geeksfortech.onrender.com/blog/how-to-create-nextjs-project-2/"/>
+        <id>https://geeksfortech.onrender.com/blog/how-to-create-nextjs-project-2/</id>
             <category term="reactjs"/>
             <category term="nodejs"/>
             <category term="nextjs"/>
             <category term="how to"/>
 
-        <updated>2020-09-25T01:58:38+05:30</updated>
+        <updated>2020-09-25T01:39:22+05:30</updated>
             <summary>
                 <![CDATA[
-                        <img src="https://geeksfortech.onrender.com/media/posts/8/cover-2.webp" alt="Cover" />
+                        <img src="https://geeksfortech.onrender.com/blog/media/posts/8/cover-2.webp" alt="Cover" />
                      In this section i am going to show you best way to create nextjs project. For creating nextjs project&hellip;
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
-                    <img src="https://geeksfortech.onrender.com/media/posts/8/cover-2.webp" alt="Cover" />
+                    <img src="https://geeksfortech.onrender.com/blog/media/posts/8/cover-2.webp" alt="Cover" />
                 
   <p>
     In this section i am going to show you best way to create nextjs project. For creating nextjs project you must have installed to nodejs. After that you can proceed with this tutorial.
@@ -571,7 +571,7 @@ gradlew assembleDebug
   </p>
 
     <figure class="post__image post__image--center">
-      <img loading="lazy" src="https://geeksfortech.onrender.com/media/posts/8/give-name.png" sizes="(max-width: 48em) 100vw, 100vw" srcset="https://geeksfortech.onrender.com/media/posts/8/responsive/give-name-xs.png 300w ,https://geeksfortech.onrender.com/media/posts/8/responsive/give-name-sm.png 480w ,https://geeksfortech.onrender.com/media/posts/8/responsive/give-name-md.png 768w"  height="48" width="461" alt="Project Name" />
+      <img loading="lazy" src="https://geeksfortech.onrender.com/blog/media/posts/8/give-name.png" sizes="(max-width: 48em) 100vw, 100vw" srcset="https://geeksfortech.onrender.com/blog/media/posts/8/responsive/give-name-xs.png 300w ,https://geeksfortech.onrender.com/blog/media/posts/8/responsive/give-name-sm.png 480w ,https://geeksfortech.onrender.com/blog/media/posts/8/responsive/give-name-md.png 768w"  height="48" width="461" alt="Project Name" />
       <figcaption>Giving Project Name</figcaption>
     </figure>
 
@@ -580,7 +580,7 @@ gradlew assembleDebug
   </p>
 
     <figure class="post__image post__image--center">
-      <img loading="lazy" src="https://geeksfortech.onrender.com/media/posts/8/choosing-template.png" sizes="(max-width: 48em) 100vw, 100vw" srcset="https://geeksfortech.onrender.com/media/posts/8/responsive/choosing-template-xs.png 300w ,https://geeksfortech.onrender.com/media/posts/8/responsive/choosing-template-sm.png 480w ,https://geeksfortech.onrender.com/media/posts/8/responsive/choosing-template-md.png 768w"  height="43" width="398" alt="Template for project" />
+      <img loading="lazy" src="https://geeksfortech.onrender.com/blog/media/posts/8/choosing-template.png" sizes="(max-width: 48em) 100vw, 100vw" srcset="https://geeksfortech.onrender.com/blog/media/posts/8/responsive/choosing-template-xs.png 300w ,https://geeksfortech.onrender.com/blog/media/posts/8/responsive/choosing-template-sm.png 480w ,https://geeksfortech.onrender.com/blog/media/posts/8/responsive/choosing-template-md.png 768w"  height="43" width="398" alt="Template for project" />
       <figcaption>Choosing Template</figcaption>
     </figure>
 
@@ -589,7 +589,7 @@ gradlew assembleDebug
   </p>
 
     <figure class="post__image post__image--center">
-      <img loading="lazy" src="https://geeksfortech.onrender.com/media/posts/8/downloading-npm-packages.png" sizes="(max-width: 48em) 100vw, 100vw" srcset="https://geeksfortech.onrender.com/media/posts/8/responsive/downloading-npm-packages-xs.png 300w ,https://geeksfortech.onrender.com/media/posts/8/responsive/downloading-npm-packages-sm.png 480w ,https://geeksfortech.onrender.com/media/posts/8/responsive/downloading-npm-packages-md.png 768w"  height="224" width="590" alt="Downloading of packages" />
+      <img loading="lazy" src="https://geeksfortech.onrender.com/blog/media/posts/8/downloading-npm-packages.png" sizes="(max-width: 48em) 100vw, 100vw" srcset="https://geeksfortech.onrender.com/blog/media/posts/8/responsive/downloading-npm-packages-xs.png 300w ,https://geeksfortech.onrender.com/blog/media/posts/8/responsive/downloading-npm-packages-sm.png 480w ,https://geeksfortech.onrender.com/blog/media/posts/8/responsive/downloading-npm-packages-md.png 768w"  height="224" width="590" alt="Downloading of packages" />
       <figcaption>Auto downloading of packages.</figcaption>
     </figure>
 
@@ -604,7 +604,7 @@ yarn dev</code></pre>
   </p>
 
     <figure class="post__image post__image--center">
-      <img loading="lazy" src="https://geeksfortech.onrender.com/media/posts/8/cover.webp" height="592" width="1170" alt="Nextjs App " />
+      <img loading="lazy" src="https://geeksfortech.onrender.com/blog/media/posts/8/cover.webp" height="592" width="1170" alt="Nextjs App " />
       <figcaption>Nextjs App Default Preview</figcaption>
     </figure>
 
@@ -619,19 +619,19 @@ yarn dev</code></pre>
         <author>
             <name>Tejas Sawant</name>
         </author>
-        <link href="https://geeksfortech.onrender.com/how-to-create-a-youtube-thumbnail-downloader/"/>
-        <id>https://geeksfortech.onrender.com/how-to-create-a-youtube-thumbnail-downloader/</id>
+        <link href="https://geeksfortech.onrender.com/blog/how-to-create-a-youtube-thumbnail-downloader/"/>
+        <id>https://geeksfortech.onrender.com/blog/how-to-create-a-youtube-thumbnail-downloader/</id>
 
-        <updated>2020-09-25T01:58:38+05:30</updated>
+        <updated>2020-09-24T02:53:05+05:30</updated>
             <summary>
                 <![CDATA[
-                        <img src="https://geeksfortech.onrender.com/media/posts/7/cover.webp" alt="Cover" />
+                        <img src="https://geeksfortech.onrender.com/blog/media/posts/7/cover.webp" alt="Cover" />
                      Demo :- https://youtubethumbnaildownloader.geeksfortech.com Following article shows how you can create youtube thumbnail downloader. For this project we are going&hellip;
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
-                    <img src="https://geeksfortech.onrender.com/media/posts/7/cover.webp" alt="Cover" />
+                    <img src="https://geeksfortech.onrender.com/blog/media/posts/7/cover.webp" alt="Cover" />
                 
   <p>
     Demo :- <a href="https://youtubethumbnaildownloader.geeksfortech.com">https://youtubethumbnaildownloader.geeksfortech.com</a>
@@ -644,7 +644,7 @@ yarn dev</code></pre>
 </code></pre>
 
     <figure class="post__image post__image--center">
-      <img loading="lazy" src="https://geeksfortech.onrender.com/media/posts/7/create-project.png" sizes="(max-width: 48em) 100vw, 100vw" srcset="https://geeksfortech.onrender.com/media/posts/7/responsive/create-project-xs.png 300w ,https://geeksfortech.onrender.com/media/posts/7/responsive/create-project-sm.png 480w ,https://geeksfortech.onrender.com/media/posts/7/responsive/create-project-md.png 768w"  height="170" width="682" alt="" />
+      <img loading="lazy" src="https://geeksfortech.onrender.com/blog/media/posts/7/create-project.png" sizes="(max-width: 48em) 100vw, 100vw" srcset="https://geeksfortech.onrender.com/blog/media/posts/7/responsive/create-project-xs.png 300w ,https://geeksfortech.onrender.com/blog/media/posts/7/responsive/create-project-sm.png 480w ,https://geeksfortech.onrender.com/blog/media/posts/7/responsive/create-project-md.png 768w"  height="170" width="682" alt="" />
       
     </figure>
 
@@ -672,7 +672,7 @@ yarn dev</code></pre>
 &lt;/form&gt;</code></pre>
 
     <figure class="post__image post__image--center">
-      <img loading="lazy" src="https://geeksfortech.onrender.com/media/posts/7/input-box.png" sizes="(max-width: 48em) 100vw, 100vw" srcset="https://geeksfortech.onrender.com/media/posts/7/responsive/input-box-xs.png 300w ,https://geeksfortech.onrender.com/media/posts/7/responsive/input-box-sm.png 480w ,https://geeksfortech.onrender.com/media/posts/7/responsive/input-box-md.png 768w"  height="87" width="498" alt="" />
+      <img loading="lazy" src="https://geeksfortech.onrender.com/blog/media/posts/7/input-box.png" sizes="(max-width: 48em) 100vw, 100vw" srcset="https://geeksfortech.onrender.com/blog/media/posts/7/responsive/input-box-xs.png 300w ,https://geeksfortech.onrender.com/blog/media/posts/7/responsive/input-box-sm.png 480w ,https://geeksfortech.onrender.com/blog/media/posts/7/responsive/input-box-md.png 768w"  height="87" width="498" alt="" />
       
     </figure>
 
@@ -797,7 +797,7 @@ const Index = () =&gt; {
 export default Index</code></pre>
 
     <figure class="post__image post__image--center">
-      <img loading="lazy" src="https://geeksfortech.onrender.com/media/posts/7/button.png" sizes="(max-width: 48em) 100vw, 100vw" srcset="https://geeksfortech.onrender.com/media/posts/7/responsive/button-xs.png 300w ,https://geeksfortech.onrender.com/media/posts/7/responsive/button-sm.png 480w ,https://geeksfortech.onrender.com/media/posts/7/responsive/button-md.png 768w"  height="62" width="250" alt="" />
+      <img loading="lazy" src="https://geeksfortech.onrender.com/blog/media/posts/7/button.png" sizes="(max-width: 48em) 100vw, 100vw" srcset="https://geeksfortech.onrender.com/blog/media/posts/7/responsive/button-xs.png 300w ,https://geeksfortech.onrender.com/blog/media/posts/7/responsive/button-sm.png 480w ,https://geeksfortech.onrender.com/blog/media/posts/7/responsive/button-md.png 768w"  height="62" width="250" alt="" />
       
     </figure>
 
@@ -996,19 +996,19 @@ export default Index</code></pre>
         <author>
             <name>Tejas Sawant</name>
         </author>
-        <link href="https://geeksfortech.onrender.com/how-to-add-mailchimp-to-gatsbyjs/"/>
-        <id>https://geeksfortech.onrender.com/how-to-add-mailchimp-to-gatsbyjs/</id>
+        <link href="https://geeksfortech.onrender.com/blog/how-to-add-mailchimp-to-gatsbyjs/"/>
+        <id>https://geeksfortech.onrender.com/blog/how-to-add-mailchimp-to-gatsbyjs/</id>
 
-        <updated>2020-09-25T01:58:38+05:30</updated>
+        <updated>2020-09-22T22:10:07+05:30</updated>
             <summary>
                 <![CDATA[
-                        <img src="https://geeksfortech.onrender.com/media/posts/6/cover.webp" alt="Email Field" />
+                        <img src="https://geeksfortech.onrender.com/blog/media/posts/6/cover.webp" alt="Email Field" />
                      This article show how you can add mailchimp to your gatsbyjs project.&nbsp; First install mailchimp package using npm to&hellip;
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
-                    <img src="https://geeksfortech.onrender.com/media/posts/6/cover.webp" alt="Email Field" />
+                    <img src="https://geeksfortech.onrender.com/blog/media/posts/6/cover.webp" alt="Email Field" />
                 
   <p>
     This article show how you can add mailchimp to your gatsbyjs project.&nbsp;
@@ -1042,7 +1042,7 @@ export default Index</code></pre>
   </ul>
 
     <figure class="post__image post__image--center">
-      <img loading="lazy" src="https://geeksfortech.onrender.com/media/posts/6/url-img.png" sizes="(max-width: 48em) 100vw, 100vw" srcset="https://geeksfortech.onrender.com/media/posts/6/responsive/url-img-xs.png 300w ,https://geeksfortech.onrender.com/media/posts/6/responsive/url-img-sm.png 480w ,https://geeksfortech.onrender.com/media/posts/6/responsive/url-img-md.png 768w"  height="44" width="787" alt="URL" />
+      <img loading="lazy" src="https://geeksfortech.onrender.com/blog/media/posts/6/url-img.png" sizes="(max-width: 48em) 100vw, 100vw" srcset="https://geeksfortech.onrender.com/blog/media/posts/6/responsive/url-img-xs.png 300w ,https://geeksfortech.onrender.com/blog/media/posts/6/responsive/url-img-sm.png 480w ,https://geeksfortech.onrender.com/blog/media/posts/6/responsive/url-img-md.png 768w"  height="44" width="787" alt="URL" />
       <figcaption>URL</figcaption>
     </figure>
 <pre class="line-numbers  language-json"><code>{
@@ -1112,19 +1112,19 @@ export default class MyGatsbyComponent extends React.Component {
         <author>
             <name>Tejas Sawant</name>
         </author>
-        <link href="https://geeksfortech.onrender.com/c-program-for-2d-reflection/"/>
-        <id>https://geeksfortech.onrender.com/c-program-for-2d-reflection/</id>
+        <link href="https://geeksfortech.onrender.com/blog/c-program-for-2d-reflection/"/>
+        <id>https://geeksfortech.onrender.com/blog/c-program-for-2d-reflection/</id>
 
-        <updated>2020-09-25T01:58:38+05:30</updated>
+        <updated>2020-09-22T21:56:53+05:30</updated>
             <summary>
                 <![CDATA[
-                        <img src="https://geeksfortech.onrender.com/media/posts/5/cover-2.png" alt="2D Reflection " />
+                        <img src="https://geeksfortech.onrender.com/blog/media/posts/5/cover-2.png" alt="2D Reflection " />
                     #include&lt;stdio.h&gt;#include&lt;conio.h&gt;#include&lt;graphics.h&gt;#include&lt;math.h&gt;#include&lt;process.h&gt;void disp(float v[][3]){ float xmax, ymax ; xmax=getmaxx()/2 ; ymax = getmaxy()/2 ; int i=0; while(i&lt;2) { line(xmax+v[i][0], ymax-v[i][1], xmax+v[i+1][0],&hellip;
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
-                    <img src="https://geeksfortech.onrender.com/media/posts/5/cover-2.png" alt="2D Reflection " />
+                    <img src="https://geeksfortech.onrender.com/blog/media/posts/5/cover-2.png" alt="2D Reflection " />
                 <pre class="line-numbers  language-c"><code>#include&lt;stdio.h&gt;
 #include&lt;conio.h&gt;
 #include&lt;graphics.h&gt;
@@ -1204,12 +1204,12 @@ int main()
   </p>
 
     <figure class="post__image post__image--center">
-      <img loading="lazy" src="https://geeksfortech.onrender.com/media/posts/5/output-1.png" sizes="(max-width: 48em) 100vw, 100vw" srcset="https://geeksfortech.onrender.com/media/posts/5/responsive/output-1-xs.png 300w ,https://geeksfortech.onrender.com/media/posts/5/responsive/output-1-sm.png 480w ,https://geeksfortech.onrender.com/media/posts/5/responsive/output-1-md.png 768w"  height="136" width="381" alt="" />
+      <img loading="lazy" src="https://geeksfortech.onrender.com/blog/media/posts/5/output-1.png" sizes="(max-width: 48em) 100vw, 100vw" srcset="https://geeksfortech.onrender.com/blog/media/posts/5/responsive/output-1-xs.png 300w ,https://geeksfortech.onrender.com/blog/media/posts/5/responsive/output-1-sm.png 480w ,https://geeksfortech.onrender.com/blog/media/posts/5/responsive/output-1-md.png 768w"  height="136" width="381" alt="" />
       
     </figure>
 
     <figure class="post__image post__image--center">
-      <img loading="lazy" src="https://geeksfortech.onrender.com/media/posts/5/cover.png" sizes="(max-width: 48em) 100vw, 100vw" srcset="https://geeksfortech.onrender.com/media/posts/5/responsive/cover-xs.png 300w ,https://geeksfortech.onrender.com/media/posts/5/responsive/cover-sm.png 480w ,https://geeksfortech.onrender.com/media/posts/5/responsive/cover-md.png 768w"  height="468" width="625" alt="" />
+      <img loading="lazy" src="https://geeksfortech.onrender.com/blog/media/posts/5/cover.png" sizes="(max-width: 48em) 100vw, 100vw" srcset="https://geeksfortech.onrender.com/blog/media/posts/5/responsive/cover-xs.png 300w ,https://geeksfortech.onrender.com/blog/media/posts/5/responsive/cover-sm.png 480w ,https://geeksfortech.onrender.com/blog/media/posts/5/responsive/cover-md.png 768w"  height="468" width="625" alt="" />
       
     </figure>
             ]]>
@@ -1220,23 +1220,23 @@ int main()
         <author>
             <name>Tejas Sawant</name>
         </author>
-        <link href="https://geeksfortech.onrender.com/creating-a-new-django-app-and-installing-dependencies/"/>
-        <id>https://geeksfortech.onrender.com/creating-a-new-django-app-and-installing-dependencies/</id>
+        <link href="https://geeksfortech.onrender.com/blog/creating-a-new-django-app-and-installing-dependencies/"/>
+        <id>https://geeksfortech.onrender.com/blog/creating-a-new-django-app-and-installing-dependencies/</id>
             <category term="restapi"/>
             <category term="djangorestframework"/>
             <category term="django"/>
             <category term="Python"/>
 
-        <updated>2020-09-25T01:58:38+05:30</updated>
+        <updated>2020-09-24T19:49:16+05:30</updated>
             <summary>
                 <![CDATA[
-                        <img src="https://geeksfortech.onrender.com/media/posts/34/image-86.png" alt="" />
+                        <img src="https://geeksfortech.onrender.com/blog/media/posts/34/image-86.png" alt="" />
                      This section is part of series Building REST API with Python &amp; Django. Now we're going to create a&hellip;
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
-                    <img src="https://geeksfortech.onrender.com/media/posts/34/image-86.png" alt="" />
+                    <img src="https://geeksfortech.onrender.com/blog/media/posts/34/image-86.png" alt="" />
                 <p><!-- wp:paragraph --></p>
 <p>This section is part of series <a rel="noreferrer noopener" href="https://geeksfortech.com/building-rest-api-with-python-django-tutorial/" target="_blank">Building REST API with Python &amp; Django</a>. Now we're going to create a new Django project and app for our student information API.</p>
 <p><!-- /wp:paragraph --></p>
@@ -1245,7 +1245,7 @@ int main()
 <p><!-- /wp:paragraph --></p>
 <p><!-- wp:image {"align":"center","id":275,"sizeSlug":"large"} --></p>
 <div class="wp-block-image">
-<figure class="aligncenter size-large"><figure class="wp-image-275"><img loading="lazy"  src="https://geeksfortech.onrender.com/media/posts/34/image-83.png" sizes="(max-width: 48em) 100vw, 100vw" srcset="https://geeksfortech.onrender.com/media/posts/34/responsive/image-83-xs.png 300w ,https://geeksfortech.onrender.com/media/posts/34/responsive/image-83-sm.png 480w ,https://geeksfortech.onrender.com/media/posts/34/responsive/image-83-md.png 768w"  alt=""></figure><br>
+<figure class="aligncenter size-large"><figure class="wp-image-275"><img loading="lazy"  src="https://geeksfortech.onrender.com/blog/media/posts/34/image-83.png" sizes="(max-width: 48em) 100vw, 100vw" srcset="https://geeksfortech.onrender.com/blog/media/posts/34/responsive/image-83-xs.png 300w ,https://geeksfortech.onrender.com/blog/media/posts/34/responsive/image-83-sm.png 480w ,https://geeksfortech.onrender.com/blog/media/posts/34/responsive/image-83-md.png 768w"  alt=""></figure><br>
 <figcaption>student_info</figcaption>
 </figure>
 </div>
@@ -1258,7 +1258,7 @@ int main()
 <p><!-- /wp:paragraph --></p>
 <p><!-- wp:image {"align":"center","id":279,"sizeSlug":"large"} --></p>
 <div class="wp-block-image">
-<figure class="aligncenter size-large"><figure class="wp-image-279"><img loading="lazy"  src="https://geeksfortech.onrender.com/media/posts/34/image-84.png" sizes="(max-width: 48em) 100vw, 100vw" srcset="https://geeksfortech.onrender.com/media/posts/34/responsive/image-84-xs.png 300w ,https://geeksfortech.onrender.com/media/posts/34/responsive/image-84-sm.png 480w ,https://geeksfortech.onrender.com/media/posts/34/responsive/image-84-md.png 768w"  alt=""></figure><br>
+<figure class="aligncenter size-large"><figure class="wp-image-279"><img loading="lazy"  src="https://geeksfortech.onrender.com/blog/media/posts/34/image-84.png" sizes="(max-width: 48em) 100vw, 100vw" srcset="https://geeksfortech.onrender.com/blog/media/posts/34/responsive/image-84-xs.png 300w ,https://geeksfortech.onrender.com/blog/media/posts/34/responsive/image-84-sm.png 480w ,https://geeksfortech.onrender.com/blog/media/posts/34/responsive/image-84-md.png 768w"  alt=""></figure><br>
 <figcaption>student_info_api</figcaption>
 </figure>
 </div>
@@ -1271,7 +1271,7 @@ int main()
 <p><!-- /wp:paragraph --></p>
 <p><!-- wp:image {"align":"center","id":284,"sizeSlug":"large"} --></p>
 <div class="wp-block-image">
-<figure class="aligncenter size-large"><figure class="wp-image-284"><img loading="lazy"  src="https://geeksfortech.onrender.com/media/posts/34/image-85.png" sizes="(max-width: 48em) 100vw, 100vw" srcset="https://geeksfortech.onrender.com/media/posts/34/responsive/image-85-xs.png 300w ,https://geeksfortech.onrender.com/media/posts/34/responsive/image-85-sm.png 480w ,https://geeksfortech.onrender.com/media/posts/34/responsive/image-85-md.png 768w"  alt=""></figure><br>
+<figure class="aligncenter size-large"><figure class="wp-image-284"><img loading="lazy"  src="https://geeksfortech.onrender.com/blog/media/posts/34/image-85.png" sizes="(max-width: 48em) 100vw, 100vw" srcset="https://geeksfortech.onrender.com/blog/media/posts/34/responsive/image-85-xs.png 300w ,https://geeksfortech.onrender.com/blog/media/posts/34/responsive/image-85-sm.png 480w ,https://geeksfortech.onrender.com/blog/media/posts/34/responsive/image-85-md.png 768w"  alt=""></figure><br>
 <figcaption>INSTALLED_APPS</figcaption>
 </figure>
 </div>
@@ -1290,7 +1290,7 @@ int main()
 <p><!-- /wp:paragraph --></p>
 <p><!-- wp:image {"align":"center","id":288,"sizeSlug":"large"} --></p>
 <div class="wp-block-image">
-<figure class="aligncenter size-large"><figure class="wp-image-288"><img loading="lazy"  src="https://geeksfortech.onrender.com/media/posts/34/image-86.png" sizes="(max-width: 48em) 100vw, 100vw" srcset="https://geeksfortech.onrender.com/media/posts/34/responsive/image-86-xs.png 300w ,https://geeksfortech.onrender.com/media/posts/34/responsive/image-86-sm.png 480w ,https://geeksfortech.onrender.com/media/posts/34/responsive/image-86-md.png 768w"  alt=""></figure><br>
+<figure class="aligncenter size-large"><figure class="wp-image-288"><img loading="lazy"  src="https://geeksfortech.onrender.com/blog/media/posts/34/image-86.png" sizes="(max-width: 48em) 100vw, 100vw" srcset="https://geeksfortech.onrender.com/blog/media/posts/34/responsive/image-86-xs.png 300w ,https://geeksfortech.onrender.com/blog/media/posts/34/responsive/image-86-sm.png 480w ,https://geeksfortech.onrender.com/blog/media/posts/34/responsive/image-86-md.png 768w"  alt=""></figure><br>
 <figcaption>Installed apps</figcaption>
 </figure>
 </div>
@@ -1299,7 +1299,7 @@ int main()
 <p>Finally we are going to test our project by using the django development server. So Django comes with a development server that we can use to test our changes in the browser as we make them to the project. The way you start the Django development web server is you type command <strong>python manage.py runserver</strong>. <strong><a href="http://127.0.0.1:8000/" target="_blank" rel="noreferrer noopener">http://127.0.0.1:8000/</a></strong> this is the default address for django project.</p>
 <p><!-- /wp:paragraph --></p>
 <p><!-- wp:image {"id":293,"sizeSlug":"large"} --></p>
-<figure class="wp-block-image size-large"><figure class="wp-image-293"><img loading="lazy"  src="https://geeksfortech.onrender.com/media/posts/34/image-87-1024x150.png" sizes="(max-width: 48em) 100vw, 100vw" srcset="https://geeksfortech.onrender.com/media/posts/34/responsive/image-87-1024x150-xs.png 300w ,https://geeksfortech.onrender.com/media/posts/34/responsive/image-87-1024x150-sm.png 480w ,https://geeksfortech.onrender.com/media/posts/34/responsive/image-87-1024x150-md.png 768w"  alt=""></figure><br>
+<figure class="wp-block-image size-large"><figure class="wp-image-293"><img loading="lazy"  src="https://geeksfortech.onrender.com/blog/media/posts/34/image-87-1024x150.png" sizes="(max-width: 48em) 100vw, 100vw" srcset="https://geeksfortech.onrender.com/blog/media/posts/34/responsive/image-87-1024x150-xs.png 300w ,https://geeksfortech.onrender.com/blog/media/posts/34/responsive/image-87-1024x150-sm.png 480w ,https://geeksfortech.onrender.com/blog/media/posts/34/responsive/image-87-1024x150-md.png 768w"  alt=""></figure><br>
 <figcaption>Running Server</figcaption>
 </figure>
 <p><!-- /wp:image --></p>
@@ -1307,7 +1307,7 @@ int main()
 <p>Now that the servers running we can open up our browser and we can go to <strong><a rel="noreferrer noopener" href="http://127.0.0.1:8000/" target="_blank">http://127.0.0.1:8000/</a></strong>.<br>That one that's the localhost address. You can see that the Django project place holder page has been displayed and it says <strong>The install worked successfully! Congratulations!</strong>.</p>
 <p><!-- /wp:paragraph --></p>
 <p><!-- wp:image {"id":299,"sizeSlug":"large"} --></p>
-<figure class="wp-block-image size-large"><figure class="wp-image-299"><img loading="lazy"  src="https://geeksfortech.onrender.com/media/posts/34/image-88-1024x520.png" sizes="(max-width: 48em) 100vw, 100vw" srcset="https://geeksfortech.onrender.com/media/posts/34/responsive/image-88-1024x520-xs.png 300w ,https://geeksfortech.onrender.com/media/posts/34/responsive/image-88-1024x520-sm.png 480w ,https://geeksfortech.onrender.com/media/posts/34/responsive/image-88-1024x520-md.png 768w"  alt=""></figure><br>
+<figure class="wp-block-image size-large"><figure class="wp-image-299"><img loading="lazy"  src="https://geeksfortech.onrender.com/blog/media/posts/34/image-88-1024x520.png" sizes="(max-width: 48em) 100vw, 100vw" srcset="https://geeksfortech.onrender.com/blog/media/posts/34/responsive/image-88-1024x520-xs.png 300w ,https://geeksfortech.onrender.com/blog/media/posts/34/responsive/image-88-1024x520-sm.png 480w ,https://geeksfortech.onrender.com/blog/media/posts/34/responsive/image-88-1024x520-md.png 768w"  alt=""></figure><br>
 <figcaption>Running Django App</figcaption>
 </figure>
 <p><!-- /wp:image --></p>
