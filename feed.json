@@ -40,10 +40,12 @@
                 "name": "Tejas Sawant"
             },
             "tags": [
+                   "install",
+                   "how to",
                    "Python"
             ],
             "date_published": "2020-09-24T03:10:17+05:30",
-            "date_modified": "2020-09-24T19:32:04+05:30"
+            "date_modified": "2020-09-26T00:51:33+05:30"
         },
         {
             "id": "https://geeksfortech.onrender.com/how-to-install-latest-nodejs-version-on-ubuntulinux-using-cli/",
@@ -56,9 +58,14 @@
                 "name": "Tejas Sawant"
             },
             "tags": [
+                   "nodejs",
+                   "install",
+                   "how to",
+                   "cli",
+                   "Ubuntu"
             ],
             "date_published": "2020-09-24T00:12:05+05:30",
-            "date_modified": "2020-09-24T00:12:05+05:30"
+            "date_modified": "2020-09-26T01:25:27+05:30"
         },
         {
             "id": "https://geeksfortech.onrender.com/how-to-add-bootstrap-to-nextjs/",
@@ -147,9 +154,12 @@
                 "name": "Tejas Sawant"
             },
             "tags": [
+                   "how to",
+                   "MailChimp",
+                   "GatsbyJS"
             ],
             "date_published": "2020-09-22T22:08:19+05:30",
-            "date_modified": "2020-09-22T22:10:07+05:30"
+            "date_modified": "2020-09-26T01:24:20+05:30"
         },
         {
             "id": "https://geeksfortech.onrender.com/c-program-for-2d-reflection/",

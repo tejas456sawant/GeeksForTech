@@ -20,10 +20,10 @@
 </url>
 <url>
 <loc>https://geeksfortech.onrender.com/building-rest-api-with-python-and-django-tutorial/</loc>
-<lastmod>2020-09-24T19:46:23+05:30</lastmod>
+<lastmod>2020-09-26T01:07:05+05:30</lastmod>
 <image:image>
-<image:loc>https://geeksfortech.onrender.com/media/posts/30/chris-ried-ieic5Tq8YMk-unsplash.jpg</image:loc>
-<image:title><![CDATA[]]></image:title>
+<image:loc>https://geeksfortech.onrender.com/media/posts/30/cover.webp</image:loc>
+<image:title><![CDATA[Code]]></image:title>
 </image:image>
 </url>
 <url>
@@ -88,7 +88,7 @@
 </url>
 <url>
 <loc>https://geeksfortech.onrender.com/how-to-add-mailchimp-to-gatsbyjs/</loc>
-<lastmod>2020-09-22T22:10:07+05:30</lastmod>
+<lastmod>2020-09-26T01:24:20+05:30</lastmod>
 <image:image>
 <image:loc>https://geeksfortech.onrender.com/media/posts/6/cover.webp</image:loc>
 <image:title><![CDATA[Email Field]]></image:title>
@@ -176,98 +176,102 @@
 </url>
 <url>
 <loc>https://geeksfortech.onrender.com/how-to-deploy-git-sub-folder-to-heroku/</loc>
-<lastmod>2020-09-24T19:46:20+05:30</lastmod>
+<lastmod>2020-09-26T01:03:18+05:30</lastmod>
 <image:image>
-<image:loc>https://geeksfortech.onrender.com/media/posts/26/image-65.png</image:loc>
-<image:title><![CDATA[]]></image:title>
+<image:loc>https://geeksfortech.onrender.com/media/posts/26/cover.webp</image:loc>
+<image:title><![CDATA[Deploy Subfolder]]></image:title>
 </image:image>
 <image:image>
-<image:loc>https://geeksfortech.onrender.com/media/posts/26/image-59-1024x415.png</image:loc>
-<image:title><![CDATA[]]></image:title>
+<image:loc>https://geeksfortech.onrender.com/media/posts/26/Heroku-project.png</image:loc>
+<image:title><![CDATA[Heroku project]]></image:title>
 </image:image>
 <image:image>
-<image:loc>https://geeksfortech.onrender.com/media/posts/26/image-60.png</image:loc>
-<image:title><![CDATA[]]></image:title>
+<image:loc>https://geeksfortech.onrender.com/media/posts/26/folder.png</image:loc>
+<image:title><![CDATA[folder]]></image:title>
 </image:image>
 <image:image>
-<image:loc>https://geeksfortech.onrender.com/media/posts/26/image-61.png</image:loc>
-<image:title><![CDATA[]]></image:title>
+<image:loc>https://geeksfortech.onrender.com/media/posts/26/Parent-folder.png</image:loc>
+<image:title><![CDATA[Parent folder]]></image:title>
 </image:image>
 <image:image>
-<image:loc>https://geeksfortech.onrender.com/media/posts/26/image-62.png</image:loc>
-<image:title><![CDATA[]]></image:title>
+<image:loc>https://geeksfortech.onrender.com/media/posts/26/Selecting-project.png</image:loc>
+<image:title><![CDATA[Selecting project]]></image:title>
 </image:image>
 <image:image>
-<image:loc>https://geeksfortech.onrender.com/media/posts/26/image-64.png</image:loc>
-<image:title><![CDATA[]]></image:title>
+<image:loc>https://geeksfortech.onrender.com/media/posts/26/Deploying-Started.png</image:loc>
+<image:title><![CDATA[Deploying Started]]></image:title>
 </image:image>
 <image:image>
-<image:loc>https://geeksfortech.onrender.com/media/posts/26/image-65.png</image:loc>
-<image:title><![CDATA[]]></image:title>
+<image:loc>https://geeksfortech.onrender.com/media/posts/26/Deploy-Successfull.png</image:loc>
+<image:title><![CDATA[Deploy Successfull]]></image:title>
 </image:image>
 </url>
 <url>
 <loc>https://geeksfortech.onrender.com/how-to-install-git/</loc>
-<lastmod>2020-09-25T01:58:02+05:30</lastmod>
+<lastmod>2020-09-26T01:22:34+05:30</lastmod>
 <image:image>
-<image:loc>https://geeksfortech.onrender.com/media/posts/31/image-57.png</image:loc>
-<image:title><![CDATA[]]></image:title>
+<image:loc>https://geeksfortech.onrender.com/media/posts/31/cover.webp</image:loc>
+<image:title><![CDATA[Installing]]></image:title>
 </image:image>
 <image:image>
-<image:loc>https://geeksfortech.onrender.com/media/posts/31/step-1-2.png</image:loc>
-<image:title><![CDATA[]]></image:title>
+<image:loc>https://geeksfortech.onrender.com/media/posts/31/Downloadiing-setup.png</image:loc>
+<image:title><![CDATA[Downloadiing setup]]></image:title>
 </image:image>
 <image:image>
-<image:loc>https://geeksfortech.onrender.com/media/posts/31/image-44.png</image:loc>
-<image:title><![CDATA[]]></image:title>
+<image:loc>https://geeksfortech.onrender.com/media/posts/31/Click-on-next.png</image:loc>
+<image:title><![CDATA[Click on next]]></image:title>
 </image:image>
 <image:image>
-<image:loc>https://geeksfortech.onrender.com/media/posts/31/image-45.png</image:loc>
-<image:title><![CDATA[]]></image:title>
+<image:loc>https://geeksfortech.onrender.com/media/posts/31/Destination.png</image:loc>
+<image:title><![CDATA[Destination]]></image:title>
 </image:image>
 <image:image>
-<image:loc>https://geeksfortech.onrender.com/media/posts/31/image-46.png</image:loc>
-<image:title><![CDATA[]]></image:title>
+<image:loc>https://geeksfortech.onrender.com/media/posts/31/Choosing-components.png</image:loc>
+<image:title><![CDATA[Choosing components]]></image:title>
 </image:image>
 <image:image>
-<image:loc>https://geeksfortech.onrender.com/media/posts/31/image-47.png</image:loc>
-<image:title><![CDATA[]]></image:title>
+<image:loc>https://geeksfortech.onrender.com/media/posts/31/Start-menu-folder.png</image:loc>
+<image:title><![CDATA[Start menu folder]]></image:title>
 </image:image>
 <image:image>
-<image:loc>https://geeksfortech.onrender.com/media/posts/31/image-49.png</image:loc>
-<image:title><![CDATA[]]></image:title>
+<image:loc>https://geeksfortech.onrender.com/media/posts/31/Choose-Editor.png</image:loc>
+<image:title><![CDATA[Choose Editor]]></image:title>
 </image:image>
 <image:image>
-<image:loc>https://geeksfortech.onrender.com/media/posts/31/image-50.png</image:loc>
-<image:title><![CDATA[]]></image:title>
+<image:loc>https://geeksfortech.onrender.com/media/posts/31/Path-environment.png</image:loc>
+<image:title><![CDATA[Path environment]]></image:title>
 </image:image>
 <image:image>
-<image:loc>https://geeksfortech.onrender.com/media/posts/31/image-51.png</image:loc>
-<image:title><![CDATA[]]></image:title>
+<image:loc>https://geeksfortech.onrender.com/media/posts/31/Transport-backend.png</image:loc>
+<image:title><![CDATA[Transport backend]]></image:title>
 </image:image>
 <image:image>
-<image:loc>https://geeksfortech.onrender.com/media/posts/31/image-52.png</image:loc>
-<image:title><![CDATA[]]></image:title>
+<image:loc>https://geeksfortech.onrender.com/media/posts/31/Line-ending.png</image:loc>
+<image:title><![CDATA[Line ending]]></image:title>
 </image:image>
 <image:image>
-<image:loc>https://geeksfortech.onrender.com/media/posts/31/image-53.png</image:loc>
-<image:title><![CDATA[]]></image:title>
+<image:loc>https://geeksfortech.onrender.com/media/posts/31/terminal-emulator.png</image:loc>
+<image:title><![CDATA[Terminal Emulator]]></image:title>
 </image:image>
 <image:image>
-<image:loc>https://geeksfortech.onrender.com/media/posts/31/image-54.png</image:loc>
-<image:title><![CDATA[]]></image:title>
+<image:loc>https://geeksfortech.onrender.com/media/posts/31/Default-behavior.png</image:loc>
+<image:title><![CDATA[Default Behavior]]></image:title>
 </image:image>
 <image:image>
-<image:loc>https://geeksfortech.onrender.com/media/posts/31/image-55.png</image:loc>
-<image:title><![CDATA[]]></image:title>
+<image:loc>https://geeksfortech.onrender.com/media/posts/31/Extra-options.png</image:loc>
+<image:title><![CDATA[Extra Options]]></image:title>
 </image:image>
 <image:image>
-<image:loc>https://geeksfortech.onrender.com/media/posts/31/image-56.png</image:loc>
-<image:title><![CDATA[]]></image:title>
+<image:loc>https://geeksfortech.onrender.com/media/posts/31/install.png</image:loc>
+<image:title><![CDATA[Install]]></image:title>
 </image:image>
 <image:image>
-<image:loc>https://geeksfortech.onrender.com/media/posts/31/image-57.png</image:loc>
-<image:title><![CDATA[]]></image:title>
+<image:loc>https://geeksfortech.onrender.com/media/posts/31/installing.png</image:loc>
+<image:title><![CDATA[Installing]]></image:title>
+</image:image>
+<image:image>
+<image:loc>https://geeksfortech.onrender.com/media/posts/31/git-options.png</image:loc>
+<image:title><![CDATA[Git Options]]></image:title>
 </image:image>
 <image:image>
 <image:loc>https://geeksfortech.onrender.com/media/posts/31/image-58.png</image:loc>
@@ -276,7 +280,7 @@
 </url>
 <url>
 <loc>https://geeksfortech.onrender.com/how-to-install-latest-nodejs-version-on-ubuntulinux-using-cli/</loc>
-<lastmod>2020-09-24T00:12:05+05:30</lastmod>
+<lastmod>2020-09-26T01:25:27+05:30</lastmod>
 <image:image>
 <image:loc>https://geeksfortech.onrender.com/media/posts/12/cover.png</image:loc>
 <image:title><![CDATA[Command to install]]></image:title>
@@ -284,7 +288,7 @@
 </url>
 <url>
 <loc>https://geeksfortech.onrender.com/how-to-install-python3-on-windows/</loc>
-<lastmod>2020-09-24T19:32:04+05:30</lastmod>
+<lastmod>2020-09-26T00:51:33+05:30</lastmod>
 <image:image>
 <image:loc>https://geeksfortech.onrender.com/media/posts/13/cover.webp</image:loc>
 <image:title><![CDATA[Installation]]></image:title>
@@ -292,10 +296,7 @@
 </url>
 <url>
 <loc>https://geeksfortech.onrender.com/java-buzzwords/</loc>
-<lastmod>2020-09-24T19:46:21+05:30</lastmod>
-</url>
-<url>
-<loc>https://geeksfortech.onrender.com/page/2/</loc>
+<lastmod>2020-09-26T01:26:47+05:30</lastmod>
 </url>
 <url>
 <loc>https://geeksfortech.onrender.com/privacy-policy/</loc>
@@ -317,6 +318,9 @@
 <loc>https://geeksfortech.onrender.com/tag/c-programming/</loc>
 </url>
 <url>
+<loc>https://geeksfortech.onrender.com/tag/cli/</loc>
+</url>
+<url>
 <loc>https://geeksfortech.onrender.com/tag/computer-graphics/</loc>
 </url>
 <url>
@@ -330,6 +334,9 @@
 </url>
 <url>
 <loc>https://geeksfortech.onrender.com/tag/free-ssl/</loc>
+</url>
+<url>
+<loc>https://geeksfortech.onrender.com/tag/gatsbyjs/</loc>
 </url>
 <url>
 <loc>https://geeksfortech.onrender.com/tag/gcp/</loc>
@@ -365,6 +372,9 @@
 <loc>https://geeksfortech.onrender.com/tag/list-and-explains-java-buzzwords/</loc>
 </url>
 <url>
+<loc>https://geeksfortech.onrender.com/tag/mailchimp/</loc>
+</url>
+<url>
 <loc>https://geeksfortech.onrender.com/tag/memory/</loc>
 </url>
 <url>
@@ -395,6 +405,9 @@
 <loc>https://geeksfortech.onrender.com/tag/thumbnail/</loc>
 </url>
 <url>
+<loc>https://geeksfortech.onrender.com/tag/ubuntu/</loc>
+</url>
+<url>
 <loc>https://geeksfortech.onrender.com/tag/variables/</loc>
 </url>
 <url>
@@ -408,6 +421,6 @@
 </url>
 <url>
 <loc>https://geeksfortech.onrender.com/variables-in-java/</loc>
-<lastmod>2020-09-24T19:46:22+05:30</lastmod>
+<lastmod>2020-09-26T01:26:22+05:30</lastmod>
 </url>
 </urlset>

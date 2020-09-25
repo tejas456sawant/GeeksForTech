@@ -3,7 +3,7 @@
     <title>GeeksForTech</title>
     <link href="https://geeksfortech.onrender.com/feed.xml" rel="self" />
     <link href="https://geeksfortech.onrender.com" />
-    <updated>2020-09-26T00:23:39+05:30</updated>
+    <updated>2020-09-26T01:25:27+05:30</updated>
     <author>
         <name>Tejas Sawant</name>
     </author>
@@ -172,9 +172,11 @@
         </author>
         <link href="https://geeksfortech.onrender.com/how-to-install-python3-on-windows/"/>
         <id>https://geeksfortech.onrender.com/how-to-install-python3-on-windows/</id>
+            <category term="install"/>
+            <category term="how to"/>
             <category term="Python"/>
 
-        <updated>2020-09-24T19:32:04+05:30</updated>
+        <updated>2020-09-26T00:51:33+05:30</updated>
             <summary>
                 <![CDATA[
                         <img src="https://geeksfortech.onrender.com/media/posts/13/cover.webp" alt="Installation" />
@@ -250,8 +252,13 @@
         </author>
         <link href="https://geeksfortech.onrender.com/how-to-install-latest-nodejs-version-on-ubuntulinux-using-cli/"/>
         <id>https://geeksfortech.onrender.com/how-to-install-latest-nodejs-version-on-ubuntulinux-using-cli/</id>
+            <category term="nodejs"/>
+            <category term="install"/>
+            <category term="how to"/>
+            <category term="cli"/>
+            <category term="Ubuntu"/>
 
-        <updated>2020-09-24T00:12:05+05:30</updated>
+        <updated>2020-09-26T01:25:27+05:30</updated>
             <summary>
                 <![CDATA[
                         <img src="https://geeksfortech.onrender.com/media/posts/12/cover.png" alt="Command to install" />
@@ -1002,8 +1009,11 @@ export default Index</code></pre>
         </author>
         <link href="https://geeksfortech.onrender.com/how-to-add-mailchimp-to-gatsbyjs/"/>
         <id>https://geeksfortech.onrender.com/how-to-add-mailchimp-to-gatsbyjs/</id>
+            <category term="how to"/>
+            <category term="MailChimp"/>
+            <category term="GatsbyJS"/>
 
-        <updated>2020-09-22T22:10:07+05:30</updated>
+        <updated>2020-09-26T01:24:20+05:30</updated>
             <summary>
                 <![CDATA[
                         <img src="https://geeksfortech.onrender.com/media/posts/6/cover.webp" alt="Email Field" />
