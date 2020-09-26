@@ -3,12 +3,498 @@
     <title>GeeksForTech</title>
     <link href="https://geeksfortech.com/feed.xml" rel="self" />
     <link href="https://geeksfortech.com" />
-    <updated>2020-09-26T02:23:30+05:30</updated>
+    <updated>2020-09-26T20:34:43+05:30</updated>
     <author>
         <name>Tejas Sawant</name>
     </author>
     <id>https://geeksfortech.com</id>
 
+    <entry>
+        <title>Servlet Lifecycle</title>
+        <author>
+            <name>Tejas Sawant</name>
+        </author>
+        <link href="https://geeksfortech.com/servlet-lifecycle/"/>
+        <id>https://geeksfortech.com/servlet-lifecycle/</id>
+            <category term="java"/>
+            <category term="Servlet"/>
+            <category term="Java Server Pages"/>
+            <category term="JSP"/>
+
+        <updated>2020-09-26T20:34:02+05:30</updated>
+            <summary>
+                <![CDATA[
+                        <img src="https://geeksfortech.com/media/posts/41/jsp.png" alt="JSP" />
+                     Servlets provide methods that are called when specific events occur in a larger context. Programming in this environment involves&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                    <img src="https://geeksfortech.com/media/posts/41/jsp.png" alt="JSP" />
+                
+  <p>
+    Servlets provide methods that are called when specific events occur in a larger context. Programming in this environment involves writing predefined methods, which are called as required by a managing program.<br>Servlets operate in the context of a request and response model managed by a servlet engine. The engine does the following:&nbsp;
+  </p>
+
+  <ul>
+    <li>Loads a servlet when it’s first requested</li><li>Calls the servlet’s init() method </li><li>Handles any number of requests by calling the servlet’s service() method </li><li>When shutting down, calls each servlet destroy() method.<br></li>
+  </ul>
+
+  <p>
+    As with applets, there are standard base classes <b><i>javax.servlet.GenericServlet</i></b> and <b><i>javax.servlet.http.HttpServlet</i></b> that implements the servlet callback methods. Servlet programming, then, consists of subclassing one of these classes and overriding the necessary method to accomplish the specific task at hand. <br>The following sections examine each of these lifecycle methods. <br>
+  </p>
+
+    <h2 id="init" class="align-center">
+      init
+    </h2>
+
+  <p>
+    When a request for a servlet is received by the servlet engine, it checks to see if the servlet is already loaded. If not, the servlet engine uses a class loader to get the particular servlet class required and then invokes its constructor to get an instance of the servlet. After the servlet is loaded, but before it services any requests, the servlet engine calls an initialization method with the following signature:&nbsp;
+  </p>
+<pre class="line-numbers  language-java"><code>public void init(ServletConfig config) throws ServletException</code></pre>
+
+  <p>
+    This method is called only once, just before the servlet is placed into service. The <b>ServletConfig</b> object provides access to the servlet context and to any initialization parameters coded for the servlet. To maintain a reference to the servlet context, the config object must be stored as an instance variable, a task that’s done by the init(ServletConfig) method in GenericServlet. For this reason, it’s important to call super.init(config) within the init() method of any subclass. Inside the init() method, the servlet can perform any necessary startup tasks, such as establishing database connections. If any errors occur that make the servlet unable to handle requests, it should throw an UnavailableException. This prevents requests from being directed to the servlet. <br>
+  </p>
+
+    <h2 id="service" class="align-center">
+      service
+    </h2>
+
+  <p>
+    After the init() method completes successfully, the servlet is able to accept requests. By default, only a single instance of the servlet is created, and the servlet engine dispatches each request to the instance in a separate thread. The servlet method that’s called has the following signature:&nbsp;
+  </p>
+<pre class="line-numbers  language-java"><code>public void service( 
+    ServletRequest request, 
+    ServletResponse response
+) throws ServletException, IOException; </code></pre>
+
+  <p>
+    The ServletRequest object is constructed by the servlet engine and acts as a wrapper for information about the client and the request. This includes the identity of the remote system, the request parameters, and any input stream associated with the request. Similarly, the ServletResponse object provides the means for a servlet to communicate its results back to the original requester. It includes methods for opening an output stream and for specifying the content type and length. As important as the service() method is, it’s rarely used. The reason for this is most servlets are designed to operate in the HTTP environment, for which there’s a specialized javax.servlet.http package. Rather than extending javax.servlet.GenericServlet directly, most servlets extend its subclass javax.servlet.http.HttpServlet. This subclass provides specialized methods corresponding to each HTTP request method: <br>
+  </p>
+
+  <ul>
+    <li><b>GET&nbsp;</b>requests are handled by <b>doGet()</b></li><li><b>POST&nbsp;</b>requests by <b>doPost()</b>&nbsp;</li>
+  </ul>
+
+  <p>
+    The signatures for these methods use HTTP-specific versions of the request and response objects:&nbsp;
+  </p>
+<pre class="line-numbers  language-java"><code>public void doGet( 
+    HttpServletRequest request, 
+    HttpServletResponse response
+ ) throws ServletException, IOException;
+</code></pre>
+
+  <p>
+    The service(Request, Response) method in HttpServlet casts the request and response objects into their HTTP-specific counterparts, and then calls service(HttpServletRequest, HttpServletResponse), which examines the request and calls the appropriate doGet(), doPost(), or other methods. A typical HTTP servlet, then, includes an override to one or more of these subsidiary methods, rather than an override to service().&nbsp;
+  </p>
+
+    <h2 id="destroynbsp" class="align-center">
+      destroy&nbsp;
+    </h2>
+
+  <p>
+    The servlet specification allows a servlet engine to unload a servlet at any time. This may be done to conserve system resources or in preparation for the servlet engine shutdown. The servlet engine notifies each loaded servlet this is about to happen by calling its destroy() method. By overriding destroy(), you can release any resources allocated during init().
+  </p>
+
+  <p>
+    Source :- <b>JSP: The Complete Reference</b> by&nbsp;<b>Phil Hanna</b>
+  </p>
+            ]]>
+        </content>
+    </entry>
+    <entry>
+        <title>What is Servlet in java ?</title>
+        <author>
+            <name>Tejas Sawant</name>
+        </author>
+        <link href="https://geeksfortech.com/what-is-servlet-in-java/"/>
+        <id>https://geeksfortech.com/what-is-servlet-in-java/</id>
+            <category term="java"/>
+            <category term="Servlet"/>
+            <category term="Java Server Pages"/>
+            <category term="JSP"/>
+
+        <updated>2020-09-26T20:34:43+05:30</updated>
+            <summary>
+                <![CDATA[
+                        <img src="https://geeksfortech.com/media/posts/39/jsp.png" alt="JSP" />
+                    Servlets are Java classes that extend the functionality of a Web server by dynamically generating Web pages. A run-time environment&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                    <img src="https://geeksfortech.com/media/posts/39/jsp.png" alt="JSP" />
+                <p id="viewer-foo" class="XzvDs _208Ie ljrnk blog-post-text-font blog-post-text-color _2QAo- _25MYV _1Fao9 ljrnk public-DraftStyleDefault-block-depth0 public-DraftStyleDefault-text-ltr"><strong>Servlets </strong>are Java classes that extend the functionality of a Web server by dynamically generating Web pages. A run-time environment known as a servlet engine manages <strong>servlet loading</strong> and <strong>unloading</strong>, and works with the Web server to direct requests to servlets and to send output back to Web clients. Since their introduction in 1997, servlets have become the dominant environment for <strong>server-side Java programming</strong> and a widely used portal into application servers. They offer several key advantages:</p>
+<div id="viewer-3oatb" class="XzvDs _208Ie ljrnk blog-post-text-font blog-post-text-color _2QAo- _25MYV _1Fao9 ljrnk public-DraftStyleDefault-block-depth0 public-DraftStyleDefault-text-ltr"> </div>
+<ol class="public-DraftStyleDefault-ol">
+<li id="viewer-ftj0t" class="ljrnk _1QOLZ public-DraftStyleDefault-orderedListItem
+   public-DraftStyleDefault-depth0
+   public-DraftStyleDefault-list-ltr public-DraftStyleDefault-reset _2QAo- _25MYV _1Fao9 ljrnk">
+<p class="_208Ie _2QAo- _25MYV _1Fao9 ljrnk"><strong>Performance</strong> Older technologies such as the Common Gateway Interface (CGI) typically start a new process to handle each incoming request. In the days when the Web was primarily a repository for academic and scientific research, there wasn’t very much traffic and this approach worked well. Servlets, by contrast, is loaded when first requested, and stay in memory indefinitely. The servlet engine loads a single instance of the servlet class and dispatches requests to it using a pool of available threads. The resulting performance improvement is considerable.</p>
+</li>
+<li id="viewer-6behi" class="ljrnk _1QOLZ public-DraftStyleDefault-orderedListItem
+   public-DraftStyleDefault-depth0
+   public-DraftStyleDefault-list-ltr _2QAo- _25MYV _1Fao9 ljrnk">
+<p class="_208Ie _2QAo- _25MYV _1Fao9 ljrnk"><strong>Simplicity</strong> Client-side Java applets run in a virtual machine provided by the Web browser. This introduces compatibility issues that increase complexity and limit the functionality that applets can provide. Servlets simplify this situation considerably because they run in a virtual machine in a controlled server environment and require only basic HTTP to communicate with their clients. No special client software is required, even with older browsers.</p>
+</li>
+<li id="viewer-9mkr1" class="ljrnk _1QOLZ public-DraftStyleDefault-orderedListItem
+   public-DraftStyleDefault-depth0
+   public-DraftStyleDefault-list-ltr _2QAo- _25MYV _1Fao9 ljrnk">
+<p class="_208Ie _2QAo- _25MYV _1Fao9 ljrnk"><strong>HTTP Sessions </strong>Although HTTP servers have no built-in capability to remember details of a previous request from the same client, the Servlet API provides an <em>HttpSession class</em> that overcomes this limitation.</p>
+</li>
+<li id="viewer-9qpqq" class="ljrnk _1QOLZ public-DraftStyleDefault-orderedListItem
+   public-DraftStyleDefault-depth0
+   public-DraftStyleDefault-list-ltr _2QAo- _25MYV _1Fao9 ljrnk">
+<p class="_208Ie _2QAo- _25MYV _1Fao9 ljrnk"><strong>Access to Java Technology </strong>Servlets, being Java applications, have direct access to the full range of Java features, such as threading, network access, and database connectivity. JSP pages, which are automatically translated into servlets, inherit all these advantages.</p>
+</li>
+</ol>
+<p>Source :- <strong>JSP: The Complete Reference</strong> By <strong>Phil Hanna</strong></p>
+            ]]>
+        </content>
+    </entry>
+    <entry>
+        <title>HTTP Request Model</title>
+        <author>
+            <name>Tejas Sawant</name>
+        </author>
+        <link href="https://geeksfortech.com/http-request-model/"/>
+        <id>https://geeksfortech.com/http-request-model/</id>
+            <category term="Java Server Pages"/>
+            <category term="JSP"/>
+            <category term="HTTP"/>
+
+        <updated>2020-09-26T20:08:40+05:30</updated>
+            <summary>
+                <![CDATA[
+                        <img src="https://geeksfortech.com/media/posts/38/http.png" alt="HTTP Request Model" />
+                     The specification describes HTTP as a stateless request/response protocol whose basic operation is as follows: A key consideration is&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                    <img src="https://geeksfortech.com/media/posts/38/http.png" alt="HTTP Request Model" />
+                
+  <p>
+    The specification describes HTTP as a stateless request/response protocol whose basic operation is as follows:
+  </p>
+
+  <ul>
+    <li>A client application, such as a Web browser, opens a socket to the Web server’s HTTP port (80, by default).</li><li>Through the connection, the client writes an ASCII text request line, followed by zero or more HTTP headers, an empty line, and any data that accompanies the request.</li><li>The Web server parses the request and locates the specified resource.</li><li>The server writes a copy of the resource to the socket, where it’s read by the client.</li><li><span style="color: var(--eb-text-primary-color); font-family: var(--font-base); font-size: 1em; font-weight: var(--font-weight-normal);">The server closes the connection.</span><br></li>
+  </ul>
+
+  <p>
+    A key consideration is this model is <b><i>stateless</i></b>. This means in handling a request, the Web server doesn’t remember anything about previous requests from the same client. The protocol is simply a request and a response. Obviously, this imposes limitations on application programming, which typically requires a great deal of back-and-forth conversation, as well as complex objects that must be initialized and have their state maintained. The way around this is to have the server assign an identifier to the session represented by a set of client requests and to have the client remember the identifier and supply it to the server with each request.
+  </p>
+
+    <h3 id="connecting-to-the-web-servernbsp">
+      Connecting to the Web Server&nbsp;
+    </h3>
+
+  <p>
+    A Web server operates by listening for requests on a particular well-known port number, usually port 80, although any available port can be used. If a Web server listens on a different port, URLs that refer to this server must include a colon and the port number immediately after the server name. For example,&nbsp;
+  </p>
+<pre class="line-numbers  language-http"><code>https://geeksfortech.com/index.html</code></pre>
+
+  <p>
+    refers to an HTML document known to a Web server running on the <a href="https://geeksfortech.com" target="_blank">geeksfortech.com</a> host on the default port 80. If the server is running on port 4311 instead, the URL looks like following
+  </p>
+<pre class="line-numbers  language-http"><code>http://geeksfortech.com:4311/index.html
+</code></pre>
+
+  <p>
+    A client, such as a Web browser, initiates an HTTP request by opening a TCP/IP socket to the Web server port and then opening input and output stream over the socket. In Java terms, this would amount to a few lines of code:
+  </p>
+<pre class="line-numbers  language-java"><code>Socket socket = new Socket(“geeksfortech.com”, 80);
+InputStream istream = socket.getInputStream();
+OutputStream ostream = socket.getOutputStream();</code></pre>
+
+  <p>
+    The parameters required to open the socket are the Web server hostname and the port number. The server hostname is extracted from the URL, while the port number is either implied or also extracted from the URL. The output stream is used to send HTTP commands to the Web server; the input stream is used to read the response.
+  </p>
+
+    <h3 id="sending-the-http-requestbr">
+      Sending the HTTP Request<br>
+    </h3>
+
+  <p>
+    Once the socket connection is made, the Web browser writes an HTTP command to request the document. A request has up to four parts. <br><br>The first part is the request line. This consists of three tokens, separated by spaces: the request method, the request URI, and the HTTP version. The following shows a typical request line:&nbsp;
+  </p>
+<pre class="line-numbers  language-http"><code>GET /index.html HTTP/1.0
+</code></pre>
+
+  <p>
+    In this example, the request method is <b>GET</b>, the URI is <b>/index.html</b>, and the <b>HTTP</b> version is <b>HTTP/1.0</b>.
+  </p>
+
+  <p>
+    The HTTP specification defines eight possible methods, shown in the following
+  </p>
+<div><style>
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+</style>
+<table>
+  <tr>
+    <th>Sr.No</th>
+    <th>Method</th>
+    <th>Description</th>
+  </tr>
+  <tr>
+    <td>1</td>
+    <td>GET</td>
+    <td>A simple request to retrieve the resource identified in the URI.</td>
+  </tr>
+  <tr>
+    <td>2</td>
+    <td>HEAD</td>
+    <td>The same as GET, except the server, doesn’t return the requested document. The server only returns the status line and headers.</td>
+  </tr>
+  <tr>
+    <td>3</td>
+    <td>POST</td>
+    <td>A request for the server to accept data that will be written to the client’s output stream.</td>
+  </tr>
+  <tr>
+    <td>4</td>
+    <td>PUT</td>
+    <td>A request for the server to store the data in the request as the new contents of the specified URI.</td>
+  </tr>
+  <tr>
+    <td>5</td>
+    <td>DELETE</td>
+    <td>A request for the server to delete the resource named in the URI.</td>
+  </tr>
+  <tr>
+    <td>6</td>
+    <td>OPTIONS</td>
+    <td>A request for information about what request methods the server supports.</td>
+  </tr>
+    <tr>
+    <td>7</td>
+    <td>TRACE</td>
+    <td>A request for the Web server to echo the HTTP request and its headers.</td>
+  </tr>
+    <tr>
+    <td>8</td>
+    <td>CONNECT</td>
+    <td>A documented but currently unimplemented method reserved for use with a tunneling proxy.</td>
+</table>
+</div>
+
+  <p>
+    The second token on the request line is the requested <strong>Uniform Resource Identifier (URI)</strong>. This is the URI of the document or other resource being requested. For all practical purposes, this corresponds to the <strong>URL</strong> without the leading <strong>http:// </strong>and hostname. In the example of <b>http://www.geeksfortech.com/index.html</b>, the request <b>URI</b> is <strong>/index.html</strong>
+  </p>
+
+  <p>
+    The last token on the line is the HTTP version. This indicates the highest level of the HTTP specification the client application understands. The allowable values are <b>HTTP/1.0 </b>and<b> HTTP/1.1</b>
+  </p>
+
+  <p>
+    After the request line come any request headers. These are key/value pairs, one pair per line, with the key and value separated by a colon (:). After the last request header is written, an empty line consisting of only a carriage return and line feed is sent. This informs the server that no more headers follow. Even if no headers exist, this empty line must be sent, so the server doesn’t look for any more headers. Request headers to inform the server further about the identity and capabilities of the client. Typical request headers might be
+  </p>
+
+  <ul>
+    <li><b>User-Agent</b>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; The vendor and version of the client </li><li><b>Accept</b>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; A list of content types the client recognizes </li><li><b>Content-Length</b>&nbsp; &nbsp; &nbsp; &nbsp;The number of bytes of data appended to the request</li>
+  </ul>
+
+    <h3 id="server-acceptance-of-the-requestbr">
+      Server Acceptance of the Request<br>
+    </h3>
+
+  <p>
+    When a client connects to the Web server’s listening port, the server accepts the connection and handles the request. In most cases, it does so by starting a thread to process the request, so it can continue to service new requests. Handling the request means different things depending on the URI. If the URI represents a static document, the server opens the document file and prepares to copy its contents back to the client. If the URI is a program name, such as a CGI script, servlet, or JSP page, and the server is configured to handle such a request, the server prepares to invoke the program or process.
+  </p>
+
+    <h3 id="the-http-response-from-the-serverbr">
+      The HTTP Response from the Server<br>
+    </h3>
+
+  <p>
+    The server processes the request, the result is the same—an HTTP response. Similar to a request, a response consists of up to four parts: <br>a status line, zero or more response headers, an empty line signaling the end of the headers, and the data that makes up the request.
+  </p>
+
+  <p>
+    The status line consists of up to three tokens:&nbsp;
+  </p>
+
+  <ol>
+    <li><b>The HTTP version</b>. Just as the client indicates the highest version it can understand, so the server indicates its capabilities.</li><li><b>The response code</b>. This is a three-digit numeric code that indicates whether the request succeeded or failed and, if it failed, the reason why.</li><li><b>Optional response description</b>. which is a human-readable explanation of the response code.</li>
+  </ol>
+
+  <p>
+    A typical HTTP response status line looks like this&nbsp;
+  </p>
+<pre class="line-numbers  language-http"><code>HTTP/1.0 200 OK
+</code></pre>
+
+  <p>
+    which indicates a successful retrieval of the requested document according to the 1.0 level of the HTTP specification. <br>After the status line comes the response headers, with an empty line as the delimiter. Like request headers, these indicate the capabilities of the server and identify details about the response data. <br>The last part of the response is the requested data itself, typically an HTML document or image stream. After the data is sent, the server closes its end of the connection.
+  </p>
+
+  <p>
+    Source :- <b>JSP: The Complete Reference</b> By <b>Phil Hanna</b>
+  </p>
+            ]]>
+        </content>
+    </entry>
+    <entry>
+        <title>Hypertext Transfer Protocol (HTTP)</title>
+        <author>
+            <name>Tejas Sawant</name>
+        </author>
+        <link href="https://geeksfortech.com/hypertext-transfer-protocol-http/"/>
+        <id>https://geeksfortech.com/hypertext-transfer-protocol-http/</id>
+            <category term="Java Server Pages"/>
+            <category term="JSP"/>
+            <category term="HTTP"/>
+
+        <updated>2020-09-26T20:08:12+05:30</updated>
+            <summary>
+                <![CDATA[
+                        <img src="https://geeksfortech.com/media/posts/37/http.png" alt="http" />
+                    What Is HTTP?Hypertext Markup Language (HTML) is the language used to describe the insides of Web documents, Hypertext Transfer Protocol&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                    <img src="https://geeksfortech.com/media/posts/37/http.png" alt="http" />
+                <h4 id="viewer-foo" class="XzvDs _208Ie ljrnk blog-post-text-font blog-post-text-color _2QAo- _25MYV _1Fao9 ljrnk public-DraftStyleDefault-block-depth0 public-DraftStyleDefault-text-ltr"><strong>What Is HTTP?</strong></h4>
+<p>Hypertext Markup Language (HTML) is the language used to describe the insides of Web documents, Hypertext Transfer Protocol (HTTP) is the language used to describe how these documents are sent over the Internet.</p>
+<p id="viewer-fg6k2" class="XzvDs _208Ie ljrnk blog-post-text-font blog-post-text-color _2QAo- _25MYV _1Fao9 ljrnk public-DraftStyleDefault-block-depth0 public-DraftStyleDefault-text-ltr">HTTP prescribes the rules by which browsers make requests and servers supply responses. This set of rules, or protocol, includes ways to</p>
+<ul class="public-DraftStyleDefault-ul">
+<li id="viewer-33a10" class="ljrnk _1QOLZ _2eQSj public-DraftStyleDefault-unorderedListItem
+   public-DraftStyleDefault-depth0
+   public-DraftStyleDefault-list-ltr public-DraftStyleDefault-reset _2QAo- _25MYV _1Fao9 ljrnk">
+<p class="_208Ie _2QAo- _25MYV _1Fao9 ljrnk">Ask for a document by name</p>
+</li>
+<li id="viewer-foq2j" class="ljrnk _1QOLZ _2eQSj public-DraftStyleDefault-unorderedListItem
+   public-DraftStyleDefault-depth0
+   public-DraftStyleDefault-list-ltr _2QAo- _25MYV _1Fao9 ljrnk">
+<p class="_208Ie _2QAo- _25MYV _1Fao9 ljrnk">Agree on the data format</p>
+</li>
+<li id="viewer-46hkt" class="ljrnk _1QOLZ _2eQSj public-DraftStyleDefault-unorderedListItem
+   public-DraftStyleDefault-depth0
+   public-DraftStyleDefault-list-ltr _2QAo- _25MYV _1Fao9 ljrnk">
+<p class="_208Ie _2QAo- _25MYV _1Fao9 ljrnk">Determine who the user is</p>
+</li>
+<li id="viewer-en8a6" class="ljrnk _1QOLZ _2eQSj public-DraftStyleDefault-unorderedListItem
+   public-DraftStyleDefault-depth0
+   public-DraftStyleDefault-list-ltr _2QAo- _25MYV _1Fao9 ljrnk">
+<p class="_208Ie _2QAo- _25MYV _1Fao9 ljrnk">Decide how to handle outdated resources</p>
+</li>
+<li id="viewer-7qrc7" class="ljrnk _1QOLZ _2eQSj public-DraftStyleDefault-unorderedListItem
+   public-DraftStyleDefault-depth0
+   public-DraftStyleDefault-list-ltr _2QAo- _25MYV _1Fao9 ljrnk">
+<p class="_208Ie _2QAo- _25MYV _1Fao9 ljrnk">Indicate the results of a request and other useful functions.</p>
+</li>
+</ul>
+<p id="viewer-2g4hr" class="XzvDs _208Ie ljrnk blog-post-text-font blog-post-text-color _2QAo- _25MYV _1Fao9 ljrnk public-DraftStyleDefault-block-depth0 public-DraftStyleDefault-text-ltr">HTTP consists of a set of commands written as lines of ordinary ASCII text. When you use a Web browser, you don’t enter the HTTP commands directly. Instead, when you type a URL or click a hyperlink, the browser translates your action into HTTP commands that request the document from the server specified in the URL. The Web server finds the document and sends it back to the browser, where it’s displayed, along with its associated graphics and other hyperlinks.</p>
+<h4 id="viewer-apui1" class="XzvDs _208Ie ljrnk blog-post-text-font blog-post-text-color _2QAo- _25MYV _1Fao9 ljrnk public-DraftStyleDefault-block-depth0 public-DraftStyleDefault-text-ltr"><strong>The HTTP Specification</strong></h4>
+<p id="viewer-1nipp" class="XzvDs _208Ie ljrnk blog-post-text-font blog-post-text-color _2QAo- _25MYV _1Fao9 ljrnk public-DraftStyleDefault-block-depth0 public-DraftStyleDefault-text-ltr">Internet standards are usually specified in a Request for Comments (RFC) published by the Internet Engineering Task Force (IETF). These RFCs are widely accepted by the Internet research and development community. Because they’re standards documents, they tend to be written in a formal language, like that of a legal document. This makes them unsuitable as tutorials, but invaluable for reference. RFCs are numbered and never change when issued. If a standard is updated, a new RFC is issued. Being standards, RFCs are widely available on the Internet.</p>
+<p id="viewer-9a8ll" class="XzvDs _208Ie ljrnk blog-post-text-font blog-post-text-color _2QAo- _25MYV _1Fao9 ljrnk public-DraftStyleDefault-block-depth0 public-DraftStyleDefault-text-ltr">Several RFCs deal with HTTP :</p>
+<ol class="public-DraftStyleDefault-ol">
+<li id="viewer-c90pa" class="ljrnk _1QOLZ public-DraftStyleDefault-orderedListItem
+   public-DraftStyleDefault-depth0
+   public-DraftStyleDefault-list-ltr public-DraftStyleDefault-reset _2QAo- _25MYV _1Fao9 ljrnk">
+<p class="_208Ie _2QAo- _25MYV _1Fao9 ljrnk">RFC 1945 A description of HTTP version 1.0</p>
+</li>
+<li id="viewer-c1h40" class="ljrnk _1QOLZ public-DraftStyleDefault-orderedListItem
+   public-DraftStyleDefault-depth0
+   public-DraftStyleDefault-list-ltr _2QAo- _25MYV _1Fao9 ljrnk">
+<p class="_208Ie _2QAo- _25MYV _1Fao9 ljrnk">RFC 2068 The initial description of version 1.1</p>
+</li>
+<li id="viewer-7gopg" class="ljrnk _1QOLZ public-DraftStyleDefault-orderedListItem
+   public-DraftStyleDefault-depth0
+   public-DraftStyleDefault-list-ltr _2QAo- _25MYV _1Fao9 ljrnk">
+<p class="_208Ie _2QAo- _25MYV _1Fao9 ljrnk">RFC 2616 An updated version of the 1.1 specification</p>
+</li>
+</ol>
+<p>Source :- <strong>JSP: The Complete Reference</strong> By <strong>Phil Hanna</strong></p>
+            ]]>
+        </content>
+    </entry>
+    <entry>
+        <title>Web Programming Models</title>
+        <author>
+            <name>Tejas Sawant</name>
+        </author>
+        <link href="https://geeksfortech.com/web-programming-models/"/>
+        <id>https://geeksfortech.com/web-programming-models/</id>
+            <category term="java"/>
+            <category term="Java Server Pages"/>
+            <category term="JSP"/>
+
+        <updated>2020-09-26T20:06:49+05:30</updated>
+            <summary>
+                <![CDATA[
+                        <img src="https://geeksfortech.com/media/posts/36/cover.webp" alt="1st Model" />
+                     1. Static Document Server Model The first operational model had the Web server simply serving up documents on request.
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                    <img src="https://geeksfortech.com/media/posts/36/cover.webp" alt="1st Model" />
+                
+  <p>
+    <b>1. Static Document Server Model</b>
+  </p>
+
+  <p>
+    The first operational model had the Web server simply serving up documents on request. In this environment, the content doesn’t change unless a human author supplies a new version of a document.
+  </p>
+
+    <figure class="post__image post__image--center">
+      <img loading="lazy" src="https://geeksfortech.com/media/posts/36/static-document-server-model.webp" height="378" width="740" alt="Static document server model" />
+      <figcaption>Static document server model</figcaption>
+    </figure>
+
+  <p>
+    <b>2. Dynamic content generated by a CGI script</b>
+  </p>
+
+  <p>
+    A CGI program is invoked by the Web server in response to certain types of requests, usually requests for documents in a particular directory or filenames having a particular extension, such as .cgi. The request parameters are passed as key/value pairs and the request headers as environment variables. The program reads these parameters and headers, performs the application task at hand (typically accessing a database to do so), and then generates an HTTP response. The response is sent back to the requesting Web browser as if it were an ordinary static document.
+  </p>
+
+    <figure class="post__image post__image--center">
+      <img loading="lazy" src="https://geeksfortech.com/media/posts/36/Dynamic-content-generated-by-a-CGI-script.webp" height="421" width="642" alt="Dynamic content generated by a CGI script" />
+      <figcaption>Dynamic content generated by a CGI script</figcaption>
+    </figure>
+
+  <p>
+    CGI is convenient, but it has one big drawback. Ordinarily, CGI spawns a new process for each HTTP request. This isn’t a problem when traffic is low, but it creates a great deal of overhead when the traffic level increases. This being the case, CGI in general doesn’t scale well.
+  </p>
+
+  <p>
+    <b>3. Dynamic applications using servlets, JSP, and J2EE</b><br><br>A significant improvement came with the release in 1997 of the Java Servlet API, followed quickly by the JavaServer Pages (JSP) API. These related technologies bring the full power of Java to the Web server, with database connectivity, network access, and multithreaded operations, and, notably, a different process model. Servlets and JSP pages operate from a single instance that remains in memory and uses multiple threads to service requests simultaneously. Servlets and JSP pages can make use of the full Java 2 Enterprise Edition (J2EE) environment for sophisticated, robust applications.
+  </p>
+
+    <figure class="post__image post__image--center">
+      <img loading="lazy" src="https://geeksfortech.com/media/posts/36/Dynamic-applications-using-servlets-JSP-and-J2EE.webp" height="547" width="552" alt="Dynamic applications using servlets, JSP, and J2EE" />
+      <figcaption>Dynamic applications using servlets, JSP, and J2EE</figcaption>
+    </figure>
+
+  <p>
+    Source :- <b>JSP: The Complete Reference</b> By <b>Phil Hanna</b><br>
+  </p>
+            ]]>
+        </content>
+    </entry>
     <entry>
         <title>Hosting wordpress site free on google cloud with bitnami wordpress and free SSL certificate</title>
         <author>
@@ -531,770 +1017,6 @@ gradlew assembleDebug
   <p>
     
   </p>
-            ]]>
-        </content>
-    </entry>
-    <entry>
-        <title>How to create nextjs project ?</title>
-        <author>
-            <name>Tejas Sawant</name>
-        </author>
-        <link href="https://geeksfortech.com/how-to-create-nextjs-project/"/>
-        <id>https://geeksfortech.com/how-to-create-nextjs-project/</id>
-            <category term="reactjs"/>
-            <category term="nodejs"/>
-            <category term="nextjs"/>
-            <category term="how to"/>
-
-        <updated>2020-09-26T02:23:30+05:30</updated>
-            <summary>
-                <![CDATA[
-                        <img src="https://geeksfortech.com/media/posts/8/cover-2.webp" alt="Cover" />
-                     In this section i am going to show you best way to create nextjs project. For creating nextjs project&hellip;
-                ]]>
-            </summary>
-        <content type="html">
-            <![CDATA[
-                    <img src="https://geeksfortech.com/media/posts/8/cover-2.webp" alt="Cover" />
-                
-  <p>
-    In this section i am going to show you best way to create nextjs project. For creating nextjs project you must have installed to nodejs. After that you can proceed with this tutorial.
-  </p>
-
-  <p>
-    First open <b>CMD/Terminal</b>. Navigate to directory where you have to create your nextjs project.
-  </p>
-<pre class="line-numbers  language-bash"><code>cd Blog
-</code></pre>
-
-  <p>
-    Then type following command this command used to create nextjs project
-  </p>
-<pre class="line-numbers  language-bash"><code> npm init next-app
-</code></pre>
-
-  <p>
-    After that it will ask you for project name if you don’t give project name then it will set default name as my-app.
-  </p>
-
-    <figure class="post__image post__image--center">
-      <img loading="lazy" src="https://geeksfortech.com/media/posts/8/give-name.png" sizes="(max-width: 48em) 100vw, 100vw" srcset="https://geeksfortech.com/media/posts/8/responsive/give-name-xs.png 300w ,https://geeksfortech.com/media/posts/8/responsive/give-name-sm.png 480w ,https://geeksfortech.com/media/posts/8/responsive/give-name-md.png 768w"  height="48" width="461" alt="Project Name" />
-      <figcaption>Giving Project Name</figcaption>
-    </figure>
-
-  <p>
-    After that you have to choose template for your nextjs project. I am going with Default starter app.
-  </p>
-
-    <figure class="post__image post__image--center">
-      <img loading="lazy" src="https://geeksfortech.com/media/posts/8/choosing-template.png" sizes="(max-width: 48em) 100vw, 100vw" srcset="https://geeksfortech.com/media/posts/8/responsive/choosing-template-xs.png 300w ,https://geeksfortech.com/media/posts/8/responsive/choosing-template-sm.png 480w ,https://geeksfortech.com/media/posts/8/responsive/choosing-template-md.png 768w"  height="43" width="398" alt="Template for project" />
-      <figcaption>Choosing Template</figcaption>
-    </figure>
-
-  <p>
-    After that all needed modules/packages will start downloading.
-  </p>
-
-    <figure class="post__image post__image--center">
-      <img loading="lazy" src="https://geeksfortech.com/media/posts/8/downloading-npm-packages.png" sizes="(max-width: 48em) 100vw, 100vw" srcset="https://geeksfortech.com/media/posts/8/responsive/downloading-npm-packages-xs.png 300w ,https://geeksfortech.com/media/posts/8/responsive/downloading-npm-packages-sm.png 480w ,https://geeksfortech.com/media/posts/8/responsive/downloading-npm-packages-md.png 768w"  height="224" width="590" alt="Downloading of packages" />
-      <figcaption>Auto downloading of packages.</figcaption>
-    </figure>
-
-  <p>
-    After that navigate to project directory. and type command <b>npm run dev</b> if you are using <b>npm</b> or type <b>yarn dev</b> if you are using <b>yarn</b>.
-  </p>
-<pre class="line-numbers  language-bash"><code>cd test-app
-yarn dev</code></pre>
-
-  <p>
-    You have successfully created nextjs project you can now visit to <a href="http://localhost:3000" target="_blank" rel="nofollow noopener">http://localhost:3000</a> You will see following screen.
-  </p>
-
-    <figure class="post__image post__image--center">
-      <img loading="lazy" src="https://geeksfortech.com/media/posts/8/cover.webp" height="592" width="1170" alt="Nextjs App " />
-      <figcaption>Nextjs App Default Preview</figcaption>
-    </figure>
-
-  <p>
-    Reference : <a href="https://nextjs.org/docs/getting-started" target="_blank">https://nextjs.org/docs/getting-started</a>
-  </p>
-            ]]>
-        </content>
-    </entry>
-    <entry>
-        <title>How to create a youtube thumbnail downloader?</title>
-        <author>
-            <name>Tejas Sawant</name>
-        </author>
-        <link href="https://geeksfortech.com/how-to-create-a-youtube-thumbnail-downloader/"/>
-        <id>https://geeksfortech.com/how-to-create-a-youtube-thumbnail-downloader/</id>
-            <category term="tailwindcss"/>
-            <category term="nextjs"/>
-            <category term="YouTube"/>
-            <category term="Thumbnail"/>
-
-        <updated>2020-09-26T00:12:57+05:30</updated>
-            <summary>
-                <![CDATA[
-                        <img src="https://geeksfortech.com/media/posts/7/cover.webp" alt="Cover" />
-                     Demo :- https://youtubethumbnaildownloader.geeksfortech.com Following article shows how you can create youtube thumbnail downloader. For this project we are going&hellip;
-                ]]>
-            </summary>
-        <content type="html">
-            <![CDATA[
-                    <img src="https://geeksfortech.com/media/posts/7/cover.webp" alt="Cover" />
-                
-  <p>
-    Demo :- <a href="https://youtubethumbnaildownloader.geeksfortech.com">https://youtubethumbnaildownloader.geeksfortech.com</a>
-  </p>
-
-  <p>
-    Following article shows how you can create youtube thumbnail downloader. For this project we are going to use Nextjs and tailwind css. First we are going to create nextjs with tailwind css. You can use following command.
-  </p>
-<pre class="line-numbers  language-bash"><code>npx create-next-app --example with-tailwindcss youtube-thumbnail-downloader
-</code></pre>
-
-    <figure class="post__image post__image--center">
-      <img loading="lazy" src="https://geeksfortech.com/media/posts/7/create-project.png" sizes="(max-width: 48em) 100vw, 100vw" srcset="https://geeksfortech.com/media/posts/7/responsive/create-project-xs.png 300w ,https://geeksfortech.com/media/posts/7/responsive/create-project-sm.png 480w ,https://geeksfortech.com/media/posts/7/responsive/create-project-md.png 768w"  height="170" width="682" alt="" />
-      
-    </figure>
-
-  <p>
-    This command will create next app with tailwind css.
-  </p>
-
-  <ul>
-    <li>Creating <b>Input </b>for accepting youtube url.<br></li>
-  </ul>
-<pre class="line-numbers  language-jsx"><code>&lt;form className="w-full max-w-md"&gt;
-  &lt;div className="flex items-center border-b border-teal-500 py-2"&gt;
-    &lt;input
-      className="appearance-none bg-transparent border-none w-full text-gray-700 mr-3 py-1 px-2 leading-tight focus:outline-none"
-      type="text"
-      placeholder="Enter Youtube URL"
-    /&gt;
-    &lt;button
-      className="flex-shrink-0 bg-teal-500 hover:bg-teal-700 border-teal-500 hover:border-teal-700 text-sm border-4 text-white py-1 px-2 rounded"
-      type="button"
-    &gt;
-      Download
-    &lt;/button&gt;
-  &lt;/div&gt;
-&lt;/form&gt;</code></pre>
-
-    <figure class="post__image post__image--center">
-      <img loading="lazy" src="https://geeksfortech.com/media/posts/7/input-box.png" sizes="(max-width: 48em) 100vw, 100vw" srcset="https://geeksfortech.com/media/posts/7/responsive/input-box-xs.png 300w ,https://geeksfortech.com/media/posts/7/responsive/input-box-sm.png 480w ,https://geeksfortech.com/media/posts/7/responsive/input-box-md.png 768w"  height="87" width="498" alt="" />
-      
-    </figure>
-
-  <ul>
-    <li>Then creating function for checking whether entered url is correct youtube url or not.</li>
-  </ul>
-<pre class="line-numbers  language-jsx"><code>const getYouTubeThumbnail = url =&gt; {
-  //regex for matching youtube url
-  let regExp = /.*(?:youtu.be\/|v\/|u\/\w\/|embed\/|watch\?v=)([^#\&\?]*).*/
-  let match = url.match(regExp)
-  if (match && match[1].length == 11) {
-    let videoURL = match[1]
-    //videoURL is holding video url like aabbssccddffj it is 11 letters url.
-  } else {
-    console.log(
-      "The URL you have entered maybe incorrect. Please Enter a correct URL."
-    )
-  }
-}</code></pre>
-
-  <ul>
-    <li>Now we are going to create state for our thumbnail urls, actual video url entered by user and for error.</li>
-  </ul>
-<pre class="line-numbers  language-jsx"><code>//imporing useState from react
-import { useState } from "react"
-
-// functional component
-const Index = () =&gt; {
-  const [error, seterror] = useState("")
-  const [videoURL, setVideoURL] = useState("")
-  const [HDImage_1280_720, setHDImage_1280_720] = useState("")
-  const [SDImage_640_480, setSDImage_640_480] = useState("")
-  const [NormalImage_480_360, setNormalImage_480_360] = useState("")
-  const [NormalImage_320_180, setNormalImage_320_180] = useState("")
-  const [NormalImage_120_90, setNormalImage_120_90] = useState("")
-}</code></pre>
-
-  <ul>
-    <li>Next storing enterd url in state also creating text field using span for conditional rendering of errors.</li>
-  </ul>
-<pre class="line-numbers  language-jsx"><code>&lt;form className="w-full max-w-md"&gt;
-  &lt;div className="flex items-center border-b border-teal-500 py-2"&gt;
-    &lt;input
-      className="appearance-none bg-transparent border-none w-full text-gray-700 mr-3 py-1 px-2 leading-tight focus:outline-none"
-      type="text"
-      value={videoURL}
-      placeholder="Enter Youtube URL"
-      onChange={event =&gt; {
-        setVideoURL(event.target.value)
-        console.log(event.target.value)
-      }}
-    /&gt;
-    &lt;button
-      className="flex-shrink-0 bg-teal-500 hover:bg-teal-700 border-teal-500 hover:border-teal-700 text-sm border-4 text-white py-1 px-2 rounded"
-      type="button"
-    &gt;
-      Download
-    &lt;/button&gt;
-  &lt;/div&gt;
-&lt;/form&gt;
-{
-  error && &lt;span className="font-black"&gt;{error}&lt;/span&gt;
-}</code></pre>
-
-  <ul>
-    <li>Completing <b>getYouTubeThumbnail()</b> function and updating with videos urls states.<br></li>
-  </ul>
-<pre class="line-numbers  language-jsx"><code>const getYouTubeThumbnail = url =&gt; {
-  let regExp = /.*(?:youtu.be\/|v\/|u\/\w\/|embed\/|watch\?v=)([^#\&\?]*).*/
-  let match = url.match(regExp)
-  if (match && match[1].length == 11) {
-    let videoURL = match[1]
-    setHDImage_1280_720(
-      "http://img.youtube.com/vi/" + videoURL + "/maxresdefault.jpg"
-    )
-    setSDImage_640_480(
-      "http://img.youtube.com/vi/" + videoURL + "/sddefault.jpg"
-    )
-    setNormalImage_480_360(
-      "http://img.youtube.com/vi/" + videoURL + "/hqdefault.jpg"
-    )
-    setNormalImage_320_180(
-      "http://img.youtube.com/vi/" + videoURL + "/mqdefault.jpg"
-    )
-    setNormalImage_120_90(
-      "http://img.youtube.com/vi/" + videoURL + "/default.jpg"
-    )
-    seterror("")
-  } else {
-    seterror(
-      "The URL you have entered maybe incorrect. Please Enter a correct URL."
-    )
-  }
-}</code></pre>
-
-  <ul>
-    <li>Passing values to <b>getYouTubeThumbnail()</b> function and adding image tags with there src as states.</li>
-  </ul>
-<pre class="line-numbers  language-jsx"><code>const index = () =&gt; {
-  return (
-    &lt;div&gt;
-      //Text Input Field Code
-      &lt;button
-        className="flex-shrink-0 bg-teal-500 hover:bg-teal-700 border-teal-500 hover:border-teal-700 text-sm border-4 text-white py-1 px-2 rounded"
-        type="button"
-        onClick={() =&gt; {
-          getYouTubeThumbnail(videoURL)
-        }}
-      &gt;
-        Download
-      &lt;/button&gt;
-      // Repeat code for SDImage_640_480, NormalImage_480_360
-      //NormalImage_320_180, NormalImage_120_90
-      &lt;img
-        src={HDImage_1280_720}
-        alt="HDImage_1280_720"
-        className="mb-3 object-center"
-      /&gt;
-    &lt;/div&gt;
-  )
-}
-export default Index</code></pre>
-
-    <figure class="post__image post__image--center">
-      <img loading="lazy" src="https://geeksfortech.com/media/posts/7/button.png" sizes="(max-width: 48em) 100vw, 100vw" srcset="https://geeksfortech.com/media/posts/7/responsive/button-xs.png 300w ,https://geeksfortech.com/media/posts/7/responsive/button-sm.png 480w ,https://geeksfortech.com/media/posts/7/responsive/button-md.png 768w"  height="62" width="250" alt="" />
-      
-    </figure>
-
-  <ul>
-    <li>At last going to add button for downloading thumbnail and then redirecting to thumbnail url.</li>
-  </ul>
-<pre class="line-numbers  language-jsx"><code>// Repeat code for SDImage_640_480, NormalImage_480_360
-// NormalImage_320_180, NormalImage_120_90
-&lt;button className="bg-transparent hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded mb-5 inline-flex"&gt;
-  &lt;svg
-    className="fill-current w-4 h-4 mr-2 mt-1"
-    xmlns="http://www.w3.org/2000/svg"
-    viewBox="0 0 20 20"
-  &gt;
-    &lt;path d="M13 8V2H7v6H2l8 8 8-8h-5zM0 18h20v2H0v-2z" /&gt;
-  &lt;/svg&gt;
-  &lt;a href={HDImage_1280_720} target="_blank"&gt;
-    HD Image (1280x720)
-  &lt;/a&gt;
-&lt;/button&gt;</code></pre>
-
-  <p>
-    <b><i>Final Code looks like following.</i></b>
-  </p>
-<pre class="line-numbers  language-jsx"><code>import { useState } from "react"
-
-const Index = () =&gt; {
-  const [error, seterror] = useState("")
-  const [videoURL, setVideoURL] = useState("")
-  const [HDImage_1280_720, setHDImage_1280_720] = useState("")
-  const [SDImage_640_480, setSDImage_640_480] = useState("")
-  const [NormalImage_480_360, setNormalImage_480_360] = useState("")
-  const [NormalImage_320_180, setNormalImage_320_180] = useState("")
-  const [NormalImage_120_90, setNormalImage_120_90] = useState("")
-
-  const getYouTubeThumbnail = url =&gt; {
-    let regExp = /.*(?:youtu.be\/|v\/|u\/\w\/|embed\/|watch\?v=)([^#\&\?]*).*/
-    let match = url.match(regExp)
-    if (match && match[1].length == 11) {
-      let videoURL = match[1]
-      setHDImage_1280_720(
-        "http://img.youtube.com/vi/" + videoURL + "/maxresdefault.jpg"
-      )
-      setSDImage_640_480(
-        "http://img.youtube.com/vi/" + videoURL + "/sddefault.jpg"
-      )
-      setNormalImage_480_360(
-        "http://img.youtube.com/vi/" + videoURL + "/hqdefault.jpg"
-      )
-      setNormalImage_320_180(
-        "http://img.youtube.com/vi/" + videoURL + "/mqdefault.jpg"
-      )
-      setNormalImage_120_90(
-        "http://img.youtube.com/vi/" + videoURL + "/default.jpg"
-      )
-      seterror("")
-    } else {
-      seterror(
-        "The URL you have entered maybe incorrect. Please Enter a correct URL."
-      )
-    }
-  }
-
-  return (
-    &lt;div className="mt-15 md:mt-10 lg:mt-10 mx-auto"&gt;
-      &lt;center&gt;
-        &lt;form className="w-full max-w-md"&gt;
-          &lt;div className="flex items-center border-b border-teal-500 py-2"&gt;
-            &lt;input
-              className="appearance-none bg-transparent border-none w-full text-gray-700 mr-3 py-1 px-2 leading-tight focus:outline-none"
-              type="text"
-              value={videoURL}
-              placeholder="Enter Youtube URL"
-              onChange={event =&gt; {
-                setVideoURL(event.target.value)
-                console.log(event.target.value)
-              }}
-            /&gt;
-            &lt;button
-              className="flex-shrink-0 bg-teal-500 hover:bg-teal-700 border-teal-500 hover:border-teal-700 text-sm border-4 text-white py-1 px-2 rounded"
-              type="button"
-              onClick={() =&gt; {
-                getYouTubeThumbnail(videoURL)
-              }}
-            &gt;
-              Download
-            &lt;/button&gt;
-          &lt;/div&gt;
-        &lt;/form&gt;
-        {error && &lt;span className="font-black"&gt;{error}&lt;/span&gt;}
-        {!error && HDImage_1280_720 !== "" ? (
-          &lt;div className="mt-10"&gt;
-            &lt;button className="bg-transparent hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded mb-5 inline-flex"&gt;
-              &lt;svg
-                className="fill-current w-4 h-4 mr-2 mt-1"
-                xmlns="http://www.w3.org/2000/svg"
-                viewBox="0 0 20 20"
-              &gt;
-                &lt;path d="M13 8V2H7v6H2l8 8 8-8h-5zM0 18h20v2H0v-2z" /&gt;
-              &lt;/svg&gt;
-              &lt;a href={HDImage_1280_720} target="_blank"&gt;
-                HD Image (1280x720)
-              &lt;/a&gt;
-            &lt;/button&gt;
-            &lt;img
-              src={HDImage_1280_720}
-              alt="HDImage_1280_720"
-              className="mb-3 object-center"
-            /&gt;
-            &lt;button className="bg-transparent hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded mb-5 inline-flex"&gt;
-              &lt;svg
-                className="fill-current w-4 h-4 mr-2 mt-1"
-                xmlns="http://www.w3.org/2000/svg"
-                viewBox="0 0 20 20"
-              &gt;
-                &lt;path d="M13 8V2H7v6H2l8 8 8-8h-5zM0 18h20v2H0v-2z" /&gt;
-              &lt;/svg&gt;
-              &lt;a href={SDImage_640_480} target="_blank"&gt;
-                SD Image (640x480)
-              &lt;/a&gt;
-            &lt;/button&gt;
-            &lt;img
-              src={SDImage_640_480}
-              alt="HDImage_1280_720"
-              className="mb-3 object-center"
-            /&gt;
-            &lt;button className="bg-transparent hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded mb-5 inline-flex"&gt;
-              &lt;svg
-                className="fill-current w-4 h-4 mr-2 mt-1"
-                xmlns="http://www.w3.org/2000/svg"
-                viewBox="0 0 20 20"
-              &gt;
-                &lt;path d="M13 8V2H7v6H2l8 8 8-8h-5zM0 18h20v2H0v-2z" /&gt;
-              &lt;/svg&gt;
-              &lt;a href={NormalImage_480_360} target="_blank"&gt;
-                Normal Image (480x360)
-              &lt;/a&gt;
-            &lt;/button&gt;
-            &lt;img
-              src={NormalImage_480_360}
-              alt="HDImage_1280_720"
-              className="mb-3 object-center"
-            /&gt;
-            &lt;button className="bg-transparent hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded mb-5 inline-flex"&gt;
-              &lt;svg
-                className="fill-current w-4 h-4 mr-2 mt-1"
-                xmlns="http://www.w3.org/2000/svg"
-                viewBox="0 0 20 20"
-              &gt;
-                &lt;path d="M13 8V2H7v6H2l8 8 8-8h-5zM0 18h20v2H0v-2z" /&gt;
-              &lt;/svg&gt;
-              &lt;a href={NormalImage_320_180} target="_blank"&gt;
-                Normal Image (320x180)
-              &lt;/a&gt;
-            &lt;/button&gt;
-            &lt;img
-              src={NormalImage_320_180}
-              alt="HDImage_1280_720"
-              className="mb-3 object-center"
-            /&gt;
-            &lt;button className="bg-transparent hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded mb-5 inline-flex"&gt;
-              &lt;svg
-                className="fill-current w-4 h-4 mr-2 mt-1"
-                xmlns="http://www.w3.org/2000/svg"
-                viewBox="0 0 20 20"
-              &gt;
-                &lt;path d="M13 8V2H7v6H2l8 8 8-8h-5zM0 18h20v2H0v-2z" /&gt;
-              &lt;/svg&gt;
-              &lt;a href={NormalImage_120_90} target="_blank"&gt;
-                Normal Image (120x90)
-              &lt;/a&gt;
-            &lt;/button&gt;
-            &lt;img
-              src={NormalImage_120_90}
-              alt="HDImage_1280_720"
-              className="mb-3 object-center"
-            /&gt;
-          &lt;/div&gt;
-        ) : (
-          ""
-        )}
-      &lt;/center&gt;
-    &lt;/div&gt;
-  )
-}
-export default Index</code></pre>
-
-  <p>
-    
-  </p>
-            ]]>
-        </content>
-    </entry>
-    <entry>
-        <title>How to add mailchimp to gatsbyjs ? </title>
-        <author>
-            <name>Tejas Sawant</name>
-        </author>
-        <link href="https://geeksfortech.com/how-to-add-mailchimp-to-gatsbyjs/"/>
-        <id>https://geeksfortech.com/how-to-add-mailchimp-to-gatsbyjs/</id>
-            <category term="how to"/>
-            <category term="MailChimp"/>
-            <category term="GatsbyJS"/>
-
-        <updated>2020-09-26T01:24:20+05:30</updated>
-            <summary>
-                <![CDATA[
-                        <img src="https://geeksfortech.com/media/posts/6/cover.webp" alt="Email Field" />
-                     This article show how you can add mailchimp to your gatsbyjs project.&nbsp; First install mailchimp package using npm to&hellip;
-                ]]>
-            </summary>
-        <content type="html">
-            <![CDATA[
-                    <img src="https://geeksfortech.com/media/posts/6/cover.webp" alt="Email Field" />
-                
-  <p>
-    This article show how you can add mailchimp to your gatsbyjs project.&nbsp;
-  </p>
-
-  <p>
-    First install mailchimp package using npm to gatsby project.&nbsp;
-  </p>
-<pre class="line-numbers  language-bash"><code>npm install gatsby-plugin-mailchimp
-</code></pre>
-
-  <p>
-    Add following config object to your gatsby-config.js
-<br>
-
-  </p>
-<pre class="line-numbers  language-json"><code>{
-  "resolve": "gatsby-plugin-mailchimp",
-  "options": {
-    "endpoint": "",
-    "timeout": 3500
-  }
-}</code></pre>
-
-  <ul>
-    <li>Login to mailchimp account.
-<br><br></li><li>Then look for Audience &gt; Embedded Forms.
-<br><br></li><li>Click on Select
-<br><br></li><li>Grab url in form action https://******.list-manage.com/subscribe/post?u=****************
-<br><br></li><li>Paste that url into endpoint in gatsby-config.js</li>
-  </ul>
-
-    <figure class="post__image post__image--center">
-      <img loading="lazy" src="https://geeksfortech.com/media/posts/6/url-img.png" sizes="(max-width: 48em) 100vw, 100vw" srcset="https://geeksfortech.com/media/posts/6/responsive/url-img-xs.png 300w ,https://geeksfortech.com/media/posts/6/responsive/url-img-sm.png 480w ,https://geeksfortech.com/media/posts/6/responsive/url-img-md.png 768w"  height="44" width="787" alt="URL" />
-      <figcaption>URL</figcaption>
-    </figure>
-<pre class="line-numbers  language-json"><code>{
-  "resolve": "gatsby-plugin-mailchimp",
-  "options": {
-    "endpoint": "https://******.list-manage.com/subscribe/post?u=****************",
-    "timeout": 3500
-  }
-}</code></pre>
-
-  <p>
-    Last create text field for adding email id.
-<br>
-
-  </p>
-<pre class="line-numbers  language-jsx"><code>import addToMailchimp from "gatsby-plugin-mailchimp"
-
-export default class MyGatsbyComponent extends React.Component {
-  // Since `addToMailchimp` returns a promise, you
-  // can handle the response in two different ways:
-
-  // Note that you need to send an email & optionally, listFields
-  // these values can be pulled from React state, form fields,
-  // or wherever.  (Personally, I recommend storing in state).
-
-  // 1. via `.then`
-  _handleSubmit = e =&gt; {
-    e.preventDefault()
-    addToMailchimp(email, listFields) // listFields are optional if you are only capturing the email address.
-      .then(data =&gt; {
-        // I recommend setting data to React state
-        // but you can do whatever you want (including ignoring this `then()` altogether)
-        console.log(data)
-      })
-      .catch(() =&gt; {
-        // unnecessary because Mailchimp only ever
-        // returns a 200 status code
-        // see below for how to handle errors
-      })
-  }
-
-  // 2. via `async/await`
-  _handleSubmit = async e =&gt; {
-    e.preventDefault()
-    const result = await addToMailchimp(email, listFields)
-    // I recommend setting `result` to React state
-    // but you can do whatever you want
-  }
-
-  render() {
-    return &lt;form onSubmit={this._handleSubmit(email, { listFields })}&gt;...&lt;/form&gt;
-  }
-}</code></pre>
-
-  <p>
-    Reference :- <a href="https://www.gatsbyjs.com/plugins/gatsby-plugin-mailchimp" target="_blank" rel="nofollow noopener">https://www.gatsbyjs.com/plugins/gatsby-plugin-mailchimp</a>
-  </p>
-
-  <p>
-    
-  </p>
-            ]]>
-        </content>
-    </entry>
-    <entry>
-        <title>C Program for 2D Reflection </title>
-        <author>
-            <name>Tejas Sawant</name>
-        </author>
-        <link href="https://geeksfortech.com/c-program-for-2d-reflection/"/>
-        <id>https://geeksfortech.com/c-program-for-2d-reflection/</id>
-            <category term="Computer Graphics"/>
-            <category term="C Programming"/>
-            <category term="C"/>
-
-        <updated>2020-09-25T13:36:45+05:30</updated>
-            <summary>
-                <![CDATA[
-                        <img src="https://geeksfortech.com/media/posts/5/cover-2.png" alt="2D Reflection " />
-                    #include&lt;stdio.h&gt;#include&lt;conio.h&gt;#include&lt;graphics.h&gt;#include&lt;math.h&gt;#include&lt;process.h&gt;void disp(float v[][3]){ float xmax, ymax ; xmax=getmaxx()/2 ; ymax = getmaxy()/2 ; int i=0; while(i&lt;2) { line(xmax+v[i][0], ymax-v[i][1], xmax+v[i+1][0],&hellip;
-                ]]>
-            </summary>
-        <content type="html">
-            <![CDATA[
-                    <img src="https://geeksfortech.com/media/posts/5/cover-2.png" alt="2D Reflection " />
-                <pre class="line-numbers  language-c"><code>#include&lt;stdio.h&gt;
-#include&lt;conio.h&gt;
-#include&lt;graphics.h&gt;
-#include&lt;math.h&gt;
-#include&lt;process.h&gt;
-void disp(float v[][3])
-{
- float xmax, ymax ;
- xmax=getmaxx()/2 ;
- ymax = getmaxy()/2 ;
- int i=0;
- while(i&lt;2)
- {
- line(xmax+v[i][0], ymax-v[i][1], xmax+v[i+1][0], ymax-v[i+1][1]);
- i++ ;
- }
- i=2;
- line(xmax+v[i][0],ymax-v[i][1],xmax+v[0][0],ymax-v[0][1]);
- setcolor(BLUE);
- line(0,ymax,xmax*2,ymax);
- line(xmax,0,xmax,ymax*2);
- setcolor(WHITE);
-}
-void multiply (float b[][3],float v[][3],float a[][3])
-{
- int i,j,k;
- for(i=0;i&lt;3;i++)
- for(j=0;j&lt;3;j++)
- a[i][j]=0;
- for(i=0;i&lt;3;i++)
- for(j=0;j&lt;3;j++)
- for(k=0;k&lt;3;k++)
- {
- a[i][j] = a[i][j] + (v[i][k] * b[k][j]);
- }
-}
-void reflect(float v[][3])
-{
- float b[10][3],a[10][3];
- int i=0,j;
- cleardevice();
- disp(v);
- for(i=0;i&lt;3;i++)
- for(j=0;j&lt;3;j++)
- {
- b[i][j]=0;
- if(i==j)
- b[i][j]=1;
- }
- b[1][1]=-1;
- multiply(b,v,a);
- setcolor(YELLOW);
- disp(a);
-}
-int main()
-{
- int gd=DETECT, gm ;
- float v[10][3] ;
- initgraph(&gd,&gm,NULL);
- for(int i=0; i &lt; 3; i++)
- {
- printf("Enter the coordinate v%d :", i+1);
- scanf("%f%f", &v[i][0], &v[i][1]);
- v[i][2] = 1;
- }
- cleardevice();
- setcolor(BLACK);
- disp(v);
- reflect(v);
- getch();
- closegraph();
- return 0;
-}</code></pre>
-
-  <p>
-    Output :-&nbsp;
-  </p>
-
-    <figure class="post__image post__image--center">
-      <img loading="lazy" src="https://geeksfortech.com/media/posts/5/output-1.png" sizes="(max-width: 48em) 100vw, 100vw" srcset="https://geeksfortech.com/media/posts/5/responsive/output-1-xs.png 300w ,https://geeksfortech.com/media/posts/5/responsive/output-1-sm.png 480w ,https://geeksfortech.com/media/posts/5/responsive/output-1-md.png 768w"  height="136" width="381" alt="" />
-      
-    </figure>
-
-    <figure class="post__image post__image--center">
-      <img loading="lazy" src="https://geeksfortech.com/media/posts/5/cover.png" sizes="(max-width: 48em) 100vw, 100vw" srcset="https://geeksfortech.com/media/posts/5/responsive/cover-xs.png 300w ,https://geeksfortech.com/media/posts/5/responsive/cover-sm.png 480w ,https://geeksfortech.com/media/posts/5/responsive/cover-md.png 768w"  height="468" width="625" alt="" />
-      
-    </figure>
-            ]]>
-        </content>
-    </entry>
-    <entry>
-        <title>Creating a new django app and installing  dependencies</title>
-        <author>
-            <name>Tejas Sawant</name>
-        </author>
-        <link href="https://geeksfortech.com/creating-a-new-django-app-and-installing-dependencies/"/>
-        <id>https://geeksfortech.com/creating-a-new-django-app-and-installing-dependencies/</id>
-            <category term="restapi"/>
-            <category term="djangorestframework"/>
-            <category term="django"/>
-            <category term="Python"/>
-
-        <updated>2020-09-26T00:23:39+05:30</updated>
-            <summary>
-                <![CDATA[
-                        <img src="https://geeksfortech.com/media/posts/34/cover.webp" alt="Installed Apps" />
-                     This section is part of series Building REST API with Python &amp; Django. Now we're going to create a&hellip;
-                ]]>
-            </summary>
-        <content type="html">
-            <![CDATA[
-                    <img src="https://geeksfortech.com/media/posts/34/cover.webp" alt="Installed Apps" />
-                <p><!-- wp:paragraph --></p>
-<p>This section is part of series <a href="https://geeksfortech.com/building-rest-api-with-python-and-django-tutorial/" target="_blank" rel="noopener noreferrer">Building REST API with Python &amp; Django</a>. Now we're going to create a new Django project and app for our student information API.</p>
-<p><!-- /wp:paragraph --></p>
-<p><!-- wp:paragraph --></p>
-<p>First We're gonna do this using the Django admin command line tool. Now we can use the Django admin command by <strong>django-admin startproject student_info .</strong><br>What this does it passes arguments to start projects to say that we want to start a new project and it specifies the name of the project. So our project is going to be called the <strong>student_info</strong> and then the location that we want to create the project. So this last dot here this is optional. We are using . because we want to create it in the root of our project.</p>
-<figure class="post__image post__image--center"><img loading="lazy"  src="https://geeksfortech.com/media/posts/34/studen_info.png" sizes="(max-width: 48em) 100vw, 100vw" srcset="https://geeksfortech.com/media/posts/34/responsive/studen_info-xs.png 300w ,https://geeksfortech.com/media/posts/34/responsive/studen_info-sm.png 480w ,https://geeksfortech.com/media/posts/34/responsive/studen_info-md.png 768w"  alt="student_info" width="590" height="439"></figure>
-<p><span style="color: var(--text-editor-body-color); font-family: var(--font-base); font-size: inherit; font-style: italic; font-weight: var(--font-weight-normal); text-align: center;">Now we have the Django project. We need to create an app within our project for our student information API. So a Django project can consist of one or more sub applications within the projects that you can use to separate different functionality within your projects.</span></p>
-<p>So we're just going to create one API.</p>
-<p><!-- /wp:paragraph --></p>
-<p><!-- wp:paragraph --></p>
-<p>The student information API so we'll just create one app and we'll call the app as <strong>student_info_api</strong>. Now that we've tried our project we need to use the <strong>manage.py</strong> script instead of Django admin and then we'll type <strong>startapp</strong> <strong>student_info_api</strong> then hit enter. (<strong>python manage.py startapp student_info_api</strong>)</p>
-<figure class="post__image post__image--center"><img loading="lazy"  src="https://geeksfortech.com/media/posts/34/student_info_api.png" sizes="(max-width: 48em) 100vw, 100vw" srcset="https://geeksfortech.com/media/posts/34/responsive/student_info_api-xs.png 300w ,https://geeksfortech.com/media/posts/34/responsive/student_info_api-sm.png 480w ,https://geeksfortech.com/media/posts/34/responsive/student_info_api-md.png 768w"  alt="student_info_api" width="590" height="361"></figure>
-<p><span style="color: var(--text-editor-body-color); font-family: var(--font-base); font-size: inherit; font-weight: var(--font-weight-normal); font-style: italic; text-align: center;">So this will create a new sub folder called student_info-api which has the </span><strong style="color: var(--text-editor-body-color); font-family: var(--font-base); font-size: inherit; font-style: italic; text-align: center;">admin.py</strong><span style="color: var(--text-editor-body-color); font-family: var(--font-base); font-size: inherit; font-weight: var(--font-weight-normal); font-style: italic; text-align: center;">, </span><strong style="color: var(--text-editor-body-color); font-family: var(--font-base); font-size: inherit; font-style: italic; text-align: center;">models.py</strong><span style="color: var(--text-editor-body-color); font-family: var(--font-base); font-size: inherit; font-weight: var(--font-weight-normal); font-style: italic; text-align: center;">, </span><strong style="color: var(--text-editor-body-color); font-family: var(--font-base); font-size: inherit; font-style: italic; text-align: center;">tests.py</strong><span style="color: var(--text-editor-body-color); font-family: var(--font-base); font-size: inherit; font-weight: var(--font-weight-normal); font-style: italic; text-align: center;">, </span><strong style="color: var(--text-editor-body-color); font-family: var(--font-base); font-size: inherit; font-style: italic; text-align: center;">views.py</strong><span style="color: var(--text-editor-body-color); font-family: var(--font-base); font-size: inherit; font-weight: var(--font-weight-normal); font-style: italic; text-align: center;"> and the </span><strong style="color: var(--text-editor-body-color); font-family: var(--font-base); font-size: inherit; font-style: italic; text-align: center;">migrations</strong><span style="color: var(--text-editor-body-color); font-family: var(--font-base); font-size: inherit; font-weight: var(--font-weight-normal); font-style: italic; text-align: center;"> folder. Basically this creates a new Django app within our project.</span></p>
-<p><!-- /wp:paragraph --></p>
-<p><!-- wp:paragraph --></p>
-<p>Now we need to enable our newly created <strong>student_info_api app</strong> in our Django project. The way that you enable an app in a project is you open up the <strong>student_info</strong> which is the root project<br>of our Django project and open up <strong>settings.py</strong>. If you look at the settings.py this is the configuration file for our Django project. There's a block here called <strong>INSTALLED_APPS</strong>.</p>
-<figure class="post__image post__image--center"><img loading="lazy"  src="https://geeksfortech.com/media/posts/34/INSTALLED_APPS.png" sizes="(max-width: 48em) 100vw, 100vw" srcset="https://geeksfortech.com/media/posts/34/responsive/INSTALLED_APPS-xs.png 300w ,https://geeksfortech.com/media/posts/34/responsive/INSTALLED_APPS-sm.png 480w ,https://geeksfortech.com/media/posts/34/responsive/INSTALLED_APPS-md.png 768w"  alt="INSTALLED_APPS" width="416" height="304"></figure>
-<p><span style="color: var(--text-editor-body-color); font-family: var(--font-base); font-size: inherit; font-style: italic; font-weight: var(--font-weight-normal); text-align: center;">This is where you need to list all of the apps that you need to use for your project. So in our projects we can install apps by adding it to the installed apps list. So there's a few apps that we need to enable here in our installed apps.</span></p>
-<p><!-- /wp:paragraph --></p>
-<p><!-- wp:paragraph --></p>
-<p>So below the <strong>"django.contrib.staticfiles"</strong> line create a new line and type <strong>rest_framework</strong>. <strong>rest_framework</strong> is the <strong>djangorestframework</strong> that we installed earlier and this is the name of the app within the dependency <strong>djangorestframework</strong> package that we need to add to our project.</p>
-<p><!-- /wp:paragraph --></p>
-<p><!-- wp:paragraph --></p>
-<p>Below this we're going to add a another app from the<strong> djangorestframework</strong> and this is called the <strong>rest_framework.authtoken</strong>. This will allow us to use the authentication token functionality that with the <strong>djangorestframework</strong>.</p>
-<p><!-- /wp:paragraph --></p>
-<p><!-- wp:paragraph --></p>
-<p>Finally we're going to add our <strong>student_info_api</strong> app which we manually added to our project. So we're going to add a new line and write <strong>student_info_api</strong>. Make sure that you save your settings.py file and this is how we added apps to the <strong>INSTALLED_APPS</strong> of your Django project.</p>
-<figure class="post__image post__image--center"><img loading="lazy"  src="https://geeksfortech.com/media/posts/34/Installed-apps.png" sizes="(max-width: 48em) 100vw, 100vw" srcset="https://geeksfortech.com/media/posts/34/responsive/Installed-apps-xs.png 300w ,https://geeksfortech.com/media/posts/34/responsive/Installed-apps-sm.png 480w ,https://geeksfortech.com/media/posts/34/responsive/Installed-apps-md.png 768w"  alt="Installed apps" width="329" height="270"></figure>
-<p>Finally we are going to test our project by using the django development server. So Django comes with a development server that we can use to test our changes in the browser as we make them to the project. The way you start the Django development web server is you type command <strong>python manage.py runserver</strong>. <strong><a href="http://127.0.0.1:8000/" target="_blank" rel="noreferrer noopener">http://127.0.0.1:8000/</a></strong> this is the default address for django project.</p>
-<figure class="post__image post__image--center"><img loading="lazy"  src="https://geeksfortech.com/media/posts/34/Running-Server.png" sizes="(max-width: 48em) 100vw, 100vw" srcset="https://geeksfortech.com/media/posts/34/responsive/Running-Server-xs.png 300w ,https://geeksfortech.com/media/posts/34/responsive/Running-Server-sm.png 480w ,https://geeksfortech.com/media/posts/34/responsive/Running-Server-md.png 768w"  alt="Running Server" width="590" height="86"></figure>
-<p>Now that the servers running we can open up our browser and we can go to <strong><a rel="noreferrer noopener" href="http://127.0.0.1:8000/" target="_blank">http://127.0.0.1:8000/</a></strong>.<br>That one that's the localhost address. You can see that the Django project place holder page has been displayed and it says <strong>The install worked successfully! Congratulations!</strong>.</p>
-<figure class="post__image post__image--center"><img loading="lazy"  src="https://geeksfortech.com/media/posts/34/Running-Django-App.png" sizes="(max-width: 48em) 100vw, 100vw" srcset="https://geeksfortech.com/media/posts/34/responsive/Running-Django-App-xs.png 300w ,https://geeksfortech.com/media/posts/34/responsive/Running-Django-App-sm.png 480w ,https://geeksfortech.com/media/posts/34/responsive/Running-Django-App-md.png 768w"  alt="Running Django App" width="590" height="300"></figure>
-<p><!-- /wp:image --></p>
-<p><!-- wp:paragraph --></p>
-<p><!-- /wp:paragraph --></p>
-<p><!-- wp:image {"id":293,"sizeSlug":"large"} --></p>
-<p><!-- /wp:image --></p>
-<p><!-- wp:paragraph --></p>
-<p><!-- /wp:paragraph --></p>
-<p><!-- wp:image {"id":299,"sizeSlug":"large"} --></p>
-<p><!-- /wp:image --></p>
             ]]>
         </content>
     </entry>
