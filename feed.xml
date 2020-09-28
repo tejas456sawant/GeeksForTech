@@ -1020,4 +1020,1175 @@ gradlew assembleDebug
             ]]>
         </content>
     </entry>
+    <entry>
+        <title>How to create nextjs project ?</title>
+        <author>
+            <name>Tejas Sawant</name>
+        </author>
+        <link href="https://geeksfortech.com/how-to-create-nextjs-project/"/>
+        <id>https://geeksfortech.com/how-to-create-nextjs-project/</id>
+            <category term="reactjs"/>
+            <category term="nodejs"/>
+            <category term="nextjs"/>
+            <category term="how to"/>
+
+        <updated>2020-09-26T02:23:30+05:30</updated>
+            <summary>
+                <![CDATA[
+                        <img src="https://geeksfortech.com/media/posts/8/cover-2.webp" alt="Cover" />
+                     In this section i am going to show you best way to create nextjs project. For creating nextjs project&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                    <img src="https://geeksfortech.com/media/posts/8/cover-2.webp" alt="Cover" />
+                
+  <p>
+    In this section i am going to show you best way to create nextjs project. For creating nextjs project you must have installed to nodejs. After that you can proceed with this tutorial.
+  </p>
+
+  <p>
+    First open <b>CMD/Terminal</b>. Navigate to directory where you have to create your nextjs project.
+  </p>
+<pre class="line-numbers  language-bash"><code>cd Blog
+</code></pre>
+
+  <p>
+    Then type following command this command used to create nextjs project
+  </p>
+<pre class="line-numbers  language-bash"><code> npm init next-app
+</code></pre>
+
+  <p>
+    After that it will ask you for project name if you don’t give project name then it will set default name as my-app.
+  </p>
+
+    <figure class="post__image post__image--center">
+      <img loading="lazy" src="https://geeksfortech.com/media/posts/8/give-name.png" sizes="(max-width: 48em) 100vw, 100vw" srcset="https://geeksfortech.com/media/posts/8/responsive/give-name-xs.png 300w ,https://geeksfortech.com/media/posts/8/responsive/give-name-sm.png 480w ,https://geeksfortech.com/media/posts/8/responsive/give-name-md.png 768w"  height="48" width="461" alt="Project Name" />
+      <figcaption>Giving Project Name</figcaption>
+    </figure>
+
+  <p>
+    After that you have to choose template for your nextjs project. I am going with Default starter app.
+  </p>
+
+    <figure class="post__image post__image--center">
+      <img loading="lazy" src="https://geeksfortech.com/media/posts/8/choosing-template.png" sizes="(max-width: 48em) 100vw, 100vw" srcset="https://geeksfortech.com/media/posts/8/responsive/choosing-template-xs.png 300w ,https://geeksfortech.com/media/posts/8/responsive/choosing-template-sm.png 480w ,https://geeksfortech.com/media/posts/8/responsive/choosing-template-md.png 768w"  height="43" width="398" alt="Template for project" />
+      <figcaption>Choosing Template</figcaption>
+    </figure>
+
+  <p>
+    After that all needed modules/packages will start downloading.
+  </p>
+
+    <figure class="post__image post__image--center">
+      <img loading="lazy" src="https://geeksfortech.com/media/posts/8/downloading-npm-packages.png" sizes="(max-width: 48em) 100vw, 100vw" srcset="https://geeksfortech.com/media/posts/8/responsive/downloading-npm-packages-xs.png 300w ,https://geeksfortech.com/media/posts/8/responsive/downloading-npm-packages-sm.png 480w ,https://geeksfortech.com/media/posts/8/responsive/downloading-npm-packages-md.png 768w"  height="224" width="590" alt="Downloading of packages" />
+      <figcaption>Auto downloading of packages.</figcaption>
+    </figure>
+
+  <p>
+    After that navigate to project directory. and type command <b>npm run dev</b> if you are using <b>npm</b> or type <b>yarn dev</b> if you are using <b>yarn</b>.
+  </p>
+<pre class="line-numbers  language-bash"><code>cd test-app
+yarn dev</code></pre>
+
+  <p>
+    You have successfully created nextjs project you can now visit to <a href="http://localhost:3000" target="_blank" rel="nofollow noopener">http://localhost:3000</a> You will see following screen.
+  </p>
+
+    <figure class="post__image post__image--center">
+      <img loading="lazy" src="https://geeksfortech.com/media/posts/8/cover.webp" height="592" width="1170" alt="Nextjs App " />
+      <figcaption>Nextjs App Default Preview</figcaption>
+    </figure>
+
+  <p>
+    Reference : <a href="https://nextjs.org/docs/getting-started" target="_blank">https://nextjs.org/docs/getting-started</a>
+  </p>
+            ]]>
+        </content>
+    </entry>
+    <entry>
+        <title>How to create a youtube thumbnail downloader?</title>
+        <author>
+            <name>Tejas Sawant</name>
+        </author>
+        <link href="https://geeksfortech.com/how-to-create-a-youtube-thumbnail-downloader/"/>
+        <id>https://geeksfortech.com/how-to-create-a-youtube-thumbnail-downloader/</id>
+            <category term="tailwindcss"/>
+            <category term="nextjs"/>
+            <category term="YouTube"/>
+            <category term="Thumbnail"/>
+
+        <updated>2020-09-26T00:12:57+05:30</updated>
+            <summary>
+                <![CDATA[
+                        <img src="https://geeksfortech.com/media/posts/7/cover.webp" alt="Cover" />
+                     Demo :- https://youtubethumbnaildownloader.geeksfortech.com Following article shows how you can create youtube thumbnail downloader. For this project we are going&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                    <img src="https://geeksfortech.com/media/posts/7/cover.webp" alt="Cover" />
+                
+  <p>
+    Demo :- <a href="https://youtubethumbnaildownloader.geeksfortech.com">https://youtubethumbnaildownloader.geeksfortech.com</a>
+  </p>
+
+  <p>
+    Following article shows how you can create youtube thumbnail downloader. For this project we are going to use Nextjs and tailwind css. First we are going to create nextjs with tailwind css. You can use following command.
+  </p>
+<pre class="line-numbers  language-bash"><code>npx create-next-app --example with-tailwindcss youtube-thumbnail-downloader
+</code></pre>
+
+    <figure class="post__image post__image--center">
+      <img loading="lazy" src="https://geeksfortech.com/media/posts/7/create-project.png" sizes="(max-width: 48em) 100vw, 100vw" srcset="https://geeksfortech.com/media/posts/7/responsive/create-project-xs.png 300w ,https://geeksfortech.com/media/posts/7/responsive/create-project-sm.png 480w ,https://geeksfortech.com/media/posts/7/responsive/create-project-md.png 768w"  height="170" width="682" alt="" />
+      
+    </figure>
+
+  <p>
+    This command will create next app with tailwind css.
+  </p>
+
+  <ul>
+    <li>Creating <b>Input </b>for accepting youtube url.<br></li>
+  </ul>
+<pre class="line-numbers  language-jsx"><code>&lt;form className="w-full max-w-md"&gt;
+  &lt;div className="flex items-center border-b border-teal-500 py-2"&gt;
+    &lt;input
+      className="appearance-none bg-transparent border-none w-full text-gray-700 mr-3 py-1 px-2 leading-tight focus:outline-none"
+      type="text"
+      placeholder="Enter Youtube URL"
+    /&gt;
+    &lt;button
+      className="flex-shrink-0 bg-teal-500 hover:bg-teal-700 border-teal-500 hover:border-teal-700 text-sm border-4 text-white py-1 px-2 rounded"
+      type="button"
+    &gt;
+      Download
+    &lt;/button&gt;
+  &lt;/div&gt;
+&lt;/form&gt;</code></pre>
+
+    <figure class="post__image post__image--center">
+      <img loading="lazy" src="https://geeksfortech.com/media/posts/7/input-box.png" sizes="(max-width: 48em) 100vw, 100vw" srcset="https://geeksfortech.com/media/posts/7/responsive/input-box-xs.png 300w ,https://geeksfortech.com/media/posts/7/responsive/input-box-sm.png 480w ,https://geeksfortech.com/media/posts/7/responsive/input-box-md.png 768w"  height="87" width="498" alt="" />
+      
+    </figure>
+
+  <ul>
+    <li>Then creating function for checking whether entered url is correct youtube url or not.</li>
+  </ul>
+<pre class="line-numbers  language-jsx"><code>const getYouTubeThumbnail = url =&gt; {
+  //regex for matching youtube url
+  let regExp = /.*(?:youtu.be\/|v\/|u\/\w\/|embed\/|watch\?v=)([^#\&\?]*).*/
+  let match = url.match(regExp)
+  if (match && match[1].length == 11) {
+    let videoURL = match[1]
+    //videoURL is holding video url like aabbssccddffj it is 11 letters url.
+  } else {
+    console.log(
+      "The URL you have entered maybe incorrect. Please Enter a correct URL."
+    )
+  }
+}</code></pre>
+
+  <ul>
+    <li>Now we are going to create state for our thumbnail urls, actual video url entered by user and for error.</li>
+  </ul>
+<pre class="line-numbers  language-jsx"><code>//imporing useState from react
+import { useState } from "react"
+
+// functional component
+const Index = () =&gt; {
+  const [error, seterror] = useState("")
+  const [videoURL, setVideoURL] = useState("")
+  const [HDImage_1280_720, setHDImage_1280_720] = useState("")
+  const [SDImage_640_480, setSDImage_640_480] = useState("")
+  const [NormalImage_480_360, setNormalImage_480_360] = useState("")
+  const [NormalImage_320_180, setNormalImage_320_180] = useState("")
+  const [NormalImage_120_90, setNormalImage_120_90] = useState("")
+}</code></pre>
+
+  <ul>
+    <li>Next storing enterd url in state also creating text field using span for conditional rendering of errors.</li>
+  </ul>
+<pre class="line-numbers  language-jsx"><code>&lt;form className="w-full max-w-md"&gt;
+  &lt;div className="flex items-center border-b border-teal-500 py-2"&gt;
+    &lt;input
+      className="appearance-none bg-transparent border-none w-full text-gray-700 mr-3 py-1 px-2 leading-tight focus:outline-none"
+      type="text"
+      value={videoURL}
+      placeholder="Enter Youtube URL"
+      onChange={event =&gt; {
+        setVideoURL(event.target.value)
+        console.log(event.target.value)
+      }}
+    /&gt;
+    &lt;button
+      className="flex-shrink-0 bg-teal-500 hover:bg-teal-700 border-teal-500 hover:border-teal-700 text-sm border-4 text-white py-1 px-2 rounded"
+      type="button"
+    &gt;
+      Download
+    &lt;/button&gt;
+  &lt;/div&gt;
+&lt;/form&gt;
+{
+  error && &lt;span className="font-black"&gt;{error}&lt;/span&gt;
+}</code></pre>
+
+  <ul>
+    <li>Completing <b>getYouTubeThumbnail()</b> function and updating with videos urls states.<br></li>
+  </ul>
+<pre class="line-numbers  language-jsx"><code>const getYouTubeThumbnail = url =&gt; {
+  let regExp = /.*(?:youtu.be\/|v\/|u\/\w\/|embed\/|watch\?v=)([^#\&\?]*).*/
+  let match = url.match(regExp)
+  if (match && match[1].length == 11) {
+    let videoURL = match[1]
+    setHDImage_1280_720(
+      "http://img.youtube.com/vi/" + videoURL + "/maxresdefault.jpg"
+    )
+    setSDImage_640_480(
+      "http://img.youtube.com/vi/" + videoURL + "/sddefault.jpg"
+    )
+    setNormalImage_480_360(
+      "http://img.youtube.com/vi/" + videoURL + "/hqdefault.jpg"
+    )
+    setNormalImage_320_180(
+      "http://img.youtube.com/vi/" + videoURL + "/mqdefault.jpg"
+    )
+    setNormalImage_120_90(
+      "http://img.youtube.com/vi/" + videoURL + "/default.jpg"
+    )
+    seterror("")
+  } else {
+    seterror(
+      "The URL you have entered maybe incorrect. Please Enter a correct URL."
+    )
+  }
+}</code></pre>
+
+  <ul>
+    <li>Passing values to <b>getYouTubeThumbnail()</b> function and adding image tags with there src as states.</li>
+  </ul>
+<pre class="line-numbers  language-jsx"><code>const index = () =&gt; {
+  return (
+    &lt;div&gt;
+      //Text Input Field Code
+      &lt;button
+        className="flex-shrink-0 bg-teal-500 hover:bg-teal-700 border-teal-500 hover:border-teal-700 text-sm border-4 text-white py-1 px-2 rounded"
+        type="button"
+        onClick={() =&gt; {
+          getYouTubeThumbnail(videoURL)
+        }}
+      &gt;
+        Download
+      &lt;/button&gt;
+      // Repeat code for SDImage_640_480, NormalImage_480_360
+      //NormalImage_320_180, NormalImage_120_90
+      &lt;img
+        src={HDImage_1280_720}
+        alt="HDImage_1280_720"
+        className="mb-3 object-center"
+      /&gt;
+    &lt;/div&gt;
+  )
+}
+export default Index</code></pre>
+
+    <figure class="post__image post__image--center">
+      <img loading="lazy" src="https://geeksfortech.com/media/posts/7/button.png" sizes="(max-width: 48em) 100vw, 100vw" srcset="https://geeksfortech.com/media/posts/7/responsive/button-xs.png 300w ,https://geeksfortech.com/media/posts/7/responsive/button-sm.png 480w ,https://geeksfortech.com/media/posts/7/responsive/button-md.png 768w"  height="62" width="250" alt="" />
+      
+    </figure>
+
+  <ul>
+    <li>At last going to add button for downloading thumbnail and then redirecting to thumbnail url.</li>
+  </ul>
+<pre class="line-numbers  language-jsx"><code>// Repeat code for SDImage_640_480, NormalImage_480_360
+// NormalImage_320_180, NormalImage_120_90
+&lt;button className="bg-transparent hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded mb-5 inline-flex"&gt;
+  &lt;svg
+    className="fill-current w-4 h-4 mr-2 mt-1"
+    xmlns="http://www.w3.org/2000/svg"
+    viewBox="0 0 20 20"
+  &gt;
+    &lt;path d="M13 8V2H7v6H2l8 8 8-8h-5zM0 18h20v2H0v-2z" /&gt;
+  &lt;/svg&gt;
+  &lt;a href={HDImage_1280_720} target="_blank"&gt;
+    HD Image (1280x720)
+  &lt;/a&gt;
+&lt;/button&gt;</code></pre>
+
+  <p>
+    <b><i>Final Code looks like following.</i></b>
+  </p>
+<pre class="line-numbers  language-jsx"><code>import { useState } from "react"
+
+const Index = () =&gt; {
+  const [error, seterror] = useState("")
+  const [videoURL, setVideoURL] = useState("")
+  const [HDImage_1280_720, setHDImage_1280_720] = useState("")
+  const [SDImage_640_480, setSDImage_640_480] = useState("")
+  const [NormalImage_480_360, setNormalImage_480_360] = useState("")
+  const [NormalImage_320_180, setNormalImage_320_180] = useState("")
+  const [NormalImage_120_90, setNormalImage_120_90] = useState("")
+
+  const getYouTubeThumbnail = url =&gt; {
+    let regExp = /.*(?:youtu.be\/|v\/|u\/\w\/|embed\/|watch\?v=)([^#\&\?]*).*/
+    let match = url.match(regExp)
+    if (match && match[1].length == 11) {
+      let videoURL = match[1]
+      setHDImage_1280_720(
+        "http://img.youtube.com/vi/" + videoURL + "/maxresdefault.jpg"
+      )
+      setSDImage_640_480(
+        "http://img.youtube.com/vi/" + videoURL + "/sddefault.jpg"
+      )
+      setNormalImage_480_360(
+        "http://img.youtube.com/vi/" + videoURL + "/hqdefault.jpg"
+      )
+      setNormalImage_320_180(
+        "http://img.youtube.com/vi/" + videoURL + "/mqdefault.jpg"
+      )
+      setNormalImage_120_90(
+        "http://img.youtube.com/vi/" + videoURL + "/default.jpg"
+      )
+      seterror("")
+    } else {
+      seterror(
+        "The URL you have entered maybe incorrect. Please Enter a correct URL."
+      )
+    }
+  }
+
+  return (
+    &lt;div className="mt-15 md:mt-10 lg:mt-10 mx-auto"&gt;
+      &lt;center&gt;
+        &lt;form className="w-full max-w-md"&gt;
+          &lt;div className="flex items-center border-b border-teal-500 py-2"&gt;
+            &lt;input
+              className="appearance-none bg-transparent border-none w-full text-gray-700 mr-3 py-1 px-2 leading-tight focus:outline-none"
+              type="text"
+              value={videoURL}
+              placeholder="Enter Youtube URL"
+              onChange={event =&gt; {
+                setVideoURL(event.target.value)
+                console.log(event.target.value)
+              }}
+            /&gt;
+            &lt;button
+              className="flex-shrink-0 bg-teal-500 hover:bg-teal-700 border-teal-500 hover:border-teal-700 text-sm border-4 text-white py-1 px-2 rounded"
+              type="button"
+              onClick={() =&gt; {
+                getYouTubeThumbnail(videoURL)
+              }}
+            &gt;
+              Download
+            &lt;/button&gt;
+          &lt;/div&gt;
+        &lt;/form&gt;
+        {error && &lt;span className="font-black"&gt;{error}&lt;/span&gt;}
+        {!error && HDImage_1280_720 !== "" ? (
+          &lt;div className="mt-10"&gt;
+            &lt;button className="bg-transparent hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded mb-5 inline-flex"&gt;
+              &lt;svg
+                className="fill-current w-4 h-4 mr-2 mt-1"
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 20 20"
+              &gt;
+                &lt;path d="M13 8V2H7v6H2l8 8 8-8h-5zM0 18h20v2H0v-2z" /&gt;
+              &lt;/svg&gt;
+              &lt;a href={HDImage_1280_720} target="_blank"&gt;
+                HD Image (1280x720)
+              &lt;/a&gt;
+            &lt;/button&gt;
+            &lt;img
+              src={HDImage_1280_720}
+              alt="HDImage_1280_720"
+              className="mb-3 object-center"
+            /&gt;
+            &lt;button className="bg-transparent hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded mb-5 inline-flex"&gt;
+              &lt;svg
+                className="fill-current w-4 h-4 mr-2 mt-1"
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 20 20"
+              &gt;
+                &lt;path d="M13 8V2H7v6H2l8 8 8-8h-5zM0 18h20v2H0v-2z" /&gt;
+              &lt;/svg&gt;
+              &lt;a href={SDImage_640_480} target="_blank"&gt;
+                SD Image (640x480)
+              &lt;/a&gt;
+            &lt;/button&gt;
+            &lt;img
+              src={SDImage_640_480}
+              alt="HDImage_1280_720"
+              className="mb-3 object-center"
+            /&gt;
+            &lt;button className="bg-transparent hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded mb-5 inline-flex"&gt;
+              &lt;svg
+                className="fill-current w-4 h-4 mr-2 mt-1"
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 20 20"
+              &gt;
+                &lt;path d="M13 8V2H7v6H2l8 8 8-8h-5zM0 18h20v2H0v-2z" /&gt;
+              &lt;/svg&gt;
+              &lt;a href={NormalImage_480_360} target="_blank"&gt;
+                Normal Image (480x360)
+              &lt;/a&gt;
+            &lt;/button&gt;
+            &lt;img
+              src={NormalImage_480_360}
+              alt="HDImage_1280_720"
+              className="mb-3 object-center"
+            /&gt;
+            &lt;button className="bg-transparent hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded mb-5 inline-flex"&gt;
+              &lt;svg
+                className="fill-current w-4 h-4 mr-2 mt-1"
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 20 20"
+              &gt;
+                &lt;path d="M13 8V2H7v6H2l8 8 8-8h-5zM0 18h20v2H0v-2z" /&gt;
+              &lt;/svg&gt;
+              &lt;a href={NormalImage_320_180} target="_blank"&gt;
+                Normal Image (320x180)
+              &lt;/a&gt;
+            &lt;/button&gt;
+            &lt;img
+              src={NormalImage_320_180}
+              alt="HDImage_1280_720"
+              className="mb-3 object-center"
+            /&gt;
+            &lt;button className="bg-transparent hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded mb-5 inline-flex"&gt;
+              &lt;svg
+                className="fill-current w-4 h-4 mr-2 mt-1"
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 20 20"
+              &gt;
+                &lt;path d="M13 8V2H7v6H2l8 8 8-8h-5zM0 18h20v2H0v-2z" /&gt;
+              &lt;/svg&gt;
+              &lt;a href={NormalImage_120_90} target="_blank"&gt;
+                Normal Image (120x90)
+              &lt;/a&gt;
+            &lt;/button&gt;
+            &lt;img
+              src={NormalImage_120_90}
+              alt="HDImage_1280_720"
+              className="mb-3 object-center"
+            /&gt;
+          &lt;/div&gt;
+        ) : (
+          ""
+        )}
+      &lt;/center&gt;
+    &lt;/div&gt;
+  )
+}
+export default Index</code></pre>
+
+  <p>
+    
+  </p>
+            ]]>
+        </content>
+    </entry>
+    <entry>
+        <title>How to add mailchimp to gatsbyjs ? </title>
+        <author>
+            <name>Tejas Sawant</name>
+        </author>
+        <link href="https://geeksfortech.com/how-to-add-mailchimp-to-gatsbyjs/"/>
+        <id>https://geeksfortech.com/how-to-add-mailchimp-to-gatsbyjs/</id>
+            <category term="how to"/>
+            <category term="MailChimp"/>
+            <category term="GatsbyJS"/>
+
+        <updated>2020-09-26T01:24:20+05:30</updated>
+            <summary>
+                <![CDATA[
+                        <img src="https://geeksfortech.com/media/posts/6/cover.webp" alt="Email Field" />
+                     This article show how you can add mailchimp to your gatsbyjs project.&nbsp; First install mailchimp package using npm to&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                    <img src="https://geeksfortech.com/media/posts/6/cover.webp" alt="Email Field" />
+                
+  <p>
+    This article show how you can add mailchimp to your gatsbyjs project.&nbsp;
+  </p>
+
+  <p>
+    First install mailchimp package using npm to gatsby project.&nbsp;
+  </p>
+<pre class="line-numbers  language-bash"><code>npm install gatsby-plugin-mailchimp
+</code></pre>
+
+  <p>
+    Add following config object to your gatsby-config.js
+<br>
+
+  </p>
+<pre class="line-numbers  language-json"><code>{
+  "resolve": "gatsby-plugin-mailchimp",
+  "options": {
+    "endpoint": "",
+    "timeout": 3500
+  }
+}</code></pre>
+
+  <ul>
+    <li>Login to mailchimp account.
+<br><br></li><li>Then look for Audience &gt; Embedded Forms.
+<br><br></li><li>Click on Select
+<br><br></li><li>Grab url in form action https://******.list-manage.com/subscribe/post?u=****************
+<br><br></li><li>Paste that url into endpoint in gatsby-config.js</li>
+  </ul>
+
+    <figure class="post__image post__image--center">
+      <img loading="lazy" src="https://geeksfortech.com/media/posts/6/url-img.png" sizes="(max-width: 48em) 100vw, 100vw" srcset="https://geeksfortech.com/media/posts/6/responsive/url-img-xs.png 300w ,https://geeksfortech.com/media/posts/6/responsive/url-img-sm.png 480w ,https://geeksfortech.com/media/posts/6/responsive/url-img-md.png 768w"  height="44" width="787" alt="URL" />
+      <figcaption>URL</figcaption>
+    </figure>
+<pre class="line-numbers  language-json"><code>{
+  "resolve": "gatsby-plugin-mailchimp",
+  "options": {
+    "endpoint": "https://******.list-manage.com/subscribe/post?u=****************",
+    "timeout": 3500
+  }
+}</code></pre>
+
+  <p>
+    Last create text field for adding email id.
+<br>
+
+  </p>
+<pre class="line-numbers  language-jsx"><code>import addToMailchimp from "gatsby-plugin-mailchimp"
+
+export default class MyGatsbyComponent extends React.Component {
+  // Since `addToMailchimp` returns a promise, you
+  // can handle the response in two different ways:
+
+  // Note that you need to send an email & optionally, listFields
+  // these values can be pulled from React state, form fields,
+  // or wherever.  (Personally, I recommend storing in state).
+
+  // 1. via `.then`
+  _handleSubmit = e =&gt; {
+    e.preventDefault()
+    addToMailchimp(email, listFields) // listFields are optional if you are only capturing the email address.
+      .then(data =&gt; {
+        // I recommend setting data to React state
+        // but you can do whatever you want (including ignoring this `then()` altogether)
+        console.log(data)
+      })
+      .catch(() =&gt; {
+        // unnecessary because Mailchimp only ever
+        // returns a 200 status code
+        // see below for how to handle errors
+      })
+  }
+
+  // 2. via `async/await`
+  _handleSubmit = async e =&gt; {
+    e.preventDefault()
+    const result = await addToMailchimp(email, listFields)
+    // I recommend setting `result` to React state
+    // but you can do whatever you want
+  }
+
+  render() {
+    return &lt;form onSubmit={this._handleSubmit(email, { listFields })}&gt;...&lt;/form&gt;
+  }
+}</code></pre>
+
+  <p>
+    Reference :- <a href="https://www.gatsbyjs.com/plugins/gatsby-plugin-mailchimp" target="_blank" rel="nofollow noopener">https://www.gatsbyjs.com/plugins/gatsby-plugin-mailchimp</a>
+  </p>
+
+  <p>
+    
+  </p>
+            ]]>
+        </content>
+    </entry>
+    <entry>
+        <title>C Program for 2D Reflection </title>
+        <author>
+            <name>Tejas Sawant</name>
+        </author>
+        <link href="https://geeksfortech.com/c-program-for-2d-reflection/"/>
+        <id>https://geeksfortech.com/c-program-for-2d-reflection/</id>
+            <category term="Computer Graphics"/>
+            <category term="C Programming"/>
+            <category term="C"/>
+
+        <updated>2020-09-25T13:36:45+05:30</updated>
+            <summary>
+                <![CDATA[
+                        <img src="https://geeksfortech.com/media/posts/5/cover-2.png" alt="2D Reflection " />
+                    #include&lt;stdio.h&gt;#include&lt;conio.h&gt;#include&lt;graphics.h&gt;#include&lt;math.h&gt;#include&lt;process.h&gt;void disp(float v[][3]){ float xmax, ymax ; xmax=getmaxx()/2 ; ymax = getmaxy()/2 ; int i=0; while(i&lt;2) { line(xmax+v[i][0], ymax-v[i][1], xmax+v[i+1][0],&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                    <img src="https://geeksfortech.com/media/posts/5/cover-2.png" alt="2D Reflection " />
+                <pre class="line-numbers  language-c"><code>#include&lt;stdio.h&gt;
+#include&lt;conio.h&gt;
+#include&lt;graphics.h&gt;
+#include&lt;math.h&gt;
+#include&lt;process.h&gt;
+void disp(float v[][3])
+{
+ float xmax, ymax ;
+ xmax=getmaxx()/2 ;
+ ymax = getmaxy()/2 ;
+ int i=0;
+ while(i&lt;2)
+ {
+ line(xmax+v[i][0], ymax-v[i][1], xmax+v[i+1][0], ymax-v[i+1][1]);
+ i++ ;
+ }
+ i=2;
+ line(xmax+v[i][0],ymax-v[i][1],xmax+v[0][0],ymax-v[0][1]);
+ setcolor(BLUE);
+ line(0,ymax,xmax*2,ymax);
+ line(xmax,0,xmax,ymax*2);
+ setcolor(WHITE);
+}
+void multiply (float b[][3],float v[][3],float a[][3])
+{
+ int i,j,k;
+ for(i=0;i&lt;3;i++)
+ for(j=0;j&lt;3;j++)
+ a[i][j]=0;
+ for(i=0;i&lt;3;i++)
+ for(j=0;j&lt;3;j++)
+ for(k=0;k&lt;3;k++)
+ {
+ a[i][j] = a[i][j] + (v[i][k] * b[k][j]);
+ }
+}
+void reflect(float v[][3])
+{
+ float b[10][3],a[10][3];
+ int i=0,j;
+ cleardevice();
+ disp(v);
+ for(i=0;i&lt;3;i++)
+ for(j=0;j&lt;3;j++)
+ {
+ b[i][j]=0;
+ if(i==j)
+ b[i][j]=1;
+ }
+ b[1][1]=-1;
+ multiply(b,v,a);
+ setcolor(YELLOW);
+ disp(a);
+}
+int main()
+{
+ int gd=DETECT, gm ;
+ float v[10][3] ;
+ initgraph(&gd,&gm,NULL);
+ for(int i=0; i &lt; 3; i++)
+ {
+ printf("Enter the coordinate v%d :", i+1);
+ scanf("%f%f", &v[i][0], &v[i][1]);
+ v[i][2] = 1;
+ }
+ cleardevice();
+ setcolor(BLACK);
+ disp(v);
+ reflect(v);
+ getch();
+ closegraph();
+ return 0;
+}</code></pre>
+
+  <p>
+    Output :-&nbsp;
+  </p>
+
+    <figure class="post__image post__image--center">
+      <img loading="lazy" src="https://geeksfortech.com/media/posts/5/output-1.png" sizes="(max-width: 48em) 100vw, 100vw" srcset="https://geeksfortech.com/media/posts/5/responsive/output-1-xs.png 300w ,https://geeksfortech.com/media/posts/5/responsive/output-1-sm.png 480w ,https://geeksfortech.com/media/posts/5/responsive/output-1-md.png 768w"  height="136" width="381" alt="" />
+      
+    </figure>
+
+    <figure class="post__image post__image--center">
+      <img loading="lazy" src="https://geeksfortech.com/media/posts/5/cover.png" sizes="(max-width: 48em) 100vw, 100vw" srcset="https://geeksfortech.com/media/posts/5/responsive/cover-xs.png 300w ,https://geeksfortech.com/media/posts/5/responsive/cover-sm.png 480w ,https://geeksfortech.com/media/posts/5/responsive/cover-md.png 768w"  height="468" width="625" alt="" />
+      
+    </figure>
+            ]]>
+        </content>
+    </entry>
+    <entry>
+        <title>Creating a new django app and installing  dependencies</title>
+        <author>
+            <name>Tejas Sawant</name>
+        </author>
+        <link href="https://geeksfortech.com/creating-a-new-django-app-and-installing-dependencies/"/>
+        <id>https://geeksfortech.com/creating-a-new-django-app-and-installing-dependencies/</id>
+            <category term="restapi"/>
+            <category term="djangorestframework"/>
+            <category term="django"/>
+            <category term="Python"/>
+
+        <updated>2020-09-26T18:43:12+05:30</updated>
+            <summary>
+                <![CDATA[
+                        <img src="https://geeksfortech.com/media/posts/34/cover.webp" alt="Installed Apps" />
+                     This section is part of series Building REST API with Python &amp; Django. Now we're going to create a&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                    <img src="https://geeksfortech.com/media/posts/34/cover.webp" alt="Installed Apps" />
+                <p><!-- wp:paragraph --></p>
+<p>This section is part of series <a href="https://geeksfortech.com/building-rest-api-with-python-and-django-tutorial/" target="_blank" rel="noopener noreferrer">Building REST API with Python &amp; Django</a>. Now we're going to create a new Django project and app for our student information API.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>First We're gonna do this using the Django admin command line tool. Now we can use the Django admin command by <strong>django-admin startproject student_info .</strong><br>What this does it passes arguments to start projects to say that we want to start a new project and it specifies the name of the project. So our project is going to be called the <strong>student_info</strong> and then the location that we want to create the project. So this last dot here this is optional. We are using . because we want to create it in the root of our project.</p>
+<figure class="post__image post__image--center"><img loading="lazy"  src="https://geeksfortech.com/media/posts/34/studen_info.png" sizes="(max-width: 48em) 100vw, 100vw" srcset="https://geeksfortech.com/media/posts/34/responsive/studen_info-xs.png 300w ,https://geeksfortech.com/media/posts/34/responsive/studen_info-sm.png 480w ,https://geeksfortech.com/media/posts/34/responsive/studen_info-md.png 768w"  alt="student_info" width="590" height="439"></figure>
+<p><span style="color: var(--text-editor-body-color); font-family: var(--font-base); font-size: inherit; font-style: italic; font-weight: var(--font-weight-normal); text-align: center;">Now we have the Django project. We need to create an app within our project for our student information API. So a Django project can consist of one or more sub applications within the projects that you can use to separate different functionality within your projects.</span></p>
+<p>So we're just going to create one API.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>The student information API so we'll just create one app and we'll call the app as <strong>student_info_api</strong>. Now that we've tried our project we need to use the <strong>manage.py</strong> script instead of Django admin and then we'll type <strong>startapp</strong> <strong>student_info_api</strong> then hit enter. (<strong>python manage.py startapp student_info_api</strong>)</p>
+<figure class="post__image post__image--center"><img loading="lazy"  src="https://geeksfortech.com/media/posts/34/student_info_api.png" sizes="(max-width: 48em) 100vw, 100vw" srcset="https://geeksfortech.com/media/posts/34/responsive/student_info_api-xs.png 300w ,https://geeksfortech.com/media/posts/34/responsive/student_info_api-sm.png 480w ,https://geeksfortech.com/media/posts/34/responsive/student_info_api-md.png 768w"  alt="student_info_api" width="590" height="361"></figure>
+<p><span style="color: var(--text-editor-body-color); font-family: var(--font-base); font-size: inherit; font-weight: var(--font-weight-normal); font-style: italic; text-align: center;">So this will create a new sub folder called student_info-api which has the </span><strong style="color: var(--text-editor-body-color); font-family: var(--font-base); font-size: inherit; font-style: italic; text-align: center;">admin.py</strong><span style="color: var(--text-editor-body-color); font-family: var(--font-base); font-size: inherit; font-weight: var(--font-weight-normal); font-style: italic; text-align: center;">, </span><strong style="color: var(--text-editor-body-color); font-family: var(--font-base); font-size: inherit; font-style: italic; text-align: center;">models.py</strong><span style="color: var(--text-editor-body-color); font-family: var(--font-base); font-size: inherit; font-weight: var(--font-weight-normal); font-style: italic; text-align: center;">, </span><strong style="color: var(--text-editor-body-color); font-family: var(--font-base); font-size: inherit; font-style: italic; text-align: center;">tests.py</strong><span style="color: var(--text-editor-body-color); font-family: var(--font-base); font-size: inherit; font-weight: var(--font-weight-normal); font-style: italic; text-align: center;">, </span><strong style="color: var(--text-editor-body-color); font-family: var(--font-base); font-size: inherit; font-style: italic; text-align: center;">views.py</strong><span style="color: var(--text-editor-body-color); font-family: var(--font-base); font-size: inherit; font-weight: var(--font-weight-normal); font-style: italic; text-align: center;"> and the </span><strong style="color: var(--text-editor-body-color); font-family: var(--font-base); font-size: inherit; font-style: italic; text-align: center;">migrations</strong><span style="color: var(--text-editor-body-color); font-family: var(--font-base); font-size: inherit; font-weight: var(--font-weight-normal); font-style: italic; text-align: center;"> folder. Basically this creates a new Django app within our project.</span></p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>Now we need to enable our newly created <strong>student_info_api app</strong> in our Django project. The way that you enable an app in a project is you open up the <strong>student_info</strong> which is the root project<br>of our Django project and open up <strong>settings.py</strong>. If you look at the settings.py this is the configuration file for our Django project. There's a block here called <strong>INSTALLED_APPS</strong>.</p>
+<figure class="post__image post__image--center"><img loading="lazy"  src="https://geeksfortech.com/media/posts/34/INSTALLED_APPS.png" sizes="(max-width: 48em) 100vw, 100vw" srcset="https://geeksfortech.com/media/posts/34/responsive/INSTALLED_APPS-xs.png 300w ,https://geeksfortech.com/media/posts/34/responsive/INSTALLED_APPS-sm.png 480w ,https://geeksfortech.com/media/posts/34/responsive/INSTALLED_APPS-md.png 768w"  alt="INSTALLED_APPS" width="416" height="304"></figure>
+<p><span style="color: var(--text-editor-body-color); font-family: var(--font-base); font-size: inherit; font-style: italic; font-weight: var(--font-weight-normal); text-align: center;">This is where you need to list all of the apps that you need to use for your project. So in our projects we can install apps by adding it to the installed apps list. So there's a few apps that we need to enable here in our installed apps.</span></p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>So below the <strong>"django.contrib.staticfiles"</strong> line create a new line and type <strong>rest_framework</strong>. <strong>rest_framework</strong> is the <strong>djangorestframework</strong> that we installed earlier and this is the name of the app within the dependency <strong>djangorestframework</strong> package that we need to add to our project.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>Below this we're going to add a another app from the<strong> djangorestframework</strong> and this is called the <strong>rest_framework.authtoken</strong>. This will allow us to use the authentication token functionality that with the <strong>djangorestframework</strong>.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>Finally we're going to add our <strong>student_info_api</strong> app which we manually added to our project. So we're going to add a new line and write <strong>student_info_api</strong>. Make sure that you save your settings.py file and this is how we added apps to the <strong>INSTALLED_APPS</strong> of your Django project.</p>
+<figure class="post__image post__image--center"><img loading="lazy"  src="https://geeksfortech.com/media/posts/34/Installed-apps.png" sizes="(max-width: 48em) 100vw, 100vw" srcset="https://geeksfortech.com/media/posts/34/responsive/Installed-apps-xs.png 300w ,https://geeksfortech.com/media/posts/34/responsive/Installed-apps-sm.png 480w ,https://geeksfortech.com/media/posts/34/responsive/Installed-apps-md.png 768w"  alt="Installed apps" width="329" height="270"></figure>
+<p>Finally we are going to test our project by using the django development server. So Django comes with a development server that we can use to test our changes in the browser as we make them to the project. The way you start the Django development web server is you type command <strong>python manage.py runserver</strong>. <strong><a href="http://127.0.0.1:8000/" target="_blank" rel="noreferrer noopener">http://127.0.0.1:8000/</a></strong> this is the default address for django project.</p>
+<figure class="post__image post__image--center"><img loading="lazy"  src="https://geeksfortech.com/media/posts/34/Running-Server.png" sizes="(max-width: 48em) 100vw, 100vw" srcset="https://geeksfortech.com/media/posts/34/responsive/Running-Server-xs.png 300w ,https://geeksfortech.com/media/posts/34/responsive/Running-Server-sm.png 480w ,https://geeksfortech.com/media/posts/34/responsive/Running-Server-md.png 768w"  alt="Running Server" width="590" height="86"></figure>
+<p>Now that the servers running we can open up our browser and we can go to <strong><a rel="noreferrer noopener" href="http://127.0.0.1:8000/" target="_blank">http://127.0.0.1:8000/</a></strong>.<br>That one that's the localhost address. You can see that the Django project place holder page has been displayed and it says <strong>The install worked successfully! Congratulations!</strong>.</p>
+<figure class="post__image post__image--center"><img loading="lazy"  src="https://geeksfortech.com/media/posts/34/Running-Django-App.png" sizes="(max-width: 48em) 100vw, 100vw" srcset="https://geeksfortech.com/media/posts/34/responsive/Running-Django-App-xs.png 300w ,https://geeksfortech.com/media/posts/34/responsive/Running-Django-App-sm.png 480w ,https://geeksfortech.com/media/posts/34/responsive/Running-Django-App-md.png 768w"  alt="Running Django App" width="590" height="300"></figure>
+<p><!-- /wp:image --></p>
+<p><!-- wp:paragraph --></p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:image {"id":293,"sizeSlug":"large"} --></p>
+<p><!-- /wp:image --></p>
+<p><!-- wp:paragraph --></p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:image {"id":299,"sizeSlug":"large"} --></p>
+<p><!-- /wp:image --></p>
+            ]]>
+        </content>
+    </entry>
+    <entry>
+        <title>How to create django app and upload to github</title>
+        <author>
+            <name>Tejas Sawant</name>
+        </author>
+        <link href="https://geeksfortech.com/how-to-create-django-app-and-upload-to-github/"/>
+        <id>https://geeksfortech.com/how-to-create-django-app-and-upload-to-github/</id>
+            <category term="heroku"/>
+            <category term="git"/>
+            <category term="django"/>
+            <category term="Python"/>
+
+        <updated>2020-09-26T17:54:14+05:30</updated>
+            <summary>
+                <![CDATA[
+                        <img src="https://geeksfortech.com/media/posts/32/cover.webp" alt="Django" />
+                     This article is 1st part of Building REST API with Python &amp; Django series. So lets get started. Prerequisite&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                    <img src="https://geeksfortech.com/media/posts/32/cover.webp" alt="Django" />
+                <p><!-- wp:paragraph --></p>
+<p>This article is 1st part of <a href="https://geeksfortech.com/building-rest-api-with-python-and-django-tutorial/">Building REST API with Python &amp; Django</a> series. So lets get started. Prerequisite is <a href="https://geeksfortech.com/how-to-install-python3-on-windows/">python </a>and <a href="https://geeksfortech.com/how-to-install-git/" target="_blank" rel="noopener noreferrer">git</a> must be installed on your system.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>First we will create/set workspace for our project. we are going to start with creating folder/directory where you want to save project files.</p>
+<figure class="post__image post__image--center"><img loading="lazy"  src="https://geeksfortech.com/media/posts/32/Creating-Workspace.png" sizes="(max-width: 48em) 100vw, 100vw" srcset="https://geeksfortech.com/media/posts/32/responsive/Creating-Workspace-xs.png 300w ,https://geeksfortech.com/media/posts/32/responsive/Creating-Workspace-sm.png 480w ,https://geeksfortech.com/media/posts/32/responsive/Creating-Workspace-md.png 768w"  alt="Creating Workspace" width="328" height="89"></figure>
+<p><strong>I</strong>nside <strong>student-info-api</strong> we are going to store all of our project files. Then we are going to initialize our git repository for our project so after making each changes we can store that on our remote repository. type <strong>git init</strong> it will initialize our repository.</p>
+<figure class="post__image post__image--center"><img loading="lazy"  src="https://geeksfortech.com/media/posts/32/git-init.png" sizes="(max-width: 48em) 100vw, 100vw" srcset="https://geeksfortech.com/media/posts/32/responsive/git-init-xs.png 300w ,https://geeksfortech.com/media/posts/32/responsive/git-init-sm.png 480w ,https://geeksfortech.com/media/posts/32/responsive/git-init-md.png 768w"  alt="Git Init" width="590" height="47"></figure>
+<p><span style="color: var(--text-editor-body-color); font-family: var(--font-base); font-size: inherit; font-weight: var(--font-weight-normal);">Now we are going to open our project in any code editor in this series i am going top use </span><strong style="color: var(--text-editor-body-color); font-family: var(--font-base); font-size: inherit;">Visual Studio Code</strong><span style="color: var(--text-editor-body-color); font-family: var(--font-base); font-size: inherit; font-weight: var(--font-weight-normal);">. So i can simply type </span><strong style="color: var(--text-editor-body-color); font-family: var(--font-base); font-size: inherit;">code .</strong><span style="color: var(--text-editor-body-color); font-family: var(--font-base); font-size: inherit; font-weight: var(--font-weight-normal);"> to open VS code in current directory.</span></p>
+<figure class="post__image post__image--center"><img loading="lazy"  src="https://geeksfortech.com/media/posts/32/Opening-project..png" sizes="(max-width: 48em) 100vw, 100vw" srcset="https://geeksfortech.com/media/posts/32/responsive/Opening-project.-xs.png 300w ,https://geeksfortech.com/media/posts/32/responsive/Opening-project.-sm.png 480w ,https://geeksfortech.com/media/posts/32/responsive/Opening-project.-md.png 768w"  alt="Opening project" width="590" height="118"></figure>
+<p>Now we going to add README.md, <a rel="noreferrer noopener" href="https://www.toptal.com/developers/gitignore/api/python" target="_blank">.gitignore</a> and <a rel="noreferrer noopener" href="https://choosealicense.com/licenses/mit/" target="_blank">LICENSE</a>.</p>
+<figure class="post__image post__image--center"><img loading="lazy"  src="https://geeksfortech.com/media/posts/32/README-2.png" sizes="(max-width: 48em) 100vw, 100vw" srcset="https://geeksfortech.com/media/posts/32/responsive/README-2-xs.png 300w ,https://geeksfortech.com/media/posts/32/responsive/README-2-sm.png 480w ,https://geeksfortech.com/media/posts/32/responsive/README-2-md.png 768w"  alt="README" width="590" height="173"></figure>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:image {"id":212,"sizeSlug":"large"} --></p>
+<p><!-- /wp:image --></p>
+<p><!-- wp:paragraph --></p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:image {"id":215,"sizeSlug":"large"} --></p>
+<p><!-- /wp:image --></p>
+<p><!-- wp:image {"id":216,"sizeSlug":"large"} --></p>
+<figure class="post__image post__image--center"><img loading="lazy"  src="https://geeksfortech.com/media/posts/32/gitignore.png" sizes="(max-width: 48em) 100vw, 100vw" srcset="https://geeksfortech.com/media/posts/32/responsive/gitignore-xs.png 300w ,https://geeksfortech.com/media/posts/32/responsive/gitignore-sm.png 480w ,https://geeksfortech.com/media/posts/32/responsive/gitignore-md.png 768w"  alt=".gitignore" width="590" height="316"></figure>
+<p><!-- /wp:image --></p>
+<p><!-- wp:image {"id":217,"sizeSlug":"large"} --></p>
+<figure class="post__image post__image--center"><img loading="lazy"  src="https://geeksfortech.com/media/posts/32/LICENSE.png" sizes="(max-width: 48em) 100vw, 100vw" srcset="https://geeksfortech.com/media/posts/32/responsive/LICENSE-xs.png 300w ,https://geeksfortech.com/media/posts/32/responsive/LICENSE-sm.png 480w ,https://geeksfortech.com/media/posts/32/responsive/LICENSE-md.png 768w"  alt="LICENSE" width="590" height="277"></figure>
+<p><!-- /wp:image --></p>
+<p><!-- wp:paragraph --></p>
+<p>Then we create <a rel="noreferrer noopener" href="https://docs.python.org/3/tutorial/venv.html" target="_blank">virtual environment</a> in our folder/directory. run command <code><strong>python/python3 -m venv env</strong></code>after that we active virtual environment by <code><strong>env\Scripts\activate.bat</strong></code>.</p>
+<figure class="post__image post__image--center"><img loading="lazy"  src="https://geeksfortech.com/media/posts/32/Virtual-Environment.png" sizes="(max-width: 48em) 100vw, 100vw" srcset="https://geeksfortech.com/media/posts/32/responsive/Virtual-Environment-xs.png 300w ,https://geeksfortech.com/media/posts/32/responsive/Virtual-Environment-sm.png 480w ,https://geeksfortech.com/media/posts/32/responsive/Virtual-Environment-md.png 768w"  alt="Virtual Environment" width="453" height="97"></figure>
+<p>After that we are going to create file <strong>requirements.txt</strong> in that file specify our requirements. In this case <strong>django</strong> and <strong>djangorestframework</strong></p>
+<figure class="post__image post__image--center"><img loading="lazy"  src="https://geeksfortech.com/media/posts/32/requirements.png" sizes="(max-width: 48em) 100vw, 100vw" srcset="https://geeksfortech.com/media/posts/32/responsive/requirements-xs.png 300w ,https://geeksfortech.com/media/posts/32/responsive/requirements-sm.png 480w ,https://geeksfortech.com/media/posts/32/responsive/requirements-md.png 768w"  alt="requirements.txt" width="590" height="303"></figure>
+<p>After that we will install this packages by typing command <strong>pip install -r</strong> <strong>requirements.txt</strong></p>
+<figure class="post__image post__image--center"><img loading="lazy"  src="https://geeksfortech.com/media/posts/32/installing-packages.png" sizes="(max-width: 48em) 100vw, 100vw" srcset="https://geeksfortech.com/media/posts/32/responsive/installing-packages-xs.png 300w ,https://geeksfortech.com/media/posts/32/responsive/installing-packages-sm.png 480w ,https://geeksfortech.com/media/posts/32/responsive/installing-packages-md.png 768w"  alt="installing packages" width="590" height="109"></figure>
+<p>For creating <a href="https://geeksfortech.com/creating-a-new-django-app-and-installing-dependencies/" target="_blank" rel="noopener noreferrer">django app and installing dependencies</a> i have already wrote an article. You click <a href="https://geeksfortech.com/creating-a-new-django-app-and-installing-dependencies/" target="_blank" rel="noopener noreferrer">here</a>.</p>
+<p><!-- /wp:image --></p>
+<p><!-- wp:paragraph --></p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:image {"id":254,"sizeSlug":"large"} --></p>
+<p><!-- /wp:image --></p>
+<p><!-- wp:paragraph --></p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>At last step we are going to create project on github and uploading files there.</p>
+<figure class="post__image post__image--center"><img loading="lazy"  src="https://geeksfortech.com/media/posts/32/Creating-Project.png" sizes="(max-width: 48em) 100vw, 100vw" srcset="https://geeksfortech.com/media/posts/32/responsive/Creating-Project-xs.png 300w ,https://geeksfortech.com/media/posts/32/responsive/Creating-Project-sm.png 480w ,https://geeksfortech.com/media/posts/32/responsive/Creating-Project-md.png 768w"  alt="Creating Project" width="590" height="315"></figure>
+<p>Now commit changes and push to github. follow following commands :-</p>
+<p><!-- /wp:image --></p>
+<p><!-- wp:paragraph --></p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p><code><strong>git add .</strong> <strong>git commit -m "message for commit"</strong> <strong>git remote add origin your-git-url</strong> <strong>git push origin master</strong></code></p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:image {"id":263,"sizeSlug":"large"} --></p>
+<figure class="post__image post__image--center"><img loading="lazy"  src="https://geeksfortech.com/media/posts/32/Committing-Changes.png" sizes="(max-width: 48em) 100vw, 100vw" srcset="https://geeksfortech.com/media/posts/32/responsive/Committing-Changes-xs.png 300w ,https://geeksfortech.com/media/posts/32/responsive/Committing-Changes-sm.png 480w ,https://geeksfortech.com/media/posts/32/responsive/Committing-Changes-md.png 768w"  alt="Committing Changes" width="590" height="195"></figure>
+<p><!-- /wp:image --></p>
+<p><!-- wp:paragraph --></p>
+<p><!-- /wp:paragraph --></p>
+            ]]>
+        </content>
+    </entry>
+    <entry>
+        <title>How to deploy git sub folder to heroku ?</title>
+        <author>
+            <name>Tejas Sawant</name>
+        </author>
+        <link href="https://geeksfortech.com/how-to-deploy-git-sub-folder-to-heroku/"/>
+        <id>https://geeksfortech.com/how-to-deploy-git-sub-folder-to-heroku/</id>
+            <category term="web-app"/>
+            <category term="heroku"/>
+            <category term="git"/>
+            <category term="deploy"/>
+
+        <updated>2020-09-26T01:03:18+05:30</updated>
+            <summary>
+                <![CDATA[
+                        <img src="https://geeksfortech.com/media/posts/26/cover.webp" alt="Deploy Subfolder" />
+                     This article shows how you deploy sub folder/sub directory to heroku. First you need to create project on heroku.
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                    <img src="https://geeksfortech.com/media/posts/26/cover.webp" alt="Deploy Subfolder" />
+                <p><!-- wp:paragraph --></p>
+<p>This article shows how you deploy sub folder/sub directory to heroku.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>First you need to create project on heroku.</p>
+<figure class="post__image post__image--center"><img loading="lazy"  src="https://geeksfortech.com/media/posts/26/Heroku-project.png" sizes="(max-width: 48em) 100vw, 100vw" srcset="https://geeksfortech.com/media/posts/26/responsive/Heroku-project-xs.png 300w ,https://geeksfortech.com/media/posts/26/responsive/Heroku-project-sm.png 480w ,https://geeksfortech.com/media/posts/26/responsive/Heroku-project-md.png 768w"  alt="Heroku project" width="590" height="239"></figure>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:image {"id":189,"sizeSlug":"large"} --></p>
+<p><!-- /wp:image --></p>
+<p><!-- wp:paragraph --></p>
+<p>After that you need to have heroku cli and <a href="https://geeksfortech.com/how-to-install-git/">git</a> installed. Then navigate to your folder from where you have to deploy your project.</p>
+<figure class="post__image post__image--center"><img loading="lazy"  src="https://geeksfortech.com/media/posts/26/folder.png" sizes="(max-width: 48em) 100vw, 100vw" srcset="https://geeksfortech.com/media/posts/26/responsive/folder-xs.png 300w ,https://geeksfortech.com/media/posts/26/responsive/folder-sm.png 480w ,https://geeksfortech.com/media/posts/26/responsive/folder-md.png 768w"  alt="folder" width="590" height="243"></figure>
+<p>I this tutorial have to deploy server folder on to the heroku. So open parent folder into cmd/terminal.</p>
+<figure class="post__image post__image--center"><img loading="lazy"  src="https://geeksfortech.com/media/posts/26/Parent-folder.png" sizes="(max-width: 48em) 100vw, 100vw" srcset="https://geeksfortech.com/media/posts/26/responsive/Parent-folder-xs.png 300w ,https://geeksfortech.com/media/posts/26/responsive/Parent-folder-sm.png 480w ,https://geeksfortech.com/media/posts/26/responsive/Parent-folder-md.png 768w"  alt="Parent folder" width="504" height="143"></figure>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:image {"id":190,"sizeSlug":"large"} --></p>
+<p><!-- /wp:image --></p>
+<p><!-- wp:paragraph --></p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:image {"id":191,"sizeSlug":"large"} --></p>
+<p><!-- /wp:image --></p>
+<p><!-- wp:paragraph --></p>
+<p>After that login to your heroku cli and then select your project from heroku by typing command. <code><strong>heroku git:remote -a your-project-name</strong></code></p>
+<figure class="post__image post__image--center"><img loading="lazy"  src="https://geeksfortech.com/media/posts/26/Selecting-project.png" sizes="(max-width: 48em) 100vw, 100vw" srcset="https://geeksfortech.com/media/posts/26/responsive/Selecting-project-xs.png 300w ,https://geeksfortech.com/media/posts/26/responsive/Selecting-project-sm.png 480w ,https://geeksfortech.com/media/posts/26/responsive/Selecting-project-md.png 768w"  alt="Selecting project" width="590" height="51"></figure>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:image {"id":193,"sizeSlug":"large"} --></p>
+<p><!-- /wp:image --></p>
+<p><!-- wp:paragraph --></p>
+<p>After that <code><strong>git subtree push --prefix your-subfolder heroku master</strong></code> enter this command in your parent directory. In this case i have to deploy <strong>server</strong> folder to heroku. After that you can see your project has started deploying</p>
+<figure class="post__image post__image--center"><img loading="lazy"  src="https://geeksfortech.com/media/posts/26/Deploying-Started.png" sizes="(max-width: 48em) 100vw, 100vw" srcset="https://geeksfortech.com/media/posts/26/responsive/Deploying-Started-xs.png 300w ,https://geeksfortech.com/media/posts/26/responsive/Deploying-Started-sm.png 480w ,https://geeksfortech.com/media/posts/26/responsive/Deploying-Started-md.png 768w"  alt="Deploying Started" width="569" height="144"></figure>
+<p>I you output as following your project has successfully deployed.</p>
+<figure class="post__image post__image--center"><img loading="lazy"  src="https://geeksfortech.com/media/posts/26/Deploy-Successfull.png" sizes="(max-width: 48em) 100vw, 100vw" srcset="https://geeksfortech.com/media/posts/26/responsive/Deploy-Successfull-xs.png 300w ,https://geeksfortech.com/media/posts/26/responsive/Deploy-Successfull-sm.png 480w ,https://geeksfortech.com/media/posts/26/responsive/Deploy-Successfull-md.png 768w"  alt="Deploy Successfull" width="590" height="128"></figure>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:image {"id":196,"sizeSlug":"large"} --></p>
+<p><!-- /wp:image --></p>
+<p><!-- wp:paragraph --></p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:image {"id":199,"sizeSlug":"large"} --></p>
+<p><!-- /wp:image --></p>
+<p><!-- wp:paragraph --></p>
+<p><!-- /wp:paragraph --></p>
+            ]]>
+        </content>
+    </entry>
+    <entry>
+        <title>How to install Git ?</title>
+        <author>
+            <name>Tejas Sawant</name>
+        </author>
+        <link href="https://geeksfortech.com/how-to-install-git/"/>
+        <id>https://geeksfortech.com/how-to-install-git/</id>
+            <category term="install"/>
+            <category term="how to"/>
+            <category term="git-scm"/>
+            <category term="git"/>
+
+        <updated>2020-09-26T01:22:34+05:30</updated>
+            <summary>
+                <![CDATA[
+                        <img src="https://geeksfortech.com/media/posts/31/cover.webp" alt="Installing" />
+                     This article shows how to install git-scm. Step 1:- Goto https://git-scm.com/downloads click on your operating system setup will start&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                    <img src="https://geeksfortech.com/media/posts/31/cover.webp" alt="Installing" />
+                <p><!-- wp:paragraph --></p>
+<p>This article shows how to install git-scm.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p><strong>Step 1:-</strong> Goto <a href="https://git-scm.com/downloads">https://git-scm.com/downloads</a> click on your operating system setup will start downloading.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:image {"id":158,"sizeSlug":"large"} --></p>
+<figure class="post__image post__image--center"><img loading="lazy"  src="https://geeksfortech.com/media/posts/31/Downloadiing-setup.png" sizes="(max-width: 48em) 100vw, 100vw" srcset="https://geeksfortech.com/media/posts/31/responsive/Downloadiing-setup-xs.png 300w ,https://geeksfortech.com/media/posts/31/responsive/Downloadiing-setup-sm.png 480w ,https://geeksfortech.com/media/posts/31/responsive/Downloadiing-setup-md.png 768w"  alt="Downloadiing setup" width="590" height="297"></figure>
+<p><!-- /wp:image --></p>
+<p><!-- wp:paragraph --></p>
+<p><strong>Step 2:-</strong> Click on setup. Then click on <strong>Next</strong>.</p>
+<figure class="post__image post__image--center"><img loading="lazy"  src="https://geeksfortech.com/media/posts/31/Click-on-next.png" sizes="(max-width: 48em) 100vw, 100vw" srcset="https://geeksfortech.com/media/posts/31/responsive/Click-on-next-xs.png 300w ,https://geeksfortech.com/media/posts/31/responsive/Click-on-next-sm.png 480w ,https://geeksfortech.com/media/posts/31/responsive/Click-on-next-md.png 768w"  alt="Click on next" width="499" height="388"></figure>
+<p><strong>Step 3 :-</strong> Choose you destination directory/folder.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:image {"id":159,"sizeSlug":"large"} --></p>
+<p><!-- /wp:image --></p>
+<p><!-- wp:paragraph --></p>
+<figure class="post__image post__image--center"><img loading="lazy"  src="https://geeksfortech.com/media/posts/31/Destination.png" sizes="(max-width: 48em) 100vw, 100vw" srcset="https://geeksfortech.com/media/posts/31/responsive/Destination-xs.png 300w ,https://geeksfortech.com/media/posts/31/responsive/Destination-sm.png 480w ,https://geeksfortech.com/media/posts/31/responsive/Destination-md.png 768w"  alt="Destination" width="500" height="383"></figure>
+<p><strong>Step 4 :-</strong> Select which components you want to install and press next.</p>
+<figure class="post__image post__image--center"><img loading="lazy"  src="https://geeksfortech.com/media/posts/31/Choosing-components.png" sizes="(max-width: 48em) 100vw, 100vw" srcset="https://geeksfortech.com/media/posts/31/responsive/Choosing-components-xs.png 300w ,https://geeksfortech.com/media/posts/31/responsive/Choosing-components-sm.png 480w ,https://geeksfortech.com/media/posts/31/responsive/Choosing-components-md.png 768w"  alt="Choosing components" width="500" height="386"></figure>
+<p><strong>Step 5:-</strong> Select your start menu folder.</p>
+<figure class="post__image post__image--center"><img loading="lazy"  src="https://geeksfortech.com/media/posts/31/Start-menu-folder.png" sizes="(max-width: 48em) 100vw, 100vw" srcset="https://geeksfortech.com/media/posts/31/responsive/Start-menu-folder-xs.png 300w ,https://geeksfortech.com/media/posts/31/responsive/Start-menu-folder-sm.png 480w ,https://geeksfortech.com/media/posts/31/responsive/Start-menu-folder-md.png 768w"  alt="Start menu folder" width="498" height="386"></figure>
+<p><strong>Step 6:-</strong> Choose your default editor for git. I have used <strong>Visual Studio Code</strong> and press next.</p>
+<figure class="post__image post__image--center"><img loading="lazy"  src="https://geeksfortech.com/media/posts/31/Choose-Editor.png" sizes="(max-width: 48em) 100vw, 100vw" srcset="https://geeksfortech.com/media/posts/31/responsive/Choose-Editor-xs.png 300w ,https://geeksfortech.com/media/posts/31/responsive/Choose-Editor-sm.png 480w ,https://geeksfortech.com/media/posts/31/responsive/Choose-Editor-md.png 768w"  alt="Choose Editor" width="505" height="388"></figure>
+<p><strong>Step 7 :-</strong> Select your path environment.</p>
+<figure class="post__image post__image--center"><img loading="lazy"  src="https://geeksfortech.com/media/posts/31/Path-environment.png" sizes="(max-width: 48em) 100vw, 100vw" srcset="https://geeksfortech.com/media/posts/31/responsive/Path-environment-xs.png 300w ,https://geeksfortech.com/media/posts/31/responsive/Path-environment-sm.png 480w ,https://geeksfortech.com/media/posts/31/responsive/Path-environment-md.png 768w"  alt="Path environment" width="501" height="383"></figure>
+<p><strong>Step 8 :-</strong> Choose your transport backed.</p>
+<figure class="post__image post__image--center"><img loading="lazy"  src="https://geeksfortech.com/media/posts/31/Transport-backend.png" sizes="(max-width: 48em) 100vw, 100vw" srcset="https://geeksfortech.com/media/posts/31/responsive/Transport-backend-xs.png 300w ,https://geeksfortech.com/media/posts/31/responsive/Transport-backend-sm.png 480w ,https://geeksfortech.com/media/posts/31/responsive/Transport-backend-md.png 768w"  alt="Transport backend" width="501" height="386"></figure>
+<p><strong>Step 9 :-</strong> Choose your line ending conversions</p>
+<figure class="post__image post__image--center"><img loading="lazy"  src="https://geeksfortech.com/media/posts/31/Line-ending.png" sizes="(max-width: 48em) 100vw, 100vw" srcset="https://geeksfortech.com/media/posts/31/responsive/Line-ending-xs.png 300w ,https://geeksfortech.com/media/posts/31/responsive/Line-ending-sm.png 480w ,https://geeksfortech.com/media/posts/31/responsive/Line-ending-md.png 768w"  alt="Line ending" width="501" height="388"></figure>
+<p><strong>Step 10 :-</strong> Choose terminal emulator</p>
+<figure class="post__image post__image--center"><img loading="lazy"  src="https://geeksfortech.com/media/posts/31/terminal-emulator.png" sizes="(max-width: 48em) 100vw, 100vw" srcset="https://geeksfortech.com/media/posts/31/responsive/terminal-emulator-xs.png 300w ,https://geeksfortech.com/media/posts/31/responsive/terminal-emulator-sm.png 480w ,https://geeksfortech.com/media/posts/31/responsive/terminal-emulator-md.png 768w"  alt="Terminal Emulator" width="499" height="382"></figure>
+<p><strong>Step 11 :-</strong> Select default behavior for <strong>git pull</strong></p>
+<figure class="post__image post__image--center"><img loading="lazy"  src="https://geeksfortech.com/media/posts/31/Default-behavior.png" sizes="(max-width: 48em) 100vw, 100vw" srcset="https://geeksfortech.com/media/posts/31/responsive/Default-behavior-xs.png 300w ,https://geeksfortech.com/media/posts/31/responsive/Default-behavior-sm.png 480w ,https://geeksfortech.com/media/posts/31/responsive/Default-behavior-md.png 768w"  alt="Default Behavior" width="497" height="386"></figure>
+<p><strong>Step 12 :-</strong> Select your extra options.</p>
+<figure class="post__image post__image--center"><img loading="lazy"  src="https://geeksfortech.com/media/posts/31/Extra-options.png" sizes="(max-width: 48em) 100vw, 100vw" srcset="https://geeksfortech.com/media/posts/31/responsive/Extra-options-xs.png 300w ,https://geeksfortech.com/media/posts/31/responsive/Extra-options-sm.png 480w ,https://geeksfortech.com/media/posts/31/responsive/Extra-options-md.png 768w"  alt="Extra Options" width="499" height="380"></figure>
+<p><strong>Step 13 :-</strong> After that click on <strong>install</strong>.</p>
+<figure class="post__image post__image--center"><img loading="lazy"  src="https://geeksfortech.com/media/posts/31/install.png" sizes="(max-width: 48em) 100vw, 100vw" srcset="https://geeksfortech.com/media/posts/31/responsive/install-xs.png 300w ,https://geeksfortech.com/media/posts/31/responsive/install-sm.png 480w ,https://geeksfortech.com/media/posts/31/responsive/install-md.png 768w"  alt="Install" width="499" height="383"></figure>
+<p>It will start installation.</p>
+<figure class="post__image post__image--center"><img loading="lazy"  src="https://geeksfortech.com/media/posts/31/installing.png" sizes="(max-width: 48em) 100vw, 100vw" srcset="https://geeksfortech.com/media/posts/31/responsive/installing-xs.png 300w ,https://geeksfortech.com/media/posts/31/responsive/installing-sm.png 480w ,https://geeksfortech.com/media/posts/31/responsive/installing-md.png 768w"  alt="Installing" width="507" height="385"></figure>
+<p>Step 14 :- You can verify by typing <strong>git </strong>in your terminal/cmd. If you see following output then everything is working fine.</p>
+<figure class="post__image post__image--center"><img loading="lazy"  src="https://geeksfortech.com/media/posts/31/git-options.png" sizes="(max-width: 48em) 100vw, 100vw" srcset="https://geeksfortech.com/media/posts/31/responsive/git-options-xs.png 300w ,https://geeksfortech.com/media/posts/31/responsive/git-options-sm.png 480w ,https://geeksfortech.com/media/posts/31/responsive/git-options-md.png 768w"  alt="Git Options" width="590" height="535"></figure>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:image {"id":160,"sizeSlug":"large"} --></p>
+<p><!-- /wp:image --></p>
+<p><!-- wp:paragraph --></p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:image {"id":161,"sizeSlug":"large"} --></p>
+<p><!-- /wp:image --></p>
+<p><!-- wp:paragraph --></p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:image {"id":162,"sizeSlug":"large"} --></p>
+<p><!-- /wp:image --></p>
+<p><!-- wp:paragraph --></p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:image {"id":164,"sizeSlug":"large"} --></p>
+<p><!-- /wp:image --></p>
+<p><!-- wp:paragraph --></p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:image {"id":165,"sizeSlug":"large"} --></p>
+<p><!-- /wp:image --></p>
+<p><!-- wp:paragraph --></p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:image {"id":166,"sizeSlug":"large"} --></p>
+<p><!-- /wp:image --></p>
+<p><!-- wp:paragraph --></p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:image {"id":167,"sizeSlug":"large"} --></p>
+<p><!-- /wp:image --></p>
+<p><!-- wp:paragraph --></p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:image {"id":168,"sizeSlug":"large"} --></p>
+<p><!-- /wp:image --></p>
+<p><!-- wp:paragraph --></p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:image {"id":170,"sizeSlug":"large"} --></p>
+<p><!-- /wp:image --></p>
+<p><!-- wp:paragraph --></p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:image {"id":171,"sizeSlug":"large"} --></p>
+<p><!-- /wp:image --></p>
+<p><!-- wp:paragraph --></p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:image {"id":172,"sizeSlug":"large"} --></p>
+<p><!-- /wp:image --></p>
+<p><!-- wp:paragraph --></p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:image {"id":173,"sizeSlug":"large"} --></p>
+<p><!-- /wp:image --></p>
+<p><!-- wp:paragraph --></p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:image {"id":175,"sizeSlug":"large"} --></p>
+<figure class="wp-block-image size-large"><figure class="wp-image-175"><img loading="lazy"  src="https://geeksfortech.com/media/posts/31/image-58.png" sizes="(max-width: 48em) 100vw, 100vw" srcset="https://geeksfortech.com/media/posts/31/responsive/image-58-xs.png 300w ,https://geeksfortech.com/media/posts/31/responsive/image-58-sm.png 480w ,https://geeksfortech.com/media/posts/31/responsive/image-58-md.png 768w"  alt=""></figure></figure>
+<p><!-- /wp:image --></p>
+            ]]>
+        </content>
+    </entry>
+    <entry>
+        <title>Building REST API with Python &amp; Django - Tutorial</title>
+        <author>
+            <name>Tejas Sawant</name>
+        </author>
+        <link href="https://geeksfortech.com/building-rest-api-with-python-and-django-tutorial/"/>
+        <id>https://geeksfortech.com/building-rest-api-with-python-and-django-tutorial/</id>
+            <category term="restapi"/>
+            <category term="djangorestframework"/>
+            <category term="django"/>
+            <category term="Python"/>
+
+        <updated>2020-09-26T01:07:05+05:30</updated>
+            <summary>
+                <![CDATA[
+                        <img src="https://geeksfortech.com/media/posts/30/cover.webp" alt="Code" />
+                     In this section I'm going to explain all of the sections covered in this series. We're going to start&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                    <img src="https://geeksfortech.com/media/posts/30/cover.webp" alt="Code" />
+                <p><!-- wp:paragraph --></p>
+<p><strong>I</strong>n this section I'm going to explain all of the sections covered in this series.<br>We're going to start with a introduction in this section.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p><strong>1.</strong> Setting up our development environment :- In this will install all the software required for this series.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p><strong>2.</strong> Then we create our project where we'll create a new repository on github and a local workspace for managing our source code.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p><strong>3.</strong> Then we'll create a new django app and install some dependencies and configure the app for our project.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p><strong>4.</strong> Then we'll set up our database by creating our first database models and running our first migration.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p><strong>5.</strong> After that we will enable the Django admin so we can manage our database objects using the browser interface.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p><strong>6.</strong> After that we'll learn the basics of API views and view sets so we can understand the basics of building an API with the django rest framework. This will lead us on to creating our students information API where we'll create and test an API use for managing students in our system.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p><strong>7.</strong> After that we'll add the log in API so we can authenticate and identify students then we'll have the students information feed for managing students information feed items.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p><strong>8.</strong> Then we'll deploy our code to a heroku to make it accessible on the Internet.</p>
+<p><!-- /wp:paragraph --></p>
+            ]]>
+        </content>
+    </entry>
+    <entry>
+        <title>Variables in java</title>
+        <author>
+            <name>Tejas Sawant</name>
+        </author>
+        <link href="https://geeksfortech.com/variables-in-java/"/>
+        <id>https://geeksfortech.com/variables-in-java/</id>
+            <category term="variables"/>
+            <category term="memory"/>
+            <category term="java"/>
+
+        <updated>2020-09-26T18:50:00+05:30</updated>
+            <summary>
+                <![CDATA[
+                        <img src="https://geeksfortech.com/media/posts/28/java-cover.jpg" alt="Cover" />
+                     In this article we are talking about variables in java. So what is a variable ? A variable is&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                    <img src="https://geeksfortech.com/media/posts/28/java-cover.jpg" alt="Cover" />
+                <p><!-- wp:paragraph --></p>
+<p>In this article we are talking about <strong>variables</strong> in java.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p><strong>So what is a variable ? </strong> A variable is a 'place' in memory think of it like a 'box' if you will that you can store something in.<br>And the computer allows you to have hundreds or thousands of 'boxes', each containing<br>their own pieces of information.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p><strong>So what we do with our variable</strong> <strong>?</strong><br>That 'box' is called a variable, and what we can do is we can assign the type of information<br>that we want to put into the boxes and we can also give it a name.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p><strong>So why would we want to use variables ? </strong><br>Well the reason that we want to use them, is because they make a program really useful.<br>If, for example, if there was a computer program that you wanted to create that helped calculate someone's current age based on the date, then of course you'd need to enter in their birthday, and the computer would need to store that somewhere, so it could then<br>calculate how old that person was. Without the ability to store something,<br>the computer wouldn't be able to process anything and the programs you create would be very very basic and not really useful. So a variable is used for that purpose, to store information.</p>
+<p><!-- /wp:paragraph --></p>
+            ]]>
+        </content>
+    </entry>
+    <entry>
+        <title>Java Buzzwords</title>
+        <author>
+            <name>Tejas Sawant</name>
+        </author>
+        <link href="https://geeksfortech.com/java-buzzwords/"/>
+        <id>https://geeksfortech.com/java-buzzwords/</id>
+            <category term="list and explains java buzzwords"/>
+            <category term="java buzzwords"/>
+            <category term="java"/>
+
+        <updated>2020-09-26T18:48:49+05:30</updated>
+            <summary>
+                <![CDATA[
+                        <img src="https://geeksfortech.com/media/posts/27/java-cover.jpg" alt="Cover" />
+                     This article list and explains java buzzwords. • Simple • Secure • Portable • Object-oriented • Robust • Multithreaded&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                    <img src="https://geeksfortech.com/media/posts/27/java-cover.jpg" alt="Cover" />
+                <p><!-- wp:paragraph --></p>
+<p>This article list and explains java buzzwords.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>• Simple<br>• Secure<br>• Portable<br>• Object-oriented<br>• Robust<br>• Multithreaded<br>• Architecture-neutral<br>• Interpreted<br>• High performance<br>• Distributed<br>• Dynamic</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p><strong>Simple</strong><br>Java was designed to be easy for the programmer to learn and use effectively.<br>Assuming that you have some programming experience, you will not find Java hard to master.<br>If you already understand the basic concepts of object-oriented programming, learning Java<br>will be even easier. Best of all, if you are an experienced C++ programmer, moving to Java will<br>require very little effort. Because Java inherits the C/C++ syntax and many of the<br>object-oriented features of C++, most programmers have little trouble learning Java.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p><strong>Object-Oriented</strong><br>Although influenced by its predecessors, Java was not designed to be source-code compatible<br>with any other language. This allowed the Java team the freedom to design with a blank<br>slate. One outcome of this was a clean, usable, pragmatic approach to objects. Borrowing<br>liberally from many seminal object-software environments of the last few decades, Java<br>manages to strike a balance between the purist’s “everything is an object” paradigm and<br>the pragmatist’s “stay out of my way” model. The object model in Java is simple and easy<br>to extend, while primitive types, such as integers, are kept as high-performance nonobjects.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p><strong>Robust</strong><br>To better understand how Java is robust, consider two of the main reasons for program<br>failure: memory management mistakes and mishandled exceptional conditions (that is,<br>run-time errors). Memory management can be a difficult, tedious task in traditional<br>programming environments. For example, in C/C++, the programmer must manually allocate<br>and free all dynamic memory. This sometimes leads to problems, because programmers will<br>either forget to free memory that has been previously allocated or, worse, try to free some<br>memory that another part of their code is still using. Java virtually eliminates these problems<br>by managing memory allocation and de-allocation for you.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p><strong>Multithreaded</strong><br>Java was designed to meet the real-world requirement of creating interactive, networked<br>programs. To accomplish this, Java supports multithreaded programming, which allows<br>you to write programs that do many things simultaneously. The Java run-time system<br>comes with an elegant yet sophisticated solution for multiprocess synchronization that<br>enables you to construct smoothly running interactive systems. Java’s easy-to-use approach<br>to multithreading allows you to think about the specific behavior of your program, not the<br>multitasking subsystem.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p><strong>Architecture-Neutral</strong><br>A central issue for the Java designers was that of code longevity and portability. One of the<br>main problems facing programmers is that no guarantee exists that if you write a program<br>today, it will run tomorrow—even on the same machine. Operating system upgrades,<br>processor upgrades, and changes in core system resources can all combine to make a<br>program malfunction. The Java designers made several hard decisions in the Java language<br>and the Java Virtual Machine in an attempt to alter this situation. Their goal was “write<br>once; run anywhere, any time, forever.” To a great extent, this goal was accomplished.<br>Interpreted and High Performance<br>As described earlier, Java enables the creation of cross-platform programs by compiling<br>into an intermediate representation called Java bytecode. This code can be executed on<br>any system that implements the Java Virtual Machine. Most previous attempts at<br>cross-platform solutions have done so at the expense of performance. As explained earlier,<br>the Java bytecode was carefully designed so that it would be easy to translate directly into<br>native machine code for very high performance by using a just-in-time compiler. Java run-time<br>systems that provide this feature lose none of the benefits of the platform-independent code.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p><strong>Distributed</strong> Java is designed for the distributed environment of the Internet because it handles TCP/IP<br>protocols. In fact, accessing a resource using a URL is not much different from accessing a<br>file. Java also supports Remote Method Invocation (RMI). This feature enables a program to<br>invoke methods across a network.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p><strong>Dynamic</strong><br>Java programs carry with them substantial amounts of run-time type information that<br>is used to verify and resolve accesses to objects at run time. This makes it possible to<br>dynamically link code in a safe and expedient manner. This is crucial to the robustness of<br>the Java environment, in which small fragments of bytecode may be dynamically updated<br>on a running system.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>Reference :- The Complete Reference Java By Herbert Childt</p>
+<p><!-- /wp:paragraph --></p>
+            ]]>
+        </content>
+    </entry>
 </feed>
