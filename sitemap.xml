@@ -19,9 +19,6 @@
 <loc>https://geeksfortech.com/author/tejas-sawant/page/2/</loc>
 </url>
 <url>
-<loc>https://geeksfortech.com/author/tejas-sawant/page/3/</loc>
-</url>
-<url>
 <loc>https://geeksfortech.com/building-rest-api-with-python-and-django-tutorial/</loc>
 <lastmod>2020-09-26T01:07:05+05:30</lastmod>
 <image:image>
@@ -102,14 +99,6 @@
 <lastmod>2020-09-25T01:47:05+05:30</lastmod>
 <image:image>
 <image:loc>https://geeksfortech.com/media\posts\9/cover.webp</image:loc>
-<image:title><![CDATA[Cover]]></image:title>
-</image:image>
-</url>
-<url>
-<loc>https://geeksfortech.com/how-to-create-a-youtube-thumbnail-downloader/</loc>
-<lastmod>2020-09-26T00:12:57+05:30</lastmod>
-<image:image>
-<image:loc>https://geeksfortech.com/media\posts\7/cover.webp</image:loc>
 <image:title><![CDATA[Cover]]></image:title>
 </image:image>
 </url>
@@ -321,9 +310,6 @@
 <loc>https://geeksfortech.com/page/2/</loc>
 </url>
 <url>
-<loc>https://geeksfortech.com/page/3/</loc>
-</url>
-<url>
 <loc>https://geeksfortech.com/privacy-policy/</loc>
 <lastmod>2020-09-25T14:00:46+05:30</lastmod>
 </url>
@@ -444,12 +430,6 @@
 <loc>https://geeksfortech.com/tag/servlet/</loc>
 </url>
 <url>
-<loc>https://geeksfortech.com/tag/tailwindcss/</loc>
-</url>
-<url>
-<loc>https://geeksfortech.com/tag/thumbnail/</loc>
-</url>
-<url>
 <loc>https://geeksfortech.com/tag/ubuntu/</loc>
 </url>
 <url>
@@ -460,9 +440,6 @@
 </url>
 <url>
 <loc>https://geeksfortech.com/tag/wordpress/</loc>
-</url>
-<url>
-<loc>https://geeksfortech.com/tag/youtube/</loc>
 </url>
 <url>
 <loc>https://geeksfortech.com/variables-in-java/</loc>
