@@ -3,7 +3,7 @@
     <title>GeeksForTech</title>
     <link href="https://geeksfortech.com/feed.xml" rel="self" />
     <link href="https://geeksfortech.com" />
-    <updated>2021-01-01T20:18:06+05:30</updated>
+    <updated>2021-01-01T20:24:44+05:30</updated>
     <author>
         <name>Tejas Sawant</name>
     </author>
@@ -17,7 +17,7 @@
         <link href="https://geeksfortech.com/adding-mysql-databse-to-django-project/"/>
         <id>https://geeksfortech.com/adding-mysql-databse-to-django-project/</id>
 
-        <updated>2021-01-01T20:18:06+05:30</updated>
+        <updated>2021-01-01T20:24:44+05:30</updated>
             <summary>
                 <![CDATA[
                         <img src="https://geeksfortech.com/media/posts/43/Future-Image.PNG" alt="Database Config" />
@@ -52,11 +52,7 @@
 <pre class="line-numbers  language-bash"><code>pip install mysqlclient</code></pre>
 
   <p>
-    <b>Step 3:-</b>
-  </p>
-
-  <p>
-    Go to Django project. Then <b>settings.py.&nbsp;</b>Then we are going to write code for creating connection<b>.&nbsp;</b>Enter following code :-&nbsp;
+    <b>Step 3:-</b><b><br></b>Go to Django project. Then <b>settings.py.&nbsp;</b>Then we are going to write code for creating connection<b>.&nbsp;</b>Enter following code :-&nbsp;
   </p>
 <pre class="line-numbers  language-python"><code>DATABASES = {
     'default': {
@@ -68,15 +64,11 @@
 }</code></pre>
 
   <p>
-    <b>Step 4:-</b>
-  </p>
-
-  <p>
-    We need to create <b>mysql.cnf</b> file in root directory.&nbsp;
+    <b>Step 4:-</b><b><br></b>We need to create <b>mysql.cnf</b> file in root directory.&nbsp;
   </p>
 
     <figure class="post__image post__image--center">
-      <img loading="lazy" src="file:///C:/Users/Mrfam/Dropbox/Publii/geeksfortech/input/media/posts/temp/mysql-cnf.PNG" sizes="(max-width: 48em) 100vw, 768px" srcset="file:///C:/Users/Mrfam/Dropbox/Publii/geeksfortech/input/media/posts/temp/responsive/mysql-cnf-xs.PNG 300w ,file:///C:/Users/Mrfam/Dropbox/Publii/geeksfortech/input/media/posts/temp/responsive/mysql-cnf-sm.PNG 480w ,file:///C:/Users/Mrfam/Dropbox/Publii/geeksfortech/input/media/posts/temp/responsive/mysql-cnf-md.PNG 768w ,file:///C:/Users/Mrfam/Dropbox/Publii/geeksfortech/input/media/posts/temp/responsive/mysql-cnf-lg.PNG 1024w ,file:///C:/Users/Mrfam/Dropbox/Publii/geeksfortech/input/media/posts/temp/responsive/mysql-cnf-xl.PNG 1360w ,file:///C:/Users/Mrfam/Dropbox/Publii/geeksfortech/input/media/posts/temp/responsive/mysql-cnf-2xl.PNG 1600w"  height="104" width="130" alt="" />
+      <img loading="lazy" src="https://geeksfortech.com/media/posts/43/mysql-cnf-2.PNG" sizes="(max-width: 48em) 100vw, 768px" srcset="https://geeksfortech.com/media/posts/43/responsive/mysql-cnf-2-xs.PNG 300w ,https://geeksfortech.com/media/posts/43/responsive/mysql-cnf-2-sm.PNG 480w ,https://geeksfortech.com/media/posts/43/responsive/mysql-cnf-2-md.PNG 768w ,https://geeksfortech.com/media/posts/43/responsive/mysql-cnf-2-lg.PNG 1024w ,https://geeksfortech.com/media/posts/43/responsive/mysql-cnf-2-xl.PNG 1360w ,https://geeksfortech.com/media/posts/43/responsive/mysql-cnf-2-2xl.PNG 1600w"  height="104" width="130" alt="" />
       
     </figure>
 
@@ -95,7 +87,7 @@ default-character-set = utf8 # Leave it as default.</code></pre>
   </p>
 
     <figure class="post__image post__image--center">
-      <img loading="lazy" src="file:///C:/Users/Mrfam/Dropbox/Publii/geeksfortech/input/media/posts/temp/Runserver.PNG" sizes="(max-width: 48em) 100vw, 768px" srcset="file:///C:/Users/Mrfam/Dropbox/Publii/geeksfortech/input/media/posts/temp/responsive/Runserver-xs.PNG 300w ,file:///C:/Users/Mrfam/Dropbox/Publii/geeksfortech/input/media/posts/temp/responsive/Runserver-sm.PNG 480w ,file:///C:/Users/Mrfam/Dropbox/Publii/geeksfortech/input/media/posts/temp/responsive/Runserver-md.PNG 768w ,file:///C:/Users/Mrfam/Dropbox/Publii/geeksfortech/input/media/posts/temp/responsive/Runserver-lg.PNG 1024w ,file:///C:/Users/Mrfam/Dropbox/Publii/geeksfortech/input/media/posts/temp/responsive/Runserver-xl.PNG 1360w ,file:///C:/Users/Mrfam/Dropbox/Publii/geeksfortech/input/media/posts/temp/responsive/Runserver-2xl.PNG 1600w"  height="150" width="1349" alt="" />
+      <img loading="lazy" src="https://geeksfortech.com/media/posts/43/Runserver-2.PNG" sizes="(max-width: 48em) 100vw, 768px" srcset="https://geeksfortech.com/media/posts/43/responsive/Runserver-2-xs.PNG 300w ,https://geeksfortech.com/media/posts/43/responsive/Runserver-2-sm.PNG 480w ,https://geeksfortech.com/media/posts/43/responsive/Runserver-2-md.PNG 768w ,https://geeksfortech.com/media/posts/43/responsive/Runserver-2-lg.PNG 1024w ,https://geeksfortech.com/media/posts/43/responsive/Runserver-2-xl.PNG 1360w ,https://geeksfortech.com/media/posts/43/responsive/Runserver-2-2xl.PNG 1600w"  height="150" width="1349" alt="" />
       
     </figure>
 
@@ -113,12 +105,12 @@ default-character-set = utf8 # Leave it as default.</code></pre>
   </p>
 
     <figure class="post__image post__image--center">
-      <img loading="lazy" src="file:///C:/Users/Mrfam/Dropbox/Publii/geeksfortech/input/media/posts/temp/Successfull-connection.PNG" sizes="(max-width: 48em) 100vw, 768px" srcset="file:///C:/Users/Mrfam/Dropbox/Publii/geeksfortech/input/media/posts/temp/responsive/Successfull-connection-xs.PNG 300w ,file:///C:/Users/Mrfam/Dropbox/Publii/geeksfortech/input/media/posts/temp/responsive/Successfull-connection-sm.PNG 480w ,file:///C:/Users/Mrfam/Dropbox/Publii/geeksfortech/input/media/posts/temp/responsive/Successfull-connection-md.PNG 768w ,file:///C:/Users/Mrfam/Dropbox/Publii/geeksfortech/input/media/posts/temp/responsive/Successfull-connection-lg.PNG 1024w ,file:///C:/Users/Mrfam/Dropbox/Publii/geeksfortech/input/media/posts/temp/responsive/Successfull-connection-xl.PNG 1360w ,file:///C:/Users/Mrfam/Dropbox/Publii/geeksfortech/input/media/posts/temp/responsive/Successfull-connection-2xl.PNG 1600w"  height="174" width="206" alt="" />
+      <img loading="lazy" src="https://geeksfortech.com/media/posts/43/Successfull-connection-2.PNG" sizes="(max-width: 48em) 100vw, 768px" srcset="https://geeksfortech.com/media/posts/43/responsive/Successfull-connection-2-xs.PNG 300w ,https://geeksfortech.com/media/posts/43/responsive/Successfull-connection-2-sm.PNG 480w ,https://geeksfortech.com/media/posts/43/responsive/Successfull-connection-2-md.PNG 768w ,https://geeksfortech.com/media/posts/43/responsive/Successfull-connection-2-lg.PNG 1024w ,https://geeksfortech.com/media/posts/43/responsive/Successfull-connection-2-xl.PNG 1360w ,https://geeksfortech.com/media/posts/43/responsive/Successfull-connection-2-2xl.PNG 1600w"  height="174" width="206" alt="" />
       
     </figure>
 
   <p>
-    We have successfully connected. Django with mysql databse.
+    We have successfully connected Django with mysql databse.
   </p>
             ]]>
         </content>
