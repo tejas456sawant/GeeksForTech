@@ -3,12 +3,126 @@
     <title>GeeksForTech</title>
     <link href="https://geeksfortech.com/feed.xml" rel="self" />
     <link href="https://geeksfortech.com" />
-    <updated>2020-10-22T02:42:58+05:30</updated>
+    <updated>2021-01-01T20:18:06+05:30</updated>
     <author>
         <name>Tejas Sawant</name>
     </author>
     <id>https://geeksfortech.com</id>
 
+    <entry>
+        <title>Adding MySQL Databse to django project </title>
+        <author>
+            <name>Tejas Sawant</name>
+        </author>
+        <link href="https://geeksfortech.com/adding-mysql-databse-to-django-project/"/>
+        <id>https://geeksfortech.com/adding-mysql-databse-to-django-project/</id>
+
+        <updated>2021-01-01T20:18:06+05:30</updated>
+            <summary>
+                <![CDATA[
+                        <img src="https://geeksfortech.com/media/posts/43/Future-Image.PNG" alt="Database Config" />
+                     Step 1:-&nbsp; Start you database and create shema. In this example i am going to create ecom&nbsp;database. CREATE SCHEMA `ecom` ; Step 2:- Installing&nbsp;mysqlclient using pip. For mysql drivers. pip install mysqlclient Step 3:- Go to Django project. Then settings.py.&nbsp;Then we are going to&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                    <img src="https://geeksfortech.com/media/posts/43/Future-Image.PNG" alt="Database Config" />
+                
+  <p>
+    
+  </p>
+
+  <p>
+    <b>Step 1:-&nbsp;</b>
+  </p>
+
+  <p>
+    Start you database and create shema. In this example i am going to create <b>ecom&nbsp;</b>database.
+  </p>
+<pre class="line-numbers  language-sql"><code>CREATE SCHEMA `ecom` ;
+</code></pre>
+
+  <p>
+    <b>Step 2:-</b>
+  </p>
+
+  <p>
+    Installing&nbsp;<b>mysqlclient </b>using pip. For mysql drivers.
+  </p>
+<pre class="line-numbers  language-bash"><code>pip install mysqlclient</code></pre>
+
+  <p>
+    <b>Step 3:-</b>
+  </p>
+
+  <p>
+    Go to Django project. Then <b>settings.py.&nbsp;</b>Then we are going to write code for creating connection<b>.&nbsp;</b>Enter following code :-&nbsp;
+  </p>
+<pre class="line-numbers  language-python"><code>DATABASES = {
+    'default': {
+        'ENGINE': 'django.db.backends.mysql',
+        'OPTIONS': {
+            'read_default_file': 'mysql.cnf',
+        },
+    }
+}</code></pre>
+
+  <p>
+    <b>Step 4:-</b>
+  </p>
+
+  <p>
+    We need to create <b>mysql.cnf</b> file in root directory.&nbsp;
+  </p>
+
+    <figure class="post__image post__image--center">
+      <img loading="lazy" src="file:///C:/Users/Mrfam/Dropbox/Publii/geeksfortech/input/media/posts/temp/mysql-cnf.PNG" sizes="(max-width: 48em) 100vw, 768px" srcset="file:///C:/Users/Mrfam/Dropbox/Publii/geeksfortech/input/media/posts/temp/responsive/mysql-cnf-xs.PNG 300w ,file:///C:/Users/Mrfam/Dropbox/Publii/geeksfortech/input/media/posts/temp/responsive/mysql-cnf-sm.PNG 480w ,file:///C:/Users/Mrfam/Dropbox/Publii/geeksfortech/input/media/posts/temp/responsive/mysql-cnf-md.PNG 768w ,file:///C:/Users/Mrfam/Dropbox/Publii/geeksfortech/input/media/posts/temp/responsive/mysql-cnf-lg.PNG 1024w ,file:///C:/Users/Mrfam/Dropbox/Publii/geeksfortech/input/media/posts/temp/responsive/mysql-cnf-xl.PNG 1360w ,file:///C:/Users/Mrfam/Dropbox/Publii/geeksfortech/input/media/posts/temp/responsive/mysql-cnf-2xl.PNG 1600w"  height="104" width="130" alt="" />
+      
+    </figure>
+
+  <p>
+    Need to enter following code in <b>mysql.cnf</b> file.
+  </p>
+<pre class="line-numbers  language-apacheconf"><code>[client]
+database = ecom # Databse Name.
+user = root # Username for database.
+password = 1122 # Password For Database.
+port = 3306 # Your port number default is 3306.
+default-character-set = utf8 # Leave it as default.</code></pre>
+
+  <p>
+    Once you run server. You can see following output.
+  </p>
+
+    <figure class="post__image post__image--center">
+      <img loading="lazy" src="file:///C:/Users/Mrfam/Dropbox/Publii/geeksfortech/input/media/posts/temp/Runserver.PNG" sizes="(max-width: 48em) 100vw, 768px" srcset="file:///C:/Users/Mrfam/Dropbox/Publii/geeksfortech/input/media/posts/temp/responsive/Runserver-xs.PNG 300w ,file:///C:/Users/Mrfam/Dropbox/Publii/geeksfortech/input/media/posts/temp/responsive/Runserver-sm.PNG 480w ,file:///C:/Users/Mrfam/Dropbox/Publii/geeksfortech/input/media/posts/temp/responsive/Runserver-md.PNG 768w ,file:///C:/Users/Mrfam/Dropbox/Publii/geeksfortech/input/media/posts/temp/responsive/Runserver-lg.PNG 1024w ,file:///C:/Users/Mrfam/Dropbox/Publii/geeksfortech/input/media/posts/temp/responsive/Runserver-xl.PNG 1360w ,file:///C:/Users/Mrfam/Dropbox/Publii/geeksfortech/input/media/posts/temp/responsive/Runserver-2xl.PNG 1600w"  height="150" width="1349" alt="" />
+      
+    </figure>
+
+  <p>
+    <b>Step 5:-</b>
+  </p>
+
+  <p>
+    Migrating databse. For that you can use following command.
+  </p>
+<pre class="line-numbers  language-bash"><code>python manage.py migrate</code></pre>
+
+  <p>
+    This will migrate databse.
+  </p>
+
+    <figure class="post__image post__image--center">
+      <img loading="lazy" src="file:///C:/Users/Mrfam/Dropbox/Publii/geeksfortech/input/media/posts/temp/Successfull-connection.PNG" sizes="(max-width: 48em) 100vw, 768px" srcset="file:///C:/Users/Mrfam/Dropbox/Publii/geeksfortech/input/media/posts/temp/responsive/Successfull-connection-xs.PNG 300w ,file:///C:/Users/Mrfam/Dropbox/Publii/geeksfortech/input/media/posts/temp/responsive/Successfull-connection-sm.PNG 480w ,file:///C:/Users/Mrfam/Dropbox/Publii/geeksfortech/input/media/posts/temp/responsive/Successfull-connection-md.PNG 768w ,file:///C:/Users/Mrfam/Dropbox/Publii/geeksfortech/input/media/posts/temp/responsive/Successfull-connection-lg.PNG 1024w ,file:///C:/Users/Mrfam/Dropbox/Publii/geeksfortech/input/media/posts/temp/responsive/Successfull-connection-xl.PNG 1360w ,file:///C:/Users/Mrfam/Dropbox/Publii/geeksfortech/input/media/posts/temp/responsive/Successfull-connection-2xl.PNG 1600w"  height="174" width="206" alt="" />
+      
+    </figure>
+
+  <p>
+    We have successfully connected. Django with mysql databse.
+  </p>
+            ]]>
+        </content>
+    </entry>
     <entry>
         <title>Servlet Lifecycle</title>
         <author>

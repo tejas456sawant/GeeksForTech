@@ -13,10 +13,21 @@
 </image:image>
 </url>
 <url>
+<loc>https://geeksfortech.com/adding-mysql-databse-to-django-project/</loc>
+<lastmod>2021-01-01T20:18:06+05:30</lastmod>
+<image:image>
+<image:loc>https://geeksfortech.com/media\posts\43/Future-Image.PNG</image:loc>
+<image:title><![CDATA[Database Config]]></image:title>
+</image:image>
+</url>
+<url>
 <loc>https://geeksfortech.com/author/tejas-sawant/</loc>
 </url>
 <url>
 <loc>https://geeksfortech.com/author/tejas-sawant/page/2/</loc>
+</url>
+<url>
+<loc>https://geeksfortech.com/author/tejas-sawant/page/3/</loc>
 </url>
 <url>
 <loc>https://geeksfortech.com/building-rest-api-with-python-and-django-tutorial/</loc>
@@ -308,6 +319,9 @@
 </url>
 <url>
 <loc>https://geeksfortech.com/page/2/</loc>
+</url>
+<url>
+<loc>https://geeksfortech.com/page/3/</loc>
 </url>
 <url>
 <loc>https://geeksfortech.com/privacy-policy/</loc>
