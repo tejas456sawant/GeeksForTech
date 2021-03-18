@@ -1,3 +1,2 @@
 User-agent: *
-Disallow:
 Sitemap: https://geeksfortech.com/sitemap.xml
