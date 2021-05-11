@@ -21,7 +21,7 @@
             <summary>
                 <![CDATA[
                         <img src="https://www.programmingfornoobs.com/media/posts/43/Future-Image.PNG" alt="Database Config" />
-                     Step 1:-&nbsp; Start you database and create shema. In this example i am going to create ecom&nbsp;database. CREATE SCHEMA `ecom` ; Step 2:- Installing&nbsp;mysqlclient using pip. For mysql drivers. pip install mysqlclient Step 3:- Go to Django project. Then settings.py.&nbsp;Then we are going to&hellip;
+                     Step 1:-&nbsp; Start you database and create shema. In this example i am going to create ecom&nbsp;database. CREATE SCHEMA&hellip;
                 ]]>
             </summary>
         <content type="html">
@@ -68,7 +68,7 @@
   </p>
 
     <figure class="post__image post__image--center">
-      <img loading="lazy" src="https://www.programmingfornoobs.com/media/posts/43/mysql-cnf-2.PNG" sizes="(max-width: 48em) 100vw, 768px" srcset="https://www.programmingfornoobs.com/media/posts/43/responsive/mysql-cnf-2-xs.PNG 300w ,https://www.programmingfornoobs.com/media/posts/43/responsive/mysql-cnf-2-sm.PNG 480w ,https://www.programmingfornoobs.com/media/posts/43/responsive/mysql-cnf-2-md.PNG 768w ,https://www.programmingfornoobs.com/media/posts/43/responsive/mysql-cnf-2-lg.PNG 1024w ,https://www.programmingfornoobs.com/media/posts/43/responsive/mysql-cnf-2-xl.PNG 1360w ,https://www.programmingfornoobs.com/media/posts/43/responsive/mysql-cnf-2-2xl.PNG 1600w"  height="104" width="130" alt="" />
+      <img loading="lazy" src="https://www.programmingfornoobs.com/media/posts/43/mysql-cnf-2.PNG" sizes="(max-width: 48em) 100vw, 100vw" srcset="https://www.programmingfornoobs.com/media/posts/43/responsive/mysql-cnf-2-xs.PNG 300w ,https://www.programmingfornoobs.com/media/posts/43/responsive/mysql-cnf-2-sm.PNG 480w ,https://www.programmingfornoobs.com/media/posts/43/responsive/mysql-cnf-2-md.PNG 768w"  height="104" width="130" alt="" />
       
     </figure>
 
@@ -87,7 +87,7 @@ default-character-set = utf8 # Leave it as default.</code></pre>
   </p>
 
     <figure class="post__image post__image--center">
-      <img loading="lazy" src="https://www.programmingfornoobs.com/media/posts/43/Runserver-2.PNG" sizes="(max-width: 48em) 100vw, 768px" srcset="https://www.programmingfornoobs.com/media/posts/43/responsive/Runserver-2-xs.PNG 300w ,https://www.programmingfornoobs.com/media/posts/43/responsive/Runserver-2-sm.PNG 480w ,https://www.programmingfornoobs.com/media/posts/43/responsive/Runserver-2-md.PNG 768w ,https://www.programmingfornoobs.com/media/posts/43/responsive/Runserver-2-lg.PNG 1024w ,https://www.programmingfornoobs.com/media/posts/43/responsive/Runserver-2-xl.PNG 1360w ,https://www.programmingfornoobs.com/media/posts/43/responsive/Runserver-2-2xl.PNG 1600w"  height="150" width="1349" alt="" />
+      <img loading="lazy" src="https://www.programmingfornoobs.com/media/posts/43/Runserver-2.PNG" sizes="(max-width: 48em) 100vw, 100vw" srcset="https://www.programmingfornoobs.com/media/posts/43/responsive/Runserver-2-xs.PNG 300w ,https://www.programmingfornoobs.com/media/posts/43/responsive/Runserver-2-sm.PNG 480w ,https://www.programmingfornoobs.com/media/posts/43/responsive/Runserver-2-md.PNG 768w"  height="150" width="1349" alt="" />
       
     </figure>
 
@@ -105,7 +105,7 @@ default-character-set = utf8 # Leave it as default.</code></pre>
   </p>
 
     <figure class="post__image post__image--center">
-      <img loading="lazy" src="https://www.programmingfornoobs.com/media/posts/43/Successfull-connection-2.PNG" sizes="(max-width: 48em) 100vw, 768px" srcset="https://www.programmingfornoobs.com/media/posts/43/responsive/Successfull-connection-2-xs.PNG 300w ,https://www.programmingfornoobs.com/media/posts/43/responsive/Successfull-connection-2-sm.PNG 480w ,https://www.programmingfornoobs.com/media/posts/43/responsive/Successfull-connection-2-md.PNG 768w ,https://www.programmingfornoobs.com/media/posts/43/responsive/Successfull-connection-2-lg.PNG 1024w ,https://www.programmingfornoobs.com/media/posts/43/responsive/Successfull-connection-2-xl.PNG 1360w ,https://www.programmingfornoobs.com/media/posts/43/responsive/Successfull-connection-2-2xl.PNG 1600w"  height="174" width="206" alt="" />
+      <img loading="lazy" src="https://www.programmingfornoobs.com/media/posts/43/Successfull-connection-2.PNG" sizes="(max-width: 48em) 100vw, 100vw" srcset="https://www.programmingfornoobs.com/media/posts/43/responsive/Successfull-connection-2-xs.PNG 300w ,https://www.programmingfornoobs.com/media/posts/43/responsive/Successfull-connection-2-sm.PNG 480w ,https://www.programmingfornoobs.com/media/posts/43/responsive/Successfull-connection-2-md.PNG 768w"  height="174" width="206" alt="" />
       
     </figure>
 
@@ -131,7 +131,7 @@ default-character-set = utf8 # Leave it as default.</code></pre>
             <summary>
                 <![CDATA[
                         <img src="https://www.programmingfornoobs.com/media/posts/41/jsp.png" alt="JSP" />
-                     Servlets provide methods that are called when specific events occur in a larger context. Programming in this environment involves writing predefined methods, which are called as required by a managing program. Servlets operate in the context of a request and response model managed by&hellip;
+                     Servlets provide methods that are called when specific events occur in a larger context. Programming in this environment involves&hellip;
                 ]]>
             </summary>
         <content type="html">
@@ -226,7 +226,7 @@ default-character-set = utf8 # Leave it as default.</code></pre>
             <summary>
                 <![CDATA[
                         <img src="https://www.programmingfornoobs.com/media/posts/39/jsp.png" alt="JSP" />
-                    Servlets are Java classes that extend the functionality of a Web server by dynamically generating Web pages. A run-time environment known as a servlet engine manages servlet loading and unloading, and works with the Web server to direct requests to servlets and to send output&hellip;
+                    Servlets are Java classes that extend the functionality of a Web server by dynamically generating Web pages. A run-time environment&hellip;
                 ]]>
             </summary>
         <content type="html">
@@ -275,7 +275,7 @@ default-character-set = utf8 # Leave it as default.</code></pre>
             <summary>
                 <![CDATA[
                         <img src="https://www.programmingfornoobs.com/media/posts/38/http.png" alt="HTTP Request Model" />
-                     The specification describes HTTP as a stateless request/response protocol whose basic operation is as follows: A key consideration is this model is stateless. This means in handling a request, the Web server doesn’t remember anything about previous requests from the same client. The protocol&hellip;
+                     The specification describes HTTP as a stateless request/response protocol whose basic operation is as follows: A key consideration is&hellip;
                 ]]>
             </summary>
         <content type="html">
@@ -456,7 +456,7 @@ OutputStream ostream = socket.getOutputStream();</code></pre>
             <summary>
                 <![CDATA[
                         <img src="https://www.programmingfornoobs.com/media/posts/37/http.png" alt="http" />
-                    What Is HTTP? Hypertext Markup Language (HTML) is the language used to describe the insides of Web documents, Hypertext Transfer Protocol (HTTP) is the language used to describe how these documents are sent over the Internet. HTTP prescribes the rules by which browsers make requests&hellip;
+                    What Is HTTP? Hypertext Markup Language (HTML) is the language used to describe the insides of Web documents, Hypertext Transfer&hellip;
                 ]]>
             </summary>
         <content type="html">
@@ -532,7 +532,7 @@ OutputStream ostream = socket.getOutputStream();</code></pre>
             <summary>
                 <![CDATA[
                         <img src="https://www.programmingfornoobs.com/media/posts/36/cover.webp" alt="1st Model" />
-                     1. Static Document Server Model The first operational model had the Web server simply serving up documents on request. In this environment, the content doesn’t change unless a human author supplies a new version of a document. 2. Dynamic content generated by a CGI&hellip;
+                     1. Static Document Server Model The first operational model had the Web server simply serving up documents on request.
                 ]]>
             </summary>
         <content type="html">
@@ -548,7 +548,7 @@ OutputStream ostream = socket.getOutputStream();</code></pre>
   </p>
 
     <figure class="post__image post__image--center">
-      <img loading="lazy" src="https://www.programmingfornoobs.com/media/posts/36/static-document-server-model.webp" sizes="(max-width: 48em) 100vw, 768px" srcset="https://www.programmingfornoobs.com/media/posts/36/responsive/static-document-server-model-xs.webp 300w ,https://www.programmingfornoobs.com/media/posts/36/responsive/static-document-server-model-sm.webp 480w ,https://www.programmingfornoobs.com/media/posts/36/responsive/static-document-server-model-md.webp 768w ,https://www.programmingfornoobs.com/media/posts/36/responsive/static-document-server-model-lg.webp 1024w ,https://www.programmingfornoobs.com/media/posts/36/responsive/static-document-server-model-xl.webp 1360w ,https://www.programmingfornoobs.com/media/posts/36/responsive/static-document-server-model-2xl.webp 1600w"  height="378" width="740" alt="Static document server model" />
+      <img loading="lazy" src="https://www.programmingfornoobs.com/media/posts/36/static-document-server-model.webp" sizes="(max-width: 48em) 100vw, 100vw" srcset="https://www.programmingfornoobs.com/media/posts/36/responsive/static-document-server-model-xs.webp 300w ,https://www.programmingfornoobs.com/media/posts/36/responsive/static-document-server-model-sm.webp 480w ,https://www.programmingfornoobs.com/media/posts/36/responsive/static-document-server-model-md.webp 768w"  height="378" width="740" alt="Static document server model" />
       <figcaption>Static document server model</figcaption>
     </figure>
 
@@ -561,7 +561,7 @@ OutputStream ostream = socket.getOutputStream();</code></pre>
   </p>
 
     <figure class="post__image post__image--center">
-      <img loading="lazy" src="https://www.programmingfornoobs.com/media/posts/36/Dynamic-content-generated-by-a-CGI-script.webp" sizes="(max-width: 48em) 100vw, 768px" srcset="https://www.programmingfornoobs.com/media/posts/36/responsive/Dynamic-content-generated-by-a-CGI-script-xs.webp 300w ,https://www.programmingfornoobs.com/media/posts/36/responsive/Dynamic-content-generated-by-a-CGI-script-sm.webp 480w ,https://www.programmingfornoobs.com/media/posts/36/responsive/Dynamic-content-generated-by-a-CGI-script-md.webp 768w ,https://www.programmingfornoobs.com/media/posts/36/responsive/Dynamic-content-generated-by-a-CGI-script-lg.webp 1024w ,https://www.programmingfornoobs.com/media/posts/36/responsive/Dynamic-content-generated-by-a-CGI-script-xl.webp 1360w ,https://www.programmingfornoobs.com/media/posts/36/responsive/Dynamic-content-generated-by-a-CGI-script-2xl.webp 1600w"  height="421" width="642" alt="Dynamic content generated by a CGI script" />
+      <img loading="lazy" src="https://www.programmingfornoobs.com/media/posts/36/Dynamic-content-generated-by-a-CGI-script.webp" sizes="(max-width: 48em) 100vw, 100vw" srcset="https://www.programmingfornoobs.com/media/posts/36/responsive/Dynamic-content-generated-by-a-CGI-script-xs.webp 300w ,https://www.programmingfornoobs.com/media/posts/36/responsive/Dynamic-content-generated-by-a-CGI-script-sm.webp 480w ,https://www.programmingfornoobs.com/media/posts/36/responsive/Dynamic-content-generated-by-a-CGI-script-md.webp 768w"  height="421" width="642" alt="Dynamic content generated by a CGI script" />
       <figcaption>Dynamic content generated by a CGI script</figcaption>
     </figure>
 
@@ -574,7 +574,7 @@ OutputStream ostream = socket.getOutputStream();</code></pre>
   </p>
 
     <figure class="post__image post__image--center">
-      <img loading="lazy" src="https://www.programmingfornoobs.com/media/posts/36/Dynamic-applications-using-servlets-JSP-and-J2EE.webp" sizes="(max-width: 48em) 100vw, 768px" srcset="https://www.programmingfornoobs.com/media/posts/36/responsive/Dynamic-applications-using-servlets-JSP-and-J2EE-xs.webp 300w ,https://www.programmingfornoobs.com/media/posts/36/responsive/Dynamic-applications-using-servlets-JSP-and-J2EE-sm.webp 480w ,https://www.programmingfornoobs.com/media/posts/36/responsive/Dynamic-applications-using-servlets-JSP-and-J2EE-md.webp 768w ,https://www.programmingfornoobs.com/media/posts/36/responsive/Dynamic-applications-using-servlets-JSP-and-J2EE-lg.webp 1024w ,https://www.programmingfornoobs.com/media/posts/36/responsive/Dynamic-applications-using-servlets-JSP-and-J2EE-xl.webp 1360w ,https://www.programmingfornoobs.com/media/posts/36/responsive/Dynamic-applications-using-servlets-JSP-and-J2EE-2xl.webp 1600w"  height="547" width="552" alt="Dynamic applications using servlets, JSP, and J2EE" />
+      <img loading="lazy" src="https://www.programmingfornoobs.com/media/posts/36/Dynamic-applications-using-servlets-JSP-and-J2EE.webp" sizes="(max-width: 48em) 100vw, 100vw" srcset="https://www.programmingfornoobs.com/media/posts/36/responsive/Dynamic-applications-using-servlets-JSP-and-J2EE-xs.webp 300w ,https://www.programmingfornoobs.com/media/posts/36/responsive/Dynamic-applications-using-servlets-JSP-and-J2EE-sm.webp 480w ,https://www.programmingfornoobs.com/media/posts/36/responsive/Dynamic-applications-using-servlets-JSP-and-J2EE-md.webp 768w"  height="547" width="552" alt="Dynamic applications using servlets, JSP, and J2EE" />
       <figcaption>Dynamic applications using servlets, JSP, and J2EE</figcaption>
     </figure>
 
@@ -601,7 +601,7 @@ OutputStream ostream = socket.getOutputStream();</code></pre>
             <summary>
                 <![CDATA[
                         <img src="https://www.programmingfornoobs.com/media/posts/11/cover.webp" alt="Open LiteSpeed Wordpress" />
-                     This article shows how you can free host your wordpress website on GCP for next one year. In this article we have used google cloud bitnami wordpress ssl for securing site. You can use your first 300$ credits for free hosting. So let’s start.
+                     This article shows how you can free host your wordpress website on GCP for next one year. In this&hellip;
                 ]]>
             </summary>
         <content type="html">
@@ -617,7 +617,7 @@ OutputStream ostream = socket.getOutputStream();</code></pre>
   </p>
 
     <figure class="post__image post__image--center">
-      <img loading="lazy" src="https://www.programmingfornoobs.com/media/posts/11/creating-or-selecting-project-2.png" sizes="(max-width: 48em) 100vw, 768px" srcset="https://www.programmingfornoobs.com/media/posts/11/responsive/creating-or-selecting-project-2-xs.png 300w ,https://www.programmingfornoobs.com/media/posts/11/responsive/creating-or-selecting-project-2-sm.png 480w ,https://www.programmingfornoobs.com/media/posts/11/responsive/creating-or-selecting-project-2-md.png 768w ,https://www.programmingfornoobs.com/media/posts/11/responsive/creating-or-selecting-project-2-lg.png 1024w ,https://www.programmingfornoobs.com/media/posts/11/responsive/creating-or-selecting-project-2-xl.png 1360w ,https://www.programmingfornoobs.com/media/posts/11/responsive/creating-or-selecting-project-2-2xl.png 1600w"  height="491" width="1024" alt="project window" />
+      <img loading="lazy" src="https://www.programmingfornoobs.com/media/posts/11/creating-or-selecting-project-2.png" sizes="(max-width: 48em) 100vw, 100vw" srcset="https://www.programmingfornoobs.com/media/posts/11/responsive/creating-or-selecting-project-2-xs.png 300w ,https://www.programmingfornoobs.com/media/posts/11/responsive/creating-or-selecting-project-2-sm.png 480w ,https://www.programmingfornoobs.com/media/posts/11/responsive/creating-or-selecting-project-2-md.png 768w"  height="491" width="1024" alt="project window" />
       <figcaption>Creating Or Selecting Project</figcaption>
     </figure>
 
@@ -626,7 +626,7 @@ OutputStream ostream = socket.getOutputStream();</code></pre>
   </p>
 
     <figure class="post__image post__image--center">
-      <img loading="lazy" src="https://www.programmingfornoobs.com/media/posts/11/marketplace-2.png" sizes="(max-width: 48em) 100vw, 768px" srcset="https://www.programmingfornoobs.com/media/posts/11/responsive/marketplace-2-xs.png 300w ,https://www.programmingfornoobs.com/media/posts/11/responsive/marketplace-2-sm.png 480w ,https://www.programmingfornoobs.com/media/posts/11/responsive/marketplace-2-md.png 768w ,https://www.programmingfornoobs.com/media/posts/11/responsive/marketplace-2-lg.png 1024w ,https://www.programmingfornoobs.com/media/posts/11/responsive/marketplace-2-xl.png 1360w ,https://www.programmingfornoobs.com/media/posts/11/responsive/marketplace-2-2xl.png 1600w"  height="285" width="590" alt="Marketplace" />
+      <img loading="lazy" src="https://www.programmingfornoobs.com/media/posts/11/marketplace-2.png" sizes="(max-width: 48em) 100vw, 100vw" srcset="https://www.programmingfornoobs.com/media/posts/11/responsive/marketplace-2-xs.png 300w ,https://www.programmingfornoobs.com/media/posts/11/responsive/marketplace-2-sm.png 480w ,https://www.programmingfornoobs.com/media/posts/11/responsive/marketplace-2-md.png 768w"  height="285" width="590" alt="Marketplace" />
       <figcaption>GCP Marketplace</figcaption>
     </figure>
 
@@ -635,7 +635,7 @@ OutputStream ostream = socket.getOutputStream();</code></pre>
   </p>
 
     <figure class="post__image post__image--center">
-      <img loading="lazy" src="https://www.programmingfornoobs.com/media/posts/11/search-wordpress-2.png" sizes="(max-width: 48em) 100vw, 768px" srcset="https://www.programmingfornoobs.com/media/posts/11/responsive/search-wordpress-2-xs.png 300w ,https://www.programmingfornoobs.com/media/posts/11/responsive/search-wordpress-2-sm.png 480w ,https://www.programmingfornoobs.com/media/posts/11/responsive/search-wordpress-2-md.png 768w ,https://www.programmingfornoobs.com/media/posts/11/responsive/search-wordpress-2-lg.png 1024w ,https://www.programmingfornoobs.com/media/posts/11/responsive/search-wordpress-2-xl.png 1360w ,https://www.programmingfornoobs.com/media/posts/11/responsive/search-wordpress-2-2xl.png 1600w"  height="280" width="590" alt="Search Wordpress" />
+      <img loading="lazy" src="https://www.programmingfornoobs.com/media/posts/11/search-wordpress-2.png" sizes="(max-width: 48em) 100vw, 100vw" srcset="https://www.programmingfornoobs.com/media/posts/11/responsive/search-wordpress-2-xs.png 300w ,https://www.programmingfornoobs.com/media/posts/11/responsive/search-wordpress-2-sm.png 480w ,https://www.programmingfornoobs.com/media/posts/11/responsive/search-wordpress-2-md.png 768w"  height="280" width="590" alt="Search Wordpress" />
       <figcaption>Search Wordpress</figcaption>
     </figure>
 
@@ -644,7 +644,7 @@ OutputStream ostream = socket.getOutputStream();</code></pre>
   </p>
 
     <figure class="post__image post__image--center">
-      <img loading="lazy" src="https://www.programmingfornoobs.com/media/posts/11/select-openlitespeed-wordpress-2.png" sizes="(max-width: 48em) 100vw, 768px" srcset="https://www.programmingfornoobs.com/media/posts/11/responsive/select-openlitespeed-wordpress-2-xs.png 300w ,https://www.programmingfornoobs.com/media/posts/11/responsive/select-openlitespeed-wordpress-2-sm.png 480w ,https://www.programmingfornoobs.com/media/posts/11/responsive/select-openlitespeed-wordpress-2-md.png 768w ,https://www.programmingfornoobs.com/media/posts/11/responsive/select-openlitespeed-wordpress-2-lg.png 1024w ,https://www.programmingfornoobs.com/media/posts/11/responsive/select-openlitespeed-wordpress-2-xl.png 1360w ,https://www.programmingfornoobs.com/media/posts/11/responsive/select-openlitespeed-wordpress-2-2xl.png 1600w"  height="282" width="590" alt="Openlitespeed Wordpress" />
+      <img loading="lazy" src="https://www.programmingfornoobs.com/media/posts/11/select-openlitespeed-wordpress-2.png" sizes="(max-width: 48em) 100vw, 100vw" srcset="https://www.programmingfornoobs.com/media/posts/11/responsive/select-openlitespeed-wordpress-2-xs.png 300w ,https://www.programmingfornoobs.com/media/posts/11/responsive/select-openlitespeed-wordpress-2-sm.png 480w ,https://www.programmingfornoobs.com/media/posts/11/responsive/select-openlitespeed-wordpress-2-md.png 768w"  height="282" width="590" alt="Openlitespeed Wordpress" />
       <figcaption>Openlitespeed Wordpress</figcaption>
     </figure>
 
@@ -653,7 +653,7 @@ OutputStream ostream = socket.getOutputStream();</code></pre>
   </p>
 
     <figure class="post__image post__image--center">
-      <img loading="lazy" src="https://www.programmingfornoobs.com/media/posts/11/allow-traffic.png" sizes="(max-width: 48em) 100vw, 768px" srcset="https://www.programmingfornoobs.com/media/posts/11/responsive/allow-traffic-xs.png 300w ,https://www.programmingfornoobs.com/media/posts/11/responsive/allow-traffic-sm.png 480w ,https://www.programmingfornoobs.com/media/posts/11/responsive/allow-traffic-md.png 768w ,https://www.programmingfornoobs.com/media/posts/11/responsive/allow-traffic-lg.png 1024w ,https://www.programmingfornoobs.com/media/posts/11/responsive/allow-traffic-xl.png 1360w ,https://www.programmingfornoobs.com/media/posts/11/responsive/allow-traffic-2xl.png 1600w"  height="282" width="590" alt="Allow traffic from all network." />
+      <img loading="lazy" src="https://www.programmingfornoobs.com/media/posts/11/allow-traffic.png" sizes="(max-width: 48em) 100vw, 100vw" srcset="https://www.programmingfornoobs.com/media/posts/11/responsive/allow-traffic-xs.png 300w ,https://www.programmingfornoobs.com/media/posts/11/responsive/allow-traffic-sm.png 480w ,https://www.programmingfornoobs.com/media/posts/11/responsive/allow-traffic-md.png 768w"  height="282" width="590" alt="Allow traffic from all network." />
       <figcaption>Allow traffic from all network.</figcaption>
     </figure>
 
@@ -662,7 +662,7 @@ OutputStream ostream = socket.getOutputStream();</code></pre>
   </p>
 
     <figure class="post__image post__image--center">
-      <img loading="lazy" src="https://www.programmingfornoobs.com/media/posts/11/dns-name.png" sizes="(max-width: 48em) 100vw, 768px" srcset="https://www.programmingfornoobs.com/media/posts/11/responsive/dns-name-xs.png 300w ,https://www.programmingfornoobs.com/media/posts/11/responsive/dns-name-sm.png 480w ,https://www.programmingfornoobs.com/media/posts/11/responsive/dns-name-md.png 768w ,https://www.programmingfornoobs.com/media/posts/11/responsive/dns-name-lg.png 1024w ,https://www.programmingfornoobs.com/media/posts/11/responsive/dns-name-xl.png 1360w ,https://www.programmingfornoobs.com/media/posts/11/responsive/dns-name-2xl.png 1600w"  height="413" width="477" alt="DNS Name" />
+      <img loading="lazy" src="https://www.programmingfornoobs.com/media/posts/11/dns-name.png" sizes="(max-width: 48em) 100vw, 100vw" srcset="https://www.programmingfornoobs.com/media/posts/11/responsive/dns-name-xs.png 300w ,https://www.programmingfornoobs.com/media/posts/11/responsive/dns-name-sm.png 480w ,https://www.programmingfornoobs.com/media/posts/11/responsive/dns-name-md.png 768w"  height="413" width="477" alt="DNS Name" />
       <figcaption>DNS Name</figcaption>
     </figure>
 
@@ -671,7 +671,7 @@ OutputStream ostream = socket.getOutputStream();</code></pre>
   </p>
 
     <figure class="post__image post__image--center">
-      <img loading="lazy" src="https://www.programmingfornoobs.com/media/posts/11/updating-nameserver.png" sizes="(max-width: 48em) 100vw, 768px" srcset="https://www.programmingfornoobs.com/media/posts/11/responsive/updating-nameserver-xs.png 300w ,https://www.programmingfornoobs.com/media/posts/11/responsive/updating-nameserver-sm.png 480w ,https://www.programmingfornoobs.com/media/posts/11/responsive/updating-nameserver-md.png 768w ,https://www.programmingfornoobs.com/media/posts/11/responsive/updating-nameserver-lg.png 1024w ,https://www.programmingfornoobs.com/media/posts/11/responsive/updating-nameserver-xl.png 1360w ,https://www.programmingfornoobs.com/media/posts/11/responsive/updating-nameserver-2xl.png 1600w"  height="389" width="590" alt="NS Change" />
+      <img loading="lazy" src="https://www.programmingfornoobs.com/media/posts/11/updating-nameserver.png" sizes="(max-width: 48em) 100vw, 100vw" srcset="https://www.programmingfornoobs.com/media/posts/11/responsive/updating-nameserver-xs.png 300w ,https://www.programmingfornoobs.com/media/posts/11/responsive/updating-nameserver-sm.png 480w ,https://www.programmingfornoobs.com/media/posts/11/responsive/updating-nameserver-md.png 768w"  height="389" width="590" alt="NS Change" />
       <figcaption>NS Change</figcaption>
     </figure>
 
@@ -680,7 +680,7 @@ OutputStream ostream = socket.getOutputStream();</code></pre>
   </p>
 
     <figure class="post__image post__image--center">
-      <img loading="lazy" src="https://www.programmingfornoobs.com/media/posts/11/dns-zone.png" sizes="(max-width: 48em) 100vw, 768px" srcset="https://www.programmingfornoobs.com/media/posts/11/responsive/dns-zone-xs.png 300w ,https://www.programmingfornoobs.com/media/posts/11/responsive/dns-zone-sm.png 480w ,https://www.programmingfornoobs.com/media/posts/11/responsive/dns-zone-md.png 768w ,https://www.programmingfornoobs.com/media/posts/11/responsive/dns-zone-lg.png 1024w ,https://www.programmingfornoobs.com/media/posts/11/responsive/dns-zone-xl.png 1360w ,https://www.programmingfornoobs.com/media/posts/11/responsive/dns-zone-2xl.png 1600w"  height="339" width="590" alt="DNS Zone" />
+      <img loading="lazy" src="https://www.programmingfornoobs.com/media/posts/11/dns-zone.png" sizes="(max-width: 48em) 100vw, 100vw" srcset="https://www.programmingfornoobs.com/media/posts/11/responsive/dns-zone-xs.png 300w ,https://www.programmingfornoobs.com/media/posts/11/responsive/dns-zone-sm.png 480w ,https://www.programmingfornoobs.com/media/posts/11/responsive/dns-zone-md.png 768w"  height="339" width="590" alt="DNS Zone" />
       <figcaption>DNS Zone</figcaption>
     </figure>
 
@@ -689,7 +689,7 @@ OutputStream ostream = socket.getOutputStream();</code></pre>
   </p>
 
     <figure class="post__image post__image--center">
-      <img loading="lazy" src="https://www.programmingfornoobs.com/media/posts/11/ping-domain.png" sizes="(max-width: 48em) 100vw, 768px" srcset="https://www.programmingfornoobs.com/media/posts/11/responsive/ping-domain-xs.png 300w ,https://www.programmingfornoobs.com/media/posts/11/responsive/ping-domain-sm.png 480w ,https://www.programmingfornoobs.com/media/posts/11/responsive/ping-domain-md.png 768w ,https://www.programmingfornoobs.com/media/posts/11/responsive/ping-domain-lg.png 1024w ,https://www.programmingfornoobs.com/media/posts/11/responsive/ping-domain-xl.png 1360w ,https://www.programmingfornoobs.com/media/posts/11/responsive/ping-domain-2xl.png 1600w"  height="176" width="537" alt="Ping" />
+      <img loading="lazy" src="https://www.programmingfornoobs.com/media/posts/11/ping-domain.png" sizes="(max-width: 48em) 100vw, 100vw" srcset="https://www.programmingfornoobs.com/media/posts/11/responsive/ping-domain-xs.png 300w ,https://www.programmingfornoobs.com/media/posts/11/responsive/ping-domain-sm.png 480w ,https://www.programmingfornoobs.com/media/posts/11/responsive/ping-domain-md.png 768w"  height="176" width="537" alt="Ping" />
       <figcaption>Ping</figcaption>
     </figure>
 
@@ -698,7 +698,7 @@ OutputStream ostream = socket.getOutputStream();</code></pre>
   </p>
 
     <figure class="post__image post__image--center">
-      <img loading="lazy" src="https://www.programmingfornoobs.com/media/posts/11/ssl-certificate.png" sizes="(max-width: 48em) 100vw, 768px" srcset="https://www.programmingfornoobs.com/media/posts/11/responsive/ssl-certificate-xs.png 300w ,https://www.programmingfornoobs.com/media/posts/11/responsive/ssl-certificate-sm.png 480w ,https://www.programmingfornoobs.com/media/posts/11/responsive/ssl-certificate-md.png 768w ,https://www.programmingfornoobs.com/media/posts/11/responsive/ssl-certificate-lg.png 1024w ,https://www.programmingfornoobs.com/media/posts/11/responsive/ssl-certificate-xl.png 1360w ,https://www.programmingfornoobs.com/media/posts/11/responsive/ssl-certificate-2xl.png 1600w"  height="504" width="590" alt="SSL" />
+      <img loading="lazy" src="https://www.programmingfornoobs.com/media/posts/11/ssl-certificate.png" sizes="(max-width: 48em) 100vw, 100vw" srcset="https://www.programmingfornoobs.com/media/posts/11/responsive/ssl-certificate-xs.png 300w ,https://www.programmingfornoobs.com/media/posts/11/responsive/ssl-certificate-sm.png 480w ,https://www.programmingfornoobs.com/media/posts/11/responsive/ssl-certificate-md.png 768w"  height="504" width="590" alt="SSL" />
       <figcaption>SSL</figcaption>
     </figure>
 
@@ -707,7 +707,7 @@ OutputStream ostream = socket.getOutputStream();</code></pre>
   </p>
 
     <figure class="post__image post__image--center">
-      <img loading="lazy" src="https://www.programmingfornoobs.com/media/posts/11/secure-site.png" sizes="(max-width: 48em) 100vw, 768px" srcset="https://www.programmingfornoobs.com/media/posts/11/responsive/secure-site-xs.png 300w ,https://www.programmingfornoobs.com/media/posts/11/responsive/secure-site-sm.png 480w ,https://www.programmingfornoobs.com/media/posts/11/responsive/secure-site-md.png 768w ,https://www.programmingfornoobs.com/media/posts/11/responsive/secure-site-lg.png 1024w ,https://www.programmingfornoobs.com/media/posts/11/responsive/secure-site-xl.png 1360w ,https://www.programmingfornoobs.com/media/posts/11/responsive/secure-site-2xl.png 1600w"  height="295" width="590" alt="Secure Site" />
+      <img loading="lazy" src="https://www.programmingfornoobs.com/media/posts/11/secure-site.png" sizes="(max-width: 48em) 100vw, 100vw" srcset="https://www.programmingfornoobs.com/media/posts/11/responsive/secure-site-xs.png 300w ,https://www.programmingfornoobs.com/media/posts/11/responsive/secure-site-sm.png 480w ,https://www.programmingfornoobs.com/media/posts/11/responsive/secure-site-md.png 768w"  height="295" width="590" alt="Secure Site" />
       <figcaption>Secure Site</figcaption>
     </figure>
 
@@ -716,7 +716,7 @@ OutputStream ostream = socket.getOutputStream();</code></pre>
   </p>
 
     <figure class="post__image post__image--center">
-      <img loading="lazy" src="https://www.programmingfornoobs.com/media/posts/11/install-wordpress.png" sizes="(max-width: 48em) 100vw, 768px" srcset="https://www.programmingfornoobs.com/media/posts/11/responsive/install-wordpress-xs.png 300w ,https://www.programmingfornoobs.com/media/posts/11/responsive/install-wordpress-sm.png 480w ,https://www.programmingfornoobs.com/media/posts/11/responsive/install-wordpress-md.png 768w ,https://www.programmingfornoobs.com/media/posts/11/responsive/install-wordpress-lg.png 1024w ,https://www.programmingfornoobs.com/media/posts/11/responsive/install-wordpress-xl.png 1360w ,https://www.programmingfornoobs.com/media/posts/11/responsive/install-wordpress-2xl.png 1600w"  height="412" width="590" alt="Install Wordpress" />
+      <img loading="lazy" src="https://www.programmingfornoobs.com/media/posts/11/install-wordpress.png" sizes="(max-width: 48em) 100vw, 100vw" srcset="https://www.programmingfornoobs.com/media/posts/11/responsive/install-wordpress-xs.png 300w ,https://www.programmingfornoobs.com/media/posts/11/responsive/install-wordpress-sm.png 480w ,https://www.programmingfornoobs.com/media/posts/11/responsive/install-wordpress-md.png 768w"  height="412" width="590" alt="Install Wordpress" />
       <figcaption>Install Wordpress</figcaption>
     </figure>
 
@@ -725,12 +725,12 @@ OutputStream ostream = socket.getOutputStream();</code></pre>
   </p>
 
     <figure class="post__image post__image--center">
-      <img loading="lazy" src="https://www.programmingfornoobs.com/media/posts/11/admin-access.png" sizes="(max-width: 48em) 100vw, 768px" srcset="https://www.programmingfornoobs.com/media/posts/11/responsive/admin-access-xs.png 300w ,https://www.programmingfornoobs.com/media/posts/11/responsive/admin-access-sm.png 480w ,https://www.programmingfornoobs.com/media/posts/11/responsive/admin-access-md.png 768w ,https://www.programmingfornoobs.com/media/posts/11/responsive/admin-access-lg.png 1024w ,https://www.programmingfornoobs.com/media/posts/11/responsive/admin-access-xl.png 1360w ,https://www.programmingfornoobs.com/media/posts/11/responsive/admin-access-2xl.png 1600w"  height="258" width="590" alt="Admin Area" />
+      <img loading="lazy" src="https://www.programmingfornoobs.com/media/posts/11/admin-access.png" sizes="(max-width: 48em) 100vw, 100vw" srcset="https://www.programmingfornoobs.com/media/posts/11/responsive/admin-access-xs.png 300w ,https://www.programmingfornoobs.com/media/posts/11/responsive/admin-access-sm.png 480w ,https://www.programmingfornoobs.com/media/posts/11/responsive/admin-access-md.png 768w"  height="258" width="590" alt="Admin Area" />
       <figcaption>Admin Area</figcaption>
     </figure>
 
     <figure class="post__image post__image--center">
-      <img loading="lazy" src="https://www.programmingfornoobs.com/media/posts/11/stacktech.png" sizes="(max-width: 48em) 100vw, 768px" srcset="https://www.programmingfornoobs.com/media/posts/11/responsive/stacktech-xs.png 300w ,https://www.programmingfornoobs.com/media/posts/11/responsive/stacktech-sm.png 480w ,https://www.programmingfornoobs.com/media/posts/11/responsive/stacktech-md.png 768w ,https://www.programmingfornoobs.com/media/posts/11/responsive/stacktech-lg.png 1024w ,https://www.programmingfornoobs.com/media/posts/11/responsive/stacktech-xl.png 1360w ,https://www.programmingfornoobs.com/media/posts/11/responsive/stacktech-2xl.png 1600w"  height="256" width="590" alt="Done" />
+      <img loading="lazy" src="https://www.programmingfornoobs.com/media/posts/11/stacktech.png" sizes="(max-width: 48em) 100vw, 100vw" srcset="https://www.programmingfornoobs.com/media/posts/11/responsive/stacktech-xs.png 300w ,https://www.programmingfornoobs.com/media/posts/11/responsive/stacktech-sm.png 480w ,https://www.programmingfornoobs.com/media/posts/11/responsive/stacktech-md.png 768w"  height="256" width="590" alt="Done" />
       <figcaption>Secure wordpress site. Installation done. </figcaption>
     </figure>
 
@@ -755,7 +755,7 @@ OutputStream ostream = socket.getOutputStream();</code></pre>
             <summary>
                 <![CDATA[
                         <img src="https://www.programmingfornoobs.com/media/posts/13/cover.webp" alt="Installation" />
-                     This article shows how you can install python3 on your windows system. first download python3 from official site. select windows installer it will start downloading. After that click on installer. then click o install now and also mark option of Add Python 3.* to&hellip;
+                     This article shows how you can install python3 on your windows system. first download python3 from official site. select&hellip;
                 ]]>
             </summary>
         <content type="html">
@@ -767,7 +767,7 @@ OutputStream ostream = socket.getOutputStream();</code></pre>
   </p>
 
     <figure class="post__image post__image--center">
-      <img loading="lazy" src="https://www.programmingfornoobs.com/media/posts/13/select-version.png" sizes="(max-width: 48em) 100vw, 768px" srcset="https://www.programmingfornoobs.com/media/posts/13/responsive/select-version-xs.png 300w ,https://www.programmingfornoobs.com/media/posts/13/responsive/select-version-sm.png 480w ,https://www.programmingfornoobs.com/media/posts/13/responsive/select-version-md.png 768w ,https://www.programmingfornoobs.com/media/posts/13/responsive/select-version-lg.png 1024w ,https://www.programmingfornoobs.com/media/posts/13/responsive/select-version-xl.png 1360w ,https://www.programmingfornoobs.com/media/posts/13/responsive/select-version-2xl.png 1600w"  height="202" width="590" alt="Select Version" />
+      <img loading="lazy" src="https://www.programmingfornoobs.com/media/posts/13/select-version.png" sizes="(max-width: 48em) 100vw, 100vw" srcset="https://www.programmingfornoobs.com/media/posts/13/responsive/select-version-xs.png 300w ,https://www.programmingfornoobs.com/media/posts/13/responsive/select-version-sm.png 480w ,https://www.programmingfornoobs.com/media/posts/13/responsive/select-version-md.png 768w"  height="202" width="590" alt="Select Version" />
       <figcaption>Select Version</figcaption>
     </figure>
 
@@ -776,7 +776,7 @@ OutputStream ostream = socket.getOutputStream();</code></pre>
   </p>
 
     <figure class="post__image post__image--center">
-      <img loading="lazy" src="https://www.programmingfornoobs.com/media/posts/13/install-now.png" sizes="(max-width: 48em) 100vw, 768px" srcset="https://www.programmingfornoobs.com/media/posts/13/responsive/install-now-xs.png 300w ,https://www.programmingfornoobs.com/media/posts/13/responsive/install-now-sm.png 480w ,https://www.programmingfornoobs.com/media/posts/13/responsive/install-now-md.png 768w ,https://www.programmingfornoobs.com/media/posts/13/responsive/install-now-lg.png 1024w ,https://www.programmingfornoobs.com/media/posts/13/responsive/install-now-xl.png 1360w ,https://www.programmingfornoobs.com/media/posts/13/responsive/install-now-2xl.png 1600w"  height="361" width="590" alt="Insttall Now" />
+      <img loading="lazy" src="https://www.programmingfornoobs.com/media/posts/13/install-now.png" sizes="(max-width: 48em) 100vw, 100vw" srcset="https://www.programmingfornoobs.com/media/posts/13/responsive/install-now-xs.png 300w ,https://www.programmingfornoobs.com/media/posts/13/responsive/install-now-sm.png 480w ,https://www.programmingfornoobs.com/media/posts/13/responsive/install-now-md.png 768w"  height="361" width="590" alt="Insttall Now" />
       <figcaption>Insttall Now</figcaption>
     </figure>
 
@@ -785,7 +785,7 @@ OutputStream ostream = socket.getOutputStream();</code></pre>
   </p>
 
     <figure class="post__image post__image--center">
-      <img loading="lazy" src="https://www.programmingfornoobs.com/media/posts/13/setup-progressing.png" sizes="(max-width: 48em) 100vw, 768px" srcset="https://www.programmingfornoobs.com/media/posts/13/responsive/setup-progressing-xs.png 300w ,https://www.programmingfornoobs.com/media/posts/13/responsive/setup-progressing-sm.png 480w ,https://www.programmingfornoobs.com/media/posts/13/responsive/setup-progressing-md.png 768w ,https://www.programmingfornoobs.com/media/posts/13/responsive/setup-progressing-lg.png 1024w ,https://www.programmingfornoobs.com/media/posts/13/responsive/setup-progressing-xl.png 1360w ,https://www.programmingfornoobs.com/media/posts/13/responsive/setup-progressing-2xl.png 1600w"  height="361" width="590" alt="Setup Processing" />
+      <img loading="lazy" src="https://www.programmingfornoobs.com/media/posts/13/setup-progressing.png" sizes="(max-width: 48em) 100vw, 100vw" srcset="https://www.programmingfornoobs.com/media/posts/13/responsive/setup-progressing-xs.png 300w ,https://www.programmingfornoobs.com/media/posts/13/responsive/setup-progressing-sm.png 480w ,https://www.programmingfornoobs.com/media/posts/13/responsive/setup-progressing-md.png 768w"  height="361" width="590" alt="Setup Processing" />
       <figcaption>Setup Processing</figcaption>
     </figure>
 
@@ -794,7 +794,7 @@ OutputStream ostream = socket.getOutputStream();</code></pre>
   </p>
 
     <figure class="post__image post__image--center">
-      <img loading="lazy" src="https://www.programmingfornoobs.com/media/posts/13/installayion-complete.png" sizes="(max-width: 48em) 100vw, 768px" srcset="https://www.programmingfornoobs.com/media/posts/13/responsive/installayion-complete-xs.png 300w ,https://www.programmingfornoobs.com/media/posts/13/responsive/installayion-complete-sm.png 480w ,https://www.programmingfornoobs.com/media/posts/13/responsive/installayion-complete-md.png 768w ,https://www.programmingfornoobs.com/media/posts/13/responsive/installayion-complete-lg.png 1024w ,https://www.programmingfornoobs.com/media/posts/13/responsive/installayion-complete-xl.png 1360w ,https://www.programmingfornoobs.com/media/posts/13/responsive/installayion-complete-2xl.png 1600w"  height="359" width="590" alt="Installation Complete" />
+      <img loading="lazy" src="https://www.programmingfornoobs.com/media/posts/13/installayion-complete.png" sizes="(max-width: 48em) 100vw, 100vw" srcset="https://www.programmingfornoobs.com/media/posts/13/responsive/installayion-complete-xs.png 300w ,https://www.programmingfornoobs.com/media/posts/13/responsive/installayion-complete-sm.png 480w ,https://www.programmingfornoobs.com/media/posts/13/responsive/installayion-complete-md.png 768w"  height="359" width="590" alt="Installation Complete" />
       <figcaption>Installation Complete</figcaption>
     </figure>
 
@@ -810,7 +810,7 @@ OutputStream ostream = socket.getOutputStream();</code></pre>
 </code></pre>
 
     <figure class="post__image post__image--center">
-      <img loading="lazy" src="https://www.programmingfornoobs.com/media/posts/13/verify-installation.png" sizes="(max-width: 48em) 100vw, 768px" srcset="https://www.programmingfornoobs.com/media/posts/13/responsive/verify-installation-xs.png 300w ,https://www.programmingfornoobs.com/media/posts/13/responsive/verify-installation-sm.png 480w ,https://www.programmingfornoobs.com/media/posts/13/responsive/verify-installation-md.png 768w ,https://www.programmingfornoobs.com/media/posts/13/responsive/verify-installation-lg.png 1024w ,https://www.programmingfornoobs.com/media/posts/13/responsive/verify-installation-xl.png 1360w ,https://www.programmingfornoobs.com/media/posts/13/responsive/verify-installation-2xl.png 1600w"  height="76" width="429" alt="verify installation" />
+      <img loading="lazy" src="https://www.programmingfornoobs.com/media/posts/13/verify-installation.png" sizes="(max-width: 48em) 100vw, 100vw" srcset="https://www.programmingfornoobs.com/media/posts/13/responsive/verify-installation-xs.png 300w ,https://www.programmingfornoobs.com/media/posts/13/responsive/verify-installation-sm.png 480w ,https://www.programmingfornoobs.com/media/posts/13/responsive/verify-installation-md.png 768w"  height="76" width="429" alt="verify installation" />
       <figcaption>Verify Installation</figcaption>
     </figure>
 
@@ -837,7 +837,7 @@ OutputStream ostream = socket.getOutputStream();</code></pre>
             <summary>
                 <![CDATA[
                         <img src="https://www.programmingfornoobs.com/media/posts/12/cover.png" alt="Command to install" />
-                     Following are steps to install latest version of nodejs in Ubuntu or Linux curl -sL https://deb.nodesource.com/setup_14.x | sudo -E bash - sudo apt-get install -y nodejs If curl is not installed on your system then type following command sudo apt install curl Debian curl&hellip;
+                     Following are steps to install latest version of nodejs in Ubuntu or Linux curl -sL https://deb.nodesource.com/setup_14.x | sudo -E&hellip;
                 ]]>
             </summary>
         <content type="html">
@@ -915,7 +915,7 @@ apt-get install -y nodejs</code></pre>
             <summary>
                 <![CDATA[
                         <img src="https://www.programmingfornoobs.com/media/posts/10/cover.webp" alt="Cover" />
-                     This article show how to add bootstrap in Next.js project. Following are the steps :- &lt;link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous"&gt; JS &lt;script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"&gt;&lt;/script&gt; &lt;script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"&gt;&lt;/script&gt; &lt;script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"&gt;&lt;/script&gt; Open your Next.js project. Create _app.js file in your pages folder.
+                     This article show how to add bootstrap in Next.js project. Following are the steps :- &lt;link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"&hellip;
                 ]]>
             </summary>
         <content type="html">
@@ -1004,7 +1004,7 @@ export default MyApp;</code></pre>
   </ul>
 
     <figure class="post__image post__image--center">
-      <img loading="lazy" src="https://www.programmingfornoobs.com/media/posts/10/bootstrap-buttons.png" sizes="(max-width: 48em) 100vw, 768px" srcset="https://www.programmingfornoobs.com/media/posts/10/responsive/bootstrap-buttons-xs.png 300w ,https://www.programmingfornoobs.com/media/posts/10/responsive/bootstrap-buttons-sm.png 480w ,https://www.programmingfornoobs.com/media/posts/10/responsive/bootstrap-buttons-md.png 768w ,https://www.programmingfornoobs.com/media/posts/10/responsive/bootstrap-buttons-lg.png 1024w ,https://www.programmingfornoobs.com/media/posts/10/responsive/bootstrap-buttons-xl.png 1360w ,https://www.programmingfornoobs.com/media/posts/10/responsive/bootstrap-buttons-2xl.png 1600w"  height="340" width="811" alt="Bootstrap Buttons" />
+      <img loading="lazy" src="https://www.programmingfornoobs.com/media/posts/10/bootstrap-buttons.png" sizes="(max-width: 48em) 100vw, 100vw" srcset="https://www.programmingfornoobs.com/media/posts/10/responsive/bootstrap-buttons-xs.png 300w ,https://www.programmingfornoobs.com/media/posts/10/responsive/bootstrap-buttons-sm.png 480w ,https://www.programmingfornoobs.com/media/posts/10/responsive/bootstrap-buttons-md.png 768w"  height="340" width="811" alt="Bootstrap Buttons" />
       <figcaption>Bootstrap Buttons</figcaption>
     </figure>
 
@@ -1034,7 +1034,7 @@ export default MyApp;</code></pre>
             <summary>
                 <![CDATA[
                         <img src="https://www.programmingfornoobs.com/media/posts/9/cover.webp" alt="Cover" />
-                     In this article i am going to tell how you can generate debug apk using bare react native application. First you need to create app using following command npx react-native init DebugApk After that navigate to folder. cd DebugApk Check if you have android/app/src/main/assets/&hellip;
+                     In this article i am going to tell how you can generate debug apk using bare react native application.
                 ]]>
             </summary>
         <content type="html">
@@ -1060,7 +1060,7 @@ export default MyApp;</code></pre>
   </p>
 
     <figure class="post__image post__image--center">
-      <img loading="lazy" src="https://www.programmingfornoobs.com/media/posts/9/creating-dir.png" sizes="(max-width: 48em) 100vw, 768px" srcset="https://www.programmingfornoobs.com/media/posts/9/responsive/creating-dir-xs.png 300w ,https://www.programmingfornoobs.com/media/posts/9/responsive/creating-dir-sm.png 480w ,https://www.programmingfornoobs.com/media/posts/9/responsive/creating-dir-md.png 768w ,https://www.programmingfornoobs.com/media/posts/9/responsive/creating-dir-lg.png 1024w ,https://www.programmingfornoobs.com/media/posts/9/responsive/creating-dir-xl.png 1360w ,https://www.programmingfornoobs.com/media/posts/9/responsive/creating-dir-2xl.png 1600w"  height="250" width="502" alt="Creating assets folder" />
+      <img loading="lazy" src="https://www.programmingfornoobs.com/media/posts/9/creating-dir.png" sizes="(max-width: 48em) 100vw, 100vw" srcset="https://www.programmingfornoobs.com/media/posts/9/responsive/creating-dir-xs.png 300w ,https://www.programmingfornoobs.com/media/posts/9/responsive/creating-dir-sm.png 480w ,https://www.programmingfornoobs.com/media/posts/9/responsive/creating-dir-md.png 768w"  height="250" width="502" alt="Creating assets folder" />
       <figcaption>Creating assets folder</figcaption>
     </figure>
 
@@ -1095,7 +1095,7 @@ gradlew assembleDebug
   </p>
 
     <figure class="post__image post__image--center">
-      <img loading="lazy" src="https://www.programmingfornoobs.com/media/posts/9/debug-apk.png" sizes="(max-width: 48em) 100vw, 768px" srcset="https://www.programmingfornoobs.com/media/posts/9/responsive/debug-apk-xs.png 300w ,https://www.programmingfornoobs.com/media/posts/9/responsive/debug-apk-sm.png 480w ,https://www.programmingfornoobs.com/media/posts/9/responsive/debug-apk-md.png 768w ,https://www.programmingfornoobs.com/media/posts/9/responsive/debug-apk-lg.png 1024w ,https://www.programmingfornoobs.com/media/posts/9/responsive/debug-apk-xl.png 1360w ,https://www.programmingfornoobs.com/media/posts/9/responsive/debug-apk-2xl.png 1600w"  height="158" width="590" alt="Debug APK" />
+      <img loading="lazy" src="https://www.programmingfornoobs.com/media/posts/9/debug-apk.png" sizes="(max-width: 48em) 100vw, 100vw" srcset="https://www.programmingfornoobs.com/media/posts/9/responsive/debug-apk-xs.png 300w ,https://www.programmingfornoobs.com/media/posts/9/responsive/debug-apk-sm.png 480w ,https://www.programmingfornoobs.com/media/posts/9/responsive/debug-apk-md.png 768w"  height="158" width="590" alt="Debug APK" />
       <figcaption>Debug APK</figcaption>
     </figure>
 
@@ -1125,7 +1125,7 @@ gradlew assembleDebug
             <summary>
                 <![CDATA[
                         <img src="https://www.programmingfornoobs.com/media/posts/8/cover-2.webp" alt="Cover" />
-                     In this section i am going to show you best way to create nextjs project. For creating nextjs project you must have installed to nodejs. After that you can proceed with this tutorial. First open CMD/Terminal. Navigate to directory where you have to create&hellip;
+                     In this section i am going to show you best way to create nextjs project. For creating nextjs project&hellip;
                 ]]>
             </summary>
         <content type="html">
@@ -1153,7 +1153,7 @@ gradlew assembleDebug
   </p>
 
     <figure class="post__image post__image--center">
-      <img loading="lazy" src="https://www.programmingfornoobs.com/media/posts/8/give-name.png" sizes="(max-width: 48em) 100vw, 768px" srcset="https://www.programmingfornoobs.com/media/posts/8/responsive/give-name-xs.png 300w ,https://www.programmingfornoobs.com/media/posts/8/responsive/give-name-sm.png 480w ,https://www.programmingfornoobs.com/media/posts/8/responsive/give-name-md.png 768w ,https://www.programmingfornoobs.com/media/posts/8/responsive/give-name-lg.png 1024w ,https://www.programmingfornoobs.com/media/posts/8/responsive/give-name-xl.png 1360w ,https://www.programmingfornoobs.com/media/posts/8/responsive/give-name-2xl.png 1600w"  height="48" width="461" alt="Project Name" />
+      <img loading="lazy" src="https://www.programmingfornoobs.com/media/posts/8/give-name.png" sizes="(max-width: 48em) 100vw, 100vw" srcset="https://www.programmingfornoobs.com/media/posts/8/responsive/give-name-xs.png 300w ,https://www.programmingfornoobs.com/media/posts/8/responsive/give-name-sm.png 480w ,https://www.programmingfornoobs.com/media/posts/8/responsive/give-name-md.png 768w"  height="48" width="461" alt="Project Name" />
       <figcaption>Giving Project Name</figcaption>
     </figure>
 
@@ -1162,7 +1162,7 @@ gradlew assembleDebug
   </p>
 
     <figure class="post__image post__image--center">
-      <img loading="lazy" src="https://www.programmingfornoobs.com/media/posts/8/choosing-template.png" sizes="(max-width: 48em) 100vw, 768px" srcset="https://www.programmingfornoobs.com/media/posts/8/responsive/choosing-template-xs.png 300w ,https://www.programmingfornoobs.com/media/posts/8/responsive/choosing-template-sm.png 480w ,https://www.programmingfornoobs.com/media/posts/8/responsive/choosing-template-md.png 768w ,https://www.programmingfornoobs.com/media/posts/8/responsive/choosing-template-lg.png 1024w ,https://www.programmingfornoobs.com/media/posts/8/responsive/choosing-template-xl.png 1360w ,https://www.programmingfornoobs.com/media/posts/8/responsive/choosing-template-2xl.png 1600w"  height="43" width="398" alt="Template for project" />
+      <img loading="lazy" src="https://www.programmingfornoobs.com/media/posts/8/choosing-template.png" sizes="(max-width: 48em) 100vw, 100vw" srcset="https://www.programmingfornoobs.com/media/posts/8/responsive/choosing-template-xs.png 300w ,https://www.programmingfornoobs.com/media/posts/8/responsive/choosing-template-sm.png 480w ,https://www.programmingfornoobs.com/media/posts/8/responsive/choosing-template-md.png 768w"  height="43" width="398" alt="Template for project" />
       <figcaption>Choosing Template</figcaption>
     </figure>
 
@@ -1171,7 +1171,7 @@ gradlew assembleDebug
   </p>
 
     <figure class="post__image post__image--center">
-      <img loading="lazy" src="https://www.programmingfornoobs.com/media/posts/8/downloading-npm-packages.png" sizes="(max-width: 48em) 100vw, 768px" srcset="https://www.programmingfornoobs.com/media/posts/8/responsive/downloading-npm-packages-xs.png 300w ,https://www.programmingfornoobs.com/media/posts/8/responsive/downloading-npm-packages-sm.png 480w ,https://www.programmingfornoobs.com/media/posts/8/responsive/downloading-npm-packages-md.png 768w ,https://www.programmingfornoobs.com/media/posts/8/responsive/downloading-npm-packages-lg.png 1024w ,https://www.programmingfornoobs.com/media/posts/8/responsive/downloading-npm-packages-xl.png 1360w ,https://www.programmingfornoobs.com/media/posts/8/responsive/downloading-npm-packages-2xl.png 1600w"  height="224" width="590" alt="Downloading of packages" />
+      <img loading="lazy" src="https://www.programmingfornoobs.com/media/posts/8/downloading-npm-packages.png" sizes="(max-width: 48em) 100vw, 100vw" srcset="https://www.programmingfornoobs.com/media/posts/8/responsive/downloading-npm-packages-xs.png 300w ,https://www.programmingfornoobs.com/media/posts/8/responsive/downloading-npm-packages-sm.png 480w ,https://www.programmingfornoobs.com/media/posts/8/responsive/downloading-npm-packages-md.png 768w"  height="224" width="590" alt="Downloading of packages" />
       <figcaption>Auto downloading of packages.</figcaption>
     </figure>
 
@@ -1186,7 +1186,7 @@ yarn dev</code></pre>
   </p>
 
     <figure class="post__image post__image--center">
-      <img loading="lazy" src="https://www.programmingfornoobs.com/media/posts/8/cover.webp" sizes="(max-width: 48em) 100vw, 768px" srcset="https://www.programmingfornoobs.com/media/posts/8/responsive/cover-xs.webp 300w ,https://www.programmingfornoobs.com/media/posts/8/responsive/cover-sm.webp 480w ,https://www.programmingfornoobs.com/media/posts/8/responsive/cover-md.webp 768w ,https://www.programmingfornoobs.com/media/posts/8/responsive/cover-lg.webp 1024w ,https://www.programmingfornoobs.com/media/posts/8/responsive/cover-xl.webp 1360w ,https://www.programmingfornoobs.com/media/posts/8/responsive/cover-2xl.webp 1600w"  height="592" width="1170" alt="Nextjs App " />
+      <img loading="lazy" src="https://www.programmingfornoobs.com/media/posts/8/cover.webp" sizes="(max-width: 48em) 100vw, 100vw" srcset="https://www.programmingfornoobs.com/media/posts/8/responsive/cover-xs.webp 300w ,https://www.programmingfornoobs.com/media/posts/8/responsive/cover-sm.webp 480w ,https://www.programmingfornoobs.com/media/posts/8/responsive/cover-md.webp 768w"  height="592" width="1170" alt="Nextjs App " />
       <figcaption>Nextjs App Default Preview</figcaption>
     </figure>
 
@@ -1211,7 +1211,7 @@ yarn dev</code></pre>
             <summary>
                 <![CDATA[
                         <img src="https://www.programmingfornoobs.com/media/posts/6/cover.webp" alt="Email Field" />
-                     This article show how you can add mailchimp to your gatsbyjs project.&nbsp; First install mailchimp package using npm to gatsby project.&nbsp; npm install gatsby-plugin-mailchimp Add following config object to your gatsby-config.js { "resolve": "gatsby-plugin-mailchimp", "options": { "endpoint": "", "timeout": 3500 } } Login to&hellip;
+                     This article show how you can add mailchimp to your gatsbyjs project.&nbsp; First install mailchimp package using npm to&hellip;
                 ]]>
             </summary>
         <content type="html">
@@ -1250,7 +1250,7 @@ yarn dev</code></pre>
   </ul>
 
     <figure class="post__image post__image--center">
-      <img loading="lazy" src="https://www.programmingfornoobs.com/media/posts/6/url-img.png" sizes="(max-width: 48em) 100vw, 768px" srcset="https://www.programmingfornoobs.com/media/posts/6/responsive/url-img-xs.png 300w ,https://www.programmingfornoobs.com/media/posts/6/responsive/url-img-sm.png 480w ,https://www.programmingfornoobs.com/media/posts/6/responsive/url-img-md.png 768w ,https://www.programmingfornoobs.com/media/posts/6/responsive/url-img-lg.png 1024w ,https://www.programmingfornoobs.com/media/posts/6/responsive/url-img-xl.png 1360w ,https://www.programmingfornoobs.com/media/posts/6/responsive/url-img-2xl.png 1600w"  height="44" width="787" alt="URL" />
+      <img loading="lazy" src="https://www.programmingfornoobs.com/media/posts/6/url-img.png" sizes="(max-width: 48em) 100vw, 100vw" srcset="https://www.programmingfornoobs.com/media/posts/6/responsive/url-img-xs.png 300w ,https://www.programmingfornoobs.com/media/posts/6/responsive/url-img-sm.png 480w ,https://www.programmingfornoobs.com/media/posts/6/responsive/url-img-md.png 768w"  height="44" width="787" alt="URL" />
       <figcaption>URL</figcaption>
     </figure>
 <pre class="line-numbers  language-json"><code>{
@@ -1330,7 +1330,7 @@ export default class MyGatsbyComponent extends React.Component {
             <summary>
                 <![CDATA[
                         <img src="https://www.programmingfornoobs.com/media/posts/5/cover-2.png" alt="2D Reflection " />
-                    #include&lt;stdio.h&gt; #include&lt;conio.h&gt; #include&lt;graphics.h&gt; #include&lt;math.h&gt; #include&lt;process.h&gt; void disp(float v[][3]) { float xmax, ymax ; xmax=getmaxx()/2 ; ymax = getmaxy()/2 ; int i=0; while(i&lt;2) { line(xmax+v[i][0], ymax-v[i][1], xmax+v[i+1][0], ymax-v[i+1][1]); i++ ; } i=2; line(xmax+v[i][0],ymax-v[i][1],xmax+v[0][0],ymax-v[0][1]); setcolor(BLUE); line(0,ymax,xmax*2,ymax); line(xmax,0,xmax,ymax*2); setcolor(WHITE); } void multiply (float b[][3],float v[][3],float a[][3]) { int&hellip;
+                    #include&lt;stdio.h&gt; #include&lt;conio.h&gt; #include&lt;graphics.h&gt; #include&lt;math.h&gt; #include&lt;process.h&gt; void disp(float v[][3]) { float xmax, ymax ; xmax=getmaxx()/2 ; ymax = getmaxy()/2 ; int&hellip;
                 ]]>
             </summary>
         <content type="html">
@@ -1415,12 +1415,12 @@ int main()
   </p>
 
     <figure class="post__image post__image--center">
-      <img loading="lazy" src="https://www.programmingfornoobs.com/media/posts/5/output-1.png" sizes="(max-width: 48em) 100vw, 768px" srcset="https://www.programmingfornoobs.com/media/posts/5/responsive/output-1-xs.png 300w ,https://www.programmingfornoobs.com/media/posts/5/responsive/output-1-sm.png 480w ,https://www.programmingfornoobs.com/media/posts/5/responsive/output-1-md.png 768w ,https://www.programmingfornoobs.com/media/posts/5/responsive/output-1-lg.png 1024w ,https://www.programmingfornoobs.com/media/posts/5/responsive/output-1-xl.png 1360w ,https://www.programmingfornoobs.com/media/posts/5/responsive/output-1-2xl.png 1600w"  height="136" width="381" alt="" />
+      <img loading="lazy" src="https://www.programmingfornoobs.com/media/posts/5/output-1.png" sizes="(max-width: 48em) 100vw, 100vw" srcset="https://www.programmingfornoobs.com/media/posts/5/responsive/output-1-xs.png 300w ,https://www.programmingfornoobs.com/media/posts/5/responsive/output-1-sm.png 480w ,https://www.programmingfornoobs.com/media/posts/5/responsive/output-1-md.png 768w"  height="136" width="381" alt="" />
       
     </figure>
 
     <figure class="post__image post__image--center">
-      <img loading="lazy" src="https://www.programmingfornoobs.com/media/posts/5/cover.png" sizes="(max-width: 48em) 100vw, 768px" srcset="https://www.programmingfornoobs.com/media/posts/5/responsive/cover-xs.png 300w ,https://www.programmingfornoobs.com/media/posts/5/responsive/cover-sm.png 480w ,https://www.programmingfornoobs.com/media/posts/5/responsive/cover-md.png 768w ,https://www.programmingfornoobs.com/media/posts/5/responsive/cover-lg.png 1024w ,https://www.programmingfornoobs.com/media/posts/5/responsive/cover-xl.png 1360w ,https://www.programmingfornoobs.com/media/posts/5/responsive/cover-2xl.png 1600w"  height="468" width="625" alt="" />
+      <img loading="lazy" src="https://www.programmingfornoobs.com/media/posts/5/cover.png" sizes="(max-width: 48em) 100vw, 100vw" srcset="https://www.programmingfornoobs.com/media/posts/5/responsive/cover-xs.png 300w ,https://www.programmingfornoobs.com/media/posts/5/responsive/cover-sm.png 480w ,https://www.programmingfornoobs.com/media/posts/5/responsive/cover-md.png 768w"  height="468" width="625" alt="" />
       
     </figure>
             ]]>
@@ -1442,7 +1442,7 @@ int main()
             <summary>
                 <![CDATA[
                         <img src="https://www.programmingfornoobs.com/media/posts/34/cover.webp" alt="Installed Apps" />
-                     This section is part of series Building REST API with Python &amp; Django. Now we're going to create a new Django project and app for our student information API. First We're gonna do this using the Django admin command line tool. Now we can&hellip;
+                     This section is part of series Building REST API with Python &amp; Django. Now we're going to create a&hellip;
                 ]]>
             </summary>
         <content type="html">
@@ -1453,18 +1453,18 @@ int main()
 <p><!-- /wp:paragraph --></p>
 <p><!-- wp:paragraph --></p>
 <p>First We're gonna do this using the Django admin command line tool. Now we can use the Django admin command by <strong>django-admin startproject student_info .</strong><br>What this does it passes arguments to start projects to say that we want to start a new project and it specifies the name of the project. So our project is going to be called the <strong>student_info</strong> and then the location that we want to create the project. So this last dot here this is optional. We are using . because we want to create it in the root of our project.</p>
-<figure class="post__image post__image--center"><img loading="lazy"  src="https://www.programmingfornoobs.com/media/posts/34/studen_info.png" sizes="(max-width: 48em) 100vw, 768px" srcset="https://www.programmingfornoobs.com/media/posts/34/responsive/studen_info-xs.png 300w ,https://www.programmingfornoobs.com/media/posts/34/responsive/studen_info-sm.png 480w ,https://www.programmingfornoobs.com/media/posts/34/responsive/studen_info-md.png 768w ,https://www.programmingfornoobs.com/media/posts/34/responsive/studen_info-lg.png 1024w ,https://www.programmingfornoobs.com/media/posts/34/responsive/studen_info-xl.png 1360w ,https://www.programmingfornoobs.com/media/posts/34/responsive/studen_info-2xl.png 1600w"  alt="student_info" width="590" height="439"></figure>
+<figure class="post__image post__image--center"><img loading="lazy"  src="https://www.programmingfornoobs.com/media/posts/34/studen_info.png" sizes="(max-width: 48em) 100vw, 100vw" srcset="https://www.programmingfornoobs.com/media/posts/34/responsive/studen_info-xs.png 300w ,https://www.programmingfornoobs.com/media/posts/34/responsive/studen_info-sm.png 480w ,https://www.programmingfornoobs.com/media/posts/34/responsive/studen_info-md.png 768w"  alt="student_info" width="590" height="439"></figure>
 <p><span style="color: var(--text-editor-body-color); font-family: var(--font-base); font-size: inherit; font-style: italic; font-weight: var(--font-weight-normal); text-align: center;">Now we have the Django project. We need to create an app within our project for our student information API. So a Django project can consist of one or more sub applications within the projects that you can use to separate different functionality within your projects.</span></p>
 <p>So we're just going to create one API.</p>
 <p><!-- /wp:paragraph --></p>
 <p><!-- wp:paragraph --></p>
 <p>The student information API so we'll just create one app and we'll call the app as <strong>student_info_api</strong>. Now that we've tried our project we need to use the <strong>manage.py</strong> script instead of Django admin and then we'll type <strong>startapp</strong> <strong>student_info_api</strong> then hit enter. (<strong>python manage.py startapp student_info_api</strong>)</p>
-<figure class="post__image post__image--center"><img loading="lazy"  src="https://www.programmingfornoobs.com/media/posts/34/student_info_api.png" sizes="(max-width: 48em) 100vw, 768px" srcset="https://www.programmingfornoobs.com/media/posts/34/responsive/student_info_api-xs.png 300w ,https://www.programmingfornoobs.com/media/posts/34/responsive/student_info_api-sm.png 480w ,https://www.programmingfornoobs.com/media/posts/34/responsive/student_info_api-md.png 768w ,https://www.programmingfornoobs.com/media/posts/34/responsive/student_info_api-lg.png 1024w ,https://www.programmingfornoobs.com/media/posts/34/responsive/student_info_api-xl.png 1360w ,https://www.programmingfornoobs.com/media/posts/34/responsive/student_info_api-2xl.png 1600w"  alt="student_info_api" width="590" height="361"></figure>
+<figure class="post__image post__image--center"><img loading="lazy"  src="https://www.programmingfornoobs.com/media/posts/34/student_info_api.png" sizes="(max-width: 48em) 100vw, 100vw" srcset="https://www.programmingfornoobs.com/media/posts/34/responsive/student_info_api-xs.png 300w ,https://www.programmingfornoobs.com/media/posts/34/responsive/student_info_api-sm.png 480w ,https://www.programmingfornoobs.com/media/posts/34/responsive/student_info_api-md.png 768w"  alt="student_info_api" width="590" height="361"></figure>
 <p><span style="color: var(--text-editor-body-color); font-family: var(--font-base); font-size: inherit; font-weight: var(--font-weight-normal); font-style: italic; text-align: center;">So this will create a new sub folder called student_info-api which has the </span><strong style="color: var(--text-editor-body-color); font-family: var(--font-base); font-size: inherit; font-style: italic; text-align: center;">admin.py</strong><span style="color: var(--text-editor-body-color); font-family: var(--font-base); font-size: inherit; font-weight: var(--font-weight-normal); font-style: italic; text-align: center;">, </span><strong style="color: var(--text-editor-body-color); font-family: var(--font-base); font-size: inherit; font-style: italic; text-align: center;">models.py</strong><span style="color: var(--text-editor-body-color); font-family: var(--font-base); font-size: inherit; font-weight: var(--font-weight-normal); font-style: italic; text-align: center;">, </span><strong style="color: var(--text-editor-body-color); font-family: var(--font-base); font-size: inherit; font-style: italic; text-align: center;">tests.py</strong><span style="color: var(--text-editor-body-color); font-family: var(--font-base); font-size: inherit; font-weight: var(--font-weight-normal); font-style: italic; text-align: center;">, </span><strong style="color: var(--text-editor-body-color); font-family: var(--font-base); font-size: inherit; font-style: italic; text-align: center;">views.py</strong><span style="color: var(--text-editor-body-color); font-family: var(--font-base); font-size: inherit; font-weight: var(--font-weight-normal); font-style: italic; text-align: center;"> and the </span><strong style="color: var(--text-editor-body-color); font-family: var(--font-base); font-size: inherit; font-style: italic; text-align: center;">migrations</strong><span style="color: var(--text-editor-body-color); font-family: var(--font-base); font-size: inherit; font-weight: var(--font-weight-normal); font-style: italic; text-align: center;"> folder. Basically this creates a new Django app within our project.</span></p>
 <p><!-- /wp:paragraph --></p>
 <p><!-- wp:paragraph --></p>
 <p>Now we need to enable our newly created <strong>student_info_api app</strong> in our Django project. The way that you enable an app in a project is you open up the <strong>student_info</strong> which is the root project<br>of our Django project and open up <strong>settings.py</strong>. If you look at the settings.py this is the configuration file for our Django project. There's a block here called <strong>INSTALLED_APPS</strong>.</p>
-<figure class="post__image post__image--center"><img loading="lazy"  src="https://www.programmingfornoobs.com/media/posts/34/INSTALLED_APPS.png" sizes="(max-width: 48em) 100vw, 768px" srcset="https://www.programmingfornoobs.com/media/posts/34/responsive/INSTALLED_APPS-xs.png 300w ,https://www.programmingfornoobs.com/media/posts/34/responsive/INSTALLED_APPS-sm.png 480w ,https://www.programmingfornoobs.com/media/posts/34/responsive/INSTALLED_APPS-md.png 768w ,https://www.programmingfornoobs.com/media/posts/34/responsive/INSTALLED_APPS-lg.png 1024w ,https://www.programmingfornoobs.com/media/posts/34/responsive/INSTALLED_APPS-xl.png 1360w ,https://www.programmingfornoobs.com/media/posts/34/responsive/INSTALLED_APPS-2xl.png 1600w"  alt="INSTALLED_APPS" width="416" height="304"></figure>
+<figure class="post__image post__image--center"><img loading="lazy"  src="https://www.programmingfornoobs.com/media/posts/34/INSTALLED_APPS.png" sizes="(max-width: 48em) 100vw, 100vw" srcset="https://www.programmingfornoobs.com/media/posts/34/responsive/INSTALLED_APPS-xs.png 300w ,https://www.programmingfornoobs.com/media/posts/34/responsive/INSTALLED_APPS-sm.png 480w ,https://www.programmingfornoobs.com/media/posts/34/responsive/INSTALLED_APPS-md.png 768w"  alt="INSTALLED_APPS" width="416" height="304"></figure>
 <p><span style="color: var(--text-editor-body-color); font-family: var(--font-base); font-size: inherit; font-style: italic; font-weight: var(--font-weight-normal); text-align: center;">This is where you need to list all of the apps that you need to use for your project. So in our projects we can install apps by adding it to the installed apps list. So there's a few apps that we need to enable here in our installed apps.</span></p>
 <p><!-- /wp:paragraph --></p>
 <p><!-- wp:paragraph --></p>
@@ -1475,11 +1475,11 @@ int main()
 <p><!-- /wp:paragraph --></p>
 <p><!-- wp:paragraph --></p>
 <p>Finally we're going to add our <strong>student_info_api</strong> app which we manually added to our project. So we're going to add a new line and write <strong>student_info_api</strong>. Make sure that you save your settings.py file and this is how we added apps to the <strong>INSTALLED_APPS</strong> of your Django project.</p>
-<figure class="post__image post__image--center"><img loading="lazy"  src="https://www.programmingfornoobs.com/media/posts/34/Installed-apps.png" sizes="(max-width: 48em) 100vw, 768px" srcset="https://www.programmingfornoobs.com/media/posts/34/responsive/Installed-apps-xs.png 300w ,https://www.programmingfornoobs.com/media/posts/34/responsive/Installed-apps-sm.png 480w ,https://www.programmingfornoobs.com/media/posts/34/responsive/Installed-apps-md.png 768w ,https://www.programmingfornoobs.com/media/posts/34/responsive/Installed-apps-lg.png 1024w ,https://www.programmingfornoobs.com/media/posts/34/responsive/Installed-apps-xl.png 1360w ,https://www.programmingfornoobs.com/media/posts/34/responsive/Installed-apps-2xl.png 1600w"  alt="Installed apps" width="329" height="270"></figure>
+<figure class="post__image post__image--center"><img loading="lazy"  src="https://www.programmingfornoobs.com/media/posts/34/Installed-apps.png" sizes="(max-width: 48em) 100vw, 100vw" srcset="https://www.programmingfornoobs.com/media/posts/34/responsive/Installed-apps-xs.png 300w ,https://www.programmingfornoobs.com/media/posts/34/responsive/Installed-apps-sm.png 480w ,https://www.programmingfornoobs.com/media/posts/34/responsive/Installed-apps-md.png 768w"  alt="Installed apps" width="329" height="270"></figure>
 <p>Finally we are going to test our project by using the django development server. So Django comes with a development server that we can use to test our changes in the browser as we make them to the project. The way you start the Django development web server is you type command <strong>python manage.py runserver</strong>. <strong><a href="http://127.0.0.1:8000/" target="_blank" rel="noreferrer noopener">http://127.0.0.1:8000/</a></strong> this is the default address for django project.</p>
-<figure class="post__image post__image--center"><img loading="lazy"  src="https://www.programmingfornoobs.com/media/posts/34/Running-Server.png" sizes="(max-width: 48em) 100vw, 768px" srcset="https://www.programmingfornoobs.com/media/posts/34/responsive/Running-Server-xs.png 300w ,https://www.programmingfornoobs.com/media/posts/34/responsive/Running-Server-sm.png 480w ,https://www.programmingfornoobs.com/media/posts/34/responsive/Running-Server-md.png 768w ,https://www.programmingfornoobs.com/media/posts/34/responsive/Running-Server-lg.png 1024w ,https://www.programmingfornoobs.com/media/posts/34/responsive/Running-Server-xl.png 1360w ,https://www.programmingfornoobs.com/media/posts/34/responsive/Running-Server-2xl.png 1600w"  alt="Running Server" width="590" height="86"></figure>
+<figure class="post__image post__image--center"><img loading="lazy"  src="https://www.programmingfornoobs.com/media/posts/34/Running-Server.png" sizes="(max-width: 48em) 100vw, 100vw" srcset="https://www.programmingfornoobs.com/media/posts/34/responsive/Running-Server-xs.png 300w ,https://www.programmingfornoobs.com/media/posts/34/responsive/Running-Server-sm.png 480w ,https://www.programmingfornoobs.com/media/posts/34/responsive/Running-Server-md.png 768w"  alt="Running Server" width="590" height="86"></figure>
 <p>Now that the servers running we can open up our browser and we can go to <strong><a rel="noreferrer noopener" href="http://127.0.0.1:8000/" target="_blank">http://127.0.0.1:8000/</a></strong>.<br>That one that's the localhost address. You can see that the Django project place holder page has been displayed and it says <strong>The install worked successfully! Congratulations!</strong>.</p>
-<figure class="post__image post__image--center"><img loading="lazy"  src="https://www.programmingfornoobs.com/media/posts/34/Running-Django-App.png" sizes="(max-width: 48em) 100vw, 768px" srcset="https://www.programmingfornoobs.com/media/posts/34/responsive/Running-Django-App-xs.png 300w ,https://www.programmingfornoobs.com/media/posts/34/responsive/Running-Django-App-sm.png 480w ,https://www.programmingfornoobs.com/media/posts/34/responsive/Running-Django-App-md.png 768w ,https://www.programmingfornoobs.com/media/posts/34/responsive/Running-Django-App-lg.png 1024w ,https://www.programmingfornoobs.com/media/posts/34/responsive/Running-Django-App-xl.png 1360w ,https://www.programmingfornoobs.com/media/posts/34/responsive/Running-Django-App-2xl.png 1600w"  alt="Running Django App" width="590" height="300"></figure>
+<figure class="post__image post__image--center"><img loading="lazy"  src="https://www.programmingfornoobs.com/media/posts/34/Running-Django-App.png" sizes="(max-width: 48em) 100vw, 100vw" srcset="https://www.programmingfornoobs.com/media/posts/34/responsive/Running-Django-App-xs.png 300w ,https://www.programmingfornoobs.com/media/posts/34/responsive/Running-Django-App-sm.png 480w ,https://www.programmingfornoobs.com/media/posts/34/responsive/Running-Django-App-md.png 768w"  alt="Running Django App" width="590" height="300"></figure>
 <p><!-- /wp:image --></p>
 <p><!-- wp:paragraph --></p>
 <p><!-- /wp:paragraph --></p>
@@ -1508,7 +1508,7 @@ int main()
             <summary>
                 <![CDATA[
                         <img src="https://www.programmingfornoobs.com/media/posts/32/cover.webp" alt="Django" />
-                     This article is 1st part of Building REST API with Python &amp; Django series. So lets get started. Prerequisite is python and git must be installed on your system. First we will create/set workspace for our project. we are going to start with creating&hellip;
+                     This article is 1st part of Building REST API with Python &amp; Django series. So lets get started. Prerequisite&hellip;
                 ]]>
             </summary>
         <content type="html">
@@ -1519,13 +1519,13 @@ int main()
 <p><!-- /wp:paragraph --></p>
 <p><!-- wp:paragraph --></p>
 <p>First we will create/set workspace for our project. we are going to start with creating folder/directory where you want to save project files.</p>
-<figure class="post__image post__image--center"><img loading="lazy"  src="https://www.programmingfornoobs.com/media/posts/32/Creating-Workspace.png" sizes="(max-width: 48em) 100vw, 768px" srcset="https://www.programmingfornoobs.com/media/posts/32/responsive/Creating-Workspace-xs.png 300w ,https://www.programmingfornoobs.com/media/posts/32/responsive/Creating-Workspace-sm.png 480w ,https://www.programmingfornoobs.com/media/posts/32/responsive/Creating-Workspace-md.png 768w ,https://www.programmingfornoobs.com/media/posts/32/responsive/Creating-Workspace-lg.png 1024w ,https://www.programmingfornoobs.com/media/posts/32/responsive/Creating-Workspace-xl.png 1360w ,https://www.programmingfornoobs.com/media/posts/32/responsive/Creating-Workspace-2xl.png 1600w"  alt="Creating Workspace" width="328" height="89"></figure>
+<figure class="post__image post__image--center"><img loading="lazy"  src="https://www.programmingfornoobs.com/media/posts/32/Creating-Workspace.png" sizes="(max-width: 48em) 100vw, 100vw" srcset="https://www.programmingfornoobs.com/media/posts/32/responsive/Creating-Workspace-xs.png 300w ,https://www.programmingfornoobs.com/media/posts/32/responsive/Creating-Workspace-sm.png 480w ,https://www.programmingfornoobs.com/media/posts/32/responsive/Creating-Workspace-md.png 768w"  alt="Creating Workspace" width="328" height="89"></figure>
 <p><strong>I</strong>nside <strong>student-info-api</strong> we are going to store all of our project files. Then we are going to initialize our git repository for our project so after making each changes we can store that on our remote repository. type <strong>git init</strong> it will initialize our repository.</p>
-<figure class="post__image post__image--center"><img loading="lazy"  src="https://www.programmingfornoobs.com/media/posts/32/git-init.png" sizes="(max-width: 48em) 100vw, 768px" srcset="https://www.programmingfornoobs.com/media/posts/32/responsive/git-init-xs.png 300w ,https://www.programmingfornoobs.com/media/posts/32/responsive/git-init-sm.png 480w ,https://www.programmingfornoobs.com/media/posts/32/responsive/git-init-md.png 768w ,https://www.programmingfornoobs.com/media/posts/32/responsive/git-init-lg.png 1024w ,https://www.programmingfornoobs.com/media/posts/32/responsive/git-init-xl.png 1360w ,https://www.programmingfornoobs.com/media/posts/32/responsive/git-init-2xl.png 1600w"  alt="Git Init" width="590" height="47"></figure>
+<figure class="post__image post__image--center"><img loading="lazy"  src="https://www.programmingfornoobs.com/media/posts/32/git-init.png" sizes="(max-width: 48em) 100vw, 100vw" srcset="https://www.programmingfornoobs.com/media/posts/32/responsive/git-init-xs.png 300w ,https://www.programmingfornoobs.com/media/posts/32/responsive/git-init-sm.png 480w ,https://www.programmingfornoobs.com/media/posts/32/responsive/git-init-md.png 768w"  alt="Git Init" width="590" height="47"></figure>
 <p><span style="color: var(--text-editor-body-color); font-family: var(--font-base); font-size: inherit; font-weight: var(--font-weight-normal);">Now we are going to open our project in any code editor in this series i am going top use </span><strong style="color: var(--text-editor-body-color); font-family: var(--font-base); font-size: inherit;">Visual Studio Code</strong><span style="color: var(--text-editor-body-color); font-family: var(--font-base); font-size: inherit; font-weight: var(--font-weight-normal);">. So i can simply type </span><strong style="color: var(--text-editor-body-color); font-family: var(--font-base); font-size: inherit;">code .</strong><span style="color: var(--text-editor-body-color); font-family: var(--font-base); font-size: inherit; font-weight: var(--font-weight-normal);"> to open VS code in current directory.</span></p>
-<figure class="post__image post__image--center"><img loading="lazy"  src="https://www.programmingfornoobs.com/media/posts/32/Opening-project..png" sizes="(max-width: 48em) 100vw, 768px" srcset="https://www.programmingfornoobs.com/media/posts/32/responsive/Opening-project.-xs.png 300w ,https://www.programmingfornoobs.com/media/posts/32/responsive/Opening-project.-sm.png 480w ,https://www.programmingfornoobs.com/media/posts/32/responsive/Opening-project.-md.png 768w ,https://www.programmingfornoobs.com/media/posts/32/responsive/Opening-project.-lg.png 1024w ,https://www.programmingfornoobs.com/media/posts/32/responsive/Opening-project.-xl.png 1360w ,https://www.programmingfornoobs.com/media/posts/32/responsive/Opening-project.-2xl.png 1600w"  alt="Opening project" width="590" height="118"></figure>
+<figure class="post__image post__image--center"><img loading="lazy"  src="https://www.programmingfornoobs.com/media/posts/32/Opening-project..png" sizes="(max-width: 48em) 100vw, 100vw" srcset="https://www.programmingfornoobs.com/media/posts/32/responsive/Opening-project.-xs.png 300w ,https://www.programmingfornoobs.com/media/posts/32/responsive/Opening-project.-sm.png 480w ,https://www.programmingfornoobs.com/media/posts/32/responsive/Opening-project.-md.png 768w"  alt="Opening project" width="590" height="118"></figure>
 <p>Now we going to add README.md, <a rel="noreferrer noopener" href="https://www.toptal.com/developers/gitignore/api/python" target="_blank">.gitignore</a> and <a rel="noreferrer noopener" href="https://choosealicense.com/licenses/mit/" target="_blank">LICENSE</a>.</p>
-<figure class="post__image post__image--center"><img loading="lazy"  src="https://www.programmingfornoobs.com/media/posts/32/README-2.png" sizes="(max-width: 48em) 100vw, 768px" srcset="https://www.programmingfornoobs.com/media/posts/32/responsive/README-2-xs.png 300w ,https://www.programmingfornoobs.com/media/posts/32/responsive/README-2-sm.png 480w ,https://www.programmingfornoobs.com/media/posts/32/responsive/README-2-md.png 768w ,https://www.programmingfornoobs.com/media/posts/32/responsive/README-2-lg.png 1024w ,https://www.programmingfornoobs.com/media/posts/32/responsive/README-2-xl.png 1360w ,https://www.programmingfornoobs.com/media/posts/32/responsive/README-2-2xl.png 1600w"  alt="README" width="590" height="173"></figure>
+<figure class="post__image post__image--center"><img loading="lazy"  src="https://www.programmingfornoobs.com/media/posts/32/README-2.png" sizes="(max-width: 48em) 100vw, 100vw" srcset="https://www.programmingfornoobs.com/media/posts/32/responsive/README-2-xs.png 300w ,https://www.programmingfornoobs.com/media/posts/32/responsive/README-2-sm.png 480w ,https://www.programmingfornoobs.com/media/posts/32/responsive/README-2-md.png 768w"  alt="README" width="590" height="173"></figure>
 <p><!-- /wp:paragraph --></p>
 <p><!-- wp:image {"id":212,"sizeSlug":"large"} --></p>
 <p><!-- /wp:image --></p>
@@ -1534,18 +1534,18 @@ int main()
 <p><!-- wp:image {"id":215,"sizeSlug":"large"} --></p>
 <p><!-- /wp:image --></p>
 <p><!-- wp:image {"id":216,"sizeSlug":"large"} --></p>
-<figure class="post__image post__image--center"><img loading="lazy"  src="https://www.programmingfornoobs.com/media/posts/32/gitignore.png" sizes="(max-width: 48em) 100vw, 768px" srcset="https://www.programmingfornoobs.com/media/posts/32/responsive/gitignore-xs.png 300w ,https://www.programmingfornoobs.com/media/posts/32/responsive/gitignore-sm.png 480w ,https://www.programmingfornoobs.com/media/posts/32/responsive/gitignore-md.png 768w ,https://www.programmingfornoobs.com/media/posts/32/responsive/gitignore-lg.png 1024w ,https://www.programmingfornoobs.com/media/posts/32/responsive/gitignore-xl.png 1360w ,https://www.programmingfornoobs.com/media/posts/32/responsive/gitignore-2xl.png 1600w"  alt=".gitignore" width="590" height="316"></figure>
+<figure class="post__image post__image--center"><img loading="lazy"  src="https://www.programmingfornoobs.com/media/posts/32/gitignore.png" sizes="(max-width: 48em) 100vw, 100vw" srcset="https://www.programmingfornoobs.com/media/posts/32/responsive/gitignore-xs.png 300w ,https://www.programmingfornoobs.com/media/posts/32/responsive/gitignore-sm.png 480w ,https://www.programmingfornoobs.com/media/posts/32/responsive/gitignore-md.png 768w"  alt=".gitignore" width="590" height="316"></figure>
 <p><!-- /wp:image --></p>
 <p><!-- wp:image {"id":217,"sizeSlug":"large"} --></p>
-<figure class="post__image post__image--center"><img loading="lazy"  src="https://www.programmingfornoobs.com/media/posts/32/LICENSE.png" sizes="(max-width: 48em) 100vw, 768px" srcset="https://www.programmingfornoobs.com/media/posts/32/responsive/LICENSE-xs.png 300w ,https://www.programmingfornoobs.com/media/posts/32/responsive/LICENSE-sm.png 480w ,https://www.programmingfornoobs.com/media/posts/32/responsive/LICENSE-md.png 768w ,https://www.programmingfornoobs.com/media/posts/32/responsive/LICENSE-lg.png 1024w ,https://www.programmingfornoobs.com/media/posts/32/responsive/LICENSE-xl.png 1360w ,https://www.programmingfornoobs.com/media/posts/32/responsive/LICENSE-2xl.png 1600w"  alt="LICENSE" width="590" height="277"></figure>
+<figure class="post__image post__image--center"><img loading="lazy"  src="https://www.programmingfornoobs.com/media/posts/32/LICENSE.png" sizes="(max-width: 48em) 100vw, 100vw" srcset="https://www.programmingfornoobs.com/media/posts/32/responsive/LICENSE-xs.png 300w ,https://www.programmingfornoobs.com/media/posts/32/responsive/LICENSE-sm.png 480w ,https://www.programmingfornoobs.com/media/posts/32/responsive/LICENSE-md.png 768w"  alt="LICENSE" width="590" height="277"></figure>
 <p><!-- /wp:image --></p>
 <p><!-- wp:paragraph --></p>
 <p>Then we create <a rel="noreferrer noopener" href="https://docs.python.org/3/tutorial/venv.html" target="_blank">virtual environment</a> in our folder/directory. run command <code><strong>python/python3 -m venv env</strong></code>after that we active virtual environment by <code><strong>env\Scripts\activate.bat</strong></code>.</p>
-<figure class="post__image post__image--center"><img loading="lazy"  src="https://www.programmingfornoobs.com/media/posts/32/Virtual-Environment.png" sizes="(max-width: 48em) 100vw, 768px" srcset="https://www.programmingfornoobs.com/media/posts/32/responsive/Virtual-Environment-xs.png 300w ,https://www.programmingfornoobs.com/media/posts/32/responsive/Virtual-Environment-sm.png 480w ,https://www.programmingfornoobs.com/media/posts/32/responsive/Virtual-Environment-md.png 768w ,https://www.programmingfornoobs.com/media/posts/32/responsive/Virtual-Environment-lg.png 1024w ,https://www.programmingfornoobs.com/media/posts/32/responsive/Virtual-Environment-xl.png 1360w ,https://www.programmingfornoobs.com/media/posts/32/responsive/Virtual-Environment-2xl.png 1600w"  alt="Virtual Environment" width="453" height="97"></figure>
+<figure class="post__image post__image--center"><img loading="lazy"  src="https://www.programmingfornoobs.com/media/posts/32/Virtual-Environment.png" sizes="(max-width: 48em) 100vw, 100vw" srcset="https://www.programmingfornoobs.com/media/posts/32/responsive/Virtual-Environment-xs.png 300w ,https://www.programmingfornoobs.com/media/posts/32/responsive/Virtual-Environment-sm.png 480w ,https://www.programmingfornoobs.com/media/posts/32/responsive/Virtual-Environment-md.png 768w"  alt="Virtual Environment" width="453" height="97"></figure>
 <p>After that we are going to create file <strong>requirements.txt</strong> in that file specify our requirements. In this case <strong>django</strong> and <strong>djangorestframework</strong></p>
-<figure class="post__image post__image--center"><img loading="lazy"  src="https://www.programmingfornoobs.com/media/posts/32/requirements.png" sizes="(max-width: 48em) 100vw, 768px" srcset="https://www.programmingfornoobs.com/media/posts/32/responsive/requirements-xs.png 300w ,https://www.programmingfornoobs.com/media/posts/32/responsive/requirements-sm.png 480w ,https://www.programmingfornoobs.com/media/posts/32/responsive/requirements-md.png 768w ,https://www.programmingfornoobs.com/media/posts/32/responsive/requirements-lg.png 1024w ,https://www.programmingfornoobs.com/media/posts/32/responsive/requirements-xl.png 1360w ,https://www.programmingfornoobs.com/media/posts/32/responsive/requirements-2xl.png 1600w"  alt="requirements.txt" width="590" height="303"></figure>
+<figure class="post__image post__image--center"><img loading="lazy"  src="https://www.programmingfornoobs.com/media/posts/32/requirements.png" sizes="(max-width: 48em) 100vw, 100vw" srcset="https://www.programmingfornoobs.com/media/posts/32/responsive/requirements-xs.png 300w ,https://www.programmingfornoobs.com/media/posts/32/responsive/requirements-sm.png 480w ,https://www.programmingfornoobs.com/media/posts/32/responsive/requirements-md.png 768w"  alt="requirements.txt" width="590" height="303"></figure>
 <p>After that we will install this packages by typing command <strong>pip install -r</strong> <strong>requirements.txt</strong></p>
-<figure class="post__image post__image--center"><img loading="lazy"  src="https://www.programmingfornoobs.com/media/posts/32/installing-packages.png" sizes="(max-width: 48em) 100vw, 768px" srcset="https://www.programmingfornoobs.com/media/posts/32/responsive/installing-packages-xs.png 300w ,https://www.programmingfornoobs.com/media/posts/32/responsive/installing-packages-sm.png 480w ,https://www.programmingfornoobs.com/media/posts/32/responsive/installing-packages-md.png 768w ,https://www.programmingfornoobs.com/media/posts/32/responsive/installing-packages-lg.png 1024w ,https://www.programmingfornoobs.com/media/posts/32/responsive/installing-packages-xl.png 1360w ,https://www.programmingfornoobs.com/media/posts/32/responsive/installing-packages-2xl.png 1600w"  alt="installing packages" width="590" height="109"></figure>
+<figure class="post__image post__image--center"><img loading="lazy"  src="https://www.programmingfornoobs.com/media/posts/32/installing-packages.png" sizes="(max-width: 48em) 100vw, 100vw" srcset="https://www.programmingfornoobs.com/media/posts/32/responsive/installing-packages-xs.png 300w ,https://www.programmingfornoobs.com/media/posts/32/responsive/installing-packages-sm.png 480w ,https://www.programmingfornoobs.com/media/posts/32/responsive/installing-packages-md.png 768w"  alt="installing packages" width="590" height="109"></figure>
 <p>For creating <a href="https://www.programmingfornoobs.com/creating-a-new-django-app-and-installing-dependencies/" target="_blank" rel="noopener noreferrer">django app and installing dependencies</a> i have already wrote an article. You click <a href="https://www.programmingfornoobs.com/creating-a-new-django-app-and-installing-dependencies/" target="_blank" rel="noopener noreferrer">here</a>.</p>
 <p><!-- /wp:image --></p>
 <p><!-- wp:paragraph --></p>
@@ -1556,7 +1556,7 @@ int main()
 <p><!-- /wp:paragraph --></p>
 <p><!-- wp:paragraph --></p>
 <p>At last step we are going to create project on github and uploading files there.</p>
-<figure class="post__image post__image--center"><img loading="lazy"  src="https://www.programmingfornoobs.com/media/posts/32/Creating-Project.png" sizes="(max-width: 48em) 100vw, 768px" srcset="https://www.programmingfornoobs.com/media/posts/32/responsive/Creating-Project-xs.png 300w ,https://www.programmingfornoobs.com/media/posts/32/responsive/Creating-Project-sm.png 480w ,https://www.programmingfornoobs.com/media/posts/32/responsive/Creating-Project-md.png 768w ,https://www.programmingfornoobs.com/media/posts/32/responsive/Creating-Project-lg.png 1024w ,https://www.programmingfornoobs.com/media/posts/32/responsive/Creating-Project-xl.png 1360w ,https://www.programmingfornoobs.com/media/posts/32/responsive/Creating-Project-2xl.png 1600w"  alt="Creating Project" width="590" height="315"></figure>
+<figure class="post__image post__image--center"><img loading="lazy"  src="https://www.programmingfornoobs.com/media/posts/32/Creating-Project.png" sizes="(max-width: 48em) 100vw, 100vw" srcset="https://www.programmingfornoobs.com/media/posts/32/responsive/Creating-Project-xs.png 300w ,https://www.programmingfornoobs.com/media/posts/32/responsive/Creating-Project-sm.png 480w ,https://www.programmingfornoobs.com/media/posts/32/responsive/Creating-Project-md.png 768w"  alt="Creating Project" width="590" height="315"></figure>
 <p>Now commit changes and push to github. follow following commands :-</p>
 <p><!-- /wp:image --></p>
 <p><!-- wp:paragraph --></p>
@@ -1565,7 +1565,7 @@ int main()
 <p><code><strong>git add .</strong> <strong>git commit -m "message for commit"</strong> <strong>git remote add origin your-git-url</strong> <strong>git push origin master</strong></code></p>
 <p><!-- /wp:paragraph --></p>
 <p><!-- wp:image {"id":263,"sizeSlug":"large"} --></p>
-<figure class="post__image post__image--center"><img loading="lazy"  src="https://www.programmingfornoobs.com/media/posts/32/Committing-Changes.png" sizes="(max-width: 48em) 100vw, 768px" srcset="https://www.programmingfornoobs.com/media/posts/32/responsive/Committing-Changes-xs.png 300w ,https://www.programmingfornoobs.com/media/posts/32/responsive/Committing-Changes-sm.png 480w ,https://www.programmingfornoobs.com/media/posts/32/responsive/Committing-Changes-md.png 768w ,https://www.programmingfornoobs.com/media/posts/32/responsive/Committing-Changes-lg.png 1024w ,https://www.programmingfornoobs.com/media/posts/32/responsive/Committing-Changes-xl.png 1360w ,https://www.programmingfornoobs.com/media/posts/32/responsive/Committing-Changes-2xl.png 1600w"  alt="Committing Changes" width="590" height="195"></figure>
+<figure class="post__image post__image--center"><img loading="lazy"  src="https://www.programmingfornoobs.com/media/posts/32/Committing-Changes.png" sizes="(max-width: 48em) 100vw, 100vw" srcset="https://www.programmingfornoobs.com/media/posts/32/responsive/Committing-Changes-xs.png 300w ,https://www.programmingfornoobs.com/media/posts/32/responsive/Committing-Changes-sm.png 480w ,https://www.programmingfornoobs.com/media/posts/32/responsive/Committing-Changes-md.png 768w"  alt="Committing Changes" width="590" height="195"></figure>
 <p><!-- /wp:image --></p>
 <p><!-- wp:paragraph --></p>
 <p><!-- /wp:paragraph --></p>
@@ -1588,7 +1588,7 @@ int main()
             <summary>
                 <![CDATA[
                         <img src="https://www.programmingfornoobs.com/media/posts/26/cover.webp" alt="Deploy Subfolder" />
-                     This article shows how you deploy sub folder/sub directory to heroku. First you need to create project on heroku. After that you need to have heroku cli and git installed. Then navigate to your folder from where you have to deploy your project. I&hellip;
+                     This article shows how you deploy sub folder/sub directory to heroku. First you need to create project on heroku.
                 ]]>
             </summary>
         <content type="html">
@@ -1599,15 +1599,15 @@ int main()
 <p><!-- /wp:paragraph --></p>
 <p><!-- wp:paragraph --></p>
 <p>First you need to create project on heroku.</p>
-<figure class="post__image post__image--center"><img loading="lazy"  src="https://www.programmingfornoobs.com/media/posts/26/Heroku-project.png" sizes="(max-width: 48em) 100vw, 768px" srcset="https://www.programmingfornoobs.com/media/posts/26/responsive/Heroku-project-xs.png 300w ,https://www.programmingfornoobs.com/media/posts/26/responsive/Heroku-project-sm.png 480w ,https://www.programmingfornoobs.com/media/posts/26/responsive/Heroku-project-md.png 768w ,https://www.programmingfornoobs.com/media/posts/26/responsive/Heroku-project-lg.png 1024w ,https://www.programmingfornoobs.com/media/posts/26/responsive/Heroku-project-xl.png 1360w ,https://www.programmingfornoobs.com/media/posts/26/responsive/Heroku-project-2xl.png 1600w"  alt="Heroku project" width="590" height="239"></figure>
+<figure class="post__image post__image--center"><img loading="lazy"  src="https://www.programmingfornoobs.com/media/posts/26/Heroku-project.png" sizes="(max-width: 48em) 100vw, 100vw" srcset="https://www.programmingfornoobs.com/media/posts/26/responsive/Heroku-project-xs.png 300w ,https://www.programmingfornoobs.com/media/posts/26/responsive/Heroku-project-sm.png 480w ,https://www.programmingfornoobs.com/media/posts/26/responsive/Heroku-project-md.png 768w"  alt="Heroku project" width="590" height="239"></figure>
 <p><!-- /wp:paragraph --></p>
 <p><!-- wp:image {"id":189,"sizeSlug":"large"} --></p>
 <p><!-- /wp:image --></p>
 <p><!-- wp:paragraph --></p>
 <p>After that you need to have heroku cli and <a href="https://geeksfortech.com/how-to-install-git/">git</a> installed. Then navigate to your folder from where you have to deploy your project.</p>
-<figure class="post__image post__image--center"><img loading="lazy"  src="https://www.programmingfornoobs.com/media/posts/26/folder.png" sizes="(max-width: 48em) 100vw, 768px" srcset="https://www.programmingfornoobs.com/media/posts/26/responsive/folder-xs.png 300w ,https://www.programmingfornoobs.com/media/posts/26/responsive/folder-sm.png 480w ,https://www.programmingfornoobs.com/media/posts/26/responsive/folder-md.png 768w ,https://www.programmingfornoobs.com/media/posts/26/responsive/folder-lg.png 1024w ,https://www.programmingfornoobs.com/media/posts/26/responsive/folder-xl.png 1360w ,https://www.programmingfornoobs.com/media/posts/26/responsive/folder-2xl.png 1600w"  alt="folder" width="590" height="243"></figure>
+<figure class="post__image post__image--center"><img loading="lazy"  src="https://www.programmingfornoobs.com/media/posts/26/folder.png" sizes="(max-width: 48em) 100vw, 100vw" srcset="https://www.programmingfornoobs.com/media/posts/26/responsive/folder-xs.png 300w ,https://www.programmingfornoobs.com/media/posts/26/responsive/folder-sm.png 480w ,https://www.programmingfornoobs.com/media/posts/26/responsive/folder-md.png 768w"  alt="folder" width="590" height="243"></figure>
 <p>I this tutorial have to deploy server folder on to the heroku. So open parent folder into cmd/terminal.</p>
-<figure class="post__image post__image--center"><img loading="lazy"  src="https://www.programmingfornoobs.com/media/posts/26/Parent-folder.png" sizes="(max-width: 48em) 100vw, 768px" srcset="https://www.programmingfornoobs.com/media/posts/26/responsive/Parent-folder-xs.png 300w ,https://www.programmingfornoobs.com/media/posts/26/responsive/Parent-folder-sm.png 480w ,https://www.programmingfornoobs.com/media/posts/26/responsive/Parent-folder-md.png 768w ,https://www.programmingfornoobs.com/media/posts/26/responsive/Parent-folder-lg.png 1024w ,https://www.programmingfornoobs.com/media/posts/26/responsive/Parent-folder-xl.png 1360w ,https://www.programmingfornoobs.com/media/posts/26/responsive/Parent-folder-2xl.png 1600w"  alt="Parent folder" width="504" height="143"></figure>
+<figure class="post__image post__image--center"><img loading="lazy"  src="https://www.programmingfornoobs.com/media/posts/26/Parent-folder.png" sizes="(max-width: 48em) 100vw, 100vw" srcset="https://www.programmingfornoobs.com/media/posts/26/responsive/Parent-folder-xs.png 300w ,https://www.programmingfornoobs.com/media/posts/26/responsive/Parent-folder-sm.png 480w ,https://www.programmingfornoobs.com/media/posts/26/responsive/Parent-folder-md.png 768w"  alt="Parent folder" width="504" height="143"></figure>
 <p><!-- /wp:paragraph --></p>
 <p><!-- wp:image {"id":190,"sizeSlug":"large"} --></p>
 <p><!-- /wp:image --></p>
@@ -1617,15 +1617,15 @@ int main()
 <p><!-- /wp:image --></p>
 <p><!-- wp:paragraph --></p>
 <p>After that login to your heroku cli and then select your project from heroku by typing command. <code><strong>heroku git:remote -a your-project-name</strong></code></p>
-<figure class="post__image post__image--center"><img loading="lazy"  src="https://www.programmingfornoobs.com/media/posts/26/Selecting-project.png" sizes="(max-width: 48em) 100vw, 768px" srcset="https://www.programmingfornoobs.com/media/posts/26/responsive/Selecting-project-xs.png 300w ,https://www.programmingfornoobs.com/media/posts/26/responsive/Selecting-project-sm.png 480w ,https://www.programmingfornoobs.com/media/posts/26/responsive/Selecting-project-md.png 768w ,https://www.programmingfornoobs.com/media/posts/26/responsive/Selecting-project-lg.png 1024w ,https://www.programmingfornoobs.com/media/posts/26/responsive/Selecting-project-xl.png 1360w ,https://www.programmingfornoobs.com/media/posts/26/responsive/Selecting-project-2xl.png 1600w"  alt="Selecting project" width="590" height="51"></figure>
+<figure class="post__image post__image--center"><img loading="lazy"  src="https://www.programmingfornoobs.com/media/posts/26/Selecting-project.png" sizes="(max-width: 48em) 100vw, 100vw" srcset="https://www.programmingfornoobs.com/media/posts/26/responsive/Selecting-project-xs.png 300w ,https://www.programmingfornoobs.com/media/posts/26/responsive/Selecting-project-sm.png 480w ,https://www.programmingfornoobs.com/media/posts/26/responsive/Selecting-project-md.png 768w"  alt="Selecting project" width="590" height="51"></figure>
 <p><!-- /wp:paragraph --></p>
 <p><!-- wp:image {"id":193,"sizeSlug":"large"} --></p>
 <p><!-- /wp:image --></p>
 <p><!-- wp:paragraph --></p>
 <p>After that <code><strong>git subtree push --prefix your-subfolder heroku master</strong></code> enter this command in your parent directory. In this case i have to deploy <strong>server</strong> folder to heroku. After that you can see your project has started deploying</p>
-<figure class="post__image post__image--center"><img loading="lazy"  src="https://www.programmingfornoobs.com/media/posts/26/Deploying-Started.png" sizes="(max-width: 48em) 100vw, 768px" srcset="https://www.programmingfornoobs.com/media/posts/26/responsive/Deploying-Started-xs.png 300w ,https://www.programmingfornoobs.com/media/posts/26/responsive/Deploying-Started-sm.png 480w ,https://www.programmingfornoobs.com/media/posts/26/responsive/Deploying-Started-md.png 768w ,https://www.programmingfornoobs.com/media/posts/26/responsive/Deploying-Started-lg.png 1024w ,https://www.programmingfornoobs.com/media/posts/26/responsive/Deploying-Started-xl.png 1360w ,https://www.programmingfornoobs.com/media/posts/26/responsive/Deploying-Started-2xl.png 1600w"  alt="Deploying Started" width="569" height="144"></figure>
+<figure class="post__image post__image--center"><img loading="lazy"  src="https://www.programmingfornoobs.com/media/posts/26/Deploying-Started.png" sizes="(max-width: 48em) 100vw, 100vw" srcset="https://www.programmingfornoobs.com/media/posts/26/responsive/Deploying-Started-xs.png 300w ,https://www.programmingfornoobs.com/media/posts/26/responsive/Deploying-Started-sm.png 480w ,https://www.programmingfornoobs.com/media/posts/26/responsive/Deploying-Started-md.png 768w"  alt="Deploying Started" width="569" height="144"></figure>
 <p>I you output as following your project has successfully deployed.</p>
-<figure class="post__image post__image--center"><img loading="lazy"  src="https://www.programmingfornoobs.com/media/posts/26/Deploy-Successfull.png" sizes="(max-width: 48em) 100vw, 768px" srcset="https://www.programmingfornoobs.com/media/posts/26/responsive/Deploy-Successfull-xs.png 300w ,https://www.programmingfornoobs.com/media/posts/26/responsive/Deploy-Successfull-sm.png 480w ,https://www.programmingfornoobs.com/media/posts/26/responsive/Deploy-Successfull-md.png 768w ,https://www.programmingfornoobs.com/media/posts/26/responsive/Deploy-Successfull-lg.png 1024w ,https://www.programmingfornoobs.com/media/posts/26/responsive/Deploy-Successfull-xl.png 1360w ,https://www.programmingfornoobs.com/media/posts/26/responsive/Deploy-Successfull-2xl.png 1600w"  alt="Deploy Successfull" width="590" height="128"></figure>
+<figure class="post__image post__image--center"><img loading="lazy"  src="https://www.programmingfornoobs.com/media/posts/26/Deploy-Successfull.png" sizes="(max-width: 48em) 100vw, 100vw" srcset="https://www.programmingfornoobs.com/media/posts/26/responsive/Deploy-Successfull-xs.png 300w ,https://www.programmingfornoobs.com/media/posts/26/responsive/Deploy-Successfull-sm.png 480w ,https://www.programmingfornoobs.com/media/posts/26/responsive/Deploy-Successfull-md.png 768w"  alt="Deploy Successfull" width="590" height="128"></figure>
 <p><!-- /wp:paragraph --></p>
 <p><!-- wp:image {"id":196,"sizeSlug":"large"} --></p>
 <p><!-- /wp:image --></p>
@@ -1654,7 +1654,7 @@ int main()
             <summary>
                 <![CDATA[
                         <img src="https://www.programmingfornoobs.com/media/posts/31/cover.webp" alt="Installing" />
-                     This article shows how to install git-scm. Step 1:- Goto https://git-scm.com/downloads click on your operating system setup will start downloading. Step 2:- Click on setup. Then click on Next. Step 3 :- Choose you destination directory/folder. Step 4 :- Select which components you want&hellip;
+                     This article shows how to install git-scm. Step 1:- Goto https://git-scm.com/downloads click on your operating system setup will start&hellip;
                 ]]>
             </summary>
         <content type="html">
@@ -1667,41 +1667,41 @@ int main()
 <p><strong>Step 1:-</strong> Goto <a href="https://git-scm.com/downloads">https://git-scm.com/downloads</a> click on your operating system setup will start downloading.</p>
 <p><!-- /wp:paragraph --></p>
 <p><!-- wp:image {"id":158,"sizeSlug":"large"} --></p>
-<figure class="post__image post__image--center"><img loading="lazy"  src="https://www.programmingfornoobs.com/media/posts/31/Downloadiing-setup.png" sizes="(max-width: 48em) 100vw, 768px" srcset="https://www.programmingfornoobs.com/media/posts/31/responsive/Downloadiing-setup-xs.png 300w ,https://www.programmingfornoobs.com/media/posts/31/responsive/Downloadiing-setup-sm.png 480w ,https://www.programmingfornoobs.com/media/posts/31/responsive/Downloadiing-setup-md.png 768w ,https://www.programmingfornoobs.com/media/posts/31/responsive/Downloadiing-setup-lg.png 1024w ,https://www.programmingfornoobs.com/media/posts/31/responsive/Downloadiing-setup-xl.png 1360w ,https://www.programmingfornoobs.com/media/posts/31/responsive/Downloadiing-setup-2xl.png 1600w"  alt="Downloadiing setup" width="590" height="297"></figure>
+<figure class="post__image post__image--center"><img loading="lazy"  src="https://www.programmingfornoobs.com/media/posts/31/Downloadiing-setup.png" sizes="(max-width: 48em) 100vw, 100vw" srcset="https://www.programmingfornoobs.com/media/posts/31/responsive/Downloadiing-setup-xs.png 300w ,https://www.programmingfornoobs.com/media/posts/31/responsive/Downloadiing-setup-sm.png 480w ,https://www.programmingfornoobs.com/media/posts/31/responsive/Downloadiing-setup-md.png 768w"  alt="Downloadiing setup" width="590" height="297"></figure>
 <p><!-- /wp:image --></p>
 <p><!-- wp:paragraph --></p>
 <p><strong>Step 2:-</strong> Click on setup. Then click on <strong>Next</strong>.</p>
-<figure class="post__image post__image--center"><img loading="lazy"  src="https://www.programmingfornoobs.com/media/posts/31/Click-on-next.png" sizes="(max-width: 48em) 100vw, 768px" srcset="https://www.programmingfornoobs.com/media/posts/31/responsive/Click-on-next-xs.png 300w ,https://www.programmingfornoobs.com/media/posts/31/responsive/Click-on-next-sm.png 480w ,https://www.programmingfornoobs.com/media/posts/31/responsive/Click-on-next-md.png 768w ,https://www.programmingfornoobs.com/media/posts/31/responsive/Click-on-next-lg.png 1024w ,https://www.programmingfornoobs.com/media/posts/31/responsive/Click-on-next-xl.png 1360w ,https://www.programmingfornoobs.com/media/posts/31/responsive/Click-on-next-2xl.png 1600w"  alt="Click on next" width="499" height="388"></figure>
+<figure class="post__image post__image--center"><img loading="lazy"  src="https://www.programmingfornoobs.com/media/posts/31/Click-on-next.png" sizes="(max-width: 48em) 100vw, 100vw" srcset="https://www.programmingfornoobs.com/media/posts/31/responsive/Click-on-next-xs.png 300w ,https://www.programmingfornoobs.com/media/posts/31/responsive/Click-on-next-sm.png 480w ,https://www.programmingfornoobs.com/media/posts/31/responsive/Click-on-next-md.png 768w"  alt="Click on next" width="499" height="388"></figure>
 <p><strong>Step 3 :-</strong> Choose you destination directory/folder.</p>
 <p><!-- /wp:paragraph --></p>
 <p><!-- wp:image {"id":159,"sizeSlug":"large"} --></p>
 <p><!-- /wp:image --></p>
 <p><!-- wp:paragraph --></p>
-<figure class="post__image post__image--center"><img loading="lazy"  src="https://www.programmingfornoobs.com/media/posts/31/Destination.png" sizes="(max-width: 48em) 100vw, 768px" srcset="https://www.programmingfornoobs.com/media/posts/31/responsive/Destination-xs.png 300w ,https://www.programmingfornoobs.com/media/posts/31/responsive/Destination-sm.png 480w ,https://www.programmingfornoobs.com/media/posts/31/responsive/Destination-md.png 768w ,https://www.programmingfornoobs.com/media/posts/31/responsive/Destination-lg.png 1024w ,https://www.programmingfornoobs.com/media/posts/31/responsive/Destination-xl.png 1360w ,https://www.programmingfornoobs.com/media/posts/31/responsive/Destination-2xl.png 1600w"  alt="Destination" width="500" height="383"></figure>
+<figure class="post__image post__image--center"><img loading="lazy"  src="https://www.programmingfornoobs.com/media/posts/31/Destination.png" sizes="(max-width: 48em) 100vw, 100vw" srcset="https://www.programmingfornoobs.com/media/posts/31/responsive/Destination-xs.png 300w ,https://www.programmingfornoobs.com/media/posts/31/responsive/Destination-sm.png 480w ,https://www.programmingfornoobs.com/media/posts/31/responsive/Destination-md.png 768w"  alt="Destination" width="500" height="383"></figure>
 <p><strong>Step 4 :-</strong> Select which components you want to install and press next.</p>
-<figure class="post__image post__image--center"><img loading="lazy"  src="https://www.programmingfornoobs.com/media/posts/31/Choosing-components.png" sizes="(max-width: 48em) 100vw, 768px" srcset="https://www.programmingfornoobs.com/media/posts/31/responsive/Choosing-components-xs.png 300w ,https://www.programmingfornoobs.com/media/posts/31/responsive/Choosing-components-sm.png 480w ,https://www.programmingfornoobs.com/media/posts/31/responsive/Choosing-components-md.png 768w ,https://www.programmingfornoobs.com/media/posts/31/responsive/Choosing-components-lg.png 1024w ,https://www.programmingfornoobs.com/media/posts/31/responsive/Choosing-components-xl.png 1360w ,https://www.programmingfornoobs.com/media/posts/31/responsive/Choosing-components-2xl.png 1600w"  alt="Choosing components" width="500" height="386"></figure>
+<figure class="post__image post__image--center"><img loading="lazy"  src="https://www.programmingfornoobs.com/media/posts/31/Choosing-components.png" sizes="(max-width: 48em) 100vw, 100vw" srcset="https://www.programmingfornoobs.com/media/posts/31/responsive/Choosing-components-xs.png 300w ,https://www.programmingfornoobs.com/media/posts/31/responsive/Choosing-components-sm.png 480w ,https://www.programmingfornoobs.com/media/posts/31/responsive/Choosing-components-md.png 768w"  alt="Choosing components" width="500" height="386"></figure>
 <p><strong>Step 5:-</strong> Select your start menu folder.</p>
-<figure class="post__image post__image--center"><img loading="lazy"  src="https://www.programmingfornoobs.com/media/posts/31/Start-menu-folder.png" sizes="(max-width: 48em) 100vw, 768px" srcset="https://www.programmingfornoobs.com/media/posts/31/responsive/Start-menu-folder-xs.png 300w ,https://www.programmingfornoobs.com/media/posts/31/responsive/Start-menu-folder-sm.png 480w ,https://www.programmingfornoobs.com/media/posts/31/responsive/Start-menu-folder-md.png 768w ,https://www.programmingfornoobs.com/media/posts/31/responsive/Start-menu-folder-lg.png 1024w ,https://www.programmingfornoobs.com/media/posts/31/responsive/Start-menu-folder-xl.png 1360w ,https://www.programmingfornoobs.com/media/posts/31/responsive/Start-menu-folder-2xl.png 1600w"  alt="Start menu folder" width="498" height="386"></figure>
+<figure class="post__image post__image--center"><img loading="lazy"  src="https://www.programmingfornoobs.com/media/posts/31/Start-menu-folder.png" sizes="(max-width: 48em) 100vw, 100vw" srcset="https://www.programmingfornoobs.com/media/posts/31/responsive/Start-menu-folder-xs.png 300w ,https://www.programmingfornoobs.com/media/posts/31/responsive/Start-menu-folder-sm.png 480w ,https://www.programmingfornoobs.com/media/posts/31/responsive/Start-menu-folder-md.png 768w"  alt="Start menu folder" width="498" height="386"></figure>
 <p><strong>Step 6:-</strong> Choose your default editor for git. I have used <strong>Visual Studio Code</strong> and press next.</p>
-<figure class="post__image post__image--center"><img loading="lazy"  src="https://www.programmingfornoobs.com/media/posts/31/Choose-Editor.png" sizes="(max-width: 48em) 100vw, 768px" srcset="https://www.programmingfornoobs.com/media/posts/31/responsive/Choose-Editor-xs.png 300w ,https://www.programmingfornoobs.com/media/posts/31/responsive/Choose-Editor-sm.png 480w ,https://www.programmingfornoobs.com/media/posts/31/responsive/Choose-Editor-md.png 768w ,https://www.programmingfornoobs.com/media/posts/31/responsive/Choose-Editor-lg.png 1024w ,https://www.programmingfornoobs.com/media/posts/31/responsive/Choose-Editor-xl.png 1360w ,https://www.programmingfornoobs.com/media/posts/31/responsive/Choose-Editor-2xl.png 1600w"  alt="Choose Editor" width="505" height="388"></figure>
+<figure class="post__image post__image--center"><img loading="lazy"  src="https://www.programmingfornoobs.com/media/posts/31/Choose-Editor.png" sizes="(max-width: 48em) 100vw, 100vw" srcset="https://www.programmingfornoobs.com/media/posts/31/responsive/Choose-Editor-xs.png 300w ,https://www.programmingfornoobs.com/media/posts/31/responsive/Choose-Editor-sm.png 480w ,https://www.programmingfornoobs.com/media/posts/31/responsive/Choose-Editor-md.png 768w"  alt="Choose Editor" width="505" height="388"></figure>
 <p><strong>Step 7 :-</strong> Select your path environment.</p>
-<figure class="post__image post__image--center"><img loading="lazy"  src="https://www.programmingfornoobs.com/media/posts/31/Path-environment.png" sizes="(max-width: 48em) 100vw, 768px" srcset="https://www.programmingfornoobs.com/media/posts/31/responsive/Path-environment-xs.png 300w ,https://www.programmingfornoobs.com/media/posts/31/responsive/Path-environment-sm.png 480w ,https://www.programmingfornoobs.com/media/posts/31/responsive/Path-environment-md.png 768w ,https://www.programmingfornoobs.com/media/posts/31/responsive/Path-environment-lg.png 1024w ,https://www.programmingfornoobs.com/media/posts/31/responsive/Path-environment-xl.png 1360w ,https://www.programmingfornoobs.com/media/posts/31/responsive/Path-environment-2xl.png 1600w"  alt="Path environment" width="501" height="383"></figure>
+<figure class="post__image post__image--center"><img loading="lazy"  src="https://www.programmingfornoobs.com/media/posts/31/Path-environment.png" sizes="(max-width: 48em) 100vw, 100vw" srcset="https://www.programmingfornoobs.com/media/posts/31/responsive/Path-environment-xs.png 300w ,https://www.programmingfornoobs.com/media/posts/31/responsive/Path-environment-sm.png 480w ,https://www.programmingfornoobs.com/media/posts/31/responsive/Path-environment-md.png 768w"  alt="Path environment" width="501" height="383"></figure>
 <p><strong>Step 8 :-</strong> Choose your transport backed.</p>
-<figure class="post__image post__image--center"><img loading="lazy"  src="https://www.programmingfornoobs.com/media/posts/31/Transport-backend.png" sizes="(max-width: 48em) 100vw, 768px" srcset="https://www.programmingfornoobs.com/media/posts/31/responsive/Transport-backend-xs.png 300w ,https://www.programmingfornoobs.com/media/posts/31/responsive/Transport-backend-sm.png 480w ,https://www.programmingfornoobs.com/media/posts/31/responsive/Transport-backend-md.png 768w ,https://www.programmingfornoobs.com/media/posts/31/responsive/Transport-backend-lg.png 1024w ,https://www.programmingfornoobs.com/media/posts/31/responsive/Transport-backend-xl.png 1360w ,https://www.programmingfornoobs.com/media/posts/31/responsive/Transport-backend-2xl.png 1600w"  alt="Transport backend" width="501" height="386"></figure>
+<figure class="post__image post__image--center"><img loading="lazy"  src="https://www.programmingfornoobs.com/media/posts/31/Transport-backend.png" sizes="(max-width: 48em) 100vw, 100vw" srcset="https://www.programmingfornoobs.com/media/posts/31/responsive/Transport-backend-xs.png 300w ,https://www.programmingfornoobs.com/media/posts/31/responsive/Transport-backend-sm.png 480w ,https://www.programmingfornoobs.com/media/posts/31/responsive/Transport-backend-md.png 768w"  alt="Transport backend" width="501" height="386"></figure>
 <p><strong>Step 9 :-</strong> Choose your line ending conversions</p>
-<figure class="post__image post__image--center"><img loading="lazy"  src="https://www.programmingfornoobs.com/media/posts/31/Line-ending.png" sizes="(max-width: 48em) 100vw, 768px" srcset="https://www.programmingfornoobs.com/media/posts/31/responsive/Line-ending-xs.png 300w ,https://www.programmingfornoobs.com/media/posts/31/responsive/Line-ending-sm.png 480w ,https://www.programmingfornoobs.com/media/posts/31/responsive/Line-ending-md.png 768w ,https://www.programmingfornoobs.com/media/posts/31/responsive/Line-ending-lg.png 1024w ,https://www.programmingfornoobs.com/media/posts/31/responsive/Line-ending-xl.png 1360w ,https://www.programmingfornoobs.com/media/posts/31/responsive/Line-ending-2xl.png 1600w"  alt="Line ending" width="501" height="388"></figure>
+<figure class="post__image post__image--center"><img loading="lazy"  src="https://www.programmingfornoobs.com/media/posts/31/Line-ending.png" sizes="(max-width: 48em) 100vw, 100vw" srcset="https://www.programmingfornoobs.com/media/posts/31/responsive/Line-ending-xs.png 300w ,https://www.programmingfornoobs.com/media/posts/31/responsive/Line-ending-sm.png 480w ,https://www.programmingfornoobs.com/media/posts/31/responsive/Line-ending-md.png 768w"  alt="Line ending" width="501" height="388"></figure>
 <p><strong>Step 10 :-</strong> Choose terminal emulator</p>
-<figure class="post__image post__image--center"><img loading="lazy"  src="https://www.programmingfornoobs.com/media/posts/31/terminal-emulator.png" sizes="(max-width: 48em) 100vw, 768px" srcset="https://www.programmingfornoobs.com/media/posts/31/responsive/terminal-emulator-xs.png 300w ,https://www.programmingfornoobs.com/media/posts/31/responsive/terminal-emulator-sm.png 480w ,https://www.programmingfornoobs.com/media/posts/31/responsive/terminal-emulator-md.png 768w ,https://www.programmingfornoobs.com/media/posts/31/responsive/terminal-emulator-lg.png 1024w ,https://www.programmingfornoobs.com/media/posts/31/responsive/terminal-emulator-xl.png 1360w ,https://www.programmingfornoobs.com/media/posts/31/responsive/terminal-emulator-2xl.png 1600w"  alt="Terminal Emulator" width="499" height="382"></figure>
+<figure class="post__image post__image--center"><img loading="lazy"  src="https://www.programmingfornoobs.com/media/posts/31/terminal-emulator.png" sizes="(max-width: 48em) 100vw, 100vw" srcset="https://www.programmingfornoobs.com/media/posts/31/responsive/terminal-emulator-xs.png 300w ,https://www.programmingfornoobs.com/media/posts/31/responsive/terminal-emulator-sm.png 480w ,https://www.programmingfornoobs.com/media/posts/31/responsive/terminal-emulator-md.png 768w"  alt="Terminal Emulator" width="499" height="382"></figure>
 <p><strong>Step 11 :-</strong> Select default behavior for <strong>git pull</strong></p>
-<figure class="post__image post__image--center"><img loading="lazy"  src="https://www.programmingfornoobs.com/media/posts/31/Default-behavior.png" sizes="(max-width: 48em) 100vw, 768px" srcset="https://www.programmingfornoobs.com/media/posts/31/responsive/Default-behavior-xs.png 300w ,https://www.programmingfornoobs.com/media/posts/31/responsive/Default-behavior-sm.png 480w ,https://www.programmingfornoobs.com/media/posts/31/responsive/Default-behavior-md.png 768w ,https://www.programmingfornoobs.com/media/posts/31/responsive/Default-behavior-lg.png 1024w ,https://www.programmingfornoobs.com/media/posts/31/responsive/Default-behavior-xl.png 1360w ,https://www.programmingfornoobs.com/media/posts/31/responsive/Default-behavior-2xl.png 1600w"  alt="Default Behavior" width="497" height="386"></figure>
+<figure class="post__image post__image--center"><img loading="lazy"  src="https://www.programmingfornoobs.com/media/posts/31/Default-behavior.png" sizes="(max-width: 48em) 100vw, 100vw" srcset="https://www.programmingfornoobs.com/media/posts/31/responsive/Default-behavior-xs.png 300w ,https://www.programmingfornoobs.com/media/posts/31/responsive/Default-behavior-sm.png 480w ,https://www.programmingfornoobs.com/media/posts/31/responsive/Default-behavior-md.png 768w"  alt="Default Behavior" width="497" height="386"></figure>
 <p><strong>Step 12 :-</strong> Select your extra options.</p>
-<figure class="post__image post__image--center"><img loading="lazy"  src="https://www.programmingfornoobs.com/media/posts/31/Extra-options.png" sizes="(max-width: 48em) 100vw, 768px" srcset="https://www.programmingfornoobs.com/media/posts/31/responsive/Extra-options-xs.png 300w ,https://www.programmingfornoobs.com/media/posts/31/responsive/Extra-options-sm.png 480w ,https://www.programmingfornoobs.com/media/posts/31/responsive/Extra-options-md.png 768w ,https://www.programmingfornoobs.com/media/posts/31/responsive/Extra-options-lg.png 1024w ,https://www.programmingfornoobs.com/media/posts/31/responsive/Extra-options-xl.png 1360w ,https://www.programmingfornoobs.com/media/posts/31/responsive/Extra-options-2xl.png 1600w"  alt="Extra Options" width="499" height="380"></figure>
+<figure class="post__image post__image--center"><img loading="lazy"  src="https://www.programmingfornoobs.com/media/posts/31/Extra-options.png" sizes="(max-width: 48em) 100vw, 100vw" srcset="https://www.programmingfornoobs.com/media/posts/31/responsive/Extra-options-xs.png 300w ,https://www.programmingfornoobs.com/media/posts/31/responsive/Extra-options-sm.png 480w ,https://www.programmingfornoobs.com/media/posts/31/responsive/Extra-options-md.png 768w"  alt="Extra Options" width="499" height="380"></figure>
 <p><strong>Step 13 :-</strong> After that click on <strong>install</strong>.</p>
-<figure class="post__image post__image--center"><img loading="lazy"  src="https://www.programmingfornoobs.com/media/posts/31/install.png" sizes="(max-width: 48em) 100vw, 768px" srcset="https://www.programmingfornoobs.com/media/posts/31/responsive/install-xs.png 300w ,https://www.programmingfornoobs.com/media/posts/31/responsive/install-sm.png 480w ,https://www.programmingfornoobs.com/media/posts/31/responsive/install-md.png 768w ,https://www.programmingfornoobs.com/media/posts/31/responsive/install-lg.png 1024w ,https://www.programmingfornoobs.com/media/posts/31/responsive/install-xl.png 1360w ,https://www.programmingfornoobs.com/media/posts/31/responsive/install-2xl.png 1600w"  alt="Install" width="499" height="383"></figure>
+<figure class="post__image post__image--center"><img loading="lazy"  src="https://www.programmingfornoobs.com/media/posts/31/install.png" sizes="(max-width: 48em) 100vw, 100vw" srcset="https://www.programmingfornoobs.com/media/posts/31/responsive/install-xs.png 300w ,https://www.programmingfornoobs.com/media/posts/31/responsive/install-sm.png 480w ,https://www.programmingfornoobs.com/media/posts/31/responsive/install-md.png 768w"  alt="Install" width="499" height="383"></figure>
 <p>It will start installation.</p>
-<figure class="post__image post__image--center"><img loading="lazy"  src="https://www.programmingfornoobs.com/media/posts/31/installing.png" sizes="(max-width: 48em) 100vw, 768px" srcset="https://www.programmingfornoobs.com/media/posts/31/responsive/installing-xs.png 300w ,https://www.programmingfornoobs.com/media/posts/31/responsive/installing-sm.png 480w ,https://www.programmingfornoobs.com/media/posts/31/responsive/installing-md.png 768w ,https://www.programmingfornoobs.com/media/posts/31/responsive/installing-lg.png 1024w ,https://www.programmingfornoobs.com/media/posts/31/responsive/installing-xl.png 1360w ,https://www.programmingfornoobs.com/media/posts/31/responsive/installing-2xl.png 1600w"  alt="Installing" width="507" height="385"></figure>
+<figure class="post__image post__image--center"><img loading="lazy"  src="https://www.programmingfornoobs.com/media/posts/31/installing.png" sizes="(max-width: 48em) 100vw, 100vw" srcset="https://www.programmingfornoobs.com/media/posts/31/responsive/installing-xs.png 300w ,https://www.programmingfornoobs.com/media/posts/31/responsive/installing-sm.png 480w ,https://www.programmingfornoobs.com/media/posts/31/responsive/installing-md.png 768w"  alt="Installing" width="507" height="385"></figure>
 <p>Step 14 :- You can verify by typing <strong>git </strong>in your terminal/cmd. If you see following output then everything is working fine.</p>
-<figure class="post__image post__image--center"><img loading="lazy"  src="https://www.programmingfornoobs.com/media/posts/31/git-options.png" sizes="(max-width: 48em) 100vw, 768px" srcset="https://www.programmingfornoobs.com/media/posts/31/responsive/git-options-xs.png 300w ,https://www.programmingfornoobs.com/media/posts/31/responsive/git-options-sm.png 480w ,https://www.programmingfornoobs.com/media/posts/31/responsive/git-options-md.png 768w ,https://www.programmingfornoobs.com/media/posts/31/responsive/git-options-lg.png 1024w ,https://www.programmingfornoobs.com/media/posts/31/responsive/git-options-xl.png 1360w ,https://www.programmingfornoobs.com/media/posts/31/responsive/git-options-2xl.png 1600w"  alt="Git Options" width="590" height="535"></figure>
+<figure class="post__image post__image--center"><img loading="lazy"  src="https://www.programmingfornoobs.com/media/posts/31/git-options.png" sizes="(max-width: 48em) 100vw, 100vw" srcset="https://www.programmingfornoobs.com/media/posts/31/responsive/git-options-xs.png 300w ,https://www.programmingfornoobs.com/media/posts/31/responsive/git-options-sm.png 480w ,https://www.programmingfornoobs.com/media/posts/31/responsive/git-options-md.png 768w"  alt="Git Options" width="590" height="535"></figure>
 <p><!-- /wp:paragraph --></p>
 <p><!-- wp:image {"id":160,"sizeSlug":"large"} --></p>
 <p><!-- /wp:image --></p>
@@ -1752,7 +1752,7 @@ int main()
 <p><!-- wp:paragraph --></p>
 <p><!-- /wp:paragraph --></p>
 <p><!-- wp:image {"id":175,"sizeSlug":"large"} --></p>
-<figure class="wp-block-image size-large"><figure class="wp-image-175"><img loading="lazy"  src="https://www.programmingfornoobs.com/media/posts/31/image-58.png" sizes="(max-width: 48em) 100vw, 768px" srcset="https://www.programmingfornoobs.com/media/posts/31/responsive/image-58-xs.png 300w ,https://www.programmingfornoobs.com/media/posts/31/responsive/image-58-sm.png 480w ,https://www.programmingfornoobs.com/media/posts/31/responsive/image-58-md.png 768w ,https://www.programmingfornoobs.com/media/posts/31/responsive/image-58-lg.png 1024w ,https://www.programmingfornoobs.com/media/posts/31/responsive/image-58-xl.png 1360w ,https://www.programmingfornoobs.com/media/posts/31/responsive/image-58-2xl.png 1600w"  alt=""></figure></figure>
+<figure class="wp-block-image size-large"><figure class="wp-image-175"><img loading="lazy"  src="https://www.programmingfornoobs.com/media/posts/31/image-58.png" sizes="(max-width: 48em) 100vw, 100vw" srcset="https://www.programmingfornoobs.com/media/posts/31/responsive/image-58-xs.png 300w ,https://www.programmingfornoobs.com/media/posts/31/responsive/image-58-sm.png 480w ,https://www.programmingfornoobs.com/media/posts/31/responsive/image-58-md.png 768w"  alt=""></figure></figure>
 <p><!-- /wp:image --></p>
             ]]>
         </content>
@@ -1773,7 +1773,7 @@ int main()
             <summary>
                 <![CDATA[
                         <img src="https://www.programmingfornoobs.com/media/posts/30/cover.webp" alt="Code" />
-                     In this section I'm going to explain all of the sections covered in this series. We're going to start with a introduction in this section. 1. Setting up our development environment :- In this will install all the software required for this series. 2.
+                     In this section I'm going to explain all of the sections covered in this series. We're going to start&hellip;
                 ]]>
             </summary>
         <content type="html">
@@ -1824,7 +1824,7 @@ int main()
             <summary>
                 <![CDATA[
                         <img src="https://www.programmingfornoobs.com/media/posts/28/java-cover.jpg" alt="Cover" />
-                     In this article we are talking about variables in java. So what is a variable ? A variable is a 'place' in memory think of it like a 'box' if you will that you can store something in. And the computer allows you to&hellip;
+                     In this article we are talking about variables in java. So what is a variable ? A variable is&hellip;
                 ]]>
             </summary>
         <content type="html">
@@ -1860,7 +1860,7 @@ int main()
             <summary>
                 <![CDATA[
                         <img src="https://www.programmingfornoobs.com/media/posts/27/java-cover.jpg" alt="Cover" />
-                     This article list and explains java buzzwords. • Simple • Secure • Portable • Object-oriented • Robust • Multithreaded • Architecture-neutral • Interpreted • High performance • Distributed • Dynamic Simple Java was designed to be easy for the programmer to learn and use&hellip;
+                     This article list and explains java buzzwords. • Simple • Secure • Portable • Object-oriented • Robust • Multithreaded&hellip;
                 ]]>
             </summary>
         <content type="html">
