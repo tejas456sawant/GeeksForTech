@@ -3,12 +3,164 @@
     <title>GeeksForTech</title>
     <link href="https://www.programmingfornoobs.com/feed.xml" rel="self" />
     <link href="https://www.programmingfornoobs.com" />
-    <updated>2021-01-01T20:24:44+05:30</updated>
+    <updated>2021-06-13T22:56:52+05:30</updated>
     <author>
         <name>Tejas Sawant</name>
     </author>
     <id>https://www.programmingfornoobs.com</id>
 
+    <entry>
+        <title>How to deploy a Django application on Heroku?</title>
+        <author>
+            <name>Tejas Sawant</name>
+        </author>
+        <link href="https://www.programmingfornoobs.com/how-to-deploy-a-django-application-on-heroku/"/>
+        <id>https://www.programmingfornoobs.com/how-to-deploy-a-django-application-on-heroku/</id>
+            <category term="django"/>
+            <category term="Python"/>
+
+        <updated>2021-06-13T22:56:52+05:30</updated>
+            <summary>
+                <![CDATA[
+                        <img src="https://www.programmingfornoobs.com/media/posts/44/Deployed-2.PNG" alt="" />
+                     Following are the steps to deploy the Django application on Heroku. web: gunicorn project.wsgi Note - Replace the project&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                    <img src="https://www.programmingfornoobs.com/media/posts/44/Deployed-2.PNG" alt="" />
+                
+  <p>
+    Following are the steps to deploy the Django application on Heroku.<br>
+  </p>
+
+  <ul>
+    <li><span style="color: var(--eb-text-primary-color); font-family: var(--font-base); font-size: 1em; font-weight: var(--font-weight-normal);">Create a GitHub repository for your project. We are going to connect this repository with Heroku.</span><br></li><li>Login to your Heroku account.</li><li>Click on Create a new app.</li>
+  </ul>
+
+    <figure class="post__image post__image--center">
+      <img loading="lazy" src="https://www.programmingfornoobs.com/media/posts/44/Create-new-Heroku-App.PNG" sizes="(max-width: 48em) 100vw, 100vw" srcset="https://www.programmingfornoobs.com/media/posts/44/responsive/Create-new-Heroku-App-xs.PNG 300w ,https://www.programmingfornoobs.com/media/posts/44/responsive/Create-new-Heroku-App-sm.PNG 480w ,https://www.programmingfornoobs.com/media/posts/44/responsive/Create-new-Heroku-App-md.PNG 768w"  height="626" width="1366" alt="Create new app" />
+      <figcaption>Create new app</figcaption>
+    </figure>
+
+  <ul>
+    <li>Give your app name and select the region.</li>
+  </ul>
+
+    <figure class="post__image post__image--center">
+      <img loading="lazy" src="https://www.programmingfornoobs.com/media/posts/44/Select-name-and-region.PNG" sizes="(max-width: 48em) 100vw, 100vw" srcset="https://www.programmingfornoobs.com/media/posts/44/responsive/Select-name-and-region-xs.PNG 300w ,https://www.programmingfornoobs.com/media/posts/44/responsive/Select-name-and-region-sm.PNG 480w ,https://www.programmingfornoobs.com/media/posts/44/responsive/Select-name-and-region-md.PNG 768w"  height="629" width="1366" alt="Select name and region" />
+      <figcaption>Select name and region</figcaption>
+    </figure>
+
+  <ul>
+    <li>Click on connect to Github.&nbsp;</li><li>Search your repository name and click on connect.<br></li>
+  </ul>
+
+    <figure class="post__image post__image--center">
+      <img loading="lazy" src="https://www.programmingfornoobs.com/media/posts/44/Search-and-connect-2.PNG" sizes="(max-width: 48em) 100vw, 100vw" srcset="https://www.programmingfornoobs.com/media/posts/44/responsive/Search-and-connect-2-xs.PNG 300w ,https://www.programmingfornoobs.com/media/posts/44/responsive/Search-and-connect-2-sm.PNG 480w ,https://www.programmingfornoobs.com/media/posts/44/responsive/Search-and-connect-2-md.PNG 768w"  height="628" width="1366" alt="" />
+      
+    </figure>
+
+  <ul>
+    <li>Now select your project locally. Open in your code editor. I am using Visual Studio Code.<br></li><li>Create one new file with the name <b><a href="https://devcenter.heroku.com/articles/procfile" target="_blank">Procfile</a></b>.<br></li>
+  </ul>
+
+    <figure class="post__image post__image--center">
+      <img loading="lazy" src="https://www.programmingfornoobs.com/media/posts/44/Open-Project-2.PNG" sizes="(max-width: 48em) 100vw, 100vw" srcset="https://www.programmingfornoobs.com/media/posts/44/responsive/Open-Project-2-xs.PNG 300w ,https://www.programmingfornoobs.com/media/posts/44/responsive/Open-Project-2-sm.PNG 480w ,https://www.programmingfornoobs.com/media/posts/44/responsive/Open-Project-2-md.PNG 768w"  height="728" width="1366" alt="Open Project" />
+      <figcaption>Open Project</figcaption>
+    </figure>
+
+  <ul>
+    <li>Inside the <b>Procfile</b>. Give the following command line.</li>
+  </ul>
+<pre class="line-numbers  language-batch"><code>web: gunicorn project.wsgi</code></pre>
+
+    <figure class="post__image post__image--center">
+      <img loading="lazy" src="https://www.programmingfornoobs.com/media/posts/44/Procfile.PNG" sizes="(max-width: 48em) 100vw, 100vw" srcset="https://www.programmingfornoobs.com/media/posts/44/responsive/Procfile-xs.PNG 300w ,https://www.programmingfornoobs.com/media/posts/44/responsive/Procfile-sm.PNG 480w ,https://www.programmingfornoobs.com/media/posts/44/responsive/Procfile-md.PNG 768w"  height="480" width="719" alt="Note - Replace the project name with the actual project name." />
+      <figcaption>Note - Replace the project name with the actual project name.</figcaption>
+    </figure>
+
+  <ul>
+    <li>Now we need to install gunicorn and django-heroku using pip. Use following the commands.</li>
+  </ul>
+<pre class="line-numbers  language-bash"><code>pip install gunicorn django-heroku</code></pre>
+
+  <ul>
+    <li>Open setting.py and <code>import</code>the <code>django_heroku</code> and place this piece of code at the bottom of the file.&nbsp;</li>
+  </ul>
+<pre class="line-numbers  language-python"><code>import django_heroku
+
+# Copy/Paste at the bottom
+django_heroku.settings(locals()) </code></pre>
+
+  <ul>
+    <li>Also, You need to provide the path for the static files. For that, you can use the following code.</li>
+  </ul>
+<pre class="line-numbers  language-python"><code># For locating your base directory.
+BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+
+# Static files (CSS, JavaScript, Images)
+# https://docs.djangoproject.com/en/1.9/howto/static-files/
+STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
+STATIC_URL = '/static/'
+
+# Extra places for collectstatic to find static files.
+STATICFILES_DIRS = (
+    os.path.join(BASE_DIR, 'static'),
+)</code></pre>
+
+  <p class="msg msg--info">
+    <mark>Note - Heroku automatically runs the command <b>python manage.py collectstatic</b>. We don't need to configure anything extra for that.</mark>
+  </p>
+
+  <ul>
+    <li>Now you need to push your code on Github.</li><li>Now you can deploy your branch/code. Click on <b>Deploy Branch</b>.<br></li><li>If you have configured everything correctly then, then you will see the following output.<br></li>
+  </ul>
+
+    <figure class="post__image post__image--center">
+      <img loading="lazy" src="https://www.programmingfornoobs.com/media/posts/44/Deployed.PNG" sizes="(max-width: 48em) 100vw, 100vw" srcset="https://www.programmingfornoobs.com/media/posts/44/responsive/Deployed-xs.PNG 300w ,https://www.programmingfornoobs.com/media/posts/44/responsive/Deployed-sm.PNG 480w ,https://www.programmingfornoobs.com/media/posts/44/responsive/Deployed-md.PNG 768w"  height="447" width="883" alt="Deployed" />
+      <figcaption>Deployed</figcaption>
+    </figure>
+
+  <ul>
+    <li>Now, You can visit your admin.&nbsp;</li>
+  </ul>
+
+    <figure class="post__image post__image--center">
+      <img loading="lazy" src="https://www.programmingfornoobs.com/media/posts/44/Django-Admin.PNG" sizes="(max-width: 48em) 100vw, 100vw" srcset="https://www.programmingfornoobs.com/media/posts/44/responsive/Django-Admin-xs.PNG 300w ,https://www.programmingfornoobs.com/media/posts/44/responsive/Django-Admin-sm.PNG 480w ,https://www.programmingfornoobs.com/media/posts/44/responsive/Django-Admin-md.PNG 768w"  height="692" width="1366" alt="Admin" />
+      <figcaption>Admin</figcaption>
+    </figure>
+
+  <ul>
+    <li>Wait, But we have not created any admin login and password.</li><li>You can use Heroku CLI for that.<br></li>
+  </ul>
+
+  <p class="msg msg--info">
+    <mark>Note - You must need login with your Heroku CLI, then you can use the following command.</mark>
+  </p>
+
+  <ul>
+    <li>First, we need to run migrations.&nbsp;</li>
+  </ul>
+<pre class="line-numbers  language-html"><code>heroku run python manage.py migrate -a 
+</code></pre>
+
+  <p class="msg msg--info">
+    <mark>Replace app_name with the app name that you have entered during the creation of the Heroku project.</mark>
+  </p>
+
+  <ul>
+    <li>Now you can use the following command for creating a superuser.<br></li>
+  </ul>
+<pre class="line-numbers  language-html"><code>heroku run python manage.py createsuperuser -a &lt;app_name&gt;
+</code></pre>
+
+  <p>
+    
+  </p>
+            ]]>
+        </content>
+    </entry>
     <entry>
         <title>Adding MySQL Databse to django project </title>
         <author>
