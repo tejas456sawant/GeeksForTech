@@ -11,6 +11,21 @@
     },
     "items": [
         {
+            "id": "https://www.programmingfornoobs.com/how-to-disable-the-right-click-and-detect-switching-of-the-tab-using-nuxt-js/",
+            "url": "https://www.programmingfornoobs.com/how-to-disable-the-right-click-and-detect-switching-of-the-tab-using-nuxt-js/",
+            "title": "How to disable the right-click and detect switching of the tab using Nuxt JS?",
+            "summary": " You can use the following piece of code to disable the right-click and detect switching of the tab in&hellip;",
+            "content_html": "\n  <p>\n    You can use the following piece of code to disable the right-click and detect switching of the tab in Nuxt JS.\n  </p>\n<pre class=\"line-numbers  language-javascript\"><code>&lt;script lang=\"ts\"&gt;\nimport Vue from 'vue'\n\nexport default Vue.extend({\n  created() {\n    if (process.client) {\n      document.addEventListener('visibilitychange', (event) =&gt; {\n        if (document.visibilityState != 'visible') {\n          alert('Tab Changed')\n        }\n      })\n\n      document.addEventListener('contextmenu', (event) =&gt; {\n        event.preventDefault()\n        alert('Right Click Disabled')\n      })\n\n      document.onkeydown = function (event) {\n        if (event.keyCode == 123) {\n          // Prevent F12\n          return false\n        } else if (event.ctrlKey && event.shiftKey && event.keyCode == 73) {\n          // Prevent Ctrl+Shift+I\n          return false\n        }\n      }\n    }\n  },\n})\n&lt;/script&gt;</code></pre>\n\n  <p>\n    We are using the <b>process.client,&nbsp;</b>Because Nuxt JS is server-side rendered. \n  </p>",
+            "image": "https://www.programmingfornoobs.com/media/posts/45/right-click.PNG",
+            "author": {
+                "name": "Tejas Sawant"
+            },
+            "tags": [
+            ],
+            "date_published": "2021-06-20T21:54:41+05:30",
+            "date_modified": "2021-06-20T22:02:13+05:30"
+        },
+        {
             "id": "https://www.programmingfornoobs.com/how-to-deploy-a-django-application-on-heroku/",
             "url": "https://www.programmingfornoobs.com/how-to-deploy-a-django-application-on-heroku/",
             "title": "How to deploy a Django application on Heroku?",

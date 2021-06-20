@@ -3,12 +3,71 @@
     <title>GeeksForTech</title>
     <link href="https://www.programmingfornoobs.com/feed.xml" rel="self" />
     <link href="https://www.programmingfornoobs.com" />
-    <updated>2021-06-13T22:56:52+05:30</updated>
+    <updated>2021-06-20T22:02:13+05:30</updated>
     <author>
         <name>Tejas Sawant</name>
     </author>
     <id>https://www.programmingfornoobs.com</id>
 
+    <entry>
+        <title>How to disable the right-click and detect switching of the tab using Nuxt JS?</title>
+        <author>
+            <name>Tejas Sawant</name>
+        </author>
+        <link href="https://www.programmingfornoobs.com/how-to-disable-the-right-click-and-detect-switching-of-the-tab-using-nuxt-js/"/>
+        <id>https://www.programmingfornoobs.com/how-to-disable-the-right-click-and-detect-switching-of-the-tab-using-nuxt-js/</id>
+
+        <updated>2021-06-20T22:02:13+05:30</updated>
+            <summary>
+                <![CDATA[
+                        <img src="https://www.programmingfornoobs.com/media/posts/45/right-click.PNG" alt="" />
+                     You can use the following piece of code to disable the right-click and detect switching of the tab in&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                    <img src="https://www.programmingfornoobs.com/media/posts/45/right-click.PNG" alt="" />
+                
+  <p>
+    You can use the following piece of code to disable the right-click and detect switching of the tab in Nuxt JS.
+  </p>
+<pre class="line-numbers  language-javascript"><code>&lt;script lang="ts"&gt;
+import Vue from 'vue'
+
+export default Vue.extend({
+  created() {
+    if (process.client) {
+      document.addEventListener('visibilitychange', (event) =&gt; {
+        if (document.visibilityState != 'visible') {
+          alert('Tab Changed')
+        }
+      })
+
+      document.addEventListener('contextmenu', (event) =&gt; {
+        event.preventDefault()
+        alert('Right Click Disabled')
+      })
+
+      document.onkeydown = function (event) {
+        if (event.keyCode == 123) {
+          // Prevent F12
+          return false
+        } else if (event.ctrlKey && event.shiftKey && event.keyCode == 73) {
+          // Prevent Ctrl+Shift+I
+          return false
+        }
+      }
+    }
+  },
+})
+&lt;/script&gt;</code></pre>
+
+  <p>
+    We are using the <b>process.client,&nbsp;</b>Because Nuxt JS is server-side rendered. 
+  </p>
+            ]]>
+        </content>
+    </entry>
     <entry>
         <title>How to deploy a Django application on Heroku?</title>
         <author>
